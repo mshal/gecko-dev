@@ -1,8 +1,8 @@
 $inherits:
   from: 'tasks/builds/base_linux64.yml'
   variables:
-    build_name: 'linux64-pgo'
-    build_type: 'opt'
+    build_name: 'linux64'
+    build_type: 'pgo'
 task:
   metadata:
       name: '[TC] Linux64 PGO Opt'
