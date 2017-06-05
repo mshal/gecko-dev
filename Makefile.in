@@ -131,6 +131,17 @@ install_manifest_depends += \
 endif
 endif
 
+.PHONY: print-config-status
+print-config-status: mozilla-config.h
+	@echo "MARF SEZ: config.status"
+	@cat config.status
+	@echo "MARF SEZ: end config.status"
+	@echo "MARF SEZ: mozilla-config.h"
+	@cat mozilla-config.h
+	@echo "MARF SEZ: end mozilla-config.h"
+
+export:: print-config-status
+
 .PHONY: install-manifests
 install-manifests: $(addprefix install-,$(install_manifests))
 
