@@ -57,6 +57,7 @@ WINDOWS_WORKER_TYPES = {
 
 MACOSX_WORKER_TYPES = {
     'macosx64': 'releng-hardware/gecko-t-osx-1010',
+    'macosx64-cross': 'releng-hardware/gecko-t-osx-1010',
 }
 
 logger = logging.getLogger(__name__)
@@ -377,14 +378,13 @@ def setup_talos(config, tests):
 def set_target(config, tests):
     for test in tests:
         build_platform = test['build-platform']
-        if build_platform.startswith('macosx'):
-            if build_platform.split('/')[1] == 'opt':
-                target = 'firefox-{}.en-US.{}.dmg'.format(
-                    get_firefox_version(),
-                    'mac',
-                )
-            else:
-                target = 'target.dmg'
+        if build_platform == 'macosx64/opt':
+            target = 'firefox-{}.en-US.{}.dmg'.format(
+                get_firefox_version(),
+                'mac',
+            )
+        elif build_platform.startswith('macosx'):
+            target = 'target.dmg'
         elif build_platform.startswith('android'):
             if 'geckoview' in test['test-name']:
                 target = 'geckoview_example.apk'

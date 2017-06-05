@@ -51,6 +51,7 @@ JOB_NAME_WHITELIST = set([
     'linux64-valgrind-opt',
     'macosx64-add-on-devel',
     'macosx64-clang-tidy',
+    'macosx64-cross-opt',
     'macosx64-debug',
     'macosx64-noopt-debug',
     'macosx64-opt',
