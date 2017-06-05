@@ -45,10 +45,10 @@ export HOST_LDFLAGS="-g"
 ac_add_options --target=x86_64-apple-darwin
 ac_add_options --with-macos-private-frameworks=$CROSS_PRIVATE_FRAMEWORKS
 
-if [ "x$MOZ_PKG_SPECIAL" != "xasan" ]; then
+#if [ "x$MOZ_PKG_SPECIAL" != "xasan" ]; then
   # Enable static analysis checks by default on OSX cross builds.
   # Exception is ASan, where this breaks.
-  ac_add_options --enable-clang-plugin
-fi
+#  ac_add_options --enable-clang-plugin
+#fi
 
 export SOCORRO_SYMBOL_UPLOAD_TOKEN_FILE=/builds/crash-stats-api.token
