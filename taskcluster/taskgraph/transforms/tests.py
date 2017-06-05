@@ -738,7 +738,7 @@ def allocate_to_bbb(config, tests):
         # taskcluster. The logic here is inverted, as tasks have been
         # previously assigned to taskcluster. Therefore we assign the
         # 1-p tasks to buildbot-bridge.
-        n = j.get(test_platform, 1.0)
+        n = 1.0
         if not (test_platform.startswith('mac')
                 and config.config['args'].taskcluster_worker):
             for i in range(int(n * len(t)), len(t)):
