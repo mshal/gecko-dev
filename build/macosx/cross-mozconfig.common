@@ -45,6 +45,11 @@ export HOST_LDFLAGS="-g"
 ac_add_options --target=x86_64-apple-darwin
 ac_add_options --with-macos-private-frameworks=$CROSS_PRIVATE_FRAMEWORKS
 
+# Ensure the updated linker doesn't generate things our older build tools
+# don't understand.
+ldflags="$ldflags -Wl,-no_data_in_code_info"
+export LDFLAGS="$ldflags"
+
 #if [ "x$MOZ_PKG_SPECIAL" != "xasan" ]; then
   # Enable static analysis checks by default on OSX cross builds.
   # Exception is ASan, where this breaks.
