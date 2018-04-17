@@ -65,6 +65,7 @@ class BackendTupfile(object):
         self.rules_included = False
         self.defines = []
         self.host_defines = []
+        self.outputs = set()
         self.delayed_generated_files = []
         self.delayed_installed_files = []
         self.per_source_flags = defaultdict(list)
@@ -115,6 +116,8 @@ class BackendTupfile(object):
             'outputs': ' '.join(outputs),
             'extra_outputs': ' | ' + ' '.join(extra_outputs) if extra_outputs else '',
         })
+
+        self.outputs.update(outputs)
 
     def symlink_rule(self, source, output=None, output_group=None):
         outputs = [output] if output else [mozpath.basename(source)]
@@ -172,6 +175,13 @@ class BackendTupfile(object):
     def close(self):
         return self.fh.close()
 
+    def requires_generated_delay(self, obj):
+        # We need to delay the generated file rule in the Tupfile until the
+        # generated inputs in the current directory are processed. We do this by
+        # checking all ObjDirPaths to make sure they are in
+        # self.outputs, or are in other directories.
+        return any(isinstance(f, ObjDirPath) and f.target_basename not in self.outputs and mozpath.dirname(f.full_path) == self.objdir for f in obj.inputs)
+
     @property
     def diff(self):
         return self.fh.diff
@@ -214,7 +224,6 @@ class TupOnly(CommonBackend, PartialBackend):
         # out of order. Similarly, dependentlibs.list uses libxul as
         # an input, so must be written after the rule for libxul.
         self._delayed_files = (
-            'application.ini.h',
             'dependentlibs.list',
             'dependentlibs.list.gtest'
         )
@@ -390,7 +399,8 @@ class TupOnly(CommonBackend, PartialBackend):
                 if any(mozpath.match(f, p) for p in skip_files):
                     return False
 
-            if any([f in obj.outputs for f in self._delayed_files]):
+            if backend_file.requires_generated_delay(obj):
+                print("DELAY: %s" % (obj.outputs,))
                 backend_file.delayed_generated_files.append(obj)
             else:
                 self._process_generated_file(backend_file, obj)
@@ -430,6 +440,16 @@ class TupOnly(CommonBackend, PartialBackend):
             pass
         elif isinstance(obj, Program):
             backend_file.program = obj
+
+        # Check if we can now handle any more generated files that were delayed
+        unhandled = []
+        for obj in backend_file.delayed_generated_files:
+            if backend_file.requires_generated_delay(obj):
+                unhandled.append(obj)
+            else:
+                print("PROCESS NOW: %s" % (obj.outputs,))
+                self._process_generated_file(backend_file, obj)
+        backend_file.delayed_generated_files = unhandled
 
         # The top-level Makefile.in still contains our driver target and some
         # things related to artifact builds, so as a special case ensure the
