@@ -271,12 +271,13 @@ def _schema_1_additional(filename, manifest, require_license_file=True):
     # LICENSE file must exist.
     if require_license_file and 'origin' in manifest:
         files = [f.lower() for f in os.listdir(os.path.dirname(filename))
-                 if f.lower().startswith('license')]
+                 if f.lower().startswith(('license', 'copying'))]
         if not ('license' in files
                 or 'license.txt' in files
                 or 'license.rst' in files
                 or 'license.html' in files
-                or 'license.md' in files):
+                or 'license.md' in files
+                or 'copying' in files):
             license = manifest['origin']['license']
             if isinstance(license, list):
                 license = '/'.join(license)
