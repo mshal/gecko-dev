@@ -1,0 +1,285 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### This moz.build was AUTOMATICALLY GENERATED from config_links.py ###
+### DO NOT edit it by hand.                                         ###
+gmp_srcs = []
+SOURCES += [
+    '../../../../third_party/gmp/mpn/generic/add.c',
+    '../../../../third_party/gmp/mpn/generic/add_1.c',
+    '../../../../third_party/gmp/mpn/generic/add_n_sub_n.c',
+    '../../../../third_party/gmp/mpn/generic/bdiv_q.c',
+    '../../../../third_party/gmp/mpn/generic/bdiv_qr.c',
+    '../../../../third_party/gmp/mpn/generic/binvert.c',
+    '../../../../third_party/gmp/mpn/generic/broot.c',
+    '../../../../third_party/gmp/mpn/generic/brootinv.c',
+    '../../../../third_party/gmp/mpn/generic/bsqrt.c',
+    '../../../../third_party/gmp/mpn/generic/bsqrtinv.c',
+    '../../../../third_party/gmp/mpn/generic/cmp.c',
+    '../../../../third_party/gmp/mpn/generic/cnd_swap.c',
+    '../../../../third_party/gmp/mpn/generic/comb_tables.c',
+    '../../../../third_party/gmp/mpn/generic/dcpi1_bdiv_q.c',
+    '../../../../third_party/gmp/mpn/generic/dcpi1_bdiv_qr.c',
+    '../../../../third_party/gmp/mpn/generic/dcpi1_div_q.c',
+    '../../../../third_party/gmp/mpn/generic/dcpi1_div_qr.c',
+    '../../../../third_party/gmp/mpn/generic/dcpi1_divappr_q.c',
+    '../../../../third_party/gmp/mpn/generic/div_q.c',
+    '../../../../third_party/gmp/mpn/generic/div_qr_1.c',
+    '../../../../third_party/gmp/mpn/generic/div_qr_2.c',
+    '../../../../third_party/gmp/mpn/generic/diveby3.c',
+    '../../../../third_party/gmp/mpn/generic/divexact.c',
+    '../../../../third_party/gmp/mpn/generic/divis.c',
+    '../../../../third_party/gmp/mpn/generic/divrem.c',
+    '../../../../third_party/gmp/mpn/generic/dump.c',
+    '../../../../third_party/gmp/mpn/generic/fib2_ui.c',
+    '../../../../third_party/gmp/mpn/generic/gcd.c',
+    '../../../../third_party/gmp/mpn/generic/gcd_subdiv_step.c',
+    '../../../../third_party/gmp/mpn/generic/gcdext.c',
+    '../../../../third_party/gmp/mpn/generic/gcdext_1.c',
+    '../../../../third_party/gmp/mpn/generic/gcdext_lehmer.c',
+    '../../../../third_party/gmp/mpn/generic/get_d.c',
+    '../../../../third_party/gmp/mpn/generic/get_str.c',
+    '../../../../third_party/gmp/mpn/generic/hgcd.c',
+    '../../../../third_party/gmp/mpn/generic/hgcd2.c',
+    '../../../../third_party/gmp/mpn/generic/hgcd2_jacobi.c',
+    '../../../../third_party/gmp/mpn/generic/hgcd_appr.c',
+    '../../../../third_party/gmp/mpn/generic/hgcd_jacobi.c',
+    '../../../../third_party/gmp/mpn/generic/hgcd_matrix.c',
+    '../../../../third_party/gmp/mpn/generic/hgcd_reduce.c',
+    '../../../../third_party/gmp/mpn/generic/hgcd_step.c',
+    '../../../../third_party/gmp/mpn/generic/invert.c',
+    '../../../../third_party/gmp/mpn/generic/invertappr.c',
+    '../../../../third_party/gmp/mpn/generic/jacbase.c',
+    '../../../../third_party/gmp/mpn/generic/jacobi.c',
+    '../../../../third_party/gmp/mpn/generic/jacobi_2.c',
+    '../../../../third_party/gmp/mpn/generic/matrix22_mul.c',
+    '../../../../third_party/gmp/mpn/generic/matrix22_mul1_inverse_vector.c',
+    '../../../../third_party/gmp/mpn/generic/mod_1.c',
+    '../../../../third_party/gmp/mpn/generic/mod_1_3.c',
+    '../../../../third_party/gmp/mpn/generic/mu_bdiv_q.c',
+    '../../../../third_party/gmp/mpn/generic/mu_bdiv_qr.c',
+    '../../../../third_party/gmp/mpn/generic/mu_div_q.c',
+    '../../../../third_party/gmp/mpn/generic/mu_div_qr.c',
+    '../../../../third_party/gmp/mpn/generic/mu_divappr_q.c',
+    '../../../../third_party/gmp/mpn/generic/mul.c',
+    '../../../../third_party/gmp/mpn/generic/mul_fft.c',
+    '../../../../third_party/gmp/mpn/generic/mul_n.c',
+    '../../../../third_party/gmp/mpn/generic/mullo_n.c',
+    '../../../../third_party/gmp/mpn/generic/mulmid.c',
+    '../../../../third_party/gmp/mpn/generic/mulmid_basecase.c',
+    '../../../../third_party/gmp/mpn/generic/mulmid_n.c',
+    '../../../../third_party/gmp/mpn/generic/mulmod_bnm1.c',
+    '../../../../third_party/gmp/mpn/generic/neg.c',
+    '../../../../third_party/gmp/mpn/generic/nussbaumer_mul.c',
+    '../../../../third_party/gmp/mpn/generic/perfpow.c',
+    '../../../../third_party/gmp/mpn/generic/perfsqr.c',
+    '../../../../third_party/gmp/mpn/generic/pow_1.c',
+    '../../../../third_party/gmp/mpn/generic/powlo.c',
+    '../../../../third_party/gmp/mpn/generic/powm.c',
+    '../../../../third_party/gmp/mpn/generic/pre_mod_1.c',
+    '../../../../third_party/gmp/mpn/generic/random.c',
+    '../../../../third_party/gmp/mpn/generic/random2.c',
+    '../../../../third_party/gmp/mpn/generic/redc_2.c',
+    '../../../../third_party/gmp/mpn/generic/redc_n.c',
+    '../../../../third_party/gmp/mpn/generic/remove.c',
+    '../../../../third_party/gmp/mpn/generic/rootrem.c',
+    '../../../../third_party/gmp/mpn/generic/sbpi1_bdiv_q.c',
+    '../../../../third_party/gmp/mpn/generic/sbpi1_bdiv_qr.c',
+    '../../../../third_party/gmp/mpn/generic/sbpi1_div_q.c',
+    '../../../../third_party/gmp/mpn/generic/sbpi1_div_qr.c',
+    '../../../../third_party/gmp/mpn/generic/sbpi1_divappr_q.c',
+    '../../../../third_party/gmp/mpn/generic/scan0.c',
+    '../../../../third_party/gmp/mpn/generic/scan1.c',
+    '../../../../third_party/gmp/mpn/generic/sec_aors_1.c',
+    '../../../../third_party/gmp/mpn/generic/sec_div.c',
+    '../../../../third_party/gmp/mpn/generic/sec_invert.c',
+    '../../../../third_party/gmp/mpn/generic/sec_mul.c',
+    '../../../../third_party/gmp/mpn/generic/sec_pi1_div.c',
+    '../../../../third_party/gmp/mpn/generic/sec_powm.c',
+    '../../../../third_party/gmp/mpn/generic/sec_sqr.c',
+    '../../../../third_party/gmp/mpn/generic/set_str.c',
+    '../../../../third_party/gmp/mpn/generic/sizeinbase.c',
+    '../../../../third_party/gmp/mpn/generic/sqr.c',
+    '../../../../third_party/gmp/mpn/generic/sqrlo.c',
+    '../../../../third_party/gmp/mpn/generic/sqrlo_basecase.c',
+    '../../../../third_party/gmp/mpn/generic/sqrmod_bnm1.c',
+    '../../../../third_party/gmp/mpn/generic/sqrtrem.c',
+    '../../../../third_party/gmp/mpn/generic/sub.c',
+    '../../../../third_party/gmp/mpn/generic/sub_1.c',
+    '../../../../third_party/gmp/mpn/generic/tdiv_qr.c',
+    '../../../../third_party/gmp/mpn/generic/toom22_mul.c',
+    '../../../../third_party/gmp/mpn/generic/toom2_sqr.c',
+    '../../../../third_party/gmp/mpn/generic/toom32_mul.c',
+    '../../../../third_party/gmp/mpn/generic/toom33_mul.c',
+    '../../../../third_party/gmp/mpn/generic/toom3_sqr.c',
+    '../../../../third_party/gmp/mpn/generic/toom42_mul.c',
+    '../../../../third_party/gmp/mpn/generic/toom42_mulmid.c',
+    '../../../../third_party/gmp/mpn/generic/toom43_mul.c',
+    '../../../../third_party/gmp/mpn/generic/toom44_mul.c',
+    '../../../../third_party/gmp/mpn/generic/toom4_sqr.c',
+    '../../../../third_party/gmp/mpn/generic/toom52_mul.c',
+    '../../../../third_party/gmp/mpn/generic/toom53_mul.c',
+    '../../../../third_party/gmp/mpn/generic/toom54_mul.c',
+    '../../../../third_party/gmp/mpn/generic/toom62_mul.c',
+    '../../../../third_party/gmp/mpn/generic/toom63_mul.c',
+    '../../../../third_party/gmp/mpn/generic/toom6_sqr.c',
+    '../../../../third_party/gmp/mpn/generic/toom6h_mul.c',
+    '../../../../third_party/gmp/mpn/generic/toom8_sqr.c',
+    '../../../../third_party/gmp/mpn/generic/toom8h_mul.c',
+    '../../../../third_party/gmp/mpn/generic/toom_couple_handling.c',
+    '../../../../third_party/gmp/mpn/generic/toom_eval_dgr3_pm1.c',
+    '../../../../third_party/gmp/mpn/generic/toom_eval_dgr3_pm2.c',
+    '../../../../third_party/gmp/mpn/generic/toom_eval_pm1.c',
+    '../../../../third_party/gmp/mpn/generic/toom_eval_pm2.c',
+    '../../../../third_party/gmp/mpn/generic/toom_eval_pm2exp.c',
+    '../../../../third_party/gmp/mpn/generic/toom_eval_pm2rexp.c',
+    '../../../../third_party/gmp/mpn/generic/toom_interpolate_12pts.c',
+    '../../../../third_party/gmp/mpn/generic/toom_interpolate_16pts.c',
+    '../../../../third_party/gmp/mpn/generic/toom_interpolate_5pts.c',
+    '../../../../third_party/gmp/mpn/generic/toom_interpolate_6pts.c',
+    '../../../../third_party/gmp/mpn/generic/toom_interpolate_7pts.c',
+    '../../../../third_party/gmp/mpn/generic/toom_interpolate_8pts.c',
+    '../../../../third_party/gmp/mpn/generic/trialdiv.c',
+    '../../../../third_party/gmp/mpn/generic/zero.c',
+    '../../../../third_party/gmp/mpn/generic/zero_p.c',
+]
+SOURCES['../../../../third_party/gmp/mpn/generic/add.c'].flags += ['-DOPERATION_add']
+SOURCES['../../../../third_party/gmp/mpn/generic/add_1.c'].flags += ['-DOPERATION_add_1']
+SOURCES['../../../../third_party/gmp/mpn/generic/add_n_sub_n.c'].flags += ['-DOPERATION_add_n_sub_n']
+SOURCES['../../../../third_party/gmp/mpn/generic/bdiv_q.c'].flags += ['-DOPERATION_bdiv_q']
+SOURCES['../../../../third_party/gmp/mpn/generic/bdiv_qr.c'].flags += ['-DOPERATION_bdiv_qr']
+SOURCES['../../../../third_party/gmp/mpn/generic/binvert.c'].flags += ['-DOPERATION_binvert']
+SOURCES['../../../../third_party/gmp/mpn/generic/broot.c'].flags += ['-DOPERATION_broot']
+SOURCES['../../../../third_party/gmp/mpn/generic/brootinv.c'].flags += ['-DOPERATION_brootinv']
+SOURCES['../../../../third_party/gmp/mpn/generic/bsqrt.c'].flags += ['-DOPERATION_bsqrt']
+SOURCES['../../../../third_party/gmp/mpn/generic/bsqrtinv.c'].flags += ['-DOPERATION_bsqrtinv']
+SOURCES['../../../../third_party/gmp/mpn/generic/cmp.c'].flags += ['-DOPERATION_cmp']
+SOURCES['../../../../third_party/gmp/mpn/generic/cnd_swap.c'].flags += ['-DOPERATION_cnd_swap']
+SOURCES['../../../../third_party/gmp/mpn/generic/comb_tables.c'].flags += ['-DOPERATION_comb_tables']
+SOURCES['../../../../third_party/gmp/mpn/generic/dcpi1_bdiv_q.c'].flags += ['-DOPERATION_dcpi1_bdiv_q']
+SOURCES['../../../../third_party/gmp/mpn/generic/dcpi1_bdiv_qr.c'].flags += ['-DOPERATION_dcpi1_bdiv_qr']
+SOURCES['../../../../third_party/gmp/mpn/generic/dcpi1_div_q.c'].flags += ['-DOPERATION_dcpi1_div_q']
+SOURCES['../../../../third_party/gmp/mpn/generic/dcpi1_div_qr.c'].flags += ['-DOPERATION_dcpi1_div_qr']
+SOURCES['../../../../third_party/gmp/mpn/generic/dcpi1_divappr_q.c'].flags += ['-DOPERATION_dcpi1_divappr_q']
+SOURCES['../../../../third_party/gmp/mpn/generic/div_q.c'].flags += ['-DOPERATION_div_q']
+SOURCES['../../../../third_party/gmp/mpn/generic/div_qr_1.c'].flags += ['-DOPERATION_div_qr_1']
+SOURCES['../../../../third_party/gmp/mpn/generic/div_qr_2.c'].flags += ['-DOPERATION_div_qr_2']
+SOURCES['../../../../third_party/gmp/mpn/generic/diveby3.c'].flags += ['-DOPERATION_diveby3']
+SOURCES['../../../../third_party/gmp/mpn/generic/divexact.c'].flags += ['-DOPERATION_divexact']
+SOURCES['../../../../third_party/gmp/mpn/generic/divis.c'].flags += ['-DOPERATION_divis']
+SOURCES['../../../../third_party/gmp/mpn/generic/divrem.c'].flags += ['-DOPERATION_divrem']
+SOURCES['../../../../third_party/gmp/mpn/generic/dump.c'].flags += ['-DOPERATION_dump']
+SOURCES['../../../../third_party/gmp/mpn/generic/fib2_ui.c'].flags += ['-DOPERATION_fib2_ui']
+SOURCES['../../../../third_party/gmp/mpn/generic/gcd.c'].flags += ['-DOPERATION_gcd']
+SOURCES['../../../../third_party/gmp/mpn/generic/gcd_subdiv_step.c'].flags += ['-DOPERATION_gcd_subdiv_step']
+SOURCES['../../../../third_party/gmp/mpn/generic/gcdext.c'].flags += ['-DOPERATION_gcdext']
+SOURCES['../../../../third_party/gmp/mpn/generic/gcdext_1.c'].flags += ['-DOPERATION_gcdext_1']
+SOURCES['../../../../third_party/gmp/mpn/generic/gcdext_lehmer.c'].flags += ['-DOPERATION_gcdext_lehmer']
+SOURCES['../../../../third_party/gmp/mpn/generic/get_d.c'].flags += ['-DOPERATION_get_d']
+SOURCES['../../../../third_party/gmp/mpn/generic/get_str.c'].flags += ['-DOPERATION_get_str']
+SOURCES['../../../../third_party/gmp/mpn/generic/hgcd.c'].flags += ['-DOPERATION_hgcd']
+SOURCES['../../../../third_party/gmp/mpn/generic/hgcd2.c'].flags += ['-DOPERATION_hgcd2']
+SOURCES['../../../../third_party/gmp/mpn/generic/hgcd2_jacobi.c'].flags += ['-DOPERATION_hgcd2_jacobi']
+SOURCES['../../../../third_party/gmp/mpn/generic/hgcd_appr.c'].flags += ['-DOPERATION_hgcd_appr']
+SOURCES['../../../../third_party/gmp/mpn/generic/hgcd_jacobi.c'].flags += ['-DOPERATION_hgcd_jacobi']
+SOURCES['../../../../third_party/gmp/mpn/generic/hgcd_matrix.c'].flags += ['-DOPERATION_hgcd_matrix']
+SOURCES['../../../../third_party/gmp/mpn/generic/hgcd_reduce.c'].flags += ['-DOPERATION_hgcd_reduce']
+SOURCES['../../../../third_party/gmp/mpn/generic/hgcd_step.c'].flags += ['-DOPERATION_hgcd_step']
+SOURCES['../../../../third_party/gmp/mpn/generic/invert.c'].flags += ['-DOPERATION_invert']
+SOURCES['../../../../third_party/gmp/mpn/generic/invertappr.c'].flags += ['-DOPERATION_invertappr']
+SOURCES['../../../../third_party/gmp/mpn/generic/jacbase.c'].flags += ['-DOPERATION_jacbase']
+SOURCES['../../../../third_party/gmp/mpn/generic/jacobi.c'].flags += ['-DOPERATION_jacobi']
+SOURCES['../../../../third_party/gmp/mpn/generic/jacobi_2.c'].flags += ['-DOPERATION_jacobi_2']
+SOURCES['../../../../third_party/gmp/mpn/generic/matrix22_mul.c'].flags += ['-DOPERATION_matrix22_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/matrix22_mul1_inverse_vector.c'].flags += ['-DOPERATION_matrix22_mul1_inverse_vector']
+SOURCES['../../../../third_party/gmp/mpn/generic/mod_1.c'].flags += ['-DOPERATION_mod_1']
+SOURCES['../../../../third_party/gmp/mpn/generic/mod_1_3.c'].flags += ['-DOPERATION_mod_1_3']
+SOURCES['../../../../third_party/gmp/mpn/generic/mu_bdiv_q.c'].flags += ['-DOPERATION_mu_bdiv_q']
+SOURCES['../../../../third_party/gmp/mpn/generic/mu_bdiv_qr.c'].flags += ['-DOPERATION_mu_bdiv_qr']
+SOURCES['../../../../third_party/gmp/mpn/generic/mu_div_q.c'].flags += ['-DOPERATION_mu_div_q']
+SOURCES['../../../../third_party/gmp/mpn/generic/mu_div_qr.c'].flags += ['-DOPERATION_mu_div_qr']
+SOURCES['../../../../third_party/gmp/mpn/generic/mu_divappr_q.c'].flags += ['-DOPERATION_mu_divappr_q']
+SOURCES['../../../../third_party/gmp/mpn/generic/mul.c'].flags += ['-DOPERATION_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/mul_fft.c'].flags += ['-DOPERATION_mul_fft']
+SOURCES['../../../../third_party/gmp/mpn/generic/mul_n.c'].flags += ['-DOPERATION_mul_n']
+SOURCES['../../../../third_party/gmp/mpn/generic/mullo_n.c'].flags += ['-DOPERATION_mullo_n']
+SOURCES['../../../../third_party/gmp/mpn/generic/mulmid.c'].flags += ['-DOPERATION_mulmid']
+SOURCES['../../../../third_party/gmp/mpn/generic/mulmid_basecase.c'].flags += ['-DOPERATION_mulmid_basecase']
+SOURCES['../../../../third_party/gmp/mpn/generic/mulmid_n.c'].flags += ['-DOPERATION_mulmid_n']
+SOURCES['../../../../third_party/gmp/mpn/generic/mulmod_bnm1.c'].flags += ['-DOPERATION_mulmod_bnm1']
+SOURCES['../../../../third_party/gmp/mpn/generic/neg.c'].flags += ['-DOPERATION_neg']
+SOURCES['../../../../third_party/gmp/mpn/generic/nussbaumer_mul.c'].flags += ['-DOPERATION_nussbaumer_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/perfpow.c'].flags += ['-DOPERATION_perfpow']
+SOURCES['../../../../third_party/gmp/mpn/generic/perfsqr.c'].flags += ['-DOPERATION_perfsqr']
+SOURCES['../../../../third_party/gmp/mpn/generic/pow_1.c'].flags += ['-DOPERATION_pow_1']
+SOURCES['../../../../third_party/gmp/mpn/generic/powlo.c'].flags += ['-DOPERATION_powlo']
+SOURCES['../../../../third_party/gmp/mpn/generic/powm.c'].flags += ['-DOPERATION_powm']
+SOURCES['../../../../third_party/gmp/mpn/generic/pre_mod_1.c'].flags += ['-DOPERATION_pre_mod_1']
+SOURCES['../../../../third_party/gmp/mpn/generic/random.c'].flags += ['-DOPERATION_random']
+SOURCES['../../../../third_party/gmp/mpn/generic/random2.c'].flags += ['-DOPERATION_random2']
+SOURCES['../../../../third_party/gmp/mpn/generic/redc_2.c'].flags += ['-DOPERATION_redc_2']
+SOURCES['../../../../third_party/gmp/mpn/generic/redc_n.c'].flags += ['-DOPERATION_redc_n']
+SOURCES['../../../../third_party/gmp/mpn/generic/remove.c'].flags += ['-DOPERATION_remove']
+SOURCES['../../../../third_party/gmp/mpn/generic/rootrem.c'].flags += ['-DOPERATION_rootrem']
+SOURCES['../../../../third_party/gmp/mpn/generic/sbpi1_bdiv_q.c'].flags += ['-DOPERATION_sbpi1_bdiv_q']
+SOURCES['../../../../third_party/gmp/mpn/generic/sbpi1_bdiv_qr.c'].flags += ['-DOPERATION_sbpi1_bdiv_qr']
+SOURCES['../../../../third_party/gmp/mpn/generic/sbpi1_div_q.c'].flags += ['-DOPERATION_sbpi1_div_q']
+SOURCES['../../../../third_party/gmp/mpn/generic/sbpi1_div_qr.c'].flags += ['-DOPERATION_sbpi1_div_qr']
+SOURCES['../../../../third_party/gmp/mpn/generic/sbpi1_divappr_q.c'].flags += ['-DOPERATION_sbpi1_divappr_q']
+SOURCES['../../../../third_party/gmp/mpn/generic/scan0.c'].flags += ['-DOPERATION_scan0']
+SOURCES['../../../../third_party/gmp/mpn/generic/scan1.c'].flags += ['-DOPERATION_scan1']
+SOURCES['../../../../third_party/gmp/mpn/generic/sec_aors_1.c'].flags += ['-DOPERATION_sec_add_1']
+SOURCES['../../../../third_party/gmp/mpn/generic/sec_div.c'].flags += ['-DOPERATION_sec_div_qr']
+SOURCES['../../../../third_party/gmp/mpn/generic/sec_invert.c'].flags += ['-DOPERATION_sec_invert']
+SOURCES['../../../../third_party/gmp/mpn/generic/sec_mul.c'].flags += ['-DOPERATION_sec_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/sec_pi1_div.c'].flags += ['-DOPERATION_sec_pi1_div_qr']
+SOURCES['../../../../third_party/gmp/mpn/generic/sec_powm.c'].flags += ['-DOPERATION_sec_powm']
+SOURCES['../../../../third_party/gmp/mpn/generic/sec_sqr.c'].flags += ['-DOPERATION_sec_sqr']
+SOURCES['../../../../third_party/gmp/mpn/generic/set_str.c'].flags += ['-DOPERATION_set_str']
+SOURCES['../../../../third_party/gmp/mpn/generic/sizeinbase.c'].flags += ['-DOPERATION_sizeinbase']
+SOURCES['../../../../third_party/gmp/mpn/generic/sqr.c'].flags += ['-DOPERATION_sqr']
+SOURCES['../../../../third_party/gmp/mpn/generic/sqrlo.c'].flags += ['-DOPERATION_sqrlo']
+SOURCES['../../../../third_party/gmp/mpn/generic/sqrlo_basecase.c'].flags += ['-DOPERATION_sqrlo_basecase']
+SOURCES['../../../../third_party/gmp/mpn/generic/sqrmod_bnm1.c'].flags += ['-DOPERATION_sqrmod_bnm1']
+SOURCES['../../../../third_party/gmp/mpn/generic/sqrtrem.c'].flags += ['-DOPERATION_sqrtrem']
+SOURCES['../../../../third_party/gmp/mpn/generic/sub.c'].flags += ['-DOPERATION_sub']
+SOURCES['../../../../third_party/gmp/mpn/generic/sub_1.c'].flags += ['-DOPERATION_sub_1']
+SOURCES['../../../../third_party/gmp/mpn/generic/tdiv_qr.c'].flags += ['-DOPERATION_tdiv_qr']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom22_mul.c'].flags += ['-DOPERATION_toom22_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom2_sqr.c'].flags += ['-DOPERATION_toom2_sqr']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom32_mul.c'].flags += ['-DOPERATION_toom32_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom33_mul.c'].flags += ['-DOPERATION_toom33_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom3_sqr.c'].flags += ['-DOPERATION_toom3_sqr']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom42_mul.c'].flags += ['-DOPERATION_toom42_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom42_mulmid.c'].flags += ['-DOPERATION_toom42_mulmid']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom43_mul.c'].flags += ['-DOPERATION_toom43_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom44_mul.c'].flags += ['-DOPERATION_toom44_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom4_sqr.c'].flags += ['-DOPERATION_toom4_sqr']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom52_mul.c'].flags += ['-DOPERATION_toom52_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom53_mul.c'].flags += ['-DOPERATION_toom53_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom54_mul.c'].flags += ['-DOPERATION_toom54_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom62_mul.c'].flags += ['-DOPERATION_toom62_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom63_mul.c'].flags += ['-DOPERATION_toom63_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom6_sqr.c'].flags += ['-DOPERATION_toom6_sqr']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom6h_mul.c'].flags += ['-DOPERATION_toom6h_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom8_sqr.c'].flags += ['-DOPERATION_toom8_sqr']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom8h_mul.c'].flags += ['-DOPERATION_toom8h_mul']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom_couple_handling.c'].flags += ['-DOPERATION_toom_couple_handling']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom_eval_dgr3_pm1.c'].flags += ['-DOPERATION_toom_eval_dgr3_pm1']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom_eval_dgr3_pm2.c'].flags += ['-DOPERATION_toom_eval_dgr3_pm2']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom_eval_pm1.c'].flags += ['-DOPERATION_toom_eval_pm1']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom_eval_pm2.c'].flags += ['-DOPERATION_toom_eval_pm2']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom_eval_pm2exp.c'].flags += ['-DOPERATION_toom_eval_pm2exp']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom_eval_pm2rexp.c'].flags += ['-DOPERATION_toom_eval_pm2rexp']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom_interpolate_12pts.c'].flags += ['-DOPERATION_toom_interpolate_12pts']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom_interpolate_16pts.c'].flags += ['-DOPERATION_toom_interpolate_16pts']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom_interpolate_5pts.c'].flags += ['-DOPERATION_toom_interpolate_5pts']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom_interpolate_6pts.c'].flags += ['-DOPERATION_toom_interpolate_6pts']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom_interpolate_7pts.c'].flags += ['-DOPERATION_toom_interpolate_7pts']
+SOURCES['../../../../third_party/gmp/mpn/generic/toom_interpolate_8pts.c'].flags += ['-DOPERATION_toom_interpolate_8pts']
+SOURCES['../../../../third_party/gmp/mpn/generic/trialdiv.c'].flags += ['-DOPERATION_trialdiv']
+SOURCES['../../../../third_party/gmp/mpn/generic/zero.c'].flags += ['-DOPERATION_zero']
+SOURCES['../../../../third_party/gmp/mpn/generic/zero_p.c'].flags += ['-DOPERATION_zero_p']
+include('../gmp.mozbuild')

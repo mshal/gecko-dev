@@ -1,0 +1,17 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+### This moz.build was AUTOMATICALLY GENERATED from config_links.py ###
+### DO NOT edit it by hand.                                         ###
+gmp_srcs = []
+SOURCES += [
+    '../../../../third_party/gmp/mpn/generic/sec_aors_1.c',
+    '../../../../third_party/gmp/mpn/generic/sec_div.c',
+    '../../../../third_party/gmp/mpn/generic/sec_pi1_div.c',
+]
+SOURCES['../../../../third_party/gmp/mpn/generic/sec_aors_1.c'].flags += ['-DOPERATION_sec_sub_1']
+SOURCES['../../../../third_party/gmp/mpn/generic/sec_div.c'].flags += ['-DOPERATION_sec_div_r']
+SOURCES['../../../../third_party/gmp/mpn/generic/sec_pi1_div.c'].flags += ['-DOPERATION_sec_pi1_div_r']
+include('../gmp.mozbuild')

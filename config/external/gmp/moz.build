@@ -1,0 +1,87 @@
+# -*- Mode: python; indent-tabs-mode: nil; tab-width: 40 -*-
+# vim: set filetype=python:
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.crg/MPL/2.0/.
+
+DIRS += [
+    'mpf',
+    'mpn',
+    'mpn2',
+    'mpq',
+    'mpz',
+]
+
+gmp_srcs = [
+    'assert.c',
+    'compat.c',
+    'errno.c',
+    'extract-dbl.c',
+    'invalid.c',
+    'memory.c',
+    'mp_bpl.c',
+    'mp_clz_tab.c',
+    'mp_dv_tab.c',
+    'mp_get_fns.c',
+    'mp_minv_tab.c',
+    'mp_set_fns.c',
+    'nextprime.c',
+    'primesieve.c',
+    'printf/asprintf.c',
+    'printf/asprntffuns.c',
+    'printf/doprnt.c',
+    'printf/doprntf.c',
+    'printf/doprnti.c',
+    'printf/fprintf.c',
+    'printf/obprintf.c',
+    'printf/obprntffuns.c',
+    'printf/obvprintf.c',
+    'printf/printf.c',
+    'printf/printffuns.c',
+    'printf/repl-vsnprintf.c',
+    'printf/snprintf.c',
+    'printf/snprntffuns.c',
+    'printf/sprintf.c',
+    'printf/sprintffuns.c',
+    'printf/vasprintf.c',
+    'printf/vfprintf.c',
+    'printf/vprintf.c',
+    'printf/vsnprintf.c',
+    'printf/vsprintf.c',
+    'rand/randbui.c',
+    'rand/rand.c',
+    'rand/randclr.c',
+    'rand/randdef.c',
+    'rand/randiset.c',
+    'rand/randlc2s.c',
+    'rand/randlc2x.c',
+    'rand/randmt.c',
+    'rand/randmts.c',
+    'rand/randmui.c',
+    'rand/rands.c',
+    'rand/randsd.c',
+    'rand/randsdui.c',
+    'scanf/doscan.c',
+    'scanf/fscanf.c',
+    'scanf/fscanffuns.c',
+    'scanf/scanf.c',
+    'scanf/sscanf.c',
+    'scanf/sscanffuns.c',
+    'scanf/vfscanf.c',
+    'scanf/vscanf.c',
+    'scanf/vsscanf.c',
+    'tal-reent.c',
+    'version.c',
+]
+
+# Imported files that are generated during a gmp build.
+SOURCES += [
+    'fib_table.c',
+    'mp_bases.c',
+]
+
+OBJDIR_FILES.config.external.gmp.mpn += ['/third_party/gmp/mpn/asm-defs.m4']
+if CONFIG['OS_TARGET'] == 'Linux':
+    OBJDIR_FILES.config.external.gmp += ['linux/config.m4']
+
+include('gmp.mozbuild')
