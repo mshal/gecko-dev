@@ -1,0 +1,29 @@
+# Version of this schema
+schema: 1
+
+bugzilla:
+  # Bugzilla product and component for this directory and subdirectories
+  product: Core
+  component: "JavaScript: Standard Library"
+
+# Document the source of externally hosted code
+origin:
+
+  # Short name of the package/library
+  name: gmp
+
+  description: The GNU Multiple Precision Arithmetic Library
+
+  # Full URL for the package's homepage/etc
+  # Usually different from repository url
+  url: https://gmplib.org/download/gmp/gmp-6.1.2.tar.lz
+
+  # Human-readable identifier for this version/release
+  # Generally "version NNN", "tag SSS", "bookmark SSS"
+  release: version 6.1.2
+
+  # The package's license, where possible using the mnemonic from
+  # https://spdx.org/licenses/
+  # Multiple licenses can be specified (as a YAML list)
+  # A "LICENSE" file must exist containing the full license text
+  license: LGPL-3.0
