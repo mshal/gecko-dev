@@ -408,7 +408,10 @@ class TestEmitterBasic(unittest.TestCase):
         self.assertIsInstance(flags, ComputedFlags)
         self.assertEqual(flags.flags['BASE_INCLUDES'],
                          ['-I%s' % reader.config.topsrcdir,
-                          '-I%s' % reader.config.topobjdir])
+                          '-I%s' % reader.config.topobjdir,
+                          '-I%s' % reader.config.topsrcdir,
+                          '-I%s' % reader.config.topobjdir,
+                          ])
         self.assertEqual(flags.flags['EXTRA_INCLUDES'],
                          ['-I%s/dist/include' % reader.config.topobjdir])
         self.assertEqual(flags.flags['LOCAL_INCLUDES'],

@@ -60,7 +60,23 @@ lazy_static! {
         }
         path
     };
+    static ref MOZ_SRC_PATH: PathBuf = {
+        let path = PathBuf::from(env::var_os("MOZ_SRC").unwrap());
+        if !path.is_absolute() || !path.is_dir() {
+            panic!("MOZ_SRC must be an absolute directory, was: {}", path.display());
+        }
+        path
+    };
+    static ref MOZ_OBJ_PATH: PathBuf = {
+        let path = PathBuf::from(env::var_os("MOZ_TOPOBJDIR").unwrap());
+        if !path.is_absolute() || !path.is_dir() {
+            panic!("MOZ_TOPOBJDIR must be an absolute directory, was: {}", path.display());
+        }
+        path
+    };
     static ref SEARCH_PATHS: Vec<PathBuf> = vec![
+        MOZ_SRC_PATH.join(""),
+        MOZ_OBJ_PATH.join(""),
         DISTDIR_PATH.join("include"),
         DISTDIR_PATH.join("include/nspr"),
     ];
