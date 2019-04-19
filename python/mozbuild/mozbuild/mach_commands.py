@@ -14,6 +14,7 @@ import re
 import subprocess
 import sys
 import tempfile
+from mozbuild.build_commands import Build
 
 import mozpack.path as mozpath
 
@@ -1614,4 +1615,82 @@ class L10NCommands(MachCommandBase):
                 ensure_exit_code=True,
                 cwd=mozpath.join(self.topsrcdir))
 
+        return 0
+
+
+@CommandProvider
+class HeaderCommands(MachCommandBase):
+    @Command('topsrcdir-ify', category='devenv',
+             description='Convert a C++ file to use #include paths relative to '
+                         'topsrcdir/topobjdir')
+    @CommandArgument('files', default=None, nargs='*',
+                     help="C/C++ filenames to convert")
+    def topsrcdir_replace(self, files=[]):
+        from mozbuild.frontend.reader import BuildReader
+        from mozbuild.frontend.emitter import TreeMetadataEmitter
+        from mozbuild.frontend.data import Exports, LocalInclude
+        from tempfile import mkstemp
+        from collections import defaultdict
+        from mozbuild.frontend.context import SourcePath
+
+        build_obj = MozbuildObject.from_environment()
+        try:
+            env = build_obj.config_environment
+        except BuildEnvironmentNotFoundException:
+            print("Running configure")
+            builder = Build(self._mach_context)
+            builder.configure()
+
+            env = build_obj.config_environment
+
+        print("Reading mozbuild data...")
+
+        reader = BuildReader(env)
+        emitter = TreeMetadataEmitter(env)
+        definitions = emitter.emit(reader.read_topsrcdir())
+
+        exports = {}
+        includes = defaultdict(list)
+        for obj in definitions:
+            if isinstance(obj, Exports):
+                if obj.relobjdir.startswith('security/nss'):
+                    # Skip NSS since it's handled specially in mozbuild
+                    continue
+                for path, filenames in obj.files.walk():
+                    for f in filenames:
+                        exports[mozpath.join(path, mozpath.basename(f))] = mozpath.normpath(mozpath.join(obj.relobjdir, f))
+            elif isinstance(obj, LocalInclude):
+                includes[obj.relobjdir].append(obj.path)
+#        for k, v in exports.iteritems():
+#            print("#include[%s] -> %s" % (k, v))
+
+        prog = re.compile('#include "(.*)"(.*)')
+        for filename in files:
+            cwd = mozpath.dirname(filename)
+            (ofd, ofilename) = mkstemp()
+            with open(filename) as ifd:
+                for line in ifd:
+                    res = prog.match(line)
+                    if res:
+                        if res.group(1) not in exports:
+                            for path in includes.get(cwd, []):
+                                if isinstance(path, SourcePath):
+                                    fullpath = mozpath.join(path.full_path, res.group(1))
+                                    print("Check: %s" % fullpath)
+                                    if os.path.exists(fullpath):
+                                        os.write(ofd, '#include "%s"%s\n' % (mozpath.relpath(fullpath, env.topsrcdir), res.group(2)))
+                                        break
+                            else:
+                                print("MISSING: %s" % res.group(1))
+                                os.write(ofd, line)
+                        else:
+                            export = exports[res.group(1)]
+                            if export.startswith(cwd + '/') and not filename.endswith('.h'):
+                                export = mozpath.relpath(export, cwd)
+                            print("Export[%s] is: %s -> %s" % (res.group(1), export, cwd))
+                            os.write(ofd, '#include "%s"%s\n' % (export, res.group(2)))
+                    else:
+                        os.write(ofd, line)
+            os.rename(ofilename, filename)
+            print("Converted: %s" % filename)
         return 0
