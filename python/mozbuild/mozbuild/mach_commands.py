@@ -1658,7 +1658,8 @@ class HeaderCommands(MachCommandBase):
                     continue
                 for path, filenames in obj.files.walk():
                     for f in filenames:
-                        exports[mozpath.join(path, mozpath.basename(f))] = mozpath.normpath(mozpath.join(obj.relobjdir, f))
+                        dest = mozpath.normpath(mozpath.join(obj.relobjdir, f))
+                        exports[mozpath.join(path, mozpath.basename(f))] = dest
             elif isinstance(obj, LocalInclude):
                 includes[obj.relobjdir].append(obj.path)
 #        for k, v in exports.iteritems():
@@ -1678,7 +1679,10 @@ class HeaderCommands(MachCommandBase):
                                     fullpath = mozpath.join(path.full_path, res.group(1))
                                     print("Check: %s" % fullpath)
                                     if os.path.exists(fullpath):
-                                        os.write(ofd, '#include "%s"%s\n' % (mozpath.relpath(fullpath, env.topsrcdir), res.group(2)))
+                                        os.write(ofd, '#include "%s"%s\n' % (
+                                            mozpath.relpath(fullpath, env.topsrcdir),
+                                            res.group(2))
+                                        )
                                         break
                             else:
                                 print("MISSING: %s" % res.group(1))
@@ -1693,4 +1697,98 @@ class HeaderCommands(MachCommandBase):
                         os.write(ofd, line)
             os.rename(ofilename, filename)
             print("Converted: %s" % filename)
+        return 0
+
+    @Command('unexport', category='devenv',
+             description='Unexport a header file by using topsrcdir relative includes')
+    @CommandArgument('--dry-run', action='store_true',
+                     help="Don't actually overwrite files")
+    @CommandArgument('paths', default=None, nargs='*',
+                     help="directories or files to unexport")
+    def unexport(self, dry_run, paths=[]):
+        from mozbuild.frontend.reader import BuildReader
+        from mozbuild.frontend.emitter import TreeMetadataEmitter
+        from mozbuild.frontend.data import Exports, LocalInclude
+        from tempfile import mkstemp
+        from collections import defaultdict
+        from mozbuild.frontend.context import ObjDirPath
+
+        build_obj = MozbuildObject.from_environment()
+        try:
+            env = build_obj.config_environment
+        except BuildEnvironmentNotFoundException:
+            print("Running configure")
+            builder = Build(self._mach_context)
+            builder.configure()
+
+            env = build_obj.config_environment
+
+        print("Reading mozbuild data...")
+
+        reader = BuildReader(env)
+        emitter = TreeMetadataEmitter(env)
+        definitions = emitter.emit(reader.read_topsrcdir())
+
+        exports = {}
+        includes = defaultdict(list)
+        for obj in definitions:
+            if isinstance(obj, Exports):
+                for path, filenames in obj.files.walk():
+                    for f in filenames:
+                        if isinstance(f, ObjDirPath):
+                            dest = mozpath.relpath(f.full_path, env.topobjdir)
+                        else:
+                            dest = mozpath.relpath(f.full_path, env.topsrcdir)
+                        if any(dest.startswith(p) for p in paths):
+                            exports[mozpath.join(path, mozpath.basename(f.replace('!', '')))] = dest
+            elif isinstance(obj, LocalInclude):
+                includes[obj.relobjdir].append(obj.path)
+        for k, v in sorted(exports.iteritems()):
+            print("#include[%s] -> %s" % (k, v))
+
+        prog = re.compile('#(.*)include ["<](.*?)[">](.*)')
+        excludes = set([
+            '.hg',
+            '.git',
+            env.topobjdir.split('/')[-1],
+        ])
+        for root, dirs, files in os.walk(env.topsrcdir, topdown=True):
+            dirs[:] = [d for d in dirs if d not in excludes]
+            relobjdir = mozpath.relpath(root, env.topsrcdir)
+            for f in files:
+                if f.endswith(('.h', '.c', '.cpp', '.cc', '.idl', '.h.in', '.cpp.in', '.mm')):
+                    modified = False
+                    filename = mozpath.join(root, f)
+                    (ofd, ofilename) = mkstemp()
+                    with open(filename) as ifd:
+                        for line in ifd:
+                            res = prog.match(line)
+                            if res and res.group(2) in exports:
+                                export = exports[res.group(2)]
+                                if export.startswith(relobjdir + '/') and filename.endswith(('.c', '.cpp', '.cc', '.cpp.in', '.mm')):
+                                    # For things relative to the cwd, (eg: you
+                                    # can still include "foo.h" if foo.h is in
+                                    # the current directory for .cpp files)
+                                    export = mozpath.relpath(export, root)
+                                modified = True
+                                if not dry_run:
+                                    os.write(ofd, '#%sinclude "%s"%s\n' % (res.group(1), export, res.group(3)))
+                                else:
+                                    print("Convert[%s]: %s -> %s" % (
+                                        mozpath.relpath(filename, env.topsrcdir),
+                                        res.group(2),
+                                        export,
+                                    ))
+                            else:
+                                if not dry_run:
+                                    os.write(ofd, line)
+                    if modified:
+                        if not dry_run:
+                            os.rename(ofilename, filename)
+                            print("Converted: %s" % filename)
+                    os.close(ofd)
+                    try:
+                        os.unlink(ofilename)
+                    except:
+                        pass
         return 0

@@ -85,8 +85,10 @@ py2commands="
     telemetry-tests-client
     test
     test-info
+    topsrcdir-ify
     tps-build
     try
+    unexport
     valgrind-test
     vendor
     visualmetrics
