@@ -19,7 +19,7 @@ import build
 # Matches lines like `GK_ATOM(foo, "foo", 0x12345678, true, nsStaticAtom, PseudoElementAtom)`.
 PATTERN = re.compile('^GK_ATOM\(([^,]*),[^"]*"([^"]*)",\s*(0x[0-9a-f]+),\s*[^,]*,\s*([^,]*),\s*([^)]*)\)',
                      re.MULTILINE)
-FILE = "include/nsGkAtomList.h"
+FILE = "xpcom/ds/nsGkAtomList.h"
 
 
 def map_atom(ident):
@@ -166,8 +166,8 @@ def write_pseudo_elements(atoms, target_filename):
         f.write(contents)
 
 
-def generate_atoms(dist, out):
-    atoms = collect_atoms(dist)
+def generate_atoms(objdir, out):
+    atoms = collect_atoms(objdir)
     write_atom_macro(atoms, os.path.join(out, "atom_macro.rs"))
     write_pseudo_elements(atoms, os.path.join(out, "pseudo_element_definition.rs"))
 

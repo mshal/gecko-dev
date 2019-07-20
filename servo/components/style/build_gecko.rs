@@ -404,7 +404,7 @@ fn generate_atoms() {
     println!("cargo:rerun-if-changed={}", script.display());
     let status = Command::new(&*PYTHON)
         .arg(&script)
-        .arg(DISTDIR_PATH.as_os_str())
+        .arg(MOZ_OBJ_PATH.as_os_str())
         .arg(OUTDIR_PATH.as_os_str())
         .status()
         .unwrap();
