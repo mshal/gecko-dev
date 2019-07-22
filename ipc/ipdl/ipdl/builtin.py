@@ -49,9 +49,9 @@ HeaderIncludes = (
     'ipc/IPCMessageUtils.h',
     'mozilla/RefPtr.h',
     'nsString.h',
-    'nsTArray.h',
+    'xpcom/ds/nsTArray.h',
     'mozilla/ipc/ProtocolUtils.h',
-    'nsTHashtable.h',
+    'xpcom/ds/nsTHashtable.h',
     'mozilla/OperatorNewExtensions.h',
     'mozilla/UniquePtr.h',
 )
