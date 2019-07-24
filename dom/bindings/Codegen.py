@@ -18186,7 +18186,7 @@ class GlobalGenRoots():
                                                             register=True)]
         defineIncludes.append('mozilla/dom/WebIDLGlobalNameHash.h')
         defineIncludes.append('mozilla/dom/PrototypeList.h')
-        defineIncludes.append('mozilla/PerfectHash.h')
+        defineIncludes.append('xpcom/ds/PerfectHash.h')
         curr = CGHeaders([], [], [], [], [], defineIncludes, 'RegisterBindings',
                          curr)
 
@@ -18387,7 +18387,7 @@ class GlobalGenRoots():
                                "mozilla/dom/StructuredCloneTags.h",
                                "js/TypeDecls.h"])
         defineIncludes = set(["mozilla/dom/WebIDLSerializable.h",
-                              "mozilla/PerfectHash.h"])
+                              "xpcom/ds/PerfectHash.h"])
         names = list()
         for d in config.getDescriptors(isSerializable=True):
             names.append(d.name)
