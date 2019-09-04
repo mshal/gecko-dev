@@ -30,7 +30,6 @@ if CONFIG['OS_ARCH'] == 'WINNT':
     XPIDL_SOURCES += [
         'nsIWindowsRegKey.idl',
     ]
-    EXPORTS += ['nsWindowsRegKey.h']
     SOURCES += [
         'nsWindowsRegKey.cpp'
     ]
@@ -42,62 +41,7 @@ XPCOM_MANIFESTS += [
 ]
 
 EXPORTS += [
-    '!nsGkAtomConsts.h',
-    '!nsGkAtomList.h',
-    'nsArray.h',
-    'nsArrayEnumerator.h',
-    'nsArrayUtils.h',
-    'nsAtom.h',
-    'nsBaseHashtable.h',
-    'nsCharSeparatedTokenizer.h',
-    'nsCheapSets.h',
-    'nsClassHashtable.h',
-    'nsCOMArray.h',
-    'nsCRT.h',
-    'nsDataHashtable.h',
-    'nsDeque.h',
-    'nsEnumeratorUtils.h',
-    'nsExpirationTracker.h',
-    'nsGkAtoms.h',
-    'nsHashKeys.h',
-    'nsHashPropertyBag.h',
-    'nsInterfaceHashtable.h',
-    'nsJSThingHashtable.h',
-    'nsMathUtils.h',
-    'nsPersistentProperties.h',
-    'nsPointerHashKeys.h',
-    'nsProperties.h',
-    'nsQuickSort.h',
-    'nsRefPtrHashtable.h',
-    'nsSimpleEnumerator.h',
-    'nsStaticAtomUtils.h',
-    'nsStaticNameTable.h',
-    'nsStringEnumerator.h',
-    'nsSupportsPrimitives.h',
-    'nsTArray-inl.h',
     'nsTArray.h',
-    'nsTArrayForwardDeclare.h',
-    'nsTHashtable.h',
-    'nsTObserverArray.h',
-    'nsTPriorityQueue.h',
-    'nsVariant.h',
-    'nsWhitespaceTokenizer.h',
-    'PLDHashTable.h',
-]
-
-EXPORTS.mozilla += [
-    'ArenaAllocator.h',
-    'ArenaAllocatorExtensions.h',
-    'ArrayIterator.h',
-    'AtomArray.h',
-    'Dafsa.h',
-    'IncrementalTokenizer.h',
-    'MruCache.h',
-    'Observer.h',
-    'PerfectHash.h',
-    'SimpleEnumerator.h',
-    'StickyTimeDuration.h',
-    'Tokenizer.h',
 ]
 
 UNIFIED_SOURCES += [
