@@ -9,7 +9,7 @@
 #include "nsIDirectoryService.h"
 
 #if defined(XP_WIN)
-#  include "nsCOMArray.h"
+#  include "xpcom/ds/nsCOMArray.h"
 #endif
 
 class nsISimpleEnumerator;

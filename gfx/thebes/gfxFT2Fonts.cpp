@@ -21,9 +21,9 @@
 #include "gfxFT2FontList.h"
 #include "gfxTextRun.h"
 #include <locale.h>
-#include "nsGkAtoms.h"
-#include "nsTArray.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsGkAtoms.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsXULAppAPI.h"
 
 #include "mozilla/Logging.h"

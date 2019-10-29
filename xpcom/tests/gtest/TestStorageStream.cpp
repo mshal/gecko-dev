@@ -12,7 +12,7 @@
 #include "nsIInputStream.h"
 #include "nsIOutputStream.h"
 #include "nsIStorageStream.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace {
 

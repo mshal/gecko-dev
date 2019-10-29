@@ -11,7 +11,7 @@
 #include "mozilla/dom/Element.h"
 
 #include "nsDebug.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsComponentManagerUtils.h"
 #include "nsIEditor.h"
 #include "nsUnicodeProperties.h"

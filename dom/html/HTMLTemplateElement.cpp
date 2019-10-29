@@ -8,9 +8,9 @@
 #include "mozilla/dom/HTMLTemplateElementBinding.h"
 
 #include "mozilla/MappedDeclarations.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsStyleConsts.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 
 NS_IMPL_NS_NEW_HTML_ELEMENT(Template)
 

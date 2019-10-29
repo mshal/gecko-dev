@@ -3,13 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "mozilla/EndianUtils.h"
 #include "mozilla/UniquePtrExtensions.h"
 #include "nsBMPEncoder.h"
 #include "nsString.h"
 #include "nsStreamUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/CheckedInt.h"
 #include "BMPHeaders.h"
 

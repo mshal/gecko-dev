@@ -13,7 +13,7 @@
 #include "nscore.h"
 #include "nsMemory.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsUTF8Utils.h"
 
 using mozilla::MakeSpan;

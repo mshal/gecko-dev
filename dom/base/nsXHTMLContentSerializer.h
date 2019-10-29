@@ -16,7 +16,7 @@
 #include "mozilla/Attributes.h"
 #include "nsXMLContentSerializer.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIContent;
 class nsAtom;

@@ -10,7 +10,7 @@
 #include "nsBaseWidget.h"
 #include "gfxPoint.h"
 #include "nsIIdleServiceInternal.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "EventDispatcher.h"
 #include "GeneratedJNIWrappers.h"
 #include "mozilla/EventForwards.h"

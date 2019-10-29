@@ -9,7 +9,7 @@
 #include "mozilla/dom/PlacesObserversBinding.h"
 #include "mozilla/WeakPtr.h"
 #include "nsISupports.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace places {

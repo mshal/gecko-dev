@@ -12,7 +12,7 @@
 #include "nsCOMPtr.h"
 #include "plhash.h"
 #include "nsPlaceholderFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsILayoutHistoryState.h"
 #include "mozilla/PresShell.h"
 #include "mozilla/PresState.h"

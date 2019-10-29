@@ -5,11 +5,11 @@
 #ifndef nsHtml5TreeOpExecutor_h
 #define nsHtml5TreeOpExecutor_h
 
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsTraceRefcnt.h"
 #include "nsHtml5TreeOperation.h"
 #include "nsHtml5SpeculativeLoad.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsContentSink.h"
 #include "nsNodeInfoManager.h"
 #include "nsHtml5DocumentMode.h"
@@ -18,8 +18,8 @@
 #include "nsAHtml5TreeOpSink.h"
 #include "nsHtml5TreeOpStage.h"
 #include "nsIURI.h"
-#include "nsTHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "mozilla/LinkedList.h"
 #include "nsHtml5DocumentBuilder.h"
 

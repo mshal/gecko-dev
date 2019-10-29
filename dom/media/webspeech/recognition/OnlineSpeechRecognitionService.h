@@ -8,7 +8,7 @@
 #define mozilla_dom_OnlineRecognitionService_h
 
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsISpeechRecognitionService.h"
 #include "speex/speex_resampler.h"
 #include "nsIStreamListener.h"

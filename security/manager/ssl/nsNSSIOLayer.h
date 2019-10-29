@@ -12,12 +12,12 @@
 #include "mozilla/TimeStamp.h"
 #include "mozilla/UniquePtr.h"
 #include "nsCOMPtr.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsIClientAuthDialogs.h"
 #include "nsIProxyInfo.h"
 #include "nsISSLSocketControl.h"
 #include "nsNSSCertificate.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "sslt.h"
 
 namespace mozilla {

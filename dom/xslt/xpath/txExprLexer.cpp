@@ -8,7 +8,7 @@
  */
 
 #include "txExprLexer.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsString.h"
 #include "nsError.h"
 #include "txXMLUtils.h"

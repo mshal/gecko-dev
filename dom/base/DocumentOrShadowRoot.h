@@ -9,9 +9,9 @@
 
 #include "mozilla/dom/NameSpaceConstants.h"
 #include "mozilla/IdentifierMapEntry.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsContentListDeclarations.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsContentList;
 class nsCycleCollectionTraversalCallback;

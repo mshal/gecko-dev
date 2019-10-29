@@ -37,7 +37,7 @@
 #include "nsDebug.h"
 #include "nsDependentSubstring.h"
 #include "nsError.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIClipboard.h"
 #include "nsIContent.h"
 #include "mozilla/dom/Document.h"

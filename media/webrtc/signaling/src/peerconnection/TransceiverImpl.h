@@ -8,7 +8,7 @@
 #include "mozilla/RefPtr.h"
 #include "nsCOMPtr.h"
 #include "nsIEventTarget.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/dom/MediaStreamTrack.h"
 #include "ErrorList.h"
 #include "signaling/src/jsep/JsepTransceiver.h"

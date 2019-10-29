@@ -11,7 +11,7 @@
 #include "mozilla/Mutex.h"
 #include "mozilla/UniquePtr.h"
 #include "nsIThread.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

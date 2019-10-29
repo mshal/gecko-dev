@@ -12,7 +12,7 @@
 #include "nsIVariant.h"
 #include "nsMemory.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #define VARIANT_BASE_IID                             \
   { /* 78888042-0fa3-4f7a-8b19-7996f99bf1aa */       \

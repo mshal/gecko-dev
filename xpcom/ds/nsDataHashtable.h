@@ -7,8 +7,8 @@
 #ifndef nsDataHashtable_h__
 #define nsDataHashtable_h__
 
-#include "nsHashKeys.h"
-#include "nsBaseHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsBaseHashtable.h"
 #include "mozilla/Maybe.h"
 
 /**

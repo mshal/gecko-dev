@@ -34,7 +34,7 @@
 #include "nsLocalFile.h"
 #include "nsNetCID.h"
 #include "nsPrintfCString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsXULAppAPI.h"
 #include "prenv.h"
 

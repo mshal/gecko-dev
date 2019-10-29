@@ -11,10 +11,10 @@
 #include "mozIPersonalDictionary.h"
 #include "nsIObserver.h"
 #include "nsWeakReference.h"
-#include "nsTHashtable.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include <mozilla/Monitor.h>
 
 #define MOZ_PERSONALDICTIONARY_CONTRACTID \

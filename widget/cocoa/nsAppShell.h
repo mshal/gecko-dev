@@ -12,7 +12,7 @@
 #define nsAppShell_h_
 
 #include "nsBaseAppShell.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 // GeckoNSApplication
 //

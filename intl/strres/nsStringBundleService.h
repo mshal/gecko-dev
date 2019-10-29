@@ -7,8 +7,8 @@
 #define nsStringBundleService_h__
 
 #include "nsCOMPtr.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsIPersistentProperties2.h"
 #include "nsIStringBundle.h"
 #include "nsIObserver.h"

@@ -16,8 +16,8 @@
 #include "nsIMutationObserver.h"
 #include "mozilla/EventListenerManager.h"
 #include "nsIXPConnect.h"
-#include "PLDHashTable.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/PLDHashTable.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsPIDOMWindow.h"
 #ifdef MOZ_XUL
 #  include "nsXULElement.h"

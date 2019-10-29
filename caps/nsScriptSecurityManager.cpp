@@ -28,7 +28,7 @@
 #include "SystemPrincipal.h"
 #include "DomainPolicy.h"
 #include "nsString.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsCRTGlue.h"
 #include "nsContentSecurityUtils.h"
 #include "nsDocShell.h"

@@ -8,7 +8,7 @@
 #define mozilla_dom_DOMStringList_h
 
 #include "nsISupports.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWrapperCache.h"
 #include "nsString.h"
 

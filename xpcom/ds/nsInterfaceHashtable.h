@@ -7,8 +7,8 @@
 #ifndef nsInterfaceHashtable_h__
 #define nsInterfaceHashtable_h__
 
-#include "nsBaseHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsBaseHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsCOMPtr.h"
 
 /**

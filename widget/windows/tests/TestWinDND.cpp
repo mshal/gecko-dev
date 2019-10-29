@@ -8,7 +8,7 @@
 #include <shlobj.h>
 
 #include "TestHarness.h"
-#include "nsArray.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsIFile.h"
 #include "nsNetUtil.h"
 #include "nsISupportsPrimitives.h"

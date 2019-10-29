@@ -7,7 +7,7 @@
 #include "mozilla/FloatingPoint.h"
 
 #include "txXSLTNumber.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "txCore.h"
 #include <math.h>
 #include "txExpr.h"

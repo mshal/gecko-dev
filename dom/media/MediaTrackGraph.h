@@ -17,7 +17,7 @@
 #include "nsAutoPtr.h"
 #include "nsAutoRef.h"
 #include "nsIRunnable.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include <speex/speex_resampler.h>
 
 class nsIRunnable;

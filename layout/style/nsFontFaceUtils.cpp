@@ -13,7 +13,7 @@
 #include "nsIFrame.h"
 #include "nsLayoutUtils.h"
 #include "nsPlaceholderFrame.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "SVGTextFrame.h"
 
 using namespace mozilla;

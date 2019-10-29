@@ -12,7 +12,7 @@
 #include "nsAutoPtr.h"
 #include "nsString.h"
 #include "nsError.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/TimeStamp.h"
 #include "mozilla/UniquePtr.h"
 

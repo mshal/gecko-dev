@@ -14,7 +14,7 @@
 
 #include "nsAttrValue.h"
 #include "nsAttrValueInlines.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsUnicharUtils.h"
 #include "mozilla/CORSMode.h"
 #include "mozilla/MemoryReporting.h"

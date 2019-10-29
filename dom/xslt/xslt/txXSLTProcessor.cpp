@@ -5,7 +5,7 @@
 
 #include "txXSLTProcessor.h"
 #include "txInstructions.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "txLog.h"
 #include "txStylesheetCompileHandlers.h"
 #include "txStylesheetCompiler.h"

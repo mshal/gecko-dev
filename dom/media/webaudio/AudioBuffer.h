@@ -13,7 +13,7 @@
 #include "mozilla/Attributes.h"
 #include "mozilla/StaticPtr.h"
 #include "mozilla/StaticMutex.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "js/TypeDecls.h"
 #include "mozilla/MemoryReporting.h"
 #include "mozilla/dom/TypedArray.h"

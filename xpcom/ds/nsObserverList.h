@@ -9,11 +9,11 @@
 
 #include "nsISupports.h"
 #include "nsCOMPtr.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsIObserver.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsMaybeWeakPtr.h"
-#include "nsSimpleEnumerator.h"
+#include "xpcom/ds/nsSimpleEnumerator.h"
 #include "mozilla/Attributes.h"
 
 class nsObserverList : public nsCharPtrHashKey {

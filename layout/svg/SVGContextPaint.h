@@ -17,7 +17,7 @@
 #include "mozilla/gfx/2D.h"
 #include "nsColor.h"
 #include "nsStyleStruct.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "ImgDrawResult.h"
 
 class gfxContext;

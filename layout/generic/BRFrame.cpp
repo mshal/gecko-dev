@@ -16,7 +16,7 @@
 #include "nsPresContext.h"
 #include "nsLineLayout.h"
 #include "nsStyleConsts.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsLayoutUtils.h"
 
 // FOR SELECTION

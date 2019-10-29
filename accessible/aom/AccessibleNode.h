@@ -7,8 +7,8 @@
 #ifndef A11Y_AOM_ACCESSIBLENODE_H
 #define A11Y_AOM_ACCESSIBLENODE_H
 
-#include "nsDataHashtable.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsWrapperCache.h"
 #include "mozilla/ErrorResult.h"
 #include "mozilla/dom/BindingDeclarations.h"

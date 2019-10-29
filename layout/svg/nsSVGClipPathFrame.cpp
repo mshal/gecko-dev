@@ -13,7 +13,7 @@
 #include "gfxContext.h"
 #include "mozilla/PresShell.h"
 #include "mozilla/dom/SVGClipPathElement.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "SVGObserverUtils.h"
 #include "SVGGeometryElement.h"
 #include "SVGGeometryFrame.h"

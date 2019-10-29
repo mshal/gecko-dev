@@ -7,7 +7,7 @@
 #ifndef mozilla_dom_SessionStorageCache_h
 #define mozilla_dom_SessionStorageCache_h
 
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 namespace mozilla {
 namespace dom {

@@ -7,7 +7,7 @@
 #ifndef mozilla_SMILCompositorTable_h
 #define mozilla_SMILCompositorTable_h
 
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 //----------------------------------------------------------------------
 // SMILCompositorTable : A hashmap of SMILCompositors

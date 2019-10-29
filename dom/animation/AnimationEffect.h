@@ -11,7 +11,7 @@
 #include "mozilla/dom/BindingDeclarations.h"
 #include "mozilla/dom/Nullable.h"
 #include "mozilla/Maybe.h"
-#include "mozilla/StickyTimeDuration.h"
+#include "xpcom/ds/StickyTimeDuration.h"
 #include "mozilla/TimeStamp.h"
 #include "mozilla/TimingParams.h"
 #include "nsCycleCollectionParticipant.h"

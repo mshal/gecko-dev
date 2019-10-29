@@ -21,7 +21,7 @@
 #include "nsDisplayList.h"
 #include "nsFilterInstance.h"
 #include "nsFrameList.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIContent.h"
 #include "nsIFrame.h"
 #include "nsLayoutUtils.h"

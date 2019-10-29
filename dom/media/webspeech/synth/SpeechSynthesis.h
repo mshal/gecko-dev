@@ -9,7 +9,7 @@
 
 #include "nsCOMPtr.h"
 #include "nsIObserver.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsString.h"
 #include "nsWeakReference.h"
 #include "nsWrapperCache.h"

@@ -8,7 +8,7 @@
 #define MOZILLA_SVGSTRINGLIST_H__
 
 #include "nsDebug.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"  // IWYU pragma: keep
 
 namespace mozilla {

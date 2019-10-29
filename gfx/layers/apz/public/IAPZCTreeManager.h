@@ -13,7 +13,7 @@
 #include "mozilla/layers/LayersTypes.h"          // for TouchBehaviorFlags
 #include "mozilla/layers/ScrollableLayerGuid.h"  // for ScrollableLayerGuid, etc
 #include "mozilla/layers/ZoomConstraints.h"      // for ZoomConstraints
-#include "nsTArrayForwardDeclare.h"  // for nsTArray, nsTArray_Impl, etc
+#include "xpcom/ds/nsTArrayForwardDeclare.h"  // for nsTArray, nsTArray_Impl, etc
 #include "nsISupportsImpl.h"         // for MOZ_COUNT_CTOR, etc
 #include "Units.h"                   // for CSSRect, etc
 

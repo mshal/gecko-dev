@@ -11,17 +11,17 @@
 #ifndef mozilla_IdentifierMapEntry_h
 #define mozilla_IdentifierMapEntry_h
 
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 
 #include "mozilla/MemoryReporting.h"
 #include "mozilla/Move.h"
 #include "mozilla/dom/TreeOrderedArray.h"
 
 #include "nsCOMPtr.h"
-#include "nsAtom.h"
-#include "nsHashKeys.h"
-#include "nsTArray.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsAtom.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 class nsIContent;
 class nsINode;

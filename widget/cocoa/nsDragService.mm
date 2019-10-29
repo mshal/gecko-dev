@@ -6,9 +6,9 @@
 #include "mozilla/Logging.h"
 
 #include "gfxContext.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsDragService.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsObjCExceptions.h"
 #include "nsITransferable.h"
 #include "nsString.h"

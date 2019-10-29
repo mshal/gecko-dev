@@ -19,7 +19,7 @@
 #include "nsString.h"
 #include "nsEscape.h"
 #include "nsNetCID.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsICryptoHash.h"
 #include "nsComponentManagerUtils.h"
 

@@ -5,7 +5,7 @@
 
 #include "nsHyphenationManager.h"
 #include "nsHyphenator.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsIFile.h"
 #include "nsIURI.h"
 #include "nsIProperties.h"
@@ -20,7 +20,7 @@
 #include "mozilla/Services.h"
 #include "mozilla/Telemetry.h"
 #include "nsIObserverService.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsAppDirectoryServiceDefs.h"
 #include "nsDirectoryServiceUtils.h"
 #include "nsMemory.h"

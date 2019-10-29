@@ -13,7 +13,7 @@
 #include "mozilla/MemoryReporting.h"
 #include "nsCOMPtr.h"
 #include "nsContentUtils.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsHTMLDNSPrefetch.h"
 #include "nsAttrValueOrString.h"
 #include "mozilla/dom/Document.h"

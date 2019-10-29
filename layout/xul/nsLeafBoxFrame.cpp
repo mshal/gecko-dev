@@ -16,7 +16,7 @@
 #include "nsLeafBoxFrame.h"
 #include "nsBoxFrame.h"
 #include "nsCOMPtr.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsPresContext.h"
 #include "nsIContent.h"
 #include "nsNameSpaceManager.h"

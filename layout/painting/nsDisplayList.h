@@ -15,7 +15,7 @@
 
 #include "mozilla/Attributes.h"
 #include "gfxContext.h"
-#include "mozilla/ArenaAllocator.h"
+#include "xpcom/ds/ArenaAllocator.h"
 #include "mozilla/Assertions.h"
 #include "mozilla/Array.h"
 #include "mozilla/DebugOnly.h"
@@ -51,7 +51,7 @@
 #include "RetainedDisplayListHelpers.h"
 
 #include <stdint.h>
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 #include <stdlib.h>
 #include <algorithm>

@@ -36,7 +36,7 @@
 #include "nsIContentInlines.h"
 #include "mozilla/dom/Document.h"
 #include "nsError.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIFrame.h"
 #include "nsQueryObject.h"
 #include "nsLayoutUtils.h"

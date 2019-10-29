@@ -9,7 +9,7 @@
 #include "mozilla/PresShell.h"
 #include "nsContainerFrame.h"
 #include "nsFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "SVGObserverUtils.h"
 #include "SVGFilters.h"
 

@@ -7,7 +7,7 @@
 #include "ShortcutKeys.h"
 #include "mozilla/KeyEventHandler.h"
 #include "nsContentUtils.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "mozilla/TextEvents.h"
 
 namespace mozilla {

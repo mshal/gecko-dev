@@ -6,9 +6,9 @@
 #ifndef StartupCache_h_
 #define StartupCache_h_
 
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsComponentManagerUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsZipArchive.h"
 #include "nsITimer.h"
 #include "nsIMemoryReporter.h"

@@ -7,9 +7,9 @@
 #define nsXULAlerts_h__
 
 #include "nsCycleCollectionParticipant.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 
 #include "mozIDOMWindow.h"
 #include "nsIObserver.h"

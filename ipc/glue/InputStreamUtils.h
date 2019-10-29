@@ -10,7 +10,7 @@
 #include "mozilla/ipc/InputStreamParams.h"
 #include "nsCOMPtr.h"
 #include "nsIInputStream.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace ipc {

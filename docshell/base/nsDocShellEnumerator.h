@@ -7,8 +7,8 @@
 #ifndef nsDocShellEnumerator_h___
 #define nsDocShellEnumerator_h___
 
-#include "nsSimpleEnumerator.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsSimpleEnumerator.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIWeakReferenceUtils.h"
 
 class nsIDocShellTreeItem;

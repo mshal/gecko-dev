@@ -10,7 +10,7 @@
 #include "DebuggerNotificationManager.h"
 #include "mozilla/dom/DebuggerNotificationObserverBinding.h"
 #include "mozilla/RefPtr.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 #include "nsWrapperCache.h"
 
 class nsIGlobalObject;

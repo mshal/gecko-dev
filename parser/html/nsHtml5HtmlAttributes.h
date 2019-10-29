@@ -24,7 +24,7 @@
 #ifndef nsHtml5HtmlAttributes_h
 #define nsHtml5HtmlAttributes_h
 
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsHtml5AtomTable.h"
 #include "nsHtml5String.h"
 #include "nsNameSpaceManager.h"
@@ -36,7 +36,7 @@
 #include "nsHtml5ByteReadable.h"
 #include "nsHtml5Macros.h"
 #include "nsIContentHandle.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsHtml5AttributeEntry.h"
 
 class nsHtml5StreamParser;

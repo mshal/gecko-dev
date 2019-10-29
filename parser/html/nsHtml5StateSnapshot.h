@@ -28,7 +28,7 @@
 #ifndef nsHtml5StateSnapshot_h
 #define nsHtml5StateSnapshot_h
 
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsHtml5AtomTable.h"
 #include "nsHtml5String.h"
 #include "nsNameSpaceManager.h"
@@ -37,7 +37,7 @@
 #include "jArray.h"
 #include "nsHtml5ArrayCopy.h"
 #include "nsAHtml5TreeBuilderState.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsHtml5ByteReadable.h"
 #include "nsHtml5Macros.h"
 #include "nsIContentHandle.h"

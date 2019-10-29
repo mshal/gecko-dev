@@ -19,7 +19,7 @@
 #endif
 #include "nsComponentManagerUtils.h"
 #include "nsContentUtils.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsIObserverService.h"
 #include "nsIScriptError.h"
 #include "nsPrintfCString.h"

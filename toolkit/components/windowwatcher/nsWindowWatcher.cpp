@@ -7,7 +7,7 @@
 #include "nsWindowWatcher.h"
 #include "nsAutoWindowStateHelper.h"
 
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsNetUtil.h"
 #include "nsIAuthPrompt.h"
 #include "nsIAuthPrompt2.h"
@@ -18,7 +18,7 @@
 
 #include "nsDocShell.h"
 #include "nsGlobalWindow.h"
-#include "nsHashPropertyBag.h"
+#include "xpcom/ds/nsHashPropertyBag.h"
 #include "nsIBaseWindow.h"
 #include "nsIBrowserDOMWindow.h"
 #include "nsIDocShell.h"
@@ -58,7 +58,7 @@
 #include "nsIPrefBranch.h"
 #include "nsIPrefService.h"
 #include "nsSandboxFlags.h"
-#include "nsSimpleEnumerator.h"
+#include "xpcom/ds/nsSimpleEnumerator.h"
 #include "mozilla/CheckedInt.h"
 #include "mozilla/NullPrincipal.h"
 #include "mozilla/Preferences.h"

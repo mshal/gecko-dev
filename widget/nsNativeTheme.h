@@ -10,13 +10,13 @@
 #define _NSNATIVETHEME_H_
 
 #include "nsAlgorithm.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsColor.h"
 #include "nsCOMPtr.h"
 #include "nsString.h"
 #include "nsMargin.h"
-#include "nsGkAtoms.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsGkAtoms.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsINamed.h"
 #include "nsITimer.h"
 #include "nsIContent.h"

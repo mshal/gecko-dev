@@ -6,7 +6,7 @@
 #include "mozilla/Preferences.h"
 #include "nsIDNService.h"
 #include "nsReadableUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsUnicharUtils.h"
 #include "nsUnicodeProperties.h"
 #include "nsUnicodeScriptCodes.h"

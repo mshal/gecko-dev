@@ -14,9 +14,9 @@
 #include "nsIDOMEventListener.h"
 #include "nsIEventListenerService.h"
 #include "nsString.h"
-#include "nsTObserverArray.h"
-#include "nsDataHashtable.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsTObserverArray.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 class nsIMutableArray;
 

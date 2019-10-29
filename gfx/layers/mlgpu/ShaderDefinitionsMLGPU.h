@@ -11,7 +11,7 @@
 #include "mozilla/gfx/Triangle.h"
 #include "mozilla/gfx/Types.h"
 #include "mozilla/layers/LayersHelpers.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace layers {

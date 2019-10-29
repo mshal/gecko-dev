@@ -7,7 +7,7 @@
 #ifndef mozilla_dom_TreeOrderedArray_h
 #define mozilla_dom_TreeOrderedArray_h
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

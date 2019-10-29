@@ -7,7 +7,7 @@
 #ifndef mozilla_dom_SRIMetadata_h
 #define mozilla_dom_SRIMetadata_h
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 #include "SRICheck.h"
 

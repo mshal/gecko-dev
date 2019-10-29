@@ -36,7 +36,7 @@
 #include "nsJSUtils.h"
 #include "mozilla/ipc/URIUtils.h"
 #include "nsPrintfCString.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "jsapi.h"
 #include "mozilla/dom/ContentProcessMessageManager.h"
 #include "mozilla/dom/Element.h"

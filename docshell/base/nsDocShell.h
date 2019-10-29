@@ -44,7 +44,7 @@
 #include "nsCOMPtr.h"
 #include "nsContentPolicyUtils.h"
 #include "nsContentUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsDocLoader.h"
 #include "nsPoint.h"  // mCurrent/mDefaultScrollbarPreferences
 #include "nsRect.h"

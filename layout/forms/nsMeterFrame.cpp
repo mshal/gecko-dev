@@ -12,7 +12,7 @@
 #include "mozilla/dom/HTMLMeterElement.h"
 #include "nsIContent.h"
 #include "nsPresContext.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsNameSpaceManager.h"
 #include "nsNodeInfoManager.h"
 #include "nsContentCreatorFunctions.h"

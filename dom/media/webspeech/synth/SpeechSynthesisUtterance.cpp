@@ -6,7 +6,7 @@
 
 #include "nsCOMPtr.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 #include "mozilla/dom/SpeechSynthesisEvent.h"
 #include "mozilla/dom/SpeechSynthesisUtteranceBinding.h"

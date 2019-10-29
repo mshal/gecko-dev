@@ -11,7 +11,7 @@
 #include "nsAutoRef.h"
 #include "nsLocalFile.h"
 #include "nsNetCID.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 
 #include <cstdio>
 #include <cstring>

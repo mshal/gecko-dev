@@ -23,7 +23,7 @@
 #include "mozilla/webrender/WebRenderTypes.h"
 #include "mozilla/HashTable.h"
 #include "mozilla/Maybe.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 
 class nsDisplayItem;
 

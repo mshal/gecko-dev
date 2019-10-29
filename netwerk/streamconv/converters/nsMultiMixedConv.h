@@ -14,7 +14,7 @@
 #include "nsIMultiPartChannel.h"
 #include "nsAutoPtr.h"
 #include "mozilla/Attributes.h"
-#include "mozilla/IncrementalTokenizer.h"
+#include "xpcom/ds/IncrementalTokenizer.h"
 #include "nsHttpResponseHead.h"
 
 #define NS_MULTIMIXEDCONVERTER_CID                 \

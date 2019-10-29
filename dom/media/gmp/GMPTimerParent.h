@@ -9,8 +9,8 @@
 #include "mozilla/gmp/PGMPTimerParent.h"
 #include "nsITimer.h"
 #include "nsCOMPtr.h"
-#include "nsClassHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "mozilla/Monitor.h"
 #include "nsIThread.h"
 

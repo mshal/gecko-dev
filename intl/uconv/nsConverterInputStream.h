@@ -9,7 +9,7 @@
 #include "nsIInputStream.h"
 #include "nsIConverterInputStream.h"
 #include "nsIUnicharLineInputStream.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsAutoPtr.h"
 #include "nsCOMPtr.h"
 #include "nsReadLine.h"

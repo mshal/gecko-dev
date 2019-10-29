@@ -13,8 +13,8 @@
 
 #include "mozilla/NotNull.h"
 #include "nsCOMPtr.h"
-#include "nsAtom.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsAtom.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 namespace mozilla {
 class Encoding;

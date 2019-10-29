@@ -12,11 +12,11 @@
 #include "nsIWebSocketEventService.h"
 #include "nsAutoPtr.h"
 #include "nsCOMPtr.h"
-#include "nsClassHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsIObserver.h"
 #include "nsISupportsImpl.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace net {

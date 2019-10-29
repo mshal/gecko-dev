@@ -23,7 +23,7 @@
 #include "mozilla/layers/CompositorBridgeChild.h"
 #include "nsCOMPtr.h"                // for already_AddRefed
 #include "nsRegion.h"                // for nsIntRegion
-#include "nsTArrayForwardDeclare.h"  // for nsTArray
+#include "xpcom/ds/nsTArrayForwardDeclare.h"  // for nsTArray
 #include "nsIWidget.h"
 #include <vector>
 

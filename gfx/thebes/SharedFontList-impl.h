@@ -10,8 +10,8 @@
 #include "mozilla/ipc/SharedMemoryBasic.h"
 
 #include "gfxFontUtils.h"
-#include "nsClassHashtable.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 // This is split out from SharedFontList.h because that header is included
 // quite widely (via gfxPlatformFontList.h, gfxTextRun.h, etc), and other code

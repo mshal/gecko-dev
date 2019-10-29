@@ -11,7 +11,7 @@
 #include "mozilla/dom/FallbackEncoding.h"
 #include "mozilla/Encoding.h"
 #include "prprf.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsDirIndex.h"
 #include "nsEscape.h"
 #include "nsIDirIndex.h"

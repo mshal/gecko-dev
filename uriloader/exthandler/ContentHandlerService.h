@@ -9,7 +9,7 @@
 
 #include "mozilla/dom/PHandlerService.h"
 #include "nsIHandlerService.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsIMIMEInfo.h"
 
 namespace mozilla {

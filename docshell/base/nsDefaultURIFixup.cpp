@@ -21,7 +21,7 @@
 #include "mozilla/ipc/IPCStreamUtils.h"
 #include "mozilla/ipc/URIUtils.h"
 #include "mozilla/TextUtils.h"
-#include "mozilla/Tokenizer.h"
+#include "xpcom/ds/Tokenizer.h"
 #include "mozilla/Unused.h"
 #include "nsIObserverService.h"
 #include "nsXULAppAPI.h"

@@ -77,9 +77,9 @@
 #  include "nsMacUtilsImpl.h"
 #endif
 
-#include "nsTArray.h"
-#include "nsClassHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsNativeCharsetUtils.h"
 #include "nscore.h"  // for NS_FREE_PERMANENT_DATA
 #include "private/pprio.h"

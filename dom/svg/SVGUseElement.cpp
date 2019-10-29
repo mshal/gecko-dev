@@ -10,7 +10,7 @@
 #include "mozilla/ErrorResult.h"
 #include "mozilla/dom/SVGLengthBinding.h"
 #include "mozilla/dom/SVGUseElementBinding.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/dom/SVGSVGElement.h"
 #include "mozilla/dom/Document.h"
 #include "mozilla/dom/Element.h"

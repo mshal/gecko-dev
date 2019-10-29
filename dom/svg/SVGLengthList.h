@@ -13,7 +13,7 @@
 #include "nsINode.h"
 #include "nsIWeakReferenceUtils.h"
 #include "SVGElement.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "SVGLength.h"
 #include "mozilla/dom/SVGLengthBinding.h"
 

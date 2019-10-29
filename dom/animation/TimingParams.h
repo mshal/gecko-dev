@@ -12,7 +12,7 @@
 #include "mozilla/dom/UnionTypes.h"  // For OwningUnrestrictedDoubleOrString
 #include "mozilla/ComputedTimingFunction.h"
 #include "mozilla/Maybe.h"
-#include "mozilla/StickyTimeDuration.h"
+#include "xpcom/ds/StickyTimeDuration.h"
 #include "mozilla/TimeStamp.h"  // for TimeDuration
 
 #include "mozilla/dom/AnimationEffectBinding.h"  // for FillMode

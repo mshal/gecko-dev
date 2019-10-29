@@ -20,7 +20,7 @@
 #include "nsPromiseFlatString.h"
 #include "nsProxyRelease.h"
 #include "nsSecurityHeaderParser.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 #include "mozpkix/pkix.h"
 #include "mozpkix/pkixtypes.h"
 #include "secerr.h"

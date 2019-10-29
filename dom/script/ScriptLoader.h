@@ -8,12 +8,12 @@
 #define mozilla_dom_ScriptLoader_h
 
 #include "nsCOMPtr.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "mozilla/Encoding.h"
 #include "nsIScriptElement.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsAutoPtr.h"
 #include "nsICacheInfoChannel.h"
 #include "mozilla/dom/Document.h"

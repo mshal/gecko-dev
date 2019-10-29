@@ -8,7 +8,7 @@
 #define nsTreeContentView_h__
 
 #include "nsCycleCollectionParticipant.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsStubDocumentObserver.h"
 #include "nsITreeView.h"
 #include "nsITreeSelection.h"

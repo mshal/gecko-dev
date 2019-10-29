@@ -14,7 +14,7 @@ interface nsIInputStream;
 interface nsIPrincipal;
 
 %{ C++
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 namespace mozilla {
 namespace net {
 union NetAddr;

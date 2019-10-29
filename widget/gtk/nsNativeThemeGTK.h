@@ -8,7 +8,7 @@
 
 #include "nsITheme.h"
 #include "nsCOMPtr.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsIObserver.h"
 #include "nsNativeTheme.h"
 #include "nsStyleConsts.h"

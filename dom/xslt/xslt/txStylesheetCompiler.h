@@ -13,7 +13,7 @@
 #include "txIXPathContext.h"
 #include "nsAutoPtr.h"
 #include "txStylesheet.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 extern bool TX_XSLTFunctionAvailable(nsAtom* aName, int32_t aNameSpaceID);
 

@@ -24,7 +24,7 @@
 #include "mozilla/LookAndFeel.h"                 // for system colors
 
 #include "nsString.h"
-#include "nsStaticNameTable.h"
+#include "xpcom/ds/nsStaticNameTable.h"
 
 #include "mozilla/Preferences.h"
 #include "mozilla/StaticPrefs_layout.h"

@@ -13,7 +13,7 @@
 #    include "mozilla/EventForwards.h"
 #    include "mozilla/Maybe.h"
 #    include "nsCOMPtr.h"
-#    include "nsTArray.h"
+#    include "xpcom/ds/nsTArray.h"
 
 // Microsoft's API Name hackery sucks
 #    undef CreateEvent

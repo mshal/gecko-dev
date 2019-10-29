@@ -27,12 +27,12 @@
 #include "nsIObserverService.h"
 #include "nsThread.h"
 #include "nsThreadManager.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "mozilla/EventQueue.h"
 #include "mozilla/IOInterposer.h"
 #include "mozilla/ThreadEventQueue.h"
 #include "mozilla/Services.h"
-#include "mozilla/Tokenizer.h"
+#include "xpcom/ds/Tokenizer.h"
 #include "GeckoProfiler.h"
 
 // How long we collect write oprerations

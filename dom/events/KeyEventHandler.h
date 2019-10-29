@@ -9,7 +9,7 @@
 
 #include "mozilla/EventForwards.h"
 #include "mozilla/MemoryReporting.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsString.h"
 #include "nsCOMPtr.h"
 #include "nsIController.h"

@@ -13,10 +13,10 @@
 #include "MediaTimer.h"
 #include "mozilla/dom/MediaDeviceInfo.h"
 #include "MediaTrackListener.h"
-#include "nsArray.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsContentUtils.h"
 #include "nsGlobalWindow.h"
-#include "nsHashPropertyBag.h"
+#include "xpcom/ds/nsHashPropertyBag.h"
 #include "nsIEventTarget.h"
 #include "nsIUUIDGenerator.h"
 #include "nsIScriptGlobalObject.h"
@@ -60,7 +60,7 @@
 #include "VideoUtils.h"
 #include "ThreadSafeRefcountingWithMainThreadDestruction.h"
 #include "nsProxyRelease.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 
 // For snprintf
 #include "mozilla/Sprintf.h"

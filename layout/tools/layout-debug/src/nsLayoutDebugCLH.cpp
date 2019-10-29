@@ -5,7 +5,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "nsLayoutDebugCLH.h"
-#include "nsArray.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsString.h"
 #include "plstr.h"
 #include "nsCOMPtr.h"

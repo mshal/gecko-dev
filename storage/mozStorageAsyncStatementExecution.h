@@ -8,7 +8,7 @@
 #define mozStorageAsyncStatementExecution_h
 
 #include "nscore.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsAutoPtr.h"
 #include "mozilla/Mutex.h"
 #include "mozilla/TimeStamp.h"

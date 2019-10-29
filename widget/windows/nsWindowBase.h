@@ -8,7 +8,7 @@
 
 #include "mozilla/EventForwards.h"
 #include "nsBaseWidget.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 
 #include <windows.h>
 #include "touchinjection_sdk80.h"

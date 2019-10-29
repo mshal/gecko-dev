@@ -13,7 +13,7 @@
 #include "nsStreamUtils.h"
 #include "nsString.h"
 #include "nsStringStream.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace {
 

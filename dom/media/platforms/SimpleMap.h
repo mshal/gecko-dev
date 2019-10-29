@@ -6,7 +6,7 @@
 #define mozilla_SimpleMap_h
 
 #include "mozilla/Pair.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 

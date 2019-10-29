@@ -33,7 +33,7 @@
 #include "nsISupportsImpl.h"   // for MOZ_COUNT_CTOR, etc
 #include "nsISupportsUtils.h"  // for NS_ADDREF, NS_RELEASE
 #include "nsRegion.h"          // for nsIntRegion
-#include "nsTArray.h"          // for AutoTArray
+#include "xpcom/ds/nsTArray.h"          // for AutoTArray
 #include <stack>
 #include "TextRenderer.h"  // for TextRenderer
 #include <vector>

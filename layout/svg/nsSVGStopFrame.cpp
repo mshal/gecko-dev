@@ -7,7 +7,7 @@
 // Keep in (case-insensitive) order:
 #include "nsContainerFrame.h"
 #include "nsFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/ComputedStyle.h"
 #include "mozilla/PresShell.h"
 #include "SVGObserverUtils.h"

@@ -12,7 +12,7 @@
 #include "nsAutoPtr.h"
 #include "nsCOMPtr.h"
 #include "nsISupportsImpl.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWrapperCache.h"
 
 class nsIGlobalObject;

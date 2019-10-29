@@ -9,7 +9,7 @@
 
 #include "mozilla/Attributes.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCOMPtr.h"
 
 class nsINode;

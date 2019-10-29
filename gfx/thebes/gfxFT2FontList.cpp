@@ -37,9 +37,9 @@
 
 #include "nsServiceManagerUtils.h"
 #include "nsIObserverService.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsUnicharUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 #include "nsDirectoryServiceUtils.h"
 #include "nsDirectoryServiceDefs.h"

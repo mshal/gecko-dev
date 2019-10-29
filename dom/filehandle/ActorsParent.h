@@ -11,12 +11,12 @@
 #include "mozilla/dom/PBackgroundMutableFileParent.h"
 #include "mozilla/ipc/BackgroundParent.h"
 #include "nsAutoPtr.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsCOMPtr.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsString.h"
-#include "nsTArrayForwardDeclare.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 template <class>
 struct already_AddRefed;

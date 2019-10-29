@@ -9,7 +9,7 @@
 
 #include "ARefBase.h"
 #include "nsCOMPtr.h"
-#include "nsDeque.h"
+#include "xpcom/ds/nsDeque.h"
 #include "nsINamed.h"
 #include "nsITimer.h"
 

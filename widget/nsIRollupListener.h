@@ -7,7 +7,7 @@
 #ifndef __nsIRollupListener_h__
 #define __nsIRollupListener_h__
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsPoint.h"
 
 class nsIContent;

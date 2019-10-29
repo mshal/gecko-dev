@@ -10,7 +10,7 @@
 #include "CompositableHost.h"  // for CompositableTextureHostRef
 #include "mozilla/gfx/2D.h"
 #include "mozilla/TimeStamp.h"  // for TimeStamp
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace layers {

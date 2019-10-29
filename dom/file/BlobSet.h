@@ -10,7 +10,7 @@
 #include "jsapi.h"
 #include "mozilla/RefPtr.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

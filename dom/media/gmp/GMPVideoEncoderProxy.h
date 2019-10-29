@@ -6,7 +6,7 @@
 #ifndef GMPVideoEncoderProxy_h_
 #define GMPVideoEncoderProxy_h_
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "gmp-video-encode.h"
 #include "gmp-video-frame-i420.h"
 #include "gmp-video-frame-encoded.h"

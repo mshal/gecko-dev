@@ -6,7 +6,7 @@
 
 #include "WorkerDebuggerManager.h"
 
-#include "nsSimpleEnumerator.h"
+#include "xpcom/ds/nsSimpleEnumerator.h"
 
 #include "mozilla/ClearOnShutdown.h"
 #include "mozilla/StaticPtr.h"

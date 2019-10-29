@@ -6,7 +6,7 @@
 #include "nsPrintProgress.h"
 
 #include "mozilla/dom/BrowsingContext.h"
-#include "nsArray.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsIBaseWindow.h"
 #include "nsIDocShell.h"
 #include "nsIDocShellTreeOwner.h"

@@ -17,7 +17,7 @@
 #include "nsLineLayout.h"
 #include "nsBlockFrame.h"
 #include "nsPlaceholderFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsPresContext.h"
 #include "nsPresContextInlines.h"
 #include "nsCSSAnonBoxes.h"

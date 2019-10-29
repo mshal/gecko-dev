@@ -11,13 +11,13 @@
 #include "nsISupports.h"
 #include "nsAutoPtr.h"
 #include "nsCOMPtr.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 #include <new>
 
 #include "nsString.h"
 #include "nsCRTGlue.h"
 #include "nsUnicharUtils.h"
-#include "nsPointerHashKeys.h"
+#include "xpcom/ds/nsPointerHashKeys.h"
 
 #include <stdint.h>
 #include <stdlib.h>

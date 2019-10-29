@@ -11,7 +11,7 @@
 #include "mozilla/Services.h"
 #include "mozilla/Unused.h"
 #include "nsASCIIMask.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsContentSecurityManager.h"
 #include "nsContentUtils.h"
 #include "nsIClearDataService.h"

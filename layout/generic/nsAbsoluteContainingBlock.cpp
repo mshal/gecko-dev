@@ -12,7 +12,7 @@
 #include "nsAbsoluteContainingBlock.h"
 
 #include "nsContainerFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/CSSAlignUtils.h"
 #include "mozilla/PresShell.h"
 #include "mozilla/ReflowInput.h"

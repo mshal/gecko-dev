@@ -9,7 +9,7 @@
 #include "mozilla/FontPropertyTypes.h"
 #include "mozilla/Logging.h"
 #include "mozilla/gfx/Types.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 #include "nsCOMPtr.h"
 #include "nsUnicodeScriptCodes.h"

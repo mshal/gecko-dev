@@ -17,8 +17,8 @@
 #include "nsServiceManagerUtils.h"
 
 #include "nsAutoPtr.h"
-#include "nsCOMArray.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsCOMArray.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 
 #include "nsXPCOM.h"
 #include "MainThreadUtils.h"

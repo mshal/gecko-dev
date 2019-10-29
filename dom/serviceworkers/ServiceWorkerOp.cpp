@@ -20,7 +20,7 @@
 #include "nsITimer.h"
 #include "nsProxyRelease.h"
 #include "nsServiceManagerUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsThreadUtils.h"
 
 #include "ServiceWorkerCloneData.h"

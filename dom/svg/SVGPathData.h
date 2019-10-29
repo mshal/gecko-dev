@@ -17,7 +17,7 @@
 #include "mozilla/gfx/Types.h"
 #include "mozilla/MemoryReporting.h"
 #include "mozilla/RefPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include <string.h>
 

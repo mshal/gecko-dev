@@ -10,7 +10,7 @@
 #include "mozilla/RangedPtr.h"
 
 #include "nsDependentSubstring.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 /**
  * This parses a SeparatorChar-separated string into tokens.

@@ -11,7 +11,7 @@
 
 #include "nsHTMLStyleSheet.h"
 #include "nsMappedAttributes.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsPresContext.h"
 #include "mozilla/EventStates.h"
 #include "mozilla/PresShell.h"
@@ -21,7 +21,7 @@
 #include "nsError.h"
 #include "mozilla/MemoryReporting.h"
 #include "mozilla/dom/Element.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "mozilla/OperatorNewExtensions.h"
 #include "mozilla/RestyleManager.h"
 #include "mozilla/ServoBindings.h"

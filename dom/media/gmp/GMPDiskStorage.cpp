@@ -11,7 +11,7 @@
 #include "gmp-storage.h"
 #include "mozilla/Unused.h"
 #include "mozilla/EndianUtils.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "prio.h"
 #include "mozIGeckoMediaPluginService.h"
 #include "nsContentCID.h"

@@ -7,7 +7,7 @@
 
 #include "mozilla/EndianUtils.h"
 #include "nscore.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "MediaData.h"
 #include "MediaSpan.h"
 #include "mozilla/Logging.h"

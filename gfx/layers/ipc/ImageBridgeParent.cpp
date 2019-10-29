@@ -29,8 +29,8 @@
 #include "mozilla/Unused.h"
 #include "nsDebug.h"                 // for NS_ASSERTION, etc
 #include "nsISupportsImpl.h"         // for ImageBridgeParent::Release, etc
-#include "nsTArray.h"                // for nsTArray, nsTArray_Impl
-#include "nsTArrayForwardDeclare.h"  // for nsTArray
+#include "xpcom/ds/nsTArray.h"                // for nsTArray, nsTArray_Impl
+#include "xpcom/ds/nsTArrayForwardDeclare.h"  // for nsTArray
 #include "nsXULAppAPI.h"             // for XRE_GetIOMessageLoop
 #include "mozilla/layers/TextureHost.h"
 #include "nsThreadUtils.h"

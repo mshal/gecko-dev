@@ -14,7 +14,7 @@ interface nsIDNSRecord;
 interface nsIDNSListener;
 
 %{C++
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 namespace mozilla { namespace net {
     struct DNSCacheEntries;
 } }

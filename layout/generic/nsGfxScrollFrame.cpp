@@ -18,7 +18,7 @@
 #include "nsViewportInfo.h"
 #include "nsIScrollable.h"
 #include "nsContainerFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsNameSpaceManager.h"
 #include "mozilla/dom/DocumentInlines.h"
 #include "mozilla/gfx/gfxVars.h"

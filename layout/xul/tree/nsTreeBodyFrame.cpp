@@ -28,7 +28,7 @@
 #include "nsTreeSelection.h"
 #include "nsTreeImageListener.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsCSSAnonBoxes.h"
 
 #include "gfxContext.h"
@@ -40,7 +40,7 @@
 #include "nsContainerFrame.h"
 #include "nsView.h"
 #include "nsViewManager.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "nsWidgetsCID.h"
 #include "nsIFrameInlines.h"
 #include "nsBoxFrame.h"

@@ -10,7 +10,7 @@
 #include "nsIMultiPartChannel.h"
 #include "nsIResumableChannel.h"
 #include "nsIStreamListener.h"
-#include "nsHashPropertyBag.h"
+#include "xpcom/ds/nsHashPropertyBag.h"
 #include "mozilla/net/PrivateBrowsingChannel.h"
 
 namespace IPC {

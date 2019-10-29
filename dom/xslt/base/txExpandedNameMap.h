@@ -9,7 +9,7 @@
 #include "nsAutoPtr.h"
 #include "nsError.h"
 #include "txExpandedName.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class txExpandedNameMap_base {
  protected:

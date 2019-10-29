@@ -28,7 +28,7 @@
 #include "nsIUploadChannel2.h"
 #include "nsNetUtil.h"
 #include "nsProxyRelease.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsThreadUtils.h"
 
 #include "ServiceWorkerPrivate.h"

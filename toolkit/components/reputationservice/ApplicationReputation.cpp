@@ -48,7 +48,7 @@
 #include "nsReadableUtils.h"
 #include "nsServiceManagerUtils.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsThreadUtils.h"
 
 #include "nsIContentPolicy.h"

@@ -9,7 +9,7 @@
 
 #include "nsIChannel.h"
 #include "nsIParentChannel.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/Mutex.h"
 

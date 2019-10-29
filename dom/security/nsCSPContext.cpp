@@ -33,7 +33,7 @@
 #include "nsMimeTypes.h"
 #include "nsNetUtil.h"
 #include "nsIContentPolicy.h"
-#include "nsSupportsPrimitives.h"
+#include "xpcom/ds/nsSupportsPrimitives.h"
 #include "nsThreadUtils.h"
 #include "nsString.h"
 #include "nsScriptSecurityManager.h"

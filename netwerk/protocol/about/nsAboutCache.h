@@ -15,7 +15,7 @@
 #include "nsILoadContextInfo.h"
 
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #define NS_FORWARD_SAFE_NSICHANNEL_SUBSET(_to)                                 \
   NS_IMETHOD GetOriginalURI(nsIURI** aOriginalURI) override {                  \

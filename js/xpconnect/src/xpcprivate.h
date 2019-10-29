@@ -97,7 +97,7 @@
 #include "js/GCHashTable.h"
 #include "js/TracingAPI.h"
 #include "js/WeakMapPtr.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 #include "nscore.h"
 #include "nsXPCOM.h"
 #include "nsAutoPtr.h"
@@ -130,16 +130,16 @@
 
 #include "nsIConsoleService.h"
 
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "nsIProperty.h"
-#include "nsCOMArray.h"
-#include "nsTArray.h"
-#include "nsBaseHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsCOMArray.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsBaseHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsWrapperCache.h"
 #include "nsStringBuffer.h"
-#include "nsDataHashtable.h"
-#include "nsDeque.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsDeque.h"
 
 #include "nsIScriptSecurityManager.h"
 

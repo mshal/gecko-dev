@@ -14,7 +14,7 @@
 #include "nsIContent.h"
 #include "nsContentCID.h"
 #include "nsUnicharUtils.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "txLog.h"
 #include "nsIConsoleService.h"
 #include "nsNameSpaceManager.h"

@@ -7,7 +7,7 @@
 #ifndef nsTreeUtils_h__
 #define nsTreeUtils_h__
 
-#include "mozilla/AtomArray.h"
+#include "xpcom/ds/AtomArray.h"
 #include "nsError.h"
 #include "nsString.h"
 #include "nsTreeStyleCache.h"

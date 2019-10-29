@@ -4,7 +4,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "txXPathTreeWalker.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsINode.h"
 #include "nsPrintfCString.h"
 #include "nsReadableUtils.h"
@@ -14,7 +14,7 @@
 #include "txLog.h"
 #include "nsUnicharUtils.h"
 #include "nsAttrName.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/dom/Attr.h"
 #include "mozilla/dom/CharacterData.h"
 #include "mozilla/dom/Element.h"

@@ -8,7 +8,7 @@
 #define mozilla_net_CookieSettings_h
 
 #include "nsICookieSettings.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 class nsIPermission;
 

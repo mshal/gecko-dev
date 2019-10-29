@@ -6,7 +6,7 @@
 
 #include "nsCacheSession.h"
 #include "nsCacheService.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsThreadUtils.h"
 
 NS_IMPL_ISUPPORTS(nsCacheSession, nsICacheSession)

@@ -9,7 +9,7 @@
 
 #include "nsWrapperCache.h"
 #include "mozilla/Attributes.h"
-#include "mozilla/Observer.h"
+#include "xpcom/ds/Observer.h"
 #include "mozilla/DOMEventTargetHelper.h"
 #include "mozilla/ErrorResult.h"
 #include "mozilla/dom/MIDIAccess.h"

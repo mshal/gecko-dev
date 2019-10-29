@@ -18,7 +18,7 @@
 #include "gfxPlatformGtk.h"
 #include "mozilla/Logging.h"
 #include "nsGtkUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace widget {

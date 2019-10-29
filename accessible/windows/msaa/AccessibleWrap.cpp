@@ -43,7 +43,7 @@
 #include "nsView.h"
 #include "nsViewManager.h"
 #include "nsEventMap.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "mozilla/Preferences.h"
 #include "mozilla/ReverseIterator.h"
 #include "nsIXULRuntime.h"

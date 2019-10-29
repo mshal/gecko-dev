@@ -13,7 +13,7 @@
 #include "TableCellAccessible.h"
 #include "nsMai.h"
 #include "ProxyAccessible.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 
 #include "mozilla/Likely.h"
 

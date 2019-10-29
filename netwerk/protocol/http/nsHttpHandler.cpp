@@ -44,7 +44,7 @@
 #include "nsIObserverService.h"
 #include "nsISiteSecurityService.h"
 #include "nsIStreamConverterService.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIMemoryReporter.h"
 #include "nsIParentalControlsService.h"
 #include "nsPIDOMWindow.h"
@@ -57,7 +57,7 @@
 #include "nsIOService.h"
 #include "nsISupportsPrimitives.h"
 #include "nsIXULRuntime.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsRFPService.h"
 #include "rust-helper/src/helper.h"
 

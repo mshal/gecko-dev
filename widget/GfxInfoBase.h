@@ -22,7 +22,7 @@
 #include "nsIGfxInfoDebug.h"
 #include "nsIObserver.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWeakReference.h"
 
 namespace mozilla {

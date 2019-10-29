@@ -27,7 +27,7 @@
 #include "nsCycleCollectionNoteChild.h"
 #include "nsICanvasRenderingContextInternal.h"
 #include "nsLayoutUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWrapperCache.h"
 #include "SurfaceTypes.h"
 #include "ScopedGLHelpers.h"

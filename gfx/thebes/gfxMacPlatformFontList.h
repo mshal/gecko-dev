@@ -10,15 +10,15 @@
 
 #include "mozilla/FontPropertyTypes.h"
 #include "mozilla/MemoryReporting.h"
-#include "nsDataHashtable.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 
 #include "gfxPlatformFontList.h"
 #include "gfxPlatform.h"
 #include "gfxPlatformMac.h"
 
 #include "nsUnicharUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/LookAndFeel.h"
 
 #include "mozilla/gfx/UnscaledFontMac.h"

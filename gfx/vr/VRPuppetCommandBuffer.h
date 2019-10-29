@@ -9,7 +9,7 @@
 
 #include <inttypes.h>
 #include "mozilla/Mutex.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "moz_external_vr.h"
 #include "mozilla/TimeStamp.h"
 

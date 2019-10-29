@@ -18,9 +18,9 @@
 #include "nsIRadioGroupContainer.h"
 #include "nsIWeakReferenceUtils.h"
 #include "nsThreadUtils.h"
-#include "nsInterfaceHashtable.h"
-#include "nsRefPtrHashtable.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "jsfriendapi.h"  // For js::ExpandoAndGeneration
 
 class nsIMutableArray;

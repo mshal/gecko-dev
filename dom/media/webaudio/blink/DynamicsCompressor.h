@@ -32,7 +32,7 @@
 #include "DynamicsCompressorKernel.h"
 #include "ZeroPole.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsAutoPtr.h"
 #include "mozilla/MemoryReporting.h"
 #include "mozilla/UniquePtr.h"

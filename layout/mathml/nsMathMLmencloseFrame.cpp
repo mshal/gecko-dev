@@ -13,7 +13,7 @@
 #include "mozilla/gfx/2D.h"
 #include "mozilla/gfx/PathHelpers.h"
 #include "nsPresContext.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 
 #include "nsDisplayList.h"
 #include "gfxContext.h"

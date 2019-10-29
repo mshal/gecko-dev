@@ -8,7 +8,7 @@
 #else
 #  include "nsAuthSambaNTLM.h"
 #endif
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsAuthGSSAPI.h"
 #include "nsAuthSASL.h"
 #include "nsNTLMAuthModule.h"

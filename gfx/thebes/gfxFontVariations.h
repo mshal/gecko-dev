@@ -9,7 +9,7 @@
 
 #include "mozilla/gfx/FontVariation.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 typedef mozilla::gfx::FontVariation gfxFontVariation;
 

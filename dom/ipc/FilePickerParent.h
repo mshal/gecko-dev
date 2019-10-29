@@ -9,7 +9,7 @@
 
 #include "nsIEventTarget.h"
 #include "nsIFilePicker.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsThreadUtils.h"
 #include "mozilla/dom/File.h"
 #include "mozilla/dom/PFilePickerParent.h"

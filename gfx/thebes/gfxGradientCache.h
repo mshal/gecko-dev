@@ -7,7 +7,7 @@
 #ifndef GFX_GRADIENT_CACHE_H
 #define GFX_GRADIENT_CACHE_H
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "gfxPattern.h"
 #include "mozilla/gfx/2D.h"
 

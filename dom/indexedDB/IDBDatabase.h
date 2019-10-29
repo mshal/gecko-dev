@@ -13,10 +13,10 @@
 #include "mozilla/dom/quota/PersistenceType.h"
 #include "mozilla/DOMEventTargetHelper.h"
 #include "nsAutoPtr.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsString.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 class nsIEventTarget;
 class nsIGlobalObject;

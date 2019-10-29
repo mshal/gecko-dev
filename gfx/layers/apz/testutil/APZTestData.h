@@ -10,7 +10,7 @@
 #include <map>
 
 #include "nsDebug.h"  // for NS_WARNING
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Assertions.h"       // for MOZ_ASSERT
 #include "mozilla/DebugOnly.h"        // for DebugOnly
 #include "mozilla/GfxMessageUtils.h"  // for ParamTraits specializations

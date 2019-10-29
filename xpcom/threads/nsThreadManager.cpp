@@ -9,7 +9,7 @@
 #include "nsThreadPool.h"
 #include "nsThreadUtils.h"
 #include "nsIClassInfoImpl.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsAutoPtr.h"
 #include "nsXULAppAPI.h"
 #include "MainThreadQueue.h"

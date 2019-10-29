@@ -9,7 +9,7 @@
 #include "nsIconChannel.h"
 #include "nsIconURI.h"
 #include "nsIURL.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsCOMPtr.h"
 #include "nsIComponentManager.h"
 #include "nsIServiceManager.h"

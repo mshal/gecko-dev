@@ -7,7 +7,7 @@
 #include "PerformanceResourceTiming.h"
 #include "mozilla/dom/PerformanceResourceTimingBinding.h"
 #include "nsNetUtil.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 
 using namespace mozilla::dom;
 

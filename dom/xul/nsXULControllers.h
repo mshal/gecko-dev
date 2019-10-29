@@ -13,7 +13,7 @@
 #define nsXULControllers_h__
 
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIControllers.h"
 #include "nsCycleCollectionParticipant.h"
 

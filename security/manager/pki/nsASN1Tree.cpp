@@ -4,7 +4,7 @@
 #include "nsASN1Tree.h"
 
 #include "mozilla/Assertions.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsDebug.h"
 #include "nsIMutableArray.h"
 #include "nsString.h"

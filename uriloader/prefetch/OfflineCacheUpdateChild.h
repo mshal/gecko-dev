@@ -9,7 +9,7 @@
 #include "mozilla/docshell/POfflineCacheUpdateChild.h"
 #include "nsIOfflineCacheUpdate.h"
 
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "mozilla/dom/Document.h"
 #include "nsIObserver.h"

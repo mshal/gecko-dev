@@ -29,7 +29,7 @@
 #include "mozilla/Span.h"
 #include "mozilla/UniquePtr.h"
 
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsString.h"
 #include "nsISerializable.h"
 #include "nsIClassInfo.h"

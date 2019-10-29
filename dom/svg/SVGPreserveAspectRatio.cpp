@@ -8,7 +8,7 @@
 
 #include "mozilla/dom/SVGPreserveAspectRatioBinding.h"
 #include "nsContentUtils.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 #include "SVGAnimatedPreserveAspectRatio.h"
 
 using namespace mozilla::dom;

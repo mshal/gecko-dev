@@ -7,7 +7,7 @@
 #ifndef nsStyleAutoArray_h_
 #define nsStyleAutoArray_h_
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Assertions.h"
 
 /**

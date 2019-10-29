@@ -9,12 +9,12 @@
 
 #include "mozilla/Monitor.h"
 #include "mozilla/Telemetry.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsIAsyncShutdown.h"
 #include "nsIObserver.h"
 #include "nsCOMPtr.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #define SERVICEWORKERREGISTRAR_FILE "serviceworker.txt"
 #define SERVICEWORKERREGISTRAR_VERSION "8"

@@ -14,8 +14,8 @@
 
 #include "nsColor.h"
 #include "nsCOMPtr.h"
-#include "nsAtom.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/nsAtom.h"
+#include "xpcom/ds/PLDHashTable.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/MemoryReporting.h"
 #include "nsString.h"

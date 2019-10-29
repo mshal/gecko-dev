@@ -12,7 +12,7 @@
 #include "mozilla/layers/MLGDevice.h"
 #include "mozilla/layers/SyncObject.h"
 #include "mozilla/EnumeratedArray.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "nsPrintfCString.h"
 
 namespace mozilla {

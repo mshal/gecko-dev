@@ -21,7 +21,7 @@
 #include "mozilla/RefCounted.h"
 #include "mozilla/UniquePtr.h"
 #include "mozilla/RefPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIInputStream;
 

@@ -46,7 +46,7 @@
 #include "nsPoint.h"                     // for nsIntPoint
 #include "nsRect.h"                      // for mozilla::gfx::IntRect
 #include "nsRegion.h"                    // for nsIntRegion, etc
-#include "nsTArray.h"                    // for AutoTArray
+#include "xpcom/ds/nsTArray.h"                    // for AutoTArray
 #include "TreeTraversal.h"               // for ForEachNode
 
 class nsIWidget;

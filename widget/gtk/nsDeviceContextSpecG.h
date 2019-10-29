@@ -13,7 +13,7 @@
 #include "nsString.h"
 #include "mozilla/Attributes.h"
 
-#include "nsCRT.h" /* should be <limits.h>? */
+#include "xpcom/ds/nsCRT.h" /* should be <limits.h>? */
 
 #include <gtk/gtk.h>
 #include <gtk/gtkunixprint.h>

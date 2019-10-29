@@ -4,10 +4,10 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "mozilla/gfx/2D.h"
-#include "nsTArray.h"
-#include "PLDHashTable.h"
-#include "nsExpirationTracker.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/PLDHashTable.h"
+#include "xpcom/ds/nsExpirationTracker.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "mozilla/SystemGroup.h"
 #include "gfxGradientCache.h"
 #include <time.h>

@@ -9,7 +9,7 @@
 
 #include "mozilla/RefPtr.h"
 #include "nsRect.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsStyleConsts.h"
 
 class gfxContext;

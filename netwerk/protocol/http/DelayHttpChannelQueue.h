@@ -8,7 +8,7 @@
 #define mozilla_net_DelayHttpChannelQueue_h
 
 #include "nsIObserver.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace net {

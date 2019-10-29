@@ -21,8 +21,8 @@
 #include "nsIStreamListener.h"
 #include "nsIDTD.h"
 #include "nsString.h"
-#include "nsTArray.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsParserBase.h"
 #include "mozilla/NotNull.h"
 

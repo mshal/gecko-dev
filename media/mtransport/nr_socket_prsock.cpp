@@ -108,7 +108,7 @@ nrappkit copyright:
 #include "nsXULAppAPI.h"
 #include "runnable_utils.h"
 #include "mozilla/SyncRunnable.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/SystemGroup.h"
 #include "nsIPrefService.h"
 #include "nsIPrefBranch.h"

@@ -14,7 +14,7 @@
 #include "nsPersistentProperties.h"
 #include "nsIProperties.h"
 
-#include "mozilla/ArenaAllocatorExtensions.h"
+#include "ArenaAllocatorExtensions.h"
 
 using mozilla::ArenaStrdup;
 

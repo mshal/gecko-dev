@@ -5,7 +5,7 @@
 #include "nsISupports.idl"
 
 %{ C++
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 %}
 
 [ref] native CStringArrayRef(nsTArray<nsCString>);

@@ -12,7 +12,7 @@
 #include "nsIWritablePropertyBag2.h"
 
 #include "nsCycleCollectionParticipant.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 
 class nsHashPropertyBagBase : public nsIWritablePropertyBag,
                               public nsIWritablePropertyBag2 {

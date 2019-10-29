@@ -30,7 +30,7 @@
 #include "nsIHandlerService.h"
 #include "nsCOMPtr.h"
 #include "nsIObserver.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsWeakReference.h"
 #include "nsIPrompt.h"
 #include "nsAutoPtr.h"

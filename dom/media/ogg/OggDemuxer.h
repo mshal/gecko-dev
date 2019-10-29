@@ -6,7 +6,7 @@
 #if !defined(OggDemuxer_h_)
 #  define OggDemuxer_h_
 
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 #  include "MediaDataDemuxer.h"
 #  include "OggCodecState.h"
 #  include "OggCodecStore.h"

@@ -13,7 +13,7 @@
 #include "nsContainerFrame.h"
 #include "nsIAnonymousContentCreator.h"
 #include "nsStringFwd.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 #include "FrameLayerBuilder.h"
 
 namespace mozilla {

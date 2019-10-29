@@ -19,7 +19,7 @@
 #include "nsPIDOMWindow.h"
 #include "nsJSUtils.h"
 #include "mozilla/ClearOnShutdown.h"
-#include "mozilla/Observer.h"
+#include "xpcom/ds/Observer.h"
 #include "mozilla/dom/ContentChild.h"
 #include "WindowIdentifier.h"
 

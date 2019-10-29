@@ -13,8 +13,8 @@
 #include "gfxUserFontSet.h"
 #include "SharedFontList-impl.h"
 
-#include "nsCRT.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsCRT.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsServiceManagerUtils.h"
 #include "nsUnicharUtils.h"
 #include "nsUnicodeProperties.h"

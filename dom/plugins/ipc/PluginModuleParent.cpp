@@ -27,7 +27,7 @@
 #include "mozilla/Telemetry.h"
 #include "mozilla/Unused.h"
 #include "nsAutoPtr.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIFile.h"
 #include "nsIObserverService.h"
 #include "nsIXULRuntime.h"

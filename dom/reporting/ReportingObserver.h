@@ -13,7 +13,7 @@
 #include "nsIObserver.h"
 #include "nsWeakReference.h"
 #include "nsWrapperCache.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsPIDOMWindowInner;
 

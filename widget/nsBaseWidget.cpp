@@ -74,7 +74,7 @@
 #include "mozilla/Sprintf.h"
 #include "mozilla/StaticPrefs_layout.h"
 #include "mozilla/webrender/WebRenderTypes.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "TouchEvents.h"
 #include "WritingModes.h"
 #include "InputData.h"

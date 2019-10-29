@@ -19,7 +19,7 @@
 #  include "mozilla/TaskQueue.h"
 #  include "mozilla/layers/KnowsCompositor.h"
 #  include "mozilla/layers/LayersTypes.h"
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 #  include <queue>
 
 namespace mozilla {

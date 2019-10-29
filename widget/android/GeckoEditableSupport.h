@@ -9,7 +9,7 @@
 #include "GeneratedJNIWrappers.h"
 #include "nsAppShell.h"
 #include "nsIWidget.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "mozilla/TextEventDispatcher.h"
 #include "mozilla/TextEventDispatcherListener.h"

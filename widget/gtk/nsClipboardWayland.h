@@ -14,7 +14,7 @@
 
 #include <gtk/gtk.h>
 #include <gdk/gdkwayland.h>
-#include <nsTArray.h>
+#include "xpcom/ds/nsTArray.h"
 
 struct FastTrackClipboard;
 

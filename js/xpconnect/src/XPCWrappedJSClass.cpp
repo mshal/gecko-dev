@@ -8,7 +8,7 @@
 
 #include "xpcprivate.h"
 #include "js/Printf.h"
-#include "nsArrayEnumerator.h"
+#include "xpcom/ds/nsArrayEnumerator.h"
 #include "nsINamed.h"
 #include "nsIScriptError.h"
 #include "nsWrapperCache.h"

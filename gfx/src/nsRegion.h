@@ -23,7 +23,7 @@
 #include "mozilla/Move.h"           // for mozilla::Move
 #include "mozilla/gfx/MatrixFwd.h"  // for mozilla::gfx::Matrix4x4
 #include "mozilla/gfx/Logging.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "pixman.h"
 

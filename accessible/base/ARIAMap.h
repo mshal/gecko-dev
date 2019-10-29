@@ -12,7 +12,7 @@
 #include "mozilla/a11y/AccTypes.h"
 #include "mozilla/a11y/Role.h"
 
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsIContent.h"
 #include "mozilla/dom/Element.h"
 

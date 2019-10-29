@@ -10,8 +10,8 @@
 
 #include "nsMenuBaseX.h"
 #include "nsIMutationObserver.h"
-#include "nsHashKeys.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsString.h"
 
 class nsMenuItemX;

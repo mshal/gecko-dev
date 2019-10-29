@@ -10,7 +10,7 @@
 #include "mozilla/layers/SourceSurfaceSharedData.h"
 #include "mozilla/layers/TextureClient.h"
 #include "mozilla/SharedThreadPool.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "prsystem.h"
 
 #if defined(XP_WIN)

@@ -19,12 +19,12 @@
 #include "mozilla/ipc/Shmem.h"
 #include "mozilla/jsipc/CrossProcessObjectWrappers.h"
 #include "nsAutoPtr.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsIObserver.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "nsStringFwd.h"
-#include "nsTArrayForwardDeclare.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 
 #include "nsIWindowProvider.h"
 

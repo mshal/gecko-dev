@@ -17,11 +17,11 @@
 #include "mozilla/Preferences.h"  // for Preferences
 #include "mozilla/Services.h"     // for GetObserverService
 #include "mozilla/mozalloc.h"     // for operator new
-#include "nsCRT.h"                // for nsCRT
+#include "xpcom/ds/nsCRT.h"                // for nsCRT
 #include "nsDebug.h"              // for NS_ASSERTION, etc
 #include "nsFont.h"               // for nsFont
 #include "nsFontMetrics.h"        // for nsFontMetrics
-#include "nsAtom.h"               // for nsAtom, NS_Atomize
+#include "xpcom/ds/nsAtom.h"               // for nsAtom, NS_Atomize
 #include "nsID.h"
 #include "nsIDeviceContextSpec.h"   // for nsIDeviceContextSpec
 #include "nsLanguageAtomService.h"  // for nsLanguageAtomService
@@ -34,7 +34,7 @@
 #include "nsRect.h"                 // for nsRect
 #include "nsServiceManagerUtils.h"  // for do_GetService
 #include "nsString.h"               // for nsDependentString
-#include "nsTArray.h"               // for nsTArray, nsTArray_Impl
+#include "xpcom/ds/nsTArray.h"               // for nsTArray, nsTArray_Impl
 #include "nsThreadUtils.h"          // for NS_IsMainThread
 #include "mozilla/gfx/Logging.h"
 #include "mozilla/widget/ScreenManager.h"  // for ScreenManager

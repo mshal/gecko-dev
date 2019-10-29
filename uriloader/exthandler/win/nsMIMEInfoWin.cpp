@@ -4,8 +4,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "nsArrayEnumerator.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsArrayEnumerator.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsLocalFile.h"
 #include "nsMIMEInfoWin.h"
 #include "nsNetUtil.h"
@@ -13,14 +13,14 @@
 #include <shellapi.h>
 #include "nsAutoPtr.h"
 #include "nsIMutableArray.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "shlobj.h"
 #include "windows.h"
 #include "nsIWindowsRegKey.h"
 #include "nsIProcess.h"
 #include "nsUnicharUtils.h"
 #include "nsITextToSubURI.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "mozilla/ShellHeaderOnlyUtils.h"
 #include "mozilla/UrlmonHeaderOnlyUtils.h"
 #include "mozilla/UniquePtrExtensions.h"

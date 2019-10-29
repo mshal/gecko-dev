@@ -13,9 +13,9 @@
 #include "mozilla/UniquePtr.h"
 #include "mozilla/dom/MediaDebugInfoBinding.h"
 #include "nsCOMPtr.h"
-#include "nsHashKeys.h"
-#include "nsTArray.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 #include "MediaChannelStatistics.h"
 

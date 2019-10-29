@@ -9,7 +9,7 @@
 
 #include "mozilla/Mutex.h"
 #include "nsIConsoleReportCollector.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 

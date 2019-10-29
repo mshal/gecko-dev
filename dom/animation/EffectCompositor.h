@@ -18,8 +18,8 @@
 #include "mozilla/ServoTypes.h"
 #include "nsCSSPropertyID.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsDataHashtable.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsCSSPropertyIDSet;
 class nsAtom;

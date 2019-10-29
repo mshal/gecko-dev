@@ -13,10 +13,10 @@
 #include "mozilla/Mutex.h"
 #include "mozilla/StaticPtr.h"
 #include "nsCOMPtr.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsIObserver.h"
 #include "nsITimer.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsString.h"
 
 class psm_DataStorageTest;

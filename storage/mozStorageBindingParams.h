@@ -7,9 +7,9 @@
 #ifndef mozStorageBindingParams_h
 #define mozStorageBindingParams_h
 
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsIVariant.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 
 #include "mozStorageBindingParamsArray.h"
 #include "mozStorageStatement.h"

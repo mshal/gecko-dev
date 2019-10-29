@@ -10,7 +10,7 @@
 #include "mozilla/DOMEventTargetHelper.h"
 #include "mozilla/dom/AudioNodeBinding.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "AudioContext.h"
 #include "MediaTrackGraph.h"
 #include "WebAudioUtils.h"

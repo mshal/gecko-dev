@@ -9,7 +9,7 @@
 
 #include "nsIControllerCommandTable.h"
 #include "nsWeakReference.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 
 class nsIControllerCommand;
 

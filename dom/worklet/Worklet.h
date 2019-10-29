@@ -9,7 +9,7 @@
 
 #include "mozilla/Attributes.h"
 #include "mozilla/ErrorResult.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsWrapperCache.h"
 #include "nsCOMPtr.h"
 

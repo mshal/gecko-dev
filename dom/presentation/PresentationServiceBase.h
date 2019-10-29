@@ -8,13 +8,13 @@
 #define mozilla_dom_PresentationServiceBase_h
 
 #include "mozilla/Unused.h"
-#include "nsClassHashtable.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsIPresentationListener.h"
 #include "nsIPresentationService.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

@@ -13,7 +13,7 @@
 #include "nsThreadUtils.h"
 #include "mozilla/Mutex.h"
 #include "mozilla/StaticPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #ifdef LOG
 #  undef LOG

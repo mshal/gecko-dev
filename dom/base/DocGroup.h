@@ -9,7 +9,7 @@
 
 #include "nsISupportsImpl.h"
 #include "nsIPrincipal.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "nsString.h"
 
 #include "mozilla/dom/TabGroup.h"

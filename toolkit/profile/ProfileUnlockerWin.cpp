@@ -7,7 +7,7 @@
 #include "ProfileUnlockerWin.h"
 #include "nsCOMPtr.h"
 #include "nsIFile.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsXPCOM.h"
 
 namespace mozilla {

@@ -14,11 +14,11 @@
 #include "nsNavHistory.h"
 #include "nsNavBookmarks.h"
 #include "nsEscape.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsNetUtil.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "prprf.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 
 using namespace mozilla;
 using namespace mozilla::places;

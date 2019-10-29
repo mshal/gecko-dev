@@ -9,7 +9,7 @@
 
 #include "DelayHttpChannelQueue.h"
 #include "HttpBaseChannel.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsICachingChannel.h"
 #include "nsICacheEntry.h"
 #include "nsICacheEntryOpenCallback.h"

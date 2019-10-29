@@ -7,7 +7,7 @@
 
 %{C++
 #include "nsStringFwd.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 %}
 [ref] native StringArrayRef(nsTArray<nsCString>);
 

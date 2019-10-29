@@ -11,7 +11,7 @@
 #include "mozilla/dom/DOMRect.h"
 #include "mozilla/dom/PWindowGlobalParent.h"
 #include "mozilla/dom/BrowserParent.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsWrapperCache.h"
 #include "nsISupports.h"
 #include "mozilla/dom/WindowGlobalActor.h"

@@ -9,7 +9,7 @@
 #ifndef nsCSSPseudoElements_h___
 #define nsCSSPseudoElements_h___
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/CSSEnabledState.h"
 #include "mozilla/Compiler.h"
 #include "mozilla/PseudoStyleType.h"

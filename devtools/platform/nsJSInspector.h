@@ -9,7 +9,7 @@
 #include "nsIJSInspector.h"
 #include "mozilla/Attributes.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "js/Value.h"
 #include "js/RootingAPI.h"
 

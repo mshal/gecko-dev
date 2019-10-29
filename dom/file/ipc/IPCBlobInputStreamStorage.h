@@ -8,7 +8,7 @@
 #define mozilla_dom_IPCBlobInputStreamStorage_h
 
 #include "mozilla/RefPtr.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsIObserver.h"
 
 class nsIInputStream;

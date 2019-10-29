@@ -9,8 +9,8 @@
 #ifndef nsCSSAnonBoxes_h___
 #define nsCSSAnonBoxes_h___
 
-#include "nsAtom.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsAtom.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/PseudoStyleType.h"
 
 class nsCSSAnonBoxes {

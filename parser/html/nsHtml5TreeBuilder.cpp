@@ -31,7 +31,7 @@
 #define nsHtml5TreeBuilder_cpp__
 
 #include "nsContentUtils.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsHtml5AtomTable.h"
 #include "nsITimer.h"
 #include "nsHtml5String.h"
@@ -42,7 +42,7 @@
 #include "nsHtml5DocumentMode.h"
 #include "nsHtml5ArrayCopy.h"
 #include "nsHtml5Parser.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsHtml5TreeOperation.h"
 #include "nsHtml5StateSnapshot.h"
 #include "nsHtml5StackNode.h"

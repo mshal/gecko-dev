@@ -6,7 +6,7 @@
 #define SharedFontList_h
 
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/RefPtr.h"
 #include "mozilla/FontPropertyTypes.h"
 #include <atomic>

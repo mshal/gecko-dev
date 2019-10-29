@@ -9,7 +9,7 @@
 #include <nsISupportsUtils.h>
 
 #include "nsID.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 #include "nsIObserver.h"
 #include "nsUrlClassifierPrefixSet.h"
 #include "nsIUrlClassifierHashCompleter.h"

@@ -3,7 +3,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "nsUConvPropertySearch.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsString.h"
 #include "mozilla/BinarySearch.h"
 

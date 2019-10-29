@@ -18,7 +18,7 @@
 #include "mozilla/RefPtr.h"
 #include "mozilla/SVGContextPaint.h"
 #include "nsDisplayList.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsLayoutUtils.h"
 #include "SVGObserverUtils.h"
 #include "nsSVGIntegrationUtils.h"

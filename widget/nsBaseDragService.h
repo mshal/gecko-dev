@@ -17,7 +17,7 @@
 #include "mozilla/dom/ContentParent.h"
 #include "mozilla/dom/HTMLCanvasElement.h"
 #include "mozilla/dom/RemoteDragStartData.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsRegion.h"
 #include "Units.h"
 

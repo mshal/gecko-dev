@@ -10,7 +10,7 @@
 #include "DOMSVGLengthList.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsDebug.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "SVGLength.h"
 #include "mozilla/Attributes.h"
 #include "nsWrapperCache.h"

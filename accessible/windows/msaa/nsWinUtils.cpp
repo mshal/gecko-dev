@@ -14,7 +14,7 @@
 
 #include "mozilla/a11y/DocAccessibleParent.h"
 #include "mozilla/Preferences.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsIArray.h"
 #include "nsICSSDeclaration.h"
 #include "mozilla/dom/Document.h"

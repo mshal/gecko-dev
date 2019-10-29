@@ -10,7 +10,7 @@
 
 #include "nsString.h"
 #include "nsIInputStream.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 
 class nsIFile;
 

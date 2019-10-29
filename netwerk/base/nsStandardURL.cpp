@@ -8,7 +8,7 @@
 
 #include "nsASCIIMask.h"
 #include "nsStandardURL.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsEscape.h"
 #include "nsIFile.h"
 #include "nsIObjectInputStream.h"

@@ -5,8 +5,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "FuzzyLayer.h"
-#include "nsDataHashtable.h"
-#include "nsDeque.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsDeque.h"
 #include "nsIRunnable.h"
 #include "nsSocketTransportService2.h"
 #include "nsThreadUtils.h"

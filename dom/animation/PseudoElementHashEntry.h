@@ -10,7 +10,7 @@
 #include "mozilla/dom/Element.h"
 #include "mozilla/AnimationTarget.h"
 #include "mozilla/HashFunctions.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 
 namespace mozilla {
 

@@ -10,7 +10,7 @@
 #include "inLayoutUtils.h"
 
 #include "gfxTextRun.h"
-#include "nsArray.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsAutoPtr.h"
 #include "nsIServiceManager.h"
 #include "nsString.h"
@@ -26,7 +26,7 @@
 #include "ChildIterator.h"
 #include "nsComputedDOMStyle.h"
 #include "mozilla/EventStateManager.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsPresContext.h"
 #include "nsRange.h"
 #include "mozilla/PresShell.h"

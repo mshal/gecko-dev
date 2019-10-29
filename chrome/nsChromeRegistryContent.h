@@ -7,7 +7,7 @@
 #define nsChromeRegistryContent_h
 
 #include "nsChromeRegistry.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 
 struct ChromePackage;
 struct SubstitutionMapping;

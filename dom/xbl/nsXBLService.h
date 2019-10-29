@@ -11,9 +11,9 @@
 
 #include "nsString.h"
 #include "nsWeakReference.h"
-#include "nsTArray.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 class nsXBLBinding;
 class nsXBLDocumentInfo;

@@ -6,7 +6,7 @@
 #define nsAHttpTransaction_h__
 
 #include "nsISupports.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWeakReference.h"
 
 #ifdef Status

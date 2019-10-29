@@ -10,8 +10,8 @@
 
 #include "nsBaseFilePicker.h"
 #include "nsString.h"
-#include "nsTArray.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 
 class nsIWidget;
 class nsIFile;

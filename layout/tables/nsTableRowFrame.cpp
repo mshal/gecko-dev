@@ -11,7 +11,7 @@
 #include "nsPresContext.h"
 #include "mozilla/ComputedStyle.h"
 #include "nsStyleConsts.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIContent.h"
 #include "nsTableFrame.h"
 #include "nsTableCellFrame.h"

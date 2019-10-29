@@ -9,7 +9,7 @@
 #include "mozilla/dom/SVGTextContentElementBinding.h"
 #include "mozilla/dom/SVGTextPathElementBinding.h"
 #include "SVGElement.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsError.h"
 
 NS_IMPL_NS_NEW_SVG_ELEMENT(TextPath)

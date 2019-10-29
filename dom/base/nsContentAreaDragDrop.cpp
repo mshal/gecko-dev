@@ -53,7 +53,7 @@
 #include "mozilla/dom/HTMLAreaElement.h"
 #include "mozilla/dom/HTMLAnchorElement.h"
 #include "mozilla/dom/Selection.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "nsQueryObject.h"
 
 using namespace mozilla::dom;

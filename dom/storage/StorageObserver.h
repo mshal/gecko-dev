@@ -10,7 +10,7 @@
 #include "nsIObserver.h"
 #include "nsITimer.h"
 #include "nsWeakReference.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 #include "nsString.h"
 
 namespace mozilla {

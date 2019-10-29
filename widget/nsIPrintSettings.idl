@@ -8,7 +8,7 @@
 
 %{ C++
 #include "nsMargin.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 %}
 
 /**

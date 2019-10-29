@@ -9,9 +9,9 @@
 #include "mozilla/EditTransactionBase.h"
 #include "nsCOMPtr.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsISupportsImpl.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nscore.h"
 
 class nsITransaction;

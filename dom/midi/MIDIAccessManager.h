@@ -10,7 +10,7 @@
 #include "nsPIDOMWindow.h"
 #include "nsIObserver.h"
 #include "mozilla/dom/MIDITypes.h"
-#include "mozilla/Observer.h"
+#include "xpcom/ds/Observer.h"
 
 namespace mozilla {
 namespace dom {

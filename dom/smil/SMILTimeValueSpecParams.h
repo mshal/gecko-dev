@@ -8,7 +8,7 @@
 #define mozilla_SMILTimeValueSpecParams_h
 
 #include "mozilla/SMILTimeValue.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 
 namespace mozilla {
 

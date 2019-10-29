@@ -12,8 +12,8 @@
 #include "nsISupportsImpl.h"
 #include "nsProxyRelease.h"
 #include "nsString.h"
-#include "nsTArray.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 
 class nsIEventTarget;
 class nsIThread;

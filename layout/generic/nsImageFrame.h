@@ -20,7 +20,7 @@
 #include "mozilla/DebugOnly.h"
 #include "mozilla/StaticPtr.h"
 #include "nsIReflowCallback.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 
 class nsFontMetrics;
 class nsImageMap;

@@ -8,7 +8,7 @@
 
 #include "Entries.h"
 #include "nsIFile.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "gtest/gtest.h"
 

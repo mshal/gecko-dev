@@ -37,7 +37,7 @@
 
 #include "mozilla/Attributes.h"
 #include "nsFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 namespace mozilla {
 class PresShell;

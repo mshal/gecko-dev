@@ -23,8 +23,8 @@
 #include "nsNetUtil.h"
 #include "nsIChannel.h"
 #include "nsIPipe.h"
-#include "nsCRT.h"
-#include "mozilla/Tokenizer.h"
+#include "xpcom/ds/nsCRT.h"
+#include "xpcom/ds/Tokenizer.h"
 #include "TCPFastOpenLayer.h"
 
 #include "nsISeekableStream.h"

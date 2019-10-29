@@ -11,7 +11,7 @@
 #include "mozilla/FontPropertyTypes.h"
 #include "mozilla/mozalloc.h"
 #include "nsAutoRef.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 
 #include <fontconfig/fontconfig.h>
 #include "ft2build.h"

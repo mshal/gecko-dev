@@ -20,7 +20,7 @@
 #include "mozilla/NullPrincipal.h"
 #include "mozilla/Preferences.h"
 #include "mozilla/SystemGroup.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsContentUtils.h"
 #include "nsError.h"
 #include "nsIAsyncShutdown.h"

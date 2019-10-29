@@ -12,7 +12,7 @@
 #include "mozilla/EffectSet.h"
 #include "mozilla/PodOperations.h"
 #include "gfx2DGlue.h"
-#include "nsExpirationTracker.h"
+#include "xpcom/ds/nsExpirationTracker.h"
 #include "nsContainerFrame.h"
 #include "nsIContent.h"
 #include "nsRefreshDriver.h"

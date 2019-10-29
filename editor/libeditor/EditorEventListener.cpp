@@ -26,7 +26,7 @@
 #include "nsCaret.h"         // for nsCaret
 #include "nsDebug.h"         // for NS_ENSURE_TRUE, etc.
 #include "nsFocusManager.h"  // for nsFocusManager
-#include "nsGkAtoms.h"       // for nsGkAtoms, nsGkAtoms::input
+#include "xpcom/ds/nsGkAtoms.h"       // for nsGkAtoms, nsGkAtoms::input
 #include "nsIClipboard.h"    // for nsIClipboard, etc.
 #include "nsIContent.h"      // for nsIContent
 #include "nsIController.h"   // for nsIController

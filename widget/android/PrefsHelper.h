@@ -10,7 +10,7 @@
 #include "MainThreadUtils.h"
 #include "nsAppShell.h"
 #include "nsCOMPtr.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 
 #include "mozilla/Preferences.h"
 #include "mozilla/Services.h"

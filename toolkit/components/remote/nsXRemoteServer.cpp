@@ -27,7 +27,7 @@
 #include "nsCOMPtr.h"
 #include "nsString.h"
 #include "prenv.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 #include "nsXULAppAPI.h"
 

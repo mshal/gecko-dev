@@ -10,7 +10,7 @@
 #include "sqlite3.h"
 
 #include "nsAutoPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIEventTarget.h"
 #include "MainThreadUtils.h"
 

@@ -8,7 +8,7 @@
 #include "mozilla/ClearOnShutdown.h"
 #include "mozilla/dom/BasicCardPaymentBinding.h"
 #include "mozilla/dom/PaymentRequestParent.h"
-#include "nsSimpleEnumerator.h"
+#include "xpcom/ds/nsSimpleEnumerator.h"
 #include "PaymentRequestService.h"
 
 namespace mozilla {

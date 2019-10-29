@@ -10,7 +10,7 @@
 #include "mozilla/RefPtr.h"
 #include "mozilla/StateMirroring.h"
 #include "mozilla/WeakPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 

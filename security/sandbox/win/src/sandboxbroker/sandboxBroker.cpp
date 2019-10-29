@@ -26,7 +26,7 @@
 #include "nsIProperties.h"
 #include "nsServiceManagerUtils.h"
 #include "nsString.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "sandbox/win/src/sandbox.h"
 #include "sandbox/win/src/security_level.h"
 #include "WinUtils.h"

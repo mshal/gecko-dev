@@ -76,7 +76,7 @@
 #include "nsDebug.h"          // for NS_ASSERTION, etc
 #include "nsISupportsImpl.h"  // for MOZ_COUNT_CTOR, etc
 #include "nsIWidget.h"        // for nsIWidget
-#include "nsTArray.h"         // for nsTArray
+#include "xpcom/ds/nsTArray.h"         // for nsTArray
 #include "nsThreadUtils.h"    // for NS_IsMainThread
 #include "nsXULAppAPI.h"      // for XRE_GetIOMessageLoop
 #ifdef XP_WIN

@@ -6,7 +6,7 @@
 
 #include "mozilla/dom/SVGMarkerElement.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "DOMSVGAngle.h"
 #include "SVGAnimatedPreserveAspectRatio.h"
 #include "nsError.h"

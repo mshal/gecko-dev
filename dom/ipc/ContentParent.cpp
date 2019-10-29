@@ -137,7 +137,7 @@
 #include "nsEmbedCID.h"
 #include "nsFrameLoader.h"
 #include "nsFrameMessageManager.h"
-#include "nsHashPropertyBag.h"
+#include "xpcom/ds/nsHashPropertyBag.h"
 #include "nsIAlertsService.h"
 #include "nsIAppStartup.h"
 #include "nsIClipboard.h"

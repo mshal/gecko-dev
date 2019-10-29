@@ -21,7 +21,7 @@
 #include "mozilla/dom/ToJSValue.h"
 #include "mozilla/dom/WindowProxyHolder.h"
 #include "nsIInterfaceRequestorUtils.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "mozilla/dom/BrowserElementDictionariesBinding.h"
 #include "mozilla/dom/CustomEvent.h"
 

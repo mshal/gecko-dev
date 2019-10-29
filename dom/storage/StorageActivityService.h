@@ -7,7 +7,7 @@
 #ifndef mozilla_dom_StorageActivityService_h
 #define mozilla_dom_StorageActivityService_h
 
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsIStorageActivityService.h"
 #include "nsITimer.h"
 #include "nsWeakReference.h"

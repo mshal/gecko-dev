@@ -10,8 +10,8 @@
 #include "mozilla/Attributes.h"
 
 #include "nsIErrorService.h"
-#include "nsClassHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 class nsErrorService final : public nsIErrorService {
  public:

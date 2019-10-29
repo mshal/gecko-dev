@@ -15,7 +15,7 @@
 #include "nsIScriptSecurityManager.h"
 #include "mozilla/Preferences.h"
 #include "mozilla/dom/Document.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "mozilla/dom/CustomEvent.h"
 #include "mozilla/dom/DocumentFragment.h"
 #include "mozilla/dom/ScriptSettings.h"

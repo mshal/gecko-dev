@@ -8,10 +8,10 @@
 
 #include "nsIStreamConverterService.h"
 
-#include "nsClassHashtable.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsStringFwd.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 
 class nsAtom;
 

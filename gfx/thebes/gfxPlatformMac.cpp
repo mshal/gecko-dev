@@ -14,7 +14,7 @@
 #include "gfxTextRun.h"
 #include "gfxUserFontSet.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Preferences.h"
 #include "mozilla/VsyncDispatcher.h"
 #include "nsCocoaFeatures.h"

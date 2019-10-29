@@ -9,7 +9,7 @@
 
 // Keep others in (case-insensitive) order:
 #include "mozilla/PresShell.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIFrame.h"
 #include "nsSVGIntegrationUtils.h"
 #include "nsSVGUtils.h"

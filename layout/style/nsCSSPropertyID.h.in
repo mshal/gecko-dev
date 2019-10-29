@@ -9,7 +9,7 @@
 #ifndef nsCSSPropertyID_h___
 #define nsCSSPropertyID_h___
 
-#include <nsHashKeys.h>
+#include "xpcom/ds/nsHashKeys.h"
 
 /*
    Declare the enum list using the magic of preprocessing

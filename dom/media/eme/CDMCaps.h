@@ -8,7 +8,7 @@
 #define CDMCaps_h_
 
 #include "nsIThread.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 #include "SamplesWaitingForKey.h"
 

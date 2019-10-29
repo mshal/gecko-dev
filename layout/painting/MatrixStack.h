@@ -7,7 +7,7 @@
 #ifndef MOZILLA_PAINTING_MATRIXSTACK_H
 #define MOZILLA_PAINTING_MATRIXSTACK_H
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/gfx/MatrixFwd.h"
 
 namespace mozilla {

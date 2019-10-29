@@ -12,7 +12,7 @@
 #include "nsICrashReporter.h"
 #include "nsMemory.h"
 #include "nsServiceManagerUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "mozilla/CondVar.h"
 #include "mozilla/RecursiveMutex.h"

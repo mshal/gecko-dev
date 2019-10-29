@@ -6,9 +6,9 @@
 
 #include "SVGAnimatedIntegerPair.h"
 
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsError.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "SVGAttrTearoffTable.h"
 #include "SVGIntegerPairSMILType.h"
 #include "mozilla/SMILValue.h"

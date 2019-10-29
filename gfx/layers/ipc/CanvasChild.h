@@ -11,8 +11,8 @@
 #include "mozilla/ipc/CrossProcessSemaphore.h"
 #include "mozilla/layers/PCanvasChild.h"
 #include "mozilla/layers/SourceSurfaceSharedData.h"
-#include "nsRefPtrHashtable.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 

@@ -8,7 +8,7 @@
 #define nsHttpHeaderArray_h__
 
 #include "nsHttp.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 
 class nsIHttpHeaderVisitor;

@@ -40,7 +40,7 @@
 #include "nsIXPConnect.h"
 #include "nsJSUtils.h"
 #include "nsLayoutUtils.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "nsNetUtil.h"
 #include "nsRefreshDriver.h"
 #include "nsStreamUtils.h"

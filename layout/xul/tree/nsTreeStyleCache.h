@@ -7,12 +7,12 @@
 #ifndef nsTreeStyleCache_h__
 #define nsTreeStyleCache_h__
 
-#include "mozilla/AtomArray.h"
+#include "xpcom/ds/AtomArray.h"
 #include "mozilla/Attributes.h"
 #include "nsAutoPtr.h"
-#include "nsCOMArray.h"
-#include "nsDataHashtable.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsCOMArray.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "mozilla/ComputedStyle.h"
 
 class nsIContent;

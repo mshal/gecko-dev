@@ -14,7 +14,7 @@
 #include "nsCOMPtr.h"
 #include "nsContentUtils.h"
 #include "nsDOMString.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 #include "nsWrapperCache.h"
 #include "mozilla/dom/Element.h"
 #include "mozilla/dom/BindingDeclarations.h"

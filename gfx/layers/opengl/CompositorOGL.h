@@ -32,7 +32,7 @@
 #include "nsCOMPtr.h"         // for already_AddRefed
 #include "nsDebug.h"          // for NS_ASSERTION, NS_WARNING
 #include "nsISupportsImpl.h"  // for MOZ_COUNT_CTOR, etc
-#include "nsTArray.h"         // for AutoTArray, nsTArray, etc
+#include "xpcom/ds/nsTArray.h"         // for AutoTArray, nsTArray, etc
 #include "nsThreadUtils.h"    // for nsRunnable
 #include "nsXULAppAPI.h"      // for XRE_GetProcessType
 #include "nscore.h"           // for NS_IMETHOD

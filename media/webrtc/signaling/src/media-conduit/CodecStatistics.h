@@ -5,7 +5,7 @@
 #define CODEC_STATISTICS_H_
 #include <math.h>
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsISupportsImpl.h"
 #include "mozilla/TimeStamp.h"
 #include "webrtc/common_types.h"

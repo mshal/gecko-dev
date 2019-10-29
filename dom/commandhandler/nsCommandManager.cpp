@@ -20,7 +20,7 @@
 #include "nsPIWindowRoot.h"
 #include "nsIFocusManager.h"
 
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 
 #include "nsCommandManager.h"
 

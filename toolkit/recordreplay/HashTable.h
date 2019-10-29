@@ -8,7 +8,7 @@
 #define mozilla_recordreplay_HashTable_h
 
 #include "plhash.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 
 namespace mozilla {
 namespace recordreplay {

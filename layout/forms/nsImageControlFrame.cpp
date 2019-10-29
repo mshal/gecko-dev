@@ -10,7 +10,7 @@
 #include "mozilla/PresShell.h"
 #include "nsIFormControlFrame.h"
 #include "nsPresContext.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsStyleConsts.h"
 #include "nsCheckboxRadioFrame.h"
 #include "nsLayoutUtils.h"

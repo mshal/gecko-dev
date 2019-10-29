@@ -7,7 +7,7 @@
 #define TransactionItem_h
 
 #include "nsCOMPtr.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsISupportsImpl.h"
 #include "nscore.h"

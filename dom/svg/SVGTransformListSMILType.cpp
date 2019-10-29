@@ -7,7 +7,7 @@
 #include "SVGTransformListSMILType.h"
 
 #include "mozilla/SMILValue.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "SVGTransformList.h"
 #include "SVGTransform.h"
 #include <math.h>

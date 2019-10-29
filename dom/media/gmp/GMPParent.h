@@ -18,7 +18,7 @@
 #include "nscore.h"
 #include "nsISupports.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIFile.h"
 #include "mozilla/MozPromise.h"
 

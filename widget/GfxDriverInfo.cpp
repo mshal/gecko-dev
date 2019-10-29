@@ -6,7 +6,7 @@
 #include "GfxDriverInfo.h"
 
 #include "nsIGfxInfo.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 using namespace mozilla::widget;
 

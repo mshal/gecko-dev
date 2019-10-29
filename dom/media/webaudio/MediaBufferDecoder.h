@@ -11,7 +11,7 @@
 #include "nsWrapperCache.h"
 #include "nsCOMPtr.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/dom/TypedArray.h"
 #include "mozilla/MemoryReporting.h"

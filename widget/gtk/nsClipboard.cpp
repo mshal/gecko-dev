@@ -7,7 +7,7 @@
 
 #include "mozilla/ArrayUtils.h"
 
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsClipboard.h"
 #include "nsClipboardX11.h"
 #if defined(MOZ_WAYLAND)
@@ -15,7 +15,7 @@
 #endif
 #include "nsContentUtils.h"
 #include "HeadlessClipboard.h"
-#include "nsSupportsPrimitives.h"
+#include "xpcom/ds/nsSupportsPrimitives.h"
 #include "nsString.h"
 #include "nsReadableUtils.h"
 #include "nsPrimitiveHelpers.h"

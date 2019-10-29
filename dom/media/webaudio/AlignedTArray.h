@@ -8,7 +8,7 @@
 #define AlignedTArray_h__
 
 #include "mozilla/Alignment.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 /**
  * E: element type, must be a POD type.

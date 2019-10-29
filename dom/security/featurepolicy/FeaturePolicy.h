@@ -12,7 +12,7 @@
 #include "mozilla/dom/Feature.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWrapperCache.h"
 
 /**

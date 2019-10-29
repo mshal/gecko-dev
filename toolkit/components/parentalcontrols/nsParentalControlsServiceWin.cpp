@@ -11,7 +11,7 @@
 #include "nsIInterfaceRequestorUtils.h"
 #include "nsIFile.h"
 #include "nsILocalFileWin.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsIXULAppInfo.h"
 #include "nsWindowsHelpers.h"
 #include "nsIWindowsRegKey.h"

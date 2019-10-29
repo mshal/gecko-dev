@@ -14,7 +14,7 @@
 #include "jsapi.h"
 #include "js/RootingAPI.h"
 
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsIScriptError.h"
 #include "nsString.h"

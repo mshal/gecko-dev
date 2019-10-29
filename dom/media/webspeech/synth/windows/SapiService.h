@@ -9,8 +9,8 @@
 
 #include "nsISpeechService.h"
 #include "nsIObserver.h"
-#include "nsRefPtrHashtable.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/StaticPtr.h"
 
 #include <windows.h>

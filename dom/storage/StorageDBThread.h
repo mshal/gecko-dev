@@ -9,7 +9,7 @@
 
 #include "prthread.h"
 #include "prinrval.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Atomics.h"
 #include "mozilla/Monitor.h"
 #include "mozilla/BasePrincipal.h"
@@ -18,7 +18,7 @@
 #include "nsAutoPtr.h"
 #include "nsString.h"
 #include "nsCOMPtr.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsIFile.h"
 #include "nsIThreadInternal.h"
 

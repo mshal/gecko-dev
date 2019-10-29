@@ -7,7 +7,7 @@
 #ifndef mozilla_dom_GridTracks_h
 #define mozilla_dom_GridTracks_h
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWrapperCache.h"
 
 namespace mozilla {

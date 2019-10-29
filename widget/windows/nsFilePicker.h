@@ -12,7 +12,7 @@
 #include "nsIFile.h"
 #include "nsITimer.h"
 #include "nsISimpleEnumerator.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsBaseFilePicker.h"
 #include "nsString.h"
 #include "nsdefs.h"

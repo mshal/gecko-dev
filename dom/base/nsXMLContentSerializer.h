@@ -17,7 +17,7 @@
 #include "nsIContentSerializer.h"
 #include "nsISupportsUtils.h"
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 
 #define kIndentStr NS_LITERAL_STRING("  ")

@@ -13,10 +13,10 @@
 
 #include "mozilla/Attributes.h"  // for final
 #include "mozilla/dom/NodeInfo.h"
-#include "mozilla/MruCache.h"
+#include "xpcom/ds/MruCache.h"
 #include "nsCOMPtr.h"                      // for member
 #include "nsCycleCollectionParticipant.h"  // for NS_DECL_CYCLE_*
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsStringFwd.h"
 
 #ifdef MOZ_XBL

@@ -24,7 +24,7 @@
 
 #include "nsCOMPtr.h"
 #include "nsString.h"
-#include "nsDeque.h"
+#include "xpcom/ds/nsDeque.h"
 #include "mozilla/Atomics.h"
 
 class nsIAsyncVerifyRedirectCallback;

@@ -11,12 +11,12 @@
 #include "txXMLUtils.h"
 #include "txIXPathContext.h"
 #include "txVariableMap.h"
-#include "nsTHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "txKey.h"
 #include "txStylesheet.h"
 #include "txXPathTreeWalker.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class txAOutputHandlerFactory;
 class txAXMLEventHandler;

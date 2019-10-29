@@ -10,7 +10,7 @@
 #include "nsDirectoryServiceUtils.h"
 #include "KeyValueStorage.h"
 #include "nsServiceManagerUtils.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 
 namespace mozilla {
 

@@ -9,7 +9,7 @@
 #include "mozilla/EditorBase.h"
 #include "mozilla/dom/Selection.h"
 #include "mozilla/Move.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsQueryObject.h"
 
 namespace mozilla {

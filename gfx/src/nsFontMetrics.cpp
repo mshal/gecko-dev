@@ -16,8 +16,8 @@
 #include "nsBoundingMetrics.h"   // for nsBoundingMetrics
 #include "nsDebug.h"             // for NS_ERROR
 #include "nsDeviceContext.h"     // for nsDeviceContext
-#include "nsAtom.h"              // for nsAtom
-#include "nsMathUtils.h"         // for NS_round
+#include "xpcom/ds/nsAtom.h"              // for nsAtom
+#include "xpcom/ds/nsMathUtils.h"         // for NS_round
 #include "nsString.h"            // for nsString
 #include "nsStyleConsts.h"       // for StyleHyphens::None
 #include "mozilla/Assertions.h"  // for MOZ_ASSERT

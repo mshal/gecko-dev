@@ -19,7 +19,7 @@
 #include "mozilla/dom/SVGPatternElement.h"
 #include "mozilla/dom/SVGUnitTypesBinding.h"
 #include "mozilla/gfx/2D.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsSVGDisplayableFrame.h"
 #include "SVGObserverUtils.h"
 #include "SVGGeometryFrame.h"

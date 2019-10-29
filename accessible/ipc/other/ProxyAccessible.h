@@ -13,7 +13,7 @@
 #include "nsIAccessibleText.h"
 #include "nsIAccessibleTypes.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsRect.h"
 
 namespace mozilla {

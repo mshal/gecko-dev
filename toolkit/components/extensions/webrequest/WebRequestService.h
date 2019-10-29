@@ -13,8 +13,8 @@
 #include "mozilla/extensions/ChannelWrapper.h"
 #include "mozilla/extensions/WebExtensionPolicy.h"
 
-#include "nsHashKeys.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 class nsAtom;
 class nsIRemoteTab;

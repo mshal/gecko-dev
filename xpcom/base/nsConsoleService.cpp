@@ -12,7 +12,7 @@
 /* Threadsafe. */
 
 #include "nsMemory.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsThreadUtils.h"
 
 #include "nsConsoleService.h"

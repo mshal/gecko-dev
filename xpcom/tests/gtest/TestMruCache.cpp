@@ -6,7 +6,7 @@
 
 #include "gtest/gtest.h"
 
-#include "mozilla/MruCache.h"
+#include "xpcom/ds/MruCache.h"
 #include "nsString.h"
 
 using namespace mozilla;

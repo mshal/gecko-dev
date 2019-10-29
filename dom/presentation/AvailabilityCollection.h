@@ -10,7 +10,7 @@
 #include "mozilla/StaticPtr.h"
 #include "mozilla/WeakPtr.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

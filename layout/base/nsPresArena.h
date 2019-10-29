@@ -10,17 +10,17 @@
 #ifndef nsPresArena_h___
 #define nsPresArena_h___
 
-#include "mozilla/ArenaAllocator.h"
+#include "xpcom/ds/ArenaAllocator.h"
 #include "mozilla/ArenaObjectID.h"
 #include "mozilla/Assertions.h"
 #include "mozilla/MemoryChecking.h"  // Note: Do not remove this, needed for MOZ_HAVE_MEM_CHECKS below
 #include "mozilla/MemoryReporting.h"
 #include <stdint.h>
 #include "nscore.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
-#include "nsTArray.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 class nsWindowSizes;
 

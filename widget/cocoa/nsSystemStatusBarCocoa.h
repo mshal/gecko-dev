@@ -8,7 +8,7 @@
 
 #include "mozilla/RefPtr.h"
 #include "nsISystemStatusBar.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 
 class nsStandaloneNativeMenu;
 @class NSStatusItem;

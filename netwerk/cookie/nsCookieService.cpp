@@ -43,14 +43,14 @@
 #include "nsIThread.h"
 #include "mozIThirdPartyUtil.h"
 
-#include "nsTArray.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsIMutableArray.h"
-#include "nsArrayEnumerator.h"
-#include "nsEnumeratorUtils.h"
+#include "xpcom/ds/nsArrayEnumerator.h"
+#include "xpcom/ds/nsEnumeratorUtils.h"
 #include "nsAutoPtr.h"
 #include "nsReadableUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "prprf.h"
 #include "nsNetUtil.h"
 #include "nsNetCID.h"
@@ -67,8 +67,8 @@
 #include "mozilla/Telemetry.h"
 #include "mozilla/TextUtils.h"
 #include "nsIConsoleService.h"
-#include "nsTPriorityQueue.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsTPriorityQueue.h"
+#include "xpcom/ds/nsVariant.h"
 
 using namespace mozilla;
 using namespace mozilla::net;

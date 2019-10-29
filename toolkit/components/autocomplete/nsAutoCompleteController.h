@@ -15,8 +15,8 @@
 #include "nsINamed.h"
 #include "nsString.h"
 #include "nsITimer.h"
-#include "nsTArray.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCycleCollectionParticipant.h"
 #include "mozilla/dom/Element.h"
 

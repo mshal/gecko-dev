@@ -9,7 +9,7 @@
 #include "mozilla/ipc/BackgroundUtils.h"
 #include "mozilla/StaticPtr.h"
 #include "nsIMutableArray.h"
-#include "nsSupportsPrimitives.h"
+#include "xpcom/ds/nsSupportsPrimitives.h"
 #include "nsXPCOM.h"
 
 // This const is used to know when origin activities should be purged because

@@ -19,7 +19,7 @@
 #include "nsContentUtils.h"
 #include "nsIContentSecurityPolicy.h"
 #include "nsIEventTarget.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 
 #include "js/ContextOptions.h"
 #include "mozilla/dom/RemoteWorkerChild.h"

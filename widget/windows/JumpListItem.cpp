@@ -11,7 +11,7 @@
 
 #include "nsIFile.h"
 #include "nsNetUtil.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsNetCID.h"
 #include "nsCExternalHandlerService.h"
 #include "nsCycleCollectionParticipant.h"

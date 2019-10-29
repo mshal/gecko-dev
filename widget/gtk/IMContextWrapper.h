@@ -13,7 +13,7 @@
 
 #include "nsString.h"
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIWidget.h"
 #include "mozilla/CheckedInt.h"
 #include "mozilla/EventForwards.h"

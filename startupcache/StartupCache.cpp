@@ -5,7 +5,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "prio.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 #include "mozilla/IOInterposer.h"
 #include "mozilla/AutoMemMap.h"
 #include "mozilla/IOBuffers.h"
@@ -16,9 +16,9 @@
 #include "mozilla/ScopeExit.h"
 
 #include "nsAutoPtr.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsComponentManagerUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsDirectoryServiceUtils.h"
 #include "nsIClassInfo.h"
 #include "nsIFile.h"

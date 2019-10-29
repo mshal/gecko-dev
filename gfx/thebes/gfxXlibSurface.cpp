@@ -13,7 +13,7 @@
 #undef min               // Xlibint.h defines this and it breaks std::min
 #undef Data
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsAlgorithm.h"
 #include "mozilla/gfx/2D.h"
 #include "mozilla/Preferences.h"

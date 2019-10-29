@@ -6,7 +6,7 @@
 #include "nsBaseDragService.h"
 #include "nsITransferable.h"
 
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsIServiceManager.h"
 #include "nsITransferable.h"
 #include "nsSize.h"

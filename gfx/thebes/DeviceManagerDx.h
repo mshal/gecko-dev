@@ -13,7 +13,7 @@
 #include "mozilla/RefPtr.h"
 #include "mozilla/StaticPtr.h"
 #include "mozilla/gfx/GraphicsMessages.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWindowsHelpers.h"
 
 #include <windows.h>

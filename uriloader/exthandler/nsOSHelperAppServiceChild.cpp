@@ -12,7 +12,7 @@
 #include "nsMIMEInfoChild.h"
 #include "nsISupports.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIURL.h"
 #include "nsIFile.h"
 #include "nsIHandlerService.h"
@@ -21,7 +21,7 @@
 #include "nsIStringBundle.h"
 #include "nsIPromptService.h"
 #include "nsMemory.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsEmbedCID.h"
 
 #undef LOG

@@ -6,7 +6,7 @@
 
 #include "ActorsChild.h"
 
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "QuotaManagerService.h"
 #include "QuotaRequests.h"
 #include "QuotaResults.h"

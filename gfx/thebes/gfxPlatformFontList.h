@@ -6,10 +6,10 @@
 #ifndef GFXPLATFORMFONTLIST_H_
 #define GFXPLATFORMFONTLIST_H_
 
-#include "nsClassHashtable.h"
-#include "nsDataHashtable.h"
-#include "nsRefPtrHashtable.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 #include "gfxFontUtils.h"
 #include "gfxFontInfoLoader.h"

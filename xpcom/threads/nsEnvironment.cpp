@@ -6,8 +6,8 @@
 
 #include "nsEnvironment.h"
 #include "prenv.h"
-#include "nsBaseHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsBaseHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsPromiseFlatString.h"
 #include "nsDependentString.h"
 #include "nsNativeCharsetUtils.h"

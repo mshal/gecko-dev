@@ -21,8 +21,8 @@
 #include "nsReadableUtils.h"
 #include "nsUnicharUtils.h"
 #include "plstr.h"
-#include "nsGkAtoms.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsGkAtoms.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsBaseWidget.h"
 
 #include "mozilla/dom/Document.h"

@@ -8,7 +8,7 @@
 #define mozilla_dom_WebIDLGlobalNameHash_h__
 
 #include "js/RootingAPI.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/dom/BindingDeclarations.h"
 
 class JSLinearString;

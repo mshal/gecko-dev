@@ -6,14 +6,14 @@
 
 #include "nsMathMLOperators.h"
 #include "nsCOMPtr.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsNetUtil.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "nsIPersistentProperties2.h"
 #include "nsISimpleEnumerator.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 // operator dictionary entry
 struct OperatorData {

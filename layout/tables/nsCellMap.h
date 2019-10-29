@@ -7,7 +7,7 @@
 
 #include "nscore.h"
 #include "celldata.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCOMPtr.h"
 #include "nsAlgorithm.h"
 #include "nsRect.h"

@@ -15,7 +15,7 @@
 #include "nsDebug.h"
 #include "nsExceptionHandler.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 using mozilla::StaticMutex;
 using mozilla::StaticMutexAutoLock;

@@ -8,8 +8,8 @@
 #define mozilla_dom_nsSynthVoiceRegistry_h
 
 #include "nsISynthVoiceRegistry.h"
-#include "nsRefPtrHashtable.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsISpeechService;
 

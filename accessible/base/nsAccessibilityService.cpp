@@ -22,7 +22,7 @@
 #include "RootAccessible.h"
 #include "StyleInfo.h"
 #include "nsAccUtils.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsAttrName.h"
 #include "nsDOMTokenList.h"
 #include "nsEventShell.h"

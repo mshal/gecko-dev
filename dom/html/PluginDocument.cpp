@@ -6,7 +6,7 @@
 
 #include "MediaDocument.h"
 #include "nsIPluginDocument.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIObjectFrame.h"
 #include "nsNPAPIPluginInstance.h"
 #include "DocumentInlines.h"

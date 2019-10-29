@@ -13,7 +13,7 @@
 #include "mozilla/TimeStamp.h"
 #include "mozilla/dom/APZTestDataBinding.h"
 #include "mozilla/dom/ToJSValue.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace layers {

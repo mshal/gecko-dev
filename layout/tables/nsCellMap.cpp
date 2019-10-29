@@ -7,7 +7,7 @@
 
 #include "mozilla/PresShell.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsTableFrame.h"
 #include "nsTableCellFrame.h"
 #include "nsTableRowFrame.h"

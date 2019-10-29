@@ -5,7 +5,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "mozilla/ipc/InputStreamUtils.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsCOMPtr.h"
 #include "nsIPaymentRequestService.h"
 #include "nsISupportsPrimitives.h"

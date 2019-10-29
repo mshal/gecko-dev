@@ -15,7 +15,7 @@
 #include "nsNetUtil.h"
 #include "nsIVariant.h"
 #include "nsString.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "mozilla/storage.h"
 
 #include "GeckoProfiler.h"

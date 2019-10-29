@@ -4,8 +4,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "nsHTMLTags.h"
-#include "nsCRT.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsCRT.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsReadableUtils.h"
 #include "nsString.h"
 #include "nsUnicharUtils.h"

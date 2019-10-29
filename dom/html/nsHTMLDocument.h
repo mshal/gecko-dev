@@ -11,9 +11,9 @@
 #include "mozilla/dom/Document.h"
 #include "nsIHTMLCollection.h"
 #include "nsIScriptElement.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 #include "nsIHttpChannel.h"
 #include "nsThreadUtils.h"
 #include "mozilla/dom/HTMLSharedElement.h"

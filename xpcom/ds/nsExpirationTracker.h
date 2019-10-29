@@ -8,7 +8,7 @@
 #define NSEXPIRATIONTRACKER_H_
 
 #include "mozilla/Logging.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsITimer.h"
 #include "nsCOMPtr.h"
 #include "nsAutoPtr.h"

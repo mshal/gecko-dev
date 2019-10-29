@@ -13,8 +13,8 @@
 #include "mozilla/Attributes.h"        // for override
 #include "mozilla/ipc/SharedMemory.h"  // for SharedMemory, etc
 #include "mozilla/layers/PLayerTransactionParent.h"
-#include "nsRefPtrHashtable.h"
-#include "nsTArrayForwardDeclare.h"  // for nsTArray
+#include "xpcom/ds/nsRefPtrHashtable.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"  // for nsTArray
 
 namespace mozilla {
 

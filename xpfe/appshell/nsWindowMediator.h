@@ -9,10 +9,10 @@
 #include "nsCOMPtr.h"
 #include "nsIWindowMediator.h"
 #include "nsIObserver.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 #include "nsWeakReference.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 
 class nsAppShellWindowEnumerator;
 class nsASXULWindowEarlyToLateEnumerator;

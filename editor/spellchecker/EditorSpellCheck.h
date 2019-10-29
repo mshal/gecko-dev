@@ -12,7 +12,7 @@
 #include "nsIEditorSpellCheck.h"  // for NS_DECL_NSIEDITORSPELLCHECK, etc
 #include "nsISupportsImpl.h"
 #include "nsString.h"  // for nsString
-#include "nsTArray.h"  // for nsTArray
+#include "xpcom/ds/nsTArray.h"  // for nsTArray
 #include "nscore.h"    // for nsresult
 
 class mozSpellChecker;

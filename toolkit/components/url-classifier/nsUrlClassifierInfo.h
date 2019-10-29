@@ -12,7 +12,7 @@
 #include "nsCOMPtr.h"
 #include "nsIMutableArray.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsUrlClassifierPositiveCacheEntry final
     : public nsIUrlClassifierPositiveCacheEntry {

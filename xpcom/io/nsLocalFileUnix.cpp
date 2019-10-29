@@ -36,7 +36,7 @@
 
 #include "xpcom-private.h"
 #include "nsDirectoryServiceDefs.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsCOMPtr.h"
 #include "nsMemory.h"
 #include "nsIFile.h"
@@ -46,7 +46,7 @@
 #include "nsIComponentManager.h"
 #include "prproces.h"
 #include "nsIDirectoryEnumerator.h"
-#include "nsSimpleEnumerator.h"
+#include "xpcom/ds/nsSimpleEnumerator.h"
 #include "private/pprio.h"
 #include "prlink.h"
 
@@ -71,7 +71,7 @@ static nsresult MacErrorMapper(OSErr inErr);
 
 #include "nsNativeCharsetUtils.h"
 #include "nsTraceRefcnt.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 using namespace mozilla;
 

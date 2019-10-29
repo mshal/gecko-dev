@@ -8,7 +8,7 @@
 #include "nsContainerFrame.h"
 #include "nsStyleConsts.h"
 #include "nsPresContext.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsCSSRendering.h"
 #include "nsIContent.h"
 #include "mozilla/ComputedStyle.h"

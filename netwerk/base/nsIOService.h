@@ -8,7 +8,7 @@
 
 #include "nsStringFwd.h"
 #include "nsIIOService.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCOMPtr.h"
 #include "nsIObserver.h"
 #include "nsIWeakReferenceUtils.h"
@@ -16,7 +16,7 @@
 #include "nsIChannelEventSink.h"
 #include "nsCategoryCache.h"
 #include "nsISpeculativeConnect.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "mozilla/Atomics.h"
 #include "mozilla/Attributes.h"
 #include "prtime.h"

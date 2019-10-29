@@ -12,7 +12,7 @@
 
 #include "nsDebug.h"
 #include "nsColor.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 struct gfxFontStyle;
 

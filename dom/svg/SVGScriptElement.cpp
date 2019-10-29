@@ -6,7 +6,7 @@
 
 #include "mozilla/dom/SVGScriptElement.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsNetUtil.h"
 #include "nsContentUtils.h"
 #include "mozilla/dom/SVGScriptElementBinding.h"

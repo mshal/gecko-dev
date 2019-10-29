@@ -7,7 +7,7 @@
 #include "xpcom-config.h"
 #include <new>
 #include "nscore.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 #include "nsCommandParams.h"
 #include "mozilla/HashFunctions.h"

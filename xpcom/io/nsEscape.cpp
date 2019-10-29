@@ -10,8 +10,8 @@
 #include "mozilla/BinarySearch.h"
 #include "mozilla/CheckedInt.h"
 #include "mozilla/TextUtils.h"
-#include "nsTArray.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsCRT.h"
 #include "plstr.h"
 #include "nsASCIIMask.h"
 

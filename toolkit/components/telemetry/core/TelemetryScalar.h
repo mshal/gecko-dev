@@ -9,7 +9,7 @@
 #include <stdint.h>
 #include "mozilla/TelemetryProcessEnums.h"
 #include "mozilla/TelemetryScalarEnums.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "TelemetryCommon.h"
 
 // This module is internal to Telemetry. It encapsulates Telemetry's

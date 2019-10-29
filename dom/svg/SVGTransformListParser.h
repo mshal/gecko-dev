@@ -9,7 +9,7 @@
 
 #include "mozilla/Attributes.h"
 #include "SVGDataParser.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 ////////////////////////////////////////////////////////////////////////
 // SVGTransformListParser: A simple recursive descent parser that builds

@@ -10,7 +10,7 @@
 #include "mozilla/dom/cache/ActorChild.h"
 #include "mozilla/dom/cache/PCacheStreamControlChild.h"
 #include "mozilla/dom/cache/StreamControl.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 
 namespace mozilla {
 namespace ipc {

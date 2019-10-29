@@ -12,7 +12,7 @@
 #include "nsContentUtils.h"
 #include "nsPresContext.h"
 #include "nsIParser.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsContentSink.h"
 
 using namespace mozilla;

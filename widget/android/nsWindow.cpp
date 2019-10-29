@@ -62,7 +62,7 @@ using mozilla::dom::ContentParent;
 #include "nsContentUtils.h"
 
 #include "nsGfxCIID.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsWidgetsCID.h"
 
 #include "gfxContext.h"
@@ -80,7 +80,7 @@ using mozilla::dom::ContentParent;
 #include "mozilla/layers/IAPZCTreeManager.h"
 #include "mozilla/layers/LayerManagerComposite.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "AndroidBridge.h"
 #include "AndroidBridgeUtilities.h"

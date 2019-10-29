@@ -7,7 +7,7 @@
 #ifndef __nsCheapSets_h__
 #define __nsCheapSets_h__
 
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include <stdint.h>
 
 enum nsCheapSetOperator {

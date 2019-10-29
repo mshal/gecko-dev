@@ -18,7 +18,7 @@
 #include "nsFtpControlConnection.h"
 #include "nsFtpProtocolHandler.h"
 #include "netCore.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsEscape.h"
 #include "nsMimeTypes.h"
 #include "nsNetCID.h"

@@ -13,7 +13,7 @@
 #include "nsIWorkerDebuggerManager.h"
 
 #include "nsServiceManagerUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsThreadUtils.h"
 
 #define WORKERDEBUGGERMANAGER_CID                    \

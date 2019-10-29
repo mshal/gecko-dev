@@ -9,7 +9,7 @@
 #include "gfxFontVariations.h"
 #include "gfxPlatform.h"
 #include "nsComponentManagerUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "ipc/IPCMessageUtils.h"
 #include "mozilla/Casting.h"
 #include "mozilla/Encoding.h"

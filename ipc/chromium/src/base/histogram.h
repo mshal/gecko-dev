@@ -51,7 +51,7 @@
 
 #include "base/time.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace base {
 

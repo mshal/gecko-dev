@@ -10,7 +10,7 @@
 #include "mozilla/dom/MozSharedMapBinding.h"
 
 #include "mozilla/dom/Event.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

@@ -8,7 +8,7 @@
 #include "mozilla/Attributes.h"
 #include "mozilla/HashFunctions.h"
 #include "mozilla/MemoryReporting.h"
-#include "mozilla/MruCache.h"
+#include "MruCache.h"
 #include "mozilla/Mutex.h"
 #include "mozilla/DebugOnly.h"
 #include "mozilla/Sprintf.h"

@@ -9,7 +9,7 @@
  */
 
 #include "mozilla/dom/DocumentType.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsCOMPtr.h"
 #include "nsDOMString.h"
 #include "nsNodeInfoManager.h"

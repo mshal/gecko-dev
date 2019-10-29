@@ -9,7 +9,7 @@
 
 #include "nsIRunnable.h"
 #include "mozilla/RefPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

@@ -14,7 +14,7 @@
 #include "mozilla/RefPtr.h"
 #include "nsCSSPseudoElements.h"
 #include "nsDOMMutationObserver.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsAtom;
 class nsIFrame;

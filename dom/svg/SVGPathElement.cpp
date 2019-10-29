@@ -13,7 +13,7 @@
 #include "SVGGeometryProperty.h"
 #include "gfx2DGlue.h"
 #include "gfxPlatform.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIFrame.h"
 #include "nsStyleConsts.h"
 #include "nsStyleStruct.h"

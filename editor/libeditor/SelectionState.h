@@ -10,7 +10,7 @@
 #include "nsCOMPtr.h"
 #include "nsDirection.h"
 #include "nsINode.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nscore.h"
 
 class nsCycleCollectionTraversalCallback;

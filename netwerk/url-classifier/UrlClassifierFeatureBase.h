@@ -9,7 +9,7 @@
 
 #include "nsIUrlClassifierFeature.h"
 #include "nsIUrlClassifierSkipListService.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 #include "mozilla/AntiTrackingCommon.h"
 

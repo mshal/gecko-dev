@@ -5,9 +5,9 @@
 #ifndef nsHtml5AtomTable_h
 #define nsHtml5AtomTable_h
 
-#include "nsHashKeys.h"
-#include "nsTHashtable.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsISerialEventTarget.h"
 
 #define RECENTLY_USED_PARSER_ATOMS_SIZE 31

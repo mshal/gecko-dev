@@ -11,7 +11,7 @@
 
 #include "nsAlgorithm.h"
 #include "nscore.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include <math.h>
 #include <float.h>
 #include <stdlib.h>

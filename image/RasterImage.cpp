@@ -49,7 +49,7 @@
 
 #include "GeckoProfiler.h"
 #include "gfx2DGlue.h"
-#include "nsProperties.h"
+#include "xpcom/ds/nsProperties.h"
 #include <algorithm>
 
 namespace mozilla {

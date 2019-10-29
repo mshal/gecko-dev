@@ -11,8 +11,8 @@
 #include "nsITimer.h"
 
 #include "nsString.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "mozilla/Monitor.h"
 #include "mozilla/Telemetry.h"
 #include "mozilla/Atomics.h"

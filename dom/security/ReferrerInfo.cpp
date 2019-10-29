@@ -12,10 +12,10 @@
 #include "nsIURIFixup.h"
 #include "nsIURL.h"
 
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 #include "nsAlgorithm.h"
 #include "nsContentUtils.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "ReferrerInfo.h"
 
 #include "mozilla/AntiTrackingCommon.h"

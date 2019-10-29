@@ -10,7 +10,7 @@
 #include "mozilla/Attributes.h"
 #include "mozilla/dom/IntersectionObserverBinding.h"
 #include "mozilla/ServoStyleConsts.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 using mozilla::dom::DOMRect;
 using mozilla::dom::Element;

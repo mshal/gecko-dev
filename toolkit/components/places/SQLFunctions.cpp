@@ -7,11 +7,11 @@
 #include "mozilla/dom/URLSearchParams.h"
 #include "nsString.h"
 #include "nsUnicharUtils.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 #include "nsEscape.h"
 #include "mozIPlacesAutoComplete.h"
 #include "SQLFunctions.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "nsUnicodeProperties.h"
 #include "nsUTF8Utils.h"
 #include "nsINavHistoryService.h"
@@ -19,7 +19,7 @@
 #include "nsNavHistory.h"
 #include "mozilla/Likely.h"
 #include "mozilla/Utf8.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 
 // Maximum number of chars to search through.
 // MatchAutoCompleteFunction won't look for matches over this threshold.

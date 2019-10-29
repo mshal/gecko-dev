@@ -7,8 +7,8 @@
 #define nsHTMLTags_h___
 
 #include "nsString.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 /*
    Declare the enum list using the magic of preprocessing

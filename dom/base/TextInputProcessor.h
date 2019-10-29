@@ -14,7 +14,7 @@
 #include "mozilla/TextEventDispatcherListener.h"
 #include "nsITextInputProcessor.h"
 #include "nsITextInputProcessorCallback.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsPIDOMWindowInner;
 

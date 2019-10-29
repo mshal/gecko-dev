@@ -9,7 +9,7 @@
 
 #include "nsCOMPtr.h"
 #include "nsISupports.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWrapperCache.h"
 #include "mozilla/dom/PerformanceEntryBinding.h"
 

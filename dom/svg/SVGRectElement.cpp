@@ -11,7 +11,7 @@
 #include "mozilla/gfx/Matrix.h"
 #include "mozilla/gfx/Rect.h"
 #include "mozilla/gfx/PathHelpers.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "SVGGeometryProperty.h"
 #include <algorithm>
 

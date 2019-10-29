@@ -26,8 +26,8 @@
 #include "nsString.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/Maybe.h"
-#include "nsAtom.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsAtom.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 class nsNodeInfoManager;
 

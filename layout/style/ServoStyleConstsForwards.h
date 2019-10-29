@@ -17,7 +17,7 @@
 
 #  include "nsColor.h"
 #  include "nsCoord.h"
-#  include "mozilla/AtomArray.h"
+#  include "xpcom/ds/AtomArray.h"
 #  include "mozilla/IntegerRange.h"
 #  include "mozilla/Span.h"
 #  include "Units.h"

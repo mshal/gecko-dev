@@ -8,7 +8,7 @@
 #define dom_ipc_StringTable_h
 
 #include "mozilla/RangedPtr.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 /**
  * This file contains helper classes for creating and accessing compact string

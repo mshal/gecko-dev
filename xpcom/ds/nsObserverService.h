@@ -10,7 +10,7 @@
 #include "nsIObserverService.h"
 #include "nsObserverList.h"
 #include "nsIMemoryReporter.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "mozilla/Attributes.h"
 
 // {D07F5195-E3D1-11d2-8ACD-00105A1B8860}

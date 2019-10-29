@@ -7,11 +7,11 @@
 #ifndef mozilla_dom_MIDIPlatformService_h
 #define mozilla_dom_MIDIPlatformService_h
 
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "mozilla/dom/MIDIPortBinding.h"
 #include "mozilla/dom/MIDITypes.h"
 #include "mozilla/dom/MIDIPortInterface.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 namespace mozilla {
 namespace dom {

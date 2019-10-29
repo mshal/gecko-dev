@@ -16,13 +16,13 @@
 
 #include "nsIWidget.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIPrintSettingsWin.h"
 
 #include "nsString.h"
 #include "nsIServiceManager.h"
 #include "nsReadableUtils.h"
-#include "nsStringEnumerator.h"
+#include "xpcom/ds/nsStringEnumerator.h"
 
 #include "gfxWindowsSurface.h"
 

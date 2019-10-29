@@ -9,9 +9,9 @@
 
 #include "txStylesheetCompiler.h"
 #include "txStylesheetCompileHandlers.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "txURIUtils.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 #include "txStylesheet.h"
 #include "txInstructions.h"
 #include "txToplevelItems.h"
@@ -22,7 +22,7 @@
 #include "txXSLTFunctions.h"
 #include "nsICategoryManager.h"
 #include "nsServiceManagerUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 using namespace mozilla;
 using mozilla::dom::ReferrerPolicy;

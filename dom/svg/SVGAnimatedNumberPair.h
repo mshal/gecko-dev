@@ -10,7 +10,7 @@
 #include "DOMSVGAnimatedNumber.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsError.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/FloatingPoint.h"
 #include "mozilla/SMILAttr.h"

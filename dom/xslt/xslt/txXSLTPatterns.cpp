@@ -12,7 +12,7 @@
 #include "txForwardContext.h"
 #include "txXMLUtils.h"
 #include "txXSLTFunctions.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 #include "nsIContent.h"
 
 /*

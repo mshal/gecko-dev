@@ -9,7 +9,7 @@
 #include "gtest/gtest.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/UniquePtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "MockCubeb.h"
 

@@ -23,7 +23,7 @@
 #include "nsIDNSRecord.h"
 #include "nsIDNSService.h"
 #include "nsICancelable.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/dom/Document.h"
 #include "nsThreadUtils.h"
 #include "nsITimer.h"

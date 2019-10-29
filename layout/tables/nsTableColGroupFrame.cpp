@@ -11,7 +11,7 @@
 #include "nsStyleConsts.h"
 #include "nsPresContext.h"
 #include "nsHTMLParts.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsCOMPtr.h"
 #include "nsCSSRendering.h"
 

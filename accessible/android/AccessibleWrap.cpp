@@ -16,7 +16,7 @@
 #include "Pivot.h"
 #include "nsAccessibilityService.h"
 #include "nsEventShell.h"
-#include "nsPersistentProperties.h"
+#include "xpcom/ds/nsPersistentProperties.h"
 #include "nsIAccessibleAnnouncementEvent.h"
 #include "nsIStringBundle.h"
 #include "nsAccUtils.h"

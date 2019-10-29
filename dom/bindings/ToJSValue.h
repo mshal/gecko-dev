@@ -15,7 +15,7 @@
 #include "mozilla/dom/TypedArray.h"
 #include "jsapi.h"
 #include "nsISupports.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWrapperCache.h"
 #include "nsAutoPtr.h"
 

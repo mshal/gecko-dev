@@ -9,7 +9,7 @@
 
 #include "nsGenericHTMLElement.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 #include "mozilla/Attributes.h"
 #include "mozilla/Assertions.h"

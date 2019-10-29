@@ -9,7 +9,7 @@
 #include "nsCOMPtr.h"
 #include "nsString.h"
 
-#include "nsSimpleEnumerator.h"
+#include "xpcom/ds/nsSimpleEnumerator.h"
 #include "nsIXULWindow.h"
 
 class nsWindowMediator;

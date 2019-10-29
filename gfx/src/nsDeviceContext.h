@@ -16,7 +16,7 @@
 #include "nsCoord.h"                  // for nscoord
 #include "nsError.h"                  // for nsresult
 #include "nsISupports.h"              // for NS_INLINE_DECL_REFCOUNTING
-#include "nsMathUtils.h"              // for NS_round
+#include "xpcom/ds/nsMathUtils.h"              // for NS_round
 #include "nscore.h"                   // for char16_t, nsAString
 #include "mozilla/AppUnits.h"         // for AppUnits
 #include "nsFontMetrics.h"            // for nsFontMetrics::Params

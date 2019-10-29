@@ -15,7 +15,7 @@
 #include "nsIPrintSession.h"
 #include "nsServiceManagerUtils.h"
 
-#include "nsArray.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsIDialogParamBlock.h"
 #include "nsXPCOM.h"
 #include "nsISupportsPrimitives.h"

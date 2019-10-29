@@ -8,7 +8,7 @@
 
 #include "gfxPlatform.h"
 #include "nsAutoRef.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/gfx/gfxVars.h"
 
 #ifdef MOZ_X11

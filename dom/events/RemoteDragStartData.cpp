@@ -4,7 +4,7 @@
 
 #include "nsContentAreaDragDrop.h"
 #include "RemoteDragStartData.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "mozilla/dom/BrowserParent.h"
 #include "mozilla/dom/IPCBlobUtils.h"
 #include "mozilla/dom/DOMTypes.h"

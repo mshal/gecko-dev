@@ -7,7 +7,7 @@
 
 #include "nsAString.h"
 #include "nsCOMPtr.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsDebug.h"
 #include "nsDependentSubstring.h"
 #include "nsError.h"

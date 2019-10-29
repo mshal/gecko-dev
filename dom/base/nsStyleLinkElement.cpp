@@ -24,7 +24,7 @@
 #include "nsIContent.h"
 #include "mozilla/dom/Document.h"
 #include "nsUnicharUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsXPCOMCIDInternal.h"
 #include "nsUnicharInputStream.h"
 #include "nsContentUtils.h"

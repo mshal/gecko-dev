@@ -34,8 +34,8 @@
 #include "nsPoint.h"           // for nsIntPoint
 #include "nsRect.h"            // for mozilla::gfx::IntRect
 #include "nsRegion.h"          // for nsIntRegion
-#include "nsTArray.h"          // for nsTArray, nsTArray_Impl, etc
-#include "nsExpirationTracker.h"
+#include "xpcom/ds/nsTArray.h"          // for nsTArray, nsTArray_Impl, etc
+#include "xpcom/ds/nsExpirationTracker.h"
 #include "mozilla/layers/ISurfaceAllocator.h"
 
 namespace mozilla {

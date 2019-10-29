@@ -21,9 +21,9 @@
 #include "npruntime.h"
 #include "npfunctions.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Logging.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 #ifdef XP_MACOSX
 #  include "PluginInterposeOSX.h"

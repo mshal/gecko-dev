@@ -11,8 +11,8 @@
 #  define __WakeLockListener_h__
 
 #  include "mozilla/StaticPtr.h"
-#  include "nsHashKeys.h"
-#  include "nsClassHashtable.h"
+#  include "xpcom/ds/nsHashKeys.h"
+#  include "xpcom/ds/nsClassHashtable.h"
 
 #  include "nsIDOMWakeLockListener.h"
 

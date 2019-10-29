@@ -8,7 +8,7 @@
 
 %{C++
 #include "nsStringFwd.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 template<class T> class nsCOMArray;
 namespace mozilla {
 class TimeStamp;

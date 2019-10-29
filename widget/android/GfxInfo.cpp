@@ -9,7 +9,7 @@
 #include "nsUnicharUtils.h"
 #include "prenv.h"
 #include "nsExceptionHandler.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsICrashReporter.h"
 #include "nsVersionComparator.h"
 #include "AndroidBridge.h"

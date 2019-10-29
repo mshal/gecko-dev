@@ -8,7 +8,7 @@
 #include "nsIServiceManager.h"
 #include "nsUnicharUtils.h"
 #include "nsUnicodeProperties.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "mozilla/Likely.h"
 #include "nsMemory.h"
 

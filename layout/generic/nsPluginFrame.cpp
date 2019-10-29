@@ -27,7 +27,7 @@
 #include "nsView.h"
 #include "nsViewManager.h"
 #include "nsString.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIPluginInstanceOwner.h"
 #include "nsNPAPIPluginInstance.h"
 #include "npapi.h"

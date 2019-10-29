@@ -9,7 +9,7 @@
 #include "mozilla/dom/CSSKeyframesRuleBinding.h"
 #include "mozilla/dom/CSSRuleList.h"
 #include "mozilla/ServoBindings.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 
 #include <limits>
 

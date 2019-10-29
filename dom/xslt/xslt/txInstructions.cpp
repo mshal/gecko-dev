@@ -13,7 +13,7 @@
 #include "nsIConsoleService.h"
 #include "nsServiceManagerUtils.h"
 #include "txStringUtils.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "txRtfHandler.h"
 #include "txNodeSorter.h"
 #include "txXSLTNumber.h"

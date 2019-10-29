@@ -10,7 +10,7 @@
  */
 
 #include "jsapi.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "gtest/gtest.h"
 

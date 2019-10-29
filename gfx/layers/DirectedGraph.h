@@ -8,7 +8,7 @@
 #define GFX_DIRECTEDGRAPH_H
 
 #include "gfxTypes.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace layers {

@@ -7,7 +7,7 @@
 #ifndef NS_TPRIORITY_QUEUE_H_
 #define NS_TPRIORITY_QUEUE_H_
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsDebug.h"
 
 /**

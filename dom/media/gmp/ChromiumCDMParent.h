@@ -12,7 +12,7 @@
 #include "GMPMessageUtils.h"
 #include "mozilla/gmp/PChromiumCDMParent.h"
 #include "mozilla/RefPtr.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "PlatformDecoderModule.h"
 #include "ImageContainer.h"
 #include "mozilla/Span.h"

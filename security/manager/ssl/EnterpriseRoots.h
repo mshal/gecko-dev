@@ -10,7 +10,7 @@
 #include "mozilla/Vector.h"
 #include "mozpkix/Input.h"
 #include "mozpkix/Result.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class EnterpriseCert {
  public:

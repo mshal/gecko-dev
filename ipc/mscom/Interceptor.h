@@ -9,7 +9,7 @@
 
 #include "mozilla/Move.h"
 #include "mozilla/Mutex.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/mscom/IHandlerProvider.h"
 #include "mozilla/mscom/Ptr.h"
 #include "mozilla/mscom/WeakRef.h"

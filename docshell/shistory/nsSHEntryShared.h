@@ -8,9 +8,9 @@
 #define nsSHEntryShared_h__
 
 #include "nsAutoPtr.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
-#include "nsExpirationTracker.h"
+#include "xpcom/ds/nsExpirationTracker.h"
 #include "nsIBFCacheEntry.h"
 #include "nsIWeakReferenceUtils.h"
 #include "nsRect.h"

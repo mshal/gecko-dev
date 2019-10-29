@@ -5,8 +5,8 @@
 
 #include "nsHTMLFormatConverter.h"
 
-#include "nsArray.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsArray.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIComponentManager.h"
 #include "nsCOMPtr.h"
 #include "nsXPCOM.h"

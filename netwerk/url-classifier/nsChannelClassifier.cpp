@@ -6,7 +6,7 @@
 
 #include "nsChannelClassifier.h"
 
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsICacheEntry.h"
 #include "nsICachingChannel.h"
 #include "nsIChannel.h"

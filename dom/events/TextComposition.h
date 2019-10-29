@@ -11,7 +11,7 @@
 #include "nsINode.h"
 #include "nsIWeakReference.h"
 #include "nsIWidget.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsThreadUtils.h"
 #include "nsPresContext.h"
 #include "mozilla/Attributes.h"

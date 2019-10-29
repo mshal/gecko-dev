@@ -7,7 +7,7 @@
 #define nsSystemAlertsService_h__
 
 #include "nsIAlertsService.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsCOMPtr.h"
 
 class nsAlertsIconListener;

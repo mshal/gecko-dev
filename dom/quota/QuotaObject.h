@@ -9,7 +9,7 @@
 
 #include "mozilla/dom/quota/QuotaCommon.h"
 
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 #include "Client.h"
 #include "PersistenceType.h"

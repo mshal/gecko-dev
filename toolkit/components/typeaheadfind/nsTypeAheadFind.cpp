@@ -23,7 +23,7 @@
 #include "nsIPrefBranch.h"
 #include "nsIPrefService.h"
 #include "nsString.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsGenericHTMLElement.h"
 
 #include "nsIFrame.h"

@@ -29,7 +29,7 @@
 #include "nsPresContext.h"
 #include "nsView.h"
 #include "nsViewManager.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsStyleConsts.h"
 #include "nsStyleStruct.h"
 #include "nsStyleStructInlines.h"

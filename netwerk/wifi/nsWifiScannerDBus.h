@@ -5,7 +5,7 @@
 #ifndef NSWIFIAPSCANNERDBUS_H_
 #define NSWIFIAPSCANNERDBUS_H_
 
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 
 #define DBUS_API_SUBJECT_TO_CHANGE
 #include <dbus/dbus.h>

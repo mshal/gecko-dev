@@ -14,7 +14,7 @@
 #include "mozilla/layers/ProfilerScreenshots.h"
 #include "mozilla/layers/TextureHost.h"
 #include "mozilla/gfx/Point.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 

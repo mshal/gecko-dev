@@ -7,7 +7,7 @@
 #define GLTEXTUREIMAGE_H_
 
 #include "nsRegion.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "gfxTypes.h"
 #include "GLContextTypes.h"
 #include "mozilla/gfx/Rect.h"

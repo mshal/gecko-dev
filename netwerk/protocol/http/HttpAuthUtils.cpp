@@ -3,7 +3,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "mozilla/net/HttpAuthUtils.h"
-#include "mozilla/Tokenizer.h"
+#include "xpcom/ds/Tokenizer.h"
 #include "nsIPrefService.h"
 #include "nsIURI.h"
 #include "nsNetUtil.h"

@@ -5,7 +5,7 @@
 
 #include "nsPrintDialogWin.h"
 
-#include "nsArray.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsCOMPtr.h"
 #include "nsIBaseWindow.h"
 #include "nsIDialogParamBlock.h"

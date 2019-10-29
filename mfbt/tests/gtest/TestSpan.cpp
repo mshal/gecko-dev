@@ -22,7 +22,7 @@
 #include "mozilla/Span.h"
 
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Range.h"
 #include "mozilla/TypeTraits.h"
 

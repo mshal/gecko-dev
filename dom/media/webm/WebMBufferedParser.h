@@ -7,7 +7,7 @@
 #  define WebMBufferedParser_h_
 
 #  include "nsISupportsImpl.h"
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 #  include "mozilla/ReentrantMonitor.h"
 #  include "MediaResource.h"
 

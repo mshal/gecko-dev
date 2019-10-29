@@ -22,7 +22,7 @@
 #include "nsIObserverService.h"  // for nsIObserverService
 #include "nsIRunnable.h"         // for nsIRunnable
 #include "nsISupports.h"
-#include "nsTArray.h"  // for nsTArray
+#include "xpcom/ds/nsTArray.h"  // for nsTArray
 #include "nscore.h"    // for NS_IMETHOD, NS_IMETHODIMP, etc
 
 namespace mozilla {

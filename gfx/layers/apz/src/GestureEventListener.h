@@ -12,7 +12,7 @@
 #include "mozilla/EventForwards.h"  // for nsEventStatus
 #include "mozilla/RefPtr.h"         // for RefPtr
 #include "nsISupportsImpl.h"
-#include "nsTArray.h"  // for nsTArray
+#include "xpcom/ds/nsTArray.h"  // for nsTArray
 
 namespace mozilla {
 

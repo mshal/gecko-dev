@@ -9,7 +9,7 @@
 
 #include "mozilla/Attributes.h"
 #include "nsGenericHTMLFrameElement.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 namespace mozilla {
 namespace dom {

@@ -15,7 +15,7 @@
 #include "nsBulletFrame.h"  // legacy location for list style type to text code
 #include "nsContentUtils.h"
 #include "nsIContent.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/dom/Text.h"
 
 using namespace mozilla;

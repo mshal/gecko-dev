@@ -7,7 +7,7 @@
 #ifndef MOZILLA_RESOURCEQUEUE_H_
 #define MOZILLA_RESOURCEQUEUE_H_
 
-#include "nsDeque.h"
+#include "xpcom/ds/nsDeque.h"
 #include "MediaSpan.h"
 
 namespace mozilla {

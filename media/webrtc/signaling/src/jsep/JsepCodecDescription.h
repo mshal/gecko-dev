@@ -8,7 +8,7 @@
 #include <string>
 #include "signaling/src/sdp/SdpMediaSection.h"
 #include "signaling/src/sdp/SdpHelper.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "mozilla/net/DataChannelProtocol.h"
 
 namespace mozilla {

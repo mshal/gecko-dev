@@ -7,9 +7,9 @@
 #ifndef nsTArray_h__
 #define nsTArray_h__
 
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 #include "mozilla/Alignment.h"
-#include "mozilla/ArrayIterator.h"
+#include "xpcom/ds/ArrayIterator.h"
 #include "mozilla/Assertions.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/BinarySearch.h"
@@ -30,7 +30,7 @@
 #include "nsCycleCollectionNoteChild.h"
 #include "nsAlgorithm.h"
 #include "nscore.h"
-#include "nsQuickSort.h"
+#include "xpcom/ds/nsQuickSort.h"
 #include "nsDebug.h"
 #include "nsISupportsImpl.h"
 #include "nsRegionFwd.h"
@@ -2759,6 +2759,6 @@ static_assert(sizeof(AutoTArray<uint32_t, 2>) ==
               "see the comment");
 
 // Definitions of nsTArray_Impl methods
-#include "nsTArray-inl.h"
+#include "xpcom/ds/nsTArray-inl.h"
 
 #endif  // nsTArray_h__

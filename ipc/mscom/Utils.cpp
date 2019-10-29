@@ -11,7 +11,7 @@
 #if defined(ACCESSIBILITY)
 #  include "mozilla/mscom/Registration.h"
 #  if defined(MOZILLA_INTERNAL_API)
-#    include "nsTArray.h"
+#    include "xpcom/ds/nsTArray.h"
 #  endif
 #endif
 

@@ -11,7 +11,7 @@
 #include "mozilla/ipc/BackgroundChild.h"
 #include "mozilla/ipc/BackgroundUtils.h"
 #include "mozilla/ipc/PBackgroundChild.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsPIDOMWindow.h"
 
 namespace mozilla {

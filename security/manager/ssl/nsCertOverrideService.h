@@ -15,7 +15,7 @@
 #include "nsIFile.h"
 #include "nsIObserver.h"
 #include "nsString.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "nsWeakReference.h"
 #include "secoidt.h"
 

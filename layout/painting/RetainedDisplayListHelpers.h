@@ -7,7 +7,7 @@
 #ifndef RETAINEDDISPLAYLISTHELPERS_H_
 #define RETAINEDDISPLAYLISTHELPERS_H_
 
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 
 struct DisplayItemKey {
   bool operator==(const DisplayItemKey& aOther) const {

@@ -31,7 +31,7 @@
 #include "nsPoint.h"                        // for nsIntPoint
 #include "nsRect.h"                         // for mozilla::gfx::IntRect
 #include "nsRegion.h"                       // for nsIntRegion
-#include "nsTArray.h"                       // for nsTArray
+#include "xpcom/ds/nsTArray.h"                       // for nsTArray
 
 namespace mozilla {
 namespace gfx {

@@ -17,7 +17,7 @@
 #  include "mozilla/Variant.h"
 
 #  include "nsISerialEventTarget.h"
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 #  include "nsThreadUtils.h"
 
 #  ifdef MOZ_WIDGET_ANDROID

@@ -20,9 +20,9 @@
 #include "js/TraceKind.h"
 
 #include "nsCycleCollectionParticipant.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 class nsCycleCollectionNoteRootCallback;
 class nsIException;

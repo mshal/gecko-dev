@@ -13,7 +13,7 @@
 #include "nsCOMPtr.h"
 #include "nsDebug.h"
 #include "nsDNSServiceInfo.h"
-#include "nsHashPropertyBag.h"
+#include "xpcom/ds/nsHashPropertyBag.h"
 #include "nsIProperty.h"
 #include "nsISimpleEnumerator.h"
 #include "nsIVariant.h"

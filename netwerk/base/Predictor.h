@@ -21,7 +21,7 @@
 #include "nsIStreamListener.h"
 #include "mozilla/RefPtr.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "mozilla/TimeStamp.h"
 

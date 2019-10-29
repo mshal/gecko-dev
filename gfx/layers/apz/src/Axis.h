@@ -13,7 +13,7 @@
 #include "AxisPhysicsMSDModel.h"
 #include "mozilla/gfx/Types.h"  // for Side
 #include "mozilla/TimeStamp.h"  // for TimeDuration
-#include "nsTArray.h"           // for nsTArray
+#include "xpcom/ds/nsTArray.h"           // for nsTArray
 #include "Units.h"
 
 namespace mozilla {

@@ -18,7 +18,7 @@
 #include "mozilla/ipc/PBackgroundParent.h"
 #include "nsCOMPtr.h"
 #include "nsIXULRuntime.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsThreadUtils.h"
 #include "RemoteWorkerServiceParent.h"
 

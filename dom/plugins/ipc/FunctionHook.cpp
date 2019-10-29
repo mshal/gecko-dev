@@ -8,7 +8,7 @@
 
 #include "FunctionHook.h"
 #include "FunctionBroker.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "mozilla/ClearOnShutdown.h"
 
 #if defined(XP_WIN)

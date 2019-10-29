@@ -7,7 +7,7 @@
 #define GMPSharedMemManager_h_
 
 #include "mozilla/ipc/Shmem.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace gmp {

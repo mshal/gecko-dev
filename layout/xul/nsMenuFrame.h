@@ -11,12 +11,12 @@
 #ifndef nsMenuFrame_h__
 #define nsMenuFrame_h__
 
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsCOMPtr.h"
 
 #include "nsBoxFrame.h"
 #include "nsFrameList.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsMenuParent.h"
 #include "nsXULPopupManager.h"
 #include "nsINamed.h"

@@ -11,7 +11,7 @@
 #include "nsStringFwd.h"
 
 #if defined(ANDROID)
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 #  include "nsRect.h"
 #endif
 

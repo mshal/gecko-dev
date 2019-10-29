@@ -11,7 +11,7 @@
 #include "mozilla/RefPtr.h"
 #include "mozilla/SMILAnimationFunction.h"
 #include "SVGMotionSMILType.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsAttrValue;
 class nsAtom;

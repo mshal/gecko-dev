@@ -12,7 +12,7 @@
 #include "gfxDWriteFonts.h"
 #include "nsUnicharUtils.h"
 #include "nsServiceManagerUtils.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "mozilla/Preferences.h"
 #include "mozilla/Sprintf.h"
 #include "mozilla/Telemetry.h"

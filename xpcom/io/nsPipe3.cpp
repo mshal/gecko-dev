@@ -17,7 +17,7 @@
 #include "nsSegmentedBuffer.h"
 #include "nsStreamUtils.h"
 #include "nsCOMPtr.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "mozilla/Logging.h"
 #include "nsIClassInfoImpl.h"
 #include "nsAlgorithm.h"

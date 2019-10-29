@@ -6,7 +6,7 @@
 #ifndef mozilla_TransactionStack_h
 #define mozilla_TransactionStack_h
 
-#include "nsDeque.h"
+#include "xpcom/ds/nsDeque.h"
 
 class nsCycleCollectionTraversalCallback;
 

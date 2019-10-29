@@ -10,9 +10,9 @@
 #include "gfxContext.h"
 #include "nsBidi.h"
 #include "nsBidiUtils.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsCoord.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsLineBox.h"
 
 #ifdef DrawText

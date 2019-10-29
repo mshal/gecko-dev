@@ -11,8 +11,8 @@
 #include "mozilla/Maybe.h"
 #include "mozilla/MemoryReporting.h"
 #include "mozilla/Unused.h"
-#include "nsTHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 // This file includes types that are useful during memory reporting, but which
 // cannot be put into mfbt/MemoryReporting.h because they depend on things that

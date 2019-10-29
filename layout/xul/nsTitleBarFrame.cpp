@@ -8,7 +8,7 @@
 #include "nsTitleBarFrame.h"
 #include "nsIContent.h"
 #include "mozilla/dom/Document.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIWidget.h"
 #include "nsMenuPopupFrame.h"
 #include "nsPresContext.h"

@@ -7,7 +7,7 @@
 #define MOZILLA_MEDIASEGMENT_H_
 
 #include "PrincipalHandle.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #ifdef MOZILLA_INTERNAL_API
 #  include "mozilla/TimeStamp.h"
 #endif

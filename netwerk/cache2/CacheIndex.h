@@ -13,7 +13,7 @@
 #include "nsICacheEntry.h"
 #include "nsILoadContextInfo.h"
 #include "nsIWeakReferenceUtils.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "nsThreadUtils.h"
 #include "mozilla/IntegerPrintfMacros.h"
 #include "mozilla/SHA1.h"

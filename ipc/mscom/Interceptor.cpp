@@ -23,7 +23,7 @@
 #include "nsDirectoryServiceUtils.h"
 #include "nsExceptionHandler.h"
 #include "nsPrintfCString.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsThreadUtils.h"
 #include "nsXULAppAPI.h"
 

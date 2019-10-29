@@ -5,7 +5,7 @@
 #ifndef IIRFilter_h
 #define IIRFilter_h
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 typedef nsTArray<double> AudioDoubleArray;
 

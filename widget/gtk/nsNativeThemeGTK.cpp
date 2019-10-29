@@ -21,7 +21,7 @@
 #include "nsMenuFrame.h"
 #include "tree/nsTreeBodyFrame.h"
 #include "prlink.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsAttrValueInlines.h"
 
 #include "mozilla/dom/HTMLInputElement.h"

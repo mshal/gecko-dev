@@ -7,7 +7,7 @@
 #define _mozilla_dom_ClientManagerService_h
 
 #include "ClientOpPromise.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 namespace mozilla {
 

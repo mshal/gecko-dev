@@ -9,7 +9,7 @@
 
 #include "nsIArrayExtensions.h"
 #include "nsIMutableArray.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "nsCycleCollectionParticipant.h"
 #include "mozilla/Attributes.h"

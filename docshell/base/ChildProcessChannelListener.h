@@ -9,7 +9,7 @@
 
 #include <functional>
 #include "nsCOMPtr.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsIChildProcessChannelListener.h"
 #include "nsIChildChannel.h"
 #include "mozilla/Variant.h"

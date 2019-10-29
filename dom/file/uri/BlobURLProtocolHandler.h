@@ -12,7 +12,7 @@
 #include "nsIURI.h"
 #include "nsCOMPtr.h"
 #include "nsIInputStream.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWeakReference.h"
 
 #define BLOBURI_SCHEME "blob"

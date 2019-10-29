@@ -8,7 +8,7 @@
 
 #include "nsHTMLCanvasFrame.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/Assertions.h"
 #include "mozilla/PresShell.h"
 #include "mozilla/dom/HTMLCanvasElement.h"

@@ -19,7 +19,7 @@
 #include "nsILoadInfo.h"
 #include "nsIThreadRetargetableRequest.h"
 #include "nsIThreadRetargetableStreamListener.h"
-#include "nsHashPropertyBag.h"
+#include "xpcom/ds/nsHashPropertyBag.h"
 #include "nsIFile.h"
 #include "nsIURI.h"
 #include "nsCOMPtr.h"

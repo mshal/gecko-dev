@@ -11,7 +11,7 @@ interface nsIX509Cert;
 
 %{C++
 #include "nsStringFwd.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 %}
 [ref] native nsCStringTArrayRef(nsTArray<nsCString>);
 

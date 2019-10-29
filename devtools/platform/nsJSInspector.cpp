@@ -11,8 +11,8 @@
 #include "mozilla/dom/ScriptSettings.h"
 #include "nsServiceManagerUtils.h"
 #include "nsMemory.h"
-#include "nsArray.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #define JSINSPECTOR_CONTRACTID "@mozilla.org/jsinspector;1"
 

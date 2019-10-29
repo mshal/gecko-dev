@@ -29,7 +29,7 @@
 #include "nsPIDOMWindow.h"
 #include "mozilla/dom/Document.h"
 #include "nsHTMLDocument.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIFrame.h"
 #include "nsIURI.h"
 #include "nsIURIMutator.h"

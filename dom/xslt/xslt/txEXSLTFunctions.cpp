@@ -10,8 +10,8 @@
 #include "mozilla/MacroArgs.h"
 #include "mozilla/MacroForEach.h"
 
-#include "nsAtom.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsAtom.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "txExecutionState.h"
 #include "txExpr.h"
 #include "txIXPathContext.h"

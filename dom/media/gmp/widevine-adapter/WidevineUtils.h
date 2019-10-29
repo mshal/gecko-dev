@@ -9,7 +9,7 @@
 #include "stddef.h"
 #include "content_decryption_module.h"
 #include "nsISupportsImpl.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Logging.h"
 
 namespace mozilla {

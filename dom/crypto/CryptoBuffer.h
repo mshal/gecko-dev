@@ -7,7 +7,7 @@
 #ifndef mozilla_dom_CryptoBuffer_h
 #define mozilla_dom_CryptoBuffer_h
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "seccomon.h"
 #include "mozilla/dom/TypedArray.h"
 

@@ -8,8 +8,8 @@
 #define mozilla_dom_BroadcastChannelService_h
 
 #include "nsISupportsImpl.h"
-#include "nsHashKeys.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsClassHashtable.h"
 
 #ifdef XP_WIN
 #  undef PostMessage

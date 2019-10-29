@@ -22,7 +22,7 @@
 #include "nsIObserverService.h"
 #include "nsServiceManagerUtils.h"
 #include "nsString.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsNetCID.h"
 #include "nsThreadUtils.h"
 #include "mozilla/Logging.h"

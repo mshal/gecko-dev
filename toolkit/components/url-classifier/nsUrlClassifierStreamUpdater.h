@@ -14,7 +14,7 @@
 #include "nsIUrlClassifierStreamUpdater.h"
 #include "nsIStreamListener.h"
 #include "nsIChannel.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsITimer.h"
 #include "mozilla/Attributes.h"
 

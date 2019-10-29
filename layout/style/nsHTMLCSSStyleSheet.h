@@ -14,7 +14,7 @@
 #include "mozilla/Attributes.h"
 #include "mozilla/MemoryReporting.h"
 
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 class nsRuleWalker;
 struct MiscContainer;

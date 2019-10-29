@@ -10,7 +10,7 @@
 #include "mozilla/dom/AudioParam.h"
 #include "mozilla/FloatingPoint.h"
 #include "nsContentUtils.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "AlignmentUtils.h"
 #include "AudioNodeEngine.h"
 #include "AudioNodeTrack.h"

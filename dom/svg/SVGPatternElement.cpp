@@ -12,7 +12,7 @@
 #include "mozilla/dom/SVGPatternElementBinding.h"
 #include "mozilla/dom/SVGUnitTypesBinding.h"
 #include "DOMSVGAnimatedTransformList.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 NS_IMPL_NS_NEW_SVG_ELEMENT(Pattern)
 

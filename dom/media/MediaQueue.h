@@ -9,7 +9,7 @@
 #  include "mozilla/RecursiveMutex.h"
 #  include "mozilla/TaskQueue.h"
 
-#  include "nsDeque.h"
+#  include "xpcom/ds/nsDeque.h"
 #  include "MediaEventSource.h"
 #  include "TimeUnits.h"
 

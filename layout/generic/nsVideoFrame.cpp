@@ -9,7 +9,7 @@
 #include "nsVideoFrame.h"
 
 #include "nsCOMPtr.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 #include "mozilla/PresShell.h"
 #include "mozilla/dom/HTMLVideoElement.h"

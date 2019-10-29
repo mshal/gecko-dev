@@ -12,7 +12,7 @@
 %{C++
 struct JSPrincipals;
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 #include "mozilla/DebugOnly.h"
 namespace mozilla {

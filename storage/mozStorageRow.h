@@ -8,8 +8,8 @@
 #define mozStorageRow_h
 
 #include "mozIStorageRow.h"
-#include "nsCOMArray.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsCOMArray.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "mozilla/Attributes.h"
 class nsIVariant;
 struct sqlite3_stmt;

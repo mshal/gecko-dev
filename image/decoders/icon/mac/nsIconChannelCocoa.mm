@@ -23,7 +23,7 @@
 #include "nsCExternalHandlerService.h"
 #include "nsILocalFileMac.h"
 #include "nsIFileURL.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsObjCExceptions.h"
 #include "nsProxyRelease.h"
 #include "nsContentSecurityManager.h"

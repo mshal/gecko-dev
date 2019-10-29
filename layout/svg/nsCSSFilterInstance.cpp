@@ -12,7 +12,7 @@
 #include "gfxUtils.h"
 #include "nsIFrame.h"
 #include "nsStyleStruct.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 using namespace mozilla;
 using namespace mozilla::gfx;

@@ -17,7 +17,7 @@
 #include "nsIInterfaceRequestor.h"
 #include "nsIStreamListener.h"
 #include "nsStringFwd.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIProtocolProxyCallback.h"
 #include "mozilla/net/WebrtcProxyConfig.h"
 

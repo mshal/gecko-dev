@@ -6,7 +6,7 @@
 
 #include "ActorsChild.h"
 
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "SDBConnection.h"
 #include "SDBRequest.h"
 #include "SDBResults.h"

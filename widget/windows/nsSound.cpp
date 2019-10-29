@@ -19,7 +19,7 @@
 #include "nsNetUtil.h"
 #include "nsIChannel.h"
 #include "nsContentUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIObserverService.h"
 
 #include "mozilla/Logging.h"

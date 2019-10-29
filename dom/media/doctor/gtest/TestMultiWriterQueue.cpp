@@ -8,7 +8,7 @@
 
 #include "DDTimeStamp.h"
 #include "mozilla/Assertions.h"
-#include "nsDeque.h"
+#include "xpcom/ds/nsDeque.h"
 #include "nsThreadUtils.h"
 
 #include <gtest/gtest.h>

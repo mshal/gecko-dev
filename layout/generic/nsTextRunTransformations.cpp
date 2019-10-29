@@ -11,7 +11,7 @@
 #include "mozilla/Move.h"
 #include "mozilla/TextEditor.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsStyleConsts.h"
 #include "nsUnicharUtils.h"
 #include "nsUnicodeProperties.h"

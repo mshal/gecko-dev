@@ -8,7 +8,7 @@
 #define mozilla_MemoryInfo_h
 
 #include "mozilla/EnumSet.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 /**
  * MemoryInfo is a helper class which describes the attributes and sizes of a

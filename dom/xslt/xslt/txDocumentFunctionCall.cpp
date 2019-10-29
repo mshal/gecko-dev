@@ -8,7 +8,7 @@
  * A representation of the XSLT additional function: document()
  */
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "txIXPathContext.h"
 #include "txXSLTFunctions.h"
 #include "txExecutionState.h"

@@ -8,7 +8,7 @@
 #define mozilla_net_BackgroundChannelRegistrar_h__
 
 #include "nsIBackgroundChannelRegistrar.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "mozilla/AlreadyAddRefed.h"
 
 namespace mozilla {

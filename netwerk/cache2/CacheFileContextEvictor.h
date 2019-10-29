@@ -5,7 +5,7 @@
 #ifndef CacheFileContextEvictor__h__
 #define CacheFileContextEvictor__h__
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCOMPtr.h"
 #include "nsAutoPtr.h"
 

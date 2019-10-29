@@ -7,7 +7,7 @@
 
 #include "mozilla/Mutex.h"
 #include "nsHtml5TreeOperation.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsAHtml5TreeOpSink.h"
 #include "nsHtml5SpeculativeLoad.h"
 

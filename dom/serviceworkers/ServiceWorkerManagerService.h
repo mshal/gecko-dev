@@ -8,9 +8,9 @@
 #define mozilla_dom_ServiceWorkerManagerService_h
 
 #include "nsISupportsImpl.h"
-#include "nsHashKeys.h"
-#include "nsTArray.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 namespace mozilla {
 

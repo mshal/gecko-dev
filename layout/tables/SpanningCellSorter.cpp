@@ -9,7 +9,7 @@
  */
 
 #include "SpanningCellSorter.h"
-#include "nsQuickSort.h"
+#include "xpcom/ds/nsQuickSort.h"
 #include "mozilla/HashFunctions.h"
 
 using namespace mozilla;

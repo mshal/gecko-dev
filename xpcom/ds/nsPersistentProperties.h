@@ -8,10 +8,10 @@
 #define nsPersistentProperties_h___
 
 #include "nsIPersistentProperties2.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 #include "nsString.h"
 #include "nsCOMPtr.h"
-#include "mozilla/ArenaAllocator.h"
+#include "xpcom/ds/ArenaAllocator.h"
 #include "mozilla/Attributes.h"
 
 class nsIUnicharInputStream;

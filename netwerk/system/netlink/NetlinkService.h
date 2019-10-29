@@ -16,7 +16,7 @@
 #include "mozilla/Mutex.h"
 #include "mozilla/TimeStamp.h"
 #include "nsITimer.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "mozilla/SHA1.h"
 
 namespace mozilla {

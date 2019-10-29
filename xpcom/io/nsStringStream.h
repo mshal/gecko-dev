@@ -10,7 +10,7 @@
 #include "nsIStringStream.h"
 #include "nsString.h"
 #include "nsMemory.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 /**
  * Implements:

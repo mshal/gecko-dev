@@ -21,7 +21,7 @@
 #include "nsContentCreatorFunctions.h"
 #include "nsContentList.h"
 #include "nsError.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsComboboxControlFrame.h"
 #include "mozilla/dom/Document.h"
 #include "nsIFormControlFrame.h"

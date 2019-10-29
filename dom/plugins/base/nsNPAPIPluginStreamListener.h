@@ -11,7 +11,7 @@
 #include "nsINamed.h"
 #include "nsIRequest.h"
 #include "nsITimer.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsIOutputStream.h"
 #include "nsIPluginInstanceOwner.h"
 #include "nsString.h"

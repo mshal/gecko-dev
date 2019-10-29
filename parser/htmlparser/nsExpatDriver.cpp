@@ -16,7 +16,7 @@
 #include "nsNetUtil.h"
 #include "nsTextFormatter.h"
 #include "nsDirectoryServiceDefs.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIConsoleService.h"
 #include "nsIScriptError.h"
 #include "nsIContentPolicy.h"

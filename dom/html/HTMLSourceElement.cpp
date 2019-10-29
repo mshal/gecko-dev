@@ -14,7 +14,7 @@
 #include "mozilla/dom/MediaList.h"
 #include "mozilla/dom/MediaSource.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 #include "mozilla/dom/BlobURLProtocolHandler.h"
 #include "mozilla/Preferences.h"

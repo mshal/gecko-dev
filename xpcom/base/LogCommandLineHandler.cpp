@@ -6,7 +6,7 @@
 
 #include "LogCommandLineHandler.h"
 
-#include "mozilla/Tokenizer.h"
+#include "xpcom/ds/Tokenizer.h"
 #include "nsDebug.h"
 
 namespace mozilla {

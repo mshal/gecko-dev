@@ -21,7 +21,7 @@
 #  include "nsIFile.h"
 #  include "nsAutoPtr.h"
 #  include "nsITimer.h"
-#  include "nsCRT.h"
+#  include "xpcom/ds/nsCRT.h"
 
 #endif
 

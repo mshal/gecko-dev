@@ -9,8 +9,8 @@
 #include "nsBaseFilePicker.h"
 #include "nsString.h"
 #include "nsIURI.h"
-#include "nsTArray.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 
 #include "mozilla/dom/PFilePickerChild.h"
 #include "mozilla/dom/UnionTypes.h"

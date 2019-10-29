@@ -17,7 +17,7 @@
 #include "mozilla/gfx/Point.h"                 // for IntSize
 #include "mozilla/layers/LayersSurfaces.h"     // for SurfaceDescriptorShared
 #include "mozilla/webrender/WebRenderTypes.h"  // for wr::ExternalImageId
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 
 namespace mozilla {
 namespace gfx {

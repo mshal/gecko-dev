@@ -10,7 +10,7 @@
 #include "mozilla/Attributes.h"
 #include "nsCOMPtr.h"
 #include "nsIWritablePropertyBag2.h"
-#include "nsSimpleEnumerator.h"
+#include "xpcom/ds/nsSimpleEnumerator.h"
 
 class nsIEHistoryEnumerator final : public nsSimpleEnumerator {
  public:

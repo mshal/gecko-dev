@@ -9,7 +9,7 @@
 #include "GMPLoader.h"
 #include "prlink.h"
 #include "GMPUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "content_decryption_module_ext.h"
 #include "nsString.h"
 #include "mozilla/Pair.h"

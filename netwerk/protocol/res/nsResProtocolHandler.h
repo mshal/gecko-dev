@@ -9,7 +9,7 @@
 #include "mozilla/net/SubstitutingProtocolHandler.h"
 
 #include "nsIResProtocolHandler.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 #include "nsWeakReference.h"
 
 class nsISubstitutionObserver;

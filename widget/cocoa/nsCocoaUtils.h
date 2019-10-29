@@ -11,7 +11,7 @@
 #include "nsRect.h"
 #include "imgIContainer.h"
 #include "npapi.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "Units.h"
 
 // This must be the last include:

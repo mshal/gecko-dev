@@ -9,7 +9,7 @@
 
 #include "js/StructuredClone.h"
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

@@ -13,9 +13,9 @@
 #include "nsAutoPtr.h"
 #include "nsIMediaManager.h"
 
-#include "nsHashKeys.h"
-#include "nsClassHashtable.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsIObserver.h"
 #include "nsIPrefService.h"
 #include "nsIPrefBranch.h"

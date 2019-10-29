@@ -40,7 +40,7 @@ interface nsIRunnable;
 namespace IPC {
 struct Permission;
 }
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 %}
 [ref] native IPCPermissionArrayRef(nsTArray<IPC::Permission>);
 

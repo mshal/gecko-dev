@@ -5,7 +5,7 @@
 #include "gtest/gtest.h"
 #include "mozilla/ArrayUtils.h"
 #include <stdio.h>
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "WebMBufferedParser.h"
 
 using namespace mozilla;

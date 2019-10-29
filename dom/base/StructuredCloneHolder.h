@@ -13,7 +13,7 @@
 #include "mozilla/Move.h"
 #include "mozilla/UniquePtr.h"
 #include "mozilla/dom/BindingDeclarations.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #ifdef DEBUG
 #  include "nsIThread.h"

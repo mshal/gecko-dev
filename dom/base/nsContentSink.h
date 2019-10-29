@@ -20,7 +20,7 @@
 #include "nsCOMPtr.h"
 #include "nsString.h"
 #include "nsAutoPtr.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsITimer.h"
 #include "nsStubDocumentObserver.h"
 #include "nsIContentSink.h"

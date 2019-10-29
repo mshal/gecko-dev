@@ -13,7 +13,7 @@
 #include "nsWindowDefs.h"
 #include "KeyboardLayout.h"
 #include "WinUtils.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIDOMWindowUtils.h"
 
 #include "mozilla/MiscEvents.h"

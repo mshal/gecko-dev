@@ -21,7 +21,7 @@
 #include "nsISelectionController.h"
 #include "nsISelectionListener.h"
 #include "nsRange.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 #include "nsThreadUtils.h"
 #include "nsWrapperCache.h"
 

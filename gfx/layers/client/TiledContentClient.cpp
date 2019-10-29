@@ -25,8 +25,8 @@
 #include "mozilla/layers/PaintThread.h"   // for PaintThread
 #include "TextureClientPool.h"
 #include "nsISupportsImpl.h"      // for gfxContext::AddRef, etc
-#include "nsExpirationTracker.h"  // for nsExpirationTracker
-#include "nsMathUtils.h"          // for NS_lroundf
+#include "xpcom/ds/nsExpirationTracker.h"  // for nsExpirationTracker
+#include "xpcom/ds/nsMathUtils.h"          // for NS_lroundf
 #include "LayersLogging.h"
 #include "UnitTransforms.h"  // for TransformTo
 #include "mozilla/StaticPrefs_apz.h"

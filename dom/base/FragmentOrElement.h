@@ -20,7 +20,7 @@
 #include "nsIContent.h"                    // base class
 #include "nsNodeUtils.h"  // class member nsNodeUtils::CloneNodeImpl
 #include "nsIHTMLCollection.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #ifdef MOZ_XBL
 #  include "nsXBLBinding.h"
 #endif

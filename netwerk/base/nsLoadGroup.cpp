@@ -8,12 +8,12 @@
 
 #include "nsLoadGroup.h"
 
-#include "nsArrayEnumerator.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsArrayEnumerator.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "mozilla/Logging.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Telemetry.h"
 #include "nsITimedChannel.h"
 #include "nsIInterfaceRequestor.h"

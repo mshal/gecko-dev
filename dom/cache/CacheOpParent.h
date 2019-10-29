@@ -10,7 +10,7 @@
 #include "mozilla/dom/cache/Manager.h"
 #include "mozilla/dom/cache/PCacheOpParent.h"
 #include "mozilla/dom/cache/PrincipalVerifier.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace ipc {

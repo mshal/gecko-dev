@@ -7,10 +7,10 @@
 #include "BasicCardPayment.h"
 #include "PaymentAddress.h"
 #include "mozilla/ClearOnShutdown.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsISupportsPrimitives.h"
-#include "nsCharSeparatedTokenizer.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 namespace mozilla {
 namespace dom {

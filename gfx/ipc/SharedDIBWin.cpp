@@ -6,7 +6,7 @@
 
 #include "SharedDIBWin.h"
 #include "gfxAlphaRecovery.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "nsDebug.h"
 
 namespace mozilla {

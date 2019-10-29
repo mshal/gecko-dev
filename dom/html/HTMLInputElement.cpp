@@ -40,7 +40,7 @@
 #include "nsContentCID.h"
 #include "nsIComponentManager.h"
 #include "mozilla/dom/ProgressEvent.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsStyleConsts.h"
 #include "nsPresContext.h"
 #include "nsMappedAttributes.h"
@@ -60,7 +60,7 @@
 #include "nsReadableUtils.h"
 #include "nsUnicharUtils.h"
 #include "nsLayoutUtils.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 
 #include "mozilla/ContentEvents.h"
 #include "mozilla/EventDispatcher.h"

@@ -20,7 +20,7 @@
 
 #include "nsCOMPtr.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "gfxVR.h"
 

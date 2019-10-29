@@ -29,7 +29,7 @@
 #include "nsDOMCSSValueList.h"
 #include "nsFlexContainerFrame.h"
 #include "nsGridContainerFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/ReflowInput.h"
 #include "nsStyleUtil.h"
 #include "nsStyleStructInlines.h"

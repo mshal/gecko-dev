@@ -11,7 +11,7 @@
 
 #include "nsILayoutHistoryState.h"
 #include "nsWeakReference.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "mozilla/PresState.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/UniquePtr.h"

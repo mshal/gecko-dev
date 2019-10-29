@@ -17,7 +17,7 @@
 #include "nsFocusManager.h"
 #include "nsFontMetrics.h"
 #include "nsCheckboxRadioFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsNameSpaceManager.h"
 #include "nsStyleConsts.h"
 #include "nsContentUtils.h"

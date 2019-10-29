@@ -27,7 +27,7 @@
 #include "prmon.h"
 #include "prio.h"
 #include "plstr.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsNetAddr.h"
 #include "nsProxyRelease.h"
 #include "nsQueryObject.h"

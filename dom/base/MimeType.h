@@ -9,8 +9,8 @@
 
 #include "mozilla/TextUtils.h"
 #include "mozilla/UniquePtr.h"
-#include "nsDataHashtable.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsTArray.h"
 
 template <typename char_type>
 struct HashKeyType;

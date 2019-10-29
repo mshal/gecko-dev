@@ -78,7 +78,7 @@
 
 #if defined(MOZ_WAYLAND)
 #  include "nsAutoPtr.h"
-#  include "nsDataHashtable.h"
+#  include "xpcom/ds/nsDataHashtable.h"
 
 #  include <gtk/gtk.h>
 #  include <gdk/gdkx.h>

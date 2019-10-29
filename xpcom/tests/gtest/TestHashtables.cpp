@@ -4,15 +4,15 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "nsTHashtable.h"
-#include "nsBaseHashtable.h"
-#include "nsDataHashtable.h"
-#include "nsInterfaceHashtable.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsBaseHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 
 #include "nsCOMPtr.h"
 #include "nsISupports.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/Unused.h"
 

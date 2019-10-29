@@ -15,10 +15,10 @@
 #include "LocalStorageCache.h"
 #include "mozilla/dom/Storage.h"
 
-#include "nsTHashtable.h"
-#include "nsDataHashtable.h"
-#include "nsClassHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 namespace mozilla {
 

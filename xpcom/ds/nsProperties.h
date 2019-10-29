@@ -8,8 +8,8 @@
 #define nsProperties_h___
 
 #include "nsIProperties.h"
-#include "nsInterfaceHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "mozilla/Attributes.h"
 
 typedef nsInterfaceHashtable<nsCharPtrHashKey, nsISupports>

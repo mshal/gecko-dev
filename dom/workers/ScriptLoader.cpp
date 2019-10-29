@@ -41,7 +41,7 @@
 #include "nsPrintfCString.h"
 #include "nsString.h"
 #include "nsStreamUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsThreadUtils.h"
 #include "nsXPCOM.h"
 #include "xpcpublic.h"

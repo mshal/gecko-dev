@@ -7,9 +7,9 @@
 #ifndef NS_SVGATTRTEAROFFTABLE_H_
 #define NS_SVGATTRTEAROFFTABLE_H_
 
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsDebug.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 namespace mozilla {
 

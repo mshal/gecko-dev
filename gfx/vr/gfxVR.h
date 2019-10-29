@@ -8,7 +8,7 @@
 #define GFX_VR_H
 
 #include "moz_external_vr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 #include "nsCOMPtr.h"
 #include "mozilla/RefPtr.h"

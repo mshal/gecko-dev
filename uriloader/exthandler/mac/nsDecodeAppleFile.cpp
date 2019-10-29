@@ -4,7 +4,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "nsDecodeAppleFile.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 NS_IMPL_ADDREF(nsDecodeAppleFile)
 NS_IMPL_RELEASE(nsDecodeAppleFile)

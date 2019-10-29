@@ -13,7 +13,7 @@
 #include "mozilla/ResultExtensions.h"
 #include "mozilla/Services.h"
 #include "mozilla/ScopeExit.h"
-#include "mozilla/SimpleEnumerator.h"
+#include "xpcom/ds/SimpleEnumerator.h"
 #include "mozilla/SystemGroup.h"
 #include "mozilla/Telemetry.h"
 #include "mozilla/TimeStamp.h"

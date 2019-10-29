@@ -24,7 +24,7 @@
 #include "nsContentUtils.h"
 #include "nsFrameSelection.h"
 #include "nsError.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIFrame.h"
 #include "nsISVGSVGFrame.h"
 #include "nsLayoutUtils.h"

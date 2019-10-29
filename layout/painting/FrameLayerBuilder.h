@@ -9,9 +9,9 @@
 
 #include "nsAutoPtr.h"
 #include "nsCSSPropertyIDSet.h"
-#include "nsTHashtable.h"
-#include "nsHashKeys.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsRegion.h"
 #include "nsIFrame.h"
 #include "DisplayItemClip.h"

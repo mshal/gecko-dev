@@ -6,7 +6,7 @@
 #ifndef txKey_h__
 #define txKey_h__
 
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "txNodeSet.h"
 #include "txList.h"
 #include "txXSLTPatterns.h"

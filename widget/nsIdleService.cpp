@@ -10,7 +10,7 @@
 #include "nsIObserverService.h"
 #include "nsIServiceManager.h"
 #include "nsDebug.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsXULAppAPI.h"
 #include "prinrval.h"
 #include "mozilla/Logging.h"

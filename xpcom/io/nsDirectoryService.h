@@ -8,10 +8,10 @@
 #define nsDirectoryService_h___
 
 #include "nsIDirectoryService.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 #include "nsIFile.h"
 #include "nsDirectoryServiceDefs.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/StaticPtr.h"
 

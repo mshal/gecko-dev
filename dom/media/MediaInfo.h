@@ -8,9 +8,9 @@
 
 #  include "mozilla/UniquePtr.h"
 #  include "mozilla/RefPtr.h"
-#  include "nsDataHashtable.h"
+#  include "xpcom/ds/nsDataHashtable.h"
 #  include "nsString.h"
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 #  include "AudioConfig.h"
 #  include "ImageTypes.h"
 #  include "MediaData.h"

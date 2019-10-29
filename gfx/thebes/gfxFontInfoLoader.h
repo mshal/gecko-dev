@@ -10,7 +10,7 @@
 #include "nsIObserver.h"
 #include "nsITimer.h"
 #include "nsIThread.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsString.h"
 #include "gfxFont.h"
 #include "nsIRunnable.h"

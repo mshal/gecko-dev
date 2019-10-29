@@ -13,7 +13,7 @@
 
 #include "gfxContext.h"
 #include "nsImageBoxFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/ComputedStyle.h"
 #include "nsStyleConsts.h"
 #include "nsStyleUtil.h"

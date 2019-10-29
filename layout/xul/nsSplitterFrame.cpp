@@ -13,7 +13,7 @@
 
 #include "gfxContext.h"
 #include "nsSplitterFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsXULElement.h"
 #include "nsPresContext.h"
 #include "mozilla/dom/Document.h"

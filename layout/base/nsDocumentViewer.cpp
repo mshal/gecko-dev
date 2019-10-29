@@ -12,7 +12,7 @@
 #include "mozilla/ServoStyleSet.h"
 #include "nscore.h"
 #include "nsCOMPtr.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsString.h"
 #include "nsReadableUtils.h"
 #include "nsIContent.h"

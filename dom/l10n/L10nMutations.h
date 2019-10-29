@@ -9,7 +9,7 @@
 
 #include "nsRefreshDriver.h"
 #include "nsStubMutationObserver.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "mozilla/dom/DOMLocalization.h"
 
 namespace mozilla {

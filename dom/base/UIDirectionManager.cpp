@@ -9,7 +9,7 @@
 #include "nsIWindowMediator.h"
 #include "nsDocShell.h"
 #include "mozilla/dom/Document.h"
-#include "mozilla/SimpleEnumerator.h"
+#include "xpcom/ds/SimpleEnumerator.h"
 
 namespace mozilla {
 namespace dom {

@@ -10,7 +10,7 @@
 #include "nsContentUtils.h"
 #include "nsCSSPseudoElements.h"
 #include "nsCheckboxRadioFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIFormControl.h"
 #include "mozilla/PresShell.h"
 #include "mozilla/dom/HTMLInputElement.h"

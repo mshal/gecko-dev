@@ -18,7 +18,7 @@
 #include "nsContainerFrame.h"
 #include "nsFloatManager.h"
 #include "nsPresContext.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIContent.h"
 #include "nsLayoutUtils.h"
 #include "nsTextFrame.h"

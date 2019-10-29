@@ -9,7 +9,7 @@
 
 #include "nsCSSPropertyID.h"
 #include "nsCSSValue.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/dom/BaseKeyframeTypesBinding.h"  // CompositeOperationOrAuto
 #include "mozilla/ComputedTimingFunction.h"
 #include "mozilla/Maybe.h"

@@ -11,7 +11,7 @@
 #include "nsIPrefService.h"
 #include "nsIPrefBranch.h"
 
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 #include "nsIMIMEService.h"
 

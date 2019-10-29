@@ -21,7 +21,7 @@
 #include "History.h"
 #include "Helpers.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCollationCID.h"
 #include "nsNetUtil.h"
 #include "nsPrintfCString.h"
@@ -37,7 +37,7 @@
 #include "nsQueryObject.h"
 #include "nsThreadUtils.h"
 #include "nsAppDirectoryServiceDefs.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "mozilla/storage.h"
 #include "mozilla/Preferences.h"
 #include <algorithm>

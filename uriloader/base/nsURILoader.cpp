@@ -26,7 +26,7 @@
 #include "nsIHttpChannel.h"
 #include "nsIMultiPartChannel.h"
 #include "netCore.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIDocShell.h"
 #include "nsIDocShellTreeItem.h"
 #include "nsIDocShellTreeOwner.h"

@@ -7,13 +7,13 @@
 #include "nsAppFileLocationProvider.h"
 #include "nsAppDirectoryServiceDefs.h"
 #include "nsDirectoryServiceDefs.h"
-#include "nsEnumeratorUtils.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsEnumeratorUtils.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsIFile.h"
 #include "nsString.h"
-#include "nsSimpleEnumerator.h"
+#include "xpcom/ds/nsSimpleEnumerator.h"
 #include "prenv.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #if defined(MOZ_WIDGET_COCOA)
 #  include <Carbon/Carbon.h>
 #  include "nsILocalFileMac.h"

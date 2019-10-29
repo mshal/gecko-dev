@@ -8,9 +8,9 @@
 #define VibrancyManager_h
 
 #include "mozilla/Assertions.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsRegion.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "ViewRegion.h"
 
 #import <Foundation/NSGeometry.h>

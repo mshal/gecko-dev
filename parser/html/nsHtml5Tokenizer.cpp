@@ -30,7 +30,7 @@
 
 #define nsHtml5Tokenizer_cpp__
 
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsHtml5AtomTable.h"
 #include "nsHtml5String.h"
 #include "nsIContent.h"
@@ -40,7 +40,7 @@
 #include "nsHtml5ArrayCopy.h"
 #include "nsHtml5NamedCharacters.h"
 #include "nsHtml5NamedCharactersAccel.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsAHtml5TreeBuilderState.h"
 #include "nsHtml5Macros.h"
 #include "nsHtml5Highlighter.h"

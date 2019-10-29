@@ -8,7 +8,7 @@
 #include "mozilla/Mutex.h"
 #include "mozilla/Base64.h"
 #include "nsIUrlClassifierUtils.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsIObserver.h"
 
 #define TESTING_TABLE_PROVIDER_NAME "test"

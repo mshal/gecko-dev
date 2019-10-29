@@ -5,7 +5,7 @@
 
 #include "NativeKeyBindings.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCocoaUtils.h"
 #include "mozilla/Logging.h"
 #include "mozilla/TextEvents.h"

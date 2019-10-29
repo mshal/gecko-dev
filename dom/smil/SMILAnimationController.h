@@ -13,10 +13,10 @@
 #include "mozilla/SMILTimeContainer.h"
 #include "nsAutoPtr.h"
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsITimer.h"
-#include "nsTHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsRefreshDriver.h"
 
 namespace mozilla {

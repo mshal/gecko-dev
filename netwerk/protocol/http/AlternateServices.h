@@ -24,7 +24,7 @@ https://tools.ietf.org/html/draft-ietf-httpbis-alt-svc-06
 #define mozilla_net_AlternateServices_h
 
 #include "mozilla/DataStorage.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsString.h"
 #include "nsIInterfaceRequestor.h"
 #include "nsIStreamListener.h"

@@ -11,7 +11,7 @@
 #include "mozilla/HoldDropJSObjects.h"
 #include "mozilla/Unused.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIProtocolHandler.h"
 #include "nsIURL.h"
 #include "nsNetUtil.h"

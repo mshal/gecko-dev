@@ -7,7 +7,7 @@
 #ifndef INCREMENTAL_TOKENIZER_H__
 #define INCREMENTAL_TOKENIZER_H__
 
-#include "mozilla/Tokenizer.h"
+#include "xpcom/ds/Tokenizer.h"
 
 #include "nsError.h"
 #include <functional>

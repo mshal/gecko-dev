@@ -7,7 +7,7 @@
 #define MOZILLA_AUDIOMIXER_H_
 
 #include "AudioSampleFormat.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/PodOperations.h"
 #include "mozilla/LinkedList.h"
 #include "AudioStream.h"

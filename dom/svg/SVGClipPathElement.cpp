@@ -9,7 +9,7 @@
 #include "mozilla/ArrayUtils.h"
 #include "mozilla/dom/SVGClipPathElementBinding.h"
 #include "mozilla/dom/SVGUnitTypesBinding.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 NS_IMPL_NS_NEW_SVG_ELEMENT(ClipPath)
 

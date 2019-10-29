@@ -6,7 +6,7 @@
 #include "nsHtml5AttributeName.h"
 #include "nsHtml5Portability.h"
 #include "nsHtml5String.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/StaticPrefs_plain_text.h"
 
 // static

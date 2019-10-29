@@ -13,7 +13,7 @@
 #include "mozilla/Components.h"
 #include "nsCOMPtr.h"
 #include "nsPrintfCString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsXULAppAPI.h"
 
 using namespace mozilla;

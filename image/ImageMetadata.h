@@ -10,7 +10,7 @@
 #include <stdint.h>
 #include "mozilla/Maybe.h"
 #include "nsSize.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "Orientation.h"
 #include "FrameTimeout.h"
 

@@ -9,7 +9,7 @@
 #include "nsDebug.h"
 #include "nsIScrollableFrame.h"
 #include "nsPoint.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "Units.h"
 #include "mozilla/DefineEnum.h"
 #include "mozilla/EventForwards.h"

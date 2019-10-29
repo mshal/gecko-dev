@@ -13,7 +13,7 @@
 
 #include "nsContentUtils.h"
 #include "nsCheckboxRadioFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsContentCreatorFunctions.h"
 #include "mozilla/AsyncEventDispatcher.h"
 #include "mozilla/PresShell.h"

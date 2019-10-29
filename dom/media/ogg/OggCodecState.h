@@ -10,9 +10,9 @@
 // For MOZ_SAMPLE_TYPE_*
 #  include "FlacFrameParser.h"
 #  include "VideoUtils.h"
-#  include <nsDeque.h>
-#  include <nsTArray.h>
-#  include <nsClassHashtable.h>
+#  include "xpcom/ds/nsDeque.h"
+#  include "xpcom/ds/nsTArray.h"
+#  include "xpcom/ds/nsClassHashtable.h"
 
 #  include <theora/theoradec.h>
 #  ifdef MOZ_TREMOR

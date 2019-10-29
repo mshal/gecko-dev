@@ -16,7 +16,7 @@
 #include "nsObjCExceptions.h"
 #include "nsCocoaUtils.h"
 #include "nsCocoaWindow.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsGlobalWindowInner.h"
 #include "nsPIDOMWindow.h"
 #include "nsQueryObject.h"

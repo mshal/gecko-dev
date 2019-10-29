@@ -15,7 +15,7 @@
 #include "mozilla/TextUtils.h"
 
 #include "MainThreadUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsEffectiveTLDService.h"
 #include "nsIFile.h"
 #include "nsIIDNService.h"

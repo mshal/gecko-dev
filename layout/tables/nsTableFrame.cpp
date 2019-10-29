@@ -35,7 +35,7 @@
 #include "nsPresContext.h"
 #include "nsContentUtils.h"
 #include "nsCSSRendering.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsCSSAnonBoxes.h"
 #include "nsIScriptError.h"
 #include "nsFrameManager.h"

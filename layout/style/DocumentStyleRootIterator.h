@@ -7,7 +7,7 @@
 #ifndef DocumentStyleRootIterator_h
 #define DocumentStyleRootIterator_h
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIContent;
 

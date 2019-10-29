@@ -9,10 +9,10 @@
 #include "nscore.h"
 #include "nsView.h"
 #include "nsCOMPtr.h"
-#include "nsCRT.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsCRT.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsDeviceContext.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/EventForwards.h"
 

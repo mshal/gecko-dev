@@ -19,7 +19,7 @@
 #include "nsNSSHelper.h"
 #include "nsNetUtil.h"
 #include "nsReadableUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsThreadUtils.h"
 #include "p12plcy.h"
 #include "mozpkix/pkixtypes.h"

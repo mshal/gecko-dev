@@ -11,7 +11,7 @@
 
 #include "InputData.h"             // for KeyboardInput
 #include "nsIScrollableFrame.h"    // for nsIScrollableFrame::ScrollUnit
-#include "nsTArray.h"              // for nsTArray
+#include "xpcom/ds/nsTArray.h"              // for nsTArray
 #include "mozilla/Maybe.h"         // for mozilla::Maybe
 #include "KeyboardScrollAction.h"  // for KeyboardScrollAction
 

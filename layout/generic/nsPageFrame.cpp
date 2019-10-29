@@ -13,7 +13,7 @@
 #include "nsFontMetrics.h"
 #include "nsLayoutUtils.h"
 #include "nsPresContext.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsPageContentFrame.h"
 #include "nsDisplayList.h"
 #include "nsPageSequenceFrame.h"  // for nsSharedPageData

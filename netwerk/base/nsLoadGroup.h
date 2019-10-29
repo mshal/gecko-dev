@@ -11,7 +11,7 @@
 #include "nsCOMPtr.h"
 #include "nsWeakReference.h"
 #include "nsISupportsPriority.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 #include "mozilla/TimeStamp.h"
 
 class nsIRequestContext;

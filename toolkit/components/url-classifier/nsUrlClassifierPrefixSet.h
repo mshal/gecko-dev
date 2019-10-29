@@ -14,7 +14,7 @@
 #include "nsIMutableArray.h"
 #include "nsIFileStreams.h"
 #include "nsIUrlClassifierPrefixSet.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsToolkitCompsCID.h"
 #include "mozilla/FileUtils.h"
 #include "mozilla/MemoryReporting.h"

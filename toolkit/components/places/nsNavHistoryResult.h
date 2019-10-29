@@ -13,10 +13,10 @@
 #define nsNavHistoryResult_h_
 
 #include "INativePlacesEventCallback.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsMaybeWeakPtr.h"
-#include "nsInterfaceHashtable.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsCycleCollectionParticipant.h"
 #include "mozilla/storage.h"
 #include "Helpers.h"

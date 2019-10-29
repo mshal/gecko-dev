@@ -12,7 +12,7 @@
 #include "nsISupports.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/LinkedList.h"
 #include "mozilla/Attributes.h"
 #include "nsWrapperCache.h"

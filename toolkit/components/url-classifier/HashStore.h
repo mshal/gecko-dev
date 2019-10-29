@@ -9,12 +9,12 @@
 #include "ChunkSet.h"
 
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIFile.h"
 #include "nsIFileStreams.h"
 #include "nsISupports.h"
 #include "nsCOMPtr.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include <string>
 
 namespace mozilla {

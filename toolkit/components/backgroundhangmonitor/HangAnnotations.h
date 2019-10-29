@@ -14,7 +14,7 @@
 #include "mozilla/Mutex.h"
 #include "mozilla/Vector.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/ipc/IPDLParamTraits.h"
 
 namespace mozilla {

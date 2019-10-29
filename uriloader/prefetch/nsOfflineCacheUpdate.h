@@ -9,7 +9,7 @@
 #include "nsIOfflineCacheUpdate.h"
 
 #include "nsAutoPtr.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "nsIChannelEventSink.h"
 #include "nsIInterfaceRequestor.h"
@@ -22,15 +22,15 @@
 #include "nsIStreamListener.h"
 #include "nsIURI.h"
 #include "nsIWebProgressListener.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWeakReference.h"
 #include "nsICryptoHash.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/WeakPtr.h"
-#include "nsTHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 namespace mozilla {
 

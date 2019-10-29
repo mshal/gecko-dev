@@ -34,7 +34,7 @@
 #include "IDBRequest.h"
 #include "ProfilerHelpers.h"
 #include "ScriptErrorHelper.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "unicode/locid.h"
 
 // Bindings for ResolveConstructors

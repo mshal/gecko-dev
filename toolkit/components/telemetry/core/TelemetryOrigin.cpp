@@ -7,10 +7,10 @@
 #include "Telemetry.h"
 #include "TelemetryOrigin.h"
 
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsIObserverService.h"
 #include "nsPrintfCString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "TelemetryCommon.h"
 #include "TelemetryOriginEnums.h"
 

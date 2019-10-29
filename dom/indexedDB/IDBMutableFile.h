@@ -13,9 +13,9 @@
 #include "mozilla/DOMEventTargetHelper.h"
 #include "mozilla/dom/FileModeBinding.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsString.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 namespace mozilla {
 

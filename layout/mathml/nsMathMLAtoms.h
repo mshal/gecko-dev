@@ -7,6 +7,6 @@
 #ifndef nsMathMLAtoms_h___
 #define nsMathMLAtoms_h___
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 #endif /* nsMathMLAtoms_h___ */

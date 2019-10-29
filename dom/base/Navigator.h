@@ -14,10 +14,10 @@
 #include "mozilla/dom/Nullable.h"
 #include "mozilla/ErrorResult.h"
 #include "nsWrapperCache.h"
-#include "nsHashKeys.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/dom/MediaKeySystemAccessManager.h"
 
 class nsPluginArray;

@@ -7,7 +7,7 @@
 #ifndef mozilla_HalBatteryInformation_h
 #define mozilla_HalBatteryInformation_h
 
-#include "mozilla/Observer.h"
+#include "xpcom/ds/Observer.h"
 
 namespace mozilla {
 namespace hal {

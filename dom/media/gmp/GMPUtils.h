@@ -10,9 +10,9 @@
 #include "mozilla/RefPtr.h"
 #include "mozilla/AbstractThread.h"
 #include "nsStringFwd.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCOMPtr.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 
 #define CHROMIUM_CDM_API_BACKWARD_COMPAT "chromium-cdm9-host4"
 #define CHROMIUM_CDM_API "chromium-cdm10-host4"

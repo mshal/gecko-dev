@@ -6,7 +6,7 @@
 #ifndef mozilla_intl_Quotes_h__
 #define mozilla_intl_Quotes_h__
 
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 
 namespace mozilla {
 namespace intl {

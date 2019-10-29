@@ -35,7 +35,7 @@
 #include "mozilla/Assertions.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/Move.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsISupportsImpl.h"
 
 namespace IPC {

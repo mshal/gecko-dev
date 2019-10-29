@@ -18,7 +18,7 @@
 #include "nsDirectoryServiceDefs.h"
 #include "nsIObserverService.h"
 #include "nsIToolkitChromeRegistry.h"
-#include "nsStringEnumerator.h"
+#include "xpcom/ds/nsStringEnumerator.h"
 #include "nsXULAppAPI.h"
 #include "nsZipArchive.h"
 

@@ -14,7 +14,7 @@
 #include "mozilla/dom/UnionTypes.h"
 #include "mozilla/dom/HTMLOptionsCollection.h"
 #include "mozilla/ErrorResult.h"
-#include "nsCheapSets.h"
+#include "xpcom/ds/nsCheapSets.h"
 #include "nsCOMPtr.h"
 #include "nsError.h"
 #include "mozilla/dom/HTMLFormElement.h"

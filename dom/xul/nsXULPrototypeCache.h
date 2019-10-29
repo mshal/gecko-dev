@@ -11,9 +11,9 @@
 #ifdef MOZ_XBL
 #  include "nsXBLDocumentInfo.h"
 #endif
-#include "nsJSThingHashtable.h"
-#include "nsInterfaceHashtable.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsJSThingHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsURIHashKey.h"
 #include "nsXULPrototypeDocument.h"
 #include "nsIInputStream.h"

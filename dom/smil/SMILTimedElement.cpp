@@ -20,15 +20,15 @@
 #include "mozilla/dom/DocumentInlines.h"
 #include "mozilla/dom/SVGAnimationElement.h"
 #include "nsAttrValueInlines.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsReadableUtils.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "nsThreadUtils.h"
 #include "prdtoa.h"
 #include "plstr.h"
 #include "prtime.h"
 #include "nsString.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include <algorithm>
 
 using namespace mozilla::dom;

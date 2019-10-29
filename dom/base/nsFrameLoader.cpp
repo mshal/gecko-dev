@@ -57,7 +57,7 @@
 #include "nsIURL.h"
 #include "nsNetUtil.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsNameSpaceManager.h"
 
 #include "nsThreadUtils.h"

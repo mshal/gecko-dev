@@ -4,7 +4,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "txExpr.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "txIXPathContext.h"
 #include "txXPathTreeWalker.h"
 

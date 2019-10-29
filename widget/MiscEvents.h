@@ -10,8 +10,8 @@
 
 #include "mozilla/BasicEvents.h"
 #include "nsCOMPtr.h"
-#include "nsAtom.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsAtom.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsITransferable.h"
 
 namespace mozilla {

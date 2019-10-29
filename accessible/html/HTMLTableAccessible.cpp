@@ -26,7 +26,7 @@
 #include "nsITableCellLayout.h"
 #include "nsFrameSelection.h"
 #include "nsError.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsComponentManagerUtils.h"
 #include "nsNameSpaceManager.h"
 #include "nsTableCellFrame.h"

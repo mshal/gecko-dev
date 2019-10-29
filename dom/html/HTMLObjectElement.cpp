@@ -12,7 +12,7 @@
 #include "mozilla/dom/ElementInlines.h"
 #include "mozilla/dom/WindowProxyHolder.h"
 #include "nsAttrValueInlines.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsError.h"
 #include "mozilla/dom/Document.h"
 #include "nsIPluginDocument.h"

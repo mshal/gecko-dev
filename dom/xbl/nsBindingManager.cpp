@@ -40,7 +40,7 @@
 #include "nsIXPConnect.h"
 #include "nsDOMCID.h"
 #include "nsIScriptGlobalObject.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 #include "nsIScriptContext.h"
 #include "xpcpublic.h"

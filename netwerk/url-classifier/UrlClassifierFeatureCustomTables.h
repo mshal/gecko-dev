@@ -8,7 +8,7 @@
 #define mozilla_UrlClassifierFeatureCustomTables_h
 
 #include "nsIUrlClassifierFeature.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 
 namespace mozilla {

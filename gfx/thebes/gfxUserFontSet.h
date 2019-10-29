@@ -11,7 +11,7 @@
 #include "gfxFontSrcPrincipal.h"
 #include "gfxFontSrcURI.h"
 #include "nsProxyRelease.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsCOMPtr.h"
 #include "nsIFontLoadCompleteCallback.h"
 #include "nsIMemoryReporter.h"

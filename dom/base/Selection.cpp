@@ -36,7 +36,7 @@
 #include "nsIContent.h"
 #include "nsRange.h"
 #include "nsITableCellLayout.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsTableWrapperFrame.h"
 #include "nsTableCellFrame.h"
 #include "nsIScrollableFrame.h"
@@ -46,7 +46,7 @@
 #include <algorithm>
 #include "nsContentUtils.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsLayoutUtils.h"
 #include "nsBidiPresUtils.h"
 #include "nsTextFrame.h"

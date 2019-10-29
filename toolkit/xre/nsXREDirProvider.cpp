@@ -30,9 +30,9 @@
 #include "nsCategoryManagerUtils.h"
 
 #include "nsDependentString.h"
-#include "nsCOMArray.h"
-#include "nsArrayEnumerator.h"
-#include "nsEnumeratorUtils.h"
+#include "xpcom/ds/nsCOMArray.h"
+#include "xpcom/ds/nsArrayEnumerator.h"
+#include "xpcom/ds/nsEnumeratorUtils.h"
 #include "nsReadableUtils.h"
 
 #include "SpecialSystemDirectory.h"

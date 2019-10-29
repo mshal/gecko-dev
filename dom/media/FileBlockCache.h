@@ -12,9 +12,9 @@
 #include "mozilla/Mutex.h"
 #include "mozilla/UniquePtr.h"
 #include "mozilla/AbstractThread.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "MediaBlockCacheBase.h"
-#include "nsDeque.h"
+#include "xpcom/ds/nsDeque.h"
 #include "nsThreadUtils.h"
 #include <deque>
 

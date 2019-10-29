@@ -10,7 +10,7 @@
 #include "nsIInterfaceRequestor.h"
 #include "nsIInterfaceRequestorUtils.h"
 #include "nsCommandParams.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsString.h"
 #include "mozilla/ArrayUtils.h"
 #include "mozilla/Preferences.h"

@@ -41,7 +41,7 @@ WIN_LIBS=                                       \
 #include "nsIPrefService.h"
 #include "nsIPrefBranch.h"
 
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "prenv.h" /* for PR_GetEnv */
 
 #include <windows.h>

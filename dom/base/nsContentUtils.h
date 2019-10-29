@@ -29,8 +29,8 @@
 #include "mozilla/TaskCategory.h"
 #include "mozilla/TimeStamp.h"
 #include "nsContentListDeclarations.h"
-#include "nsMathUtils.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsMathUtils.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 #include "Units.h"
 #include "mozilla/dom/AutocompleteInfoBinding.h"
 #include "mozilla/dom/BindingDeclarations.h"  // For CallerType

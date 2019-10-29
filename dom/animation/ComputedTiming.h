@@ -8,7 +8,7 @@
 #define mozilla_ComputedTiming_h
 
 #include "mozilla/dom/Nullable.h"
-#include "mozilla/StickyTimeDuration.h"
+#include "xpcom/ds/StickyTimeDuration.h"
 #include "mozilla/ComputedTimingFunction.h"
 
 #include "mozilla/dom/AnimationEffectBinding.h"  // FillMode

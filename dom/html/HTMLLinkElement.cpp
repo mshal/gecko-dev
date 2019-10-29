@@ -19,7 +19,7 @@
 #include "nsContentUtils.h"
 #include "nsDOMTokenList.h"
 #include "nsGenericHTMLElement.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsHTMLDNSPrefetch.h"
 #include "nsIContentInlines.h"
 #include "mozilla/dom/Document.h"

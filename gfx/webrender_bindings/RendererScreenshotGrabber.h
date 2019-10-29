@@ -9,7 +9,7 @@
 #include "mozilla/UniquePtr.h"
 #include "mozilla/gfx/Point.h"
 #include "mozilla/layers/ProfilerScreenshots.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace wr {

@@ -13,7 +13,7 @@
 #include "mozilla/Attributes.h"
 #include "mozilla/Maybe.h"
 #include "nsDOMString.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 
 namespace mozilla {
 namespace dom {

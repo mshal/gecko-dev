@@ -18,12 +18,12 @@
 #include "mozilla/Maybe.h"
 #include "mozilla/intl/LineBreaker.h"
 #include "nsCOMPtr.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsIContentSerializer.h"
 #include "nsIDocumentEncoder.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include <stack>
 

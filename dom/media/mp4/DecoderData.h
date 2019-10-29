@@ -12,7 +12,7 @@
 #include "mozilla/Types.h"
 #include "mozilla/Vector.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 #include "mp4parse.h"
 

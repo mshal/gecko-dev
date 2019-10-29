@@ -5,9 +5,9 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "nsMenuPopupFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIContent.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsPresContext.h"
 #include "mozilla/ComputedStyle.h"
 #include "nsCSSRendering.h"

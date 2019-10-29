@@ -14,7 +14,7 @@
 #include "nsISelectionController.h"
 #include "nsITextInputProcessor.h"
 #include "nsStyleConsts.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 

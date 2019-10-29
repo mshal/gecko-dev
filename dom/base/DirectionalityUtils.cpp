@@ -219,7 +219,7 @@
 #include "nsTextFragment.h"
 #include "nsAttrValue.h"
 #include "nsTextNode.h"
-#include "nsCheapSets.h"
+#include "xpcom/ds/nsCheapSets.h"
 
 namespace mozilla {
 

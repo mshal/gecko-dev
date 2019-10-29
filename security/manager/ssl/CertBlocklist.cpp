@@ -24,7 +24,7 @@
 #include "nsNetCID.h"
 #include "nsNetUtil.h"
 #include "nsPromiseFlatString.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "nsThreadUtils.h"
 #include "mozpkix/Input.h"
 #include "prtime.h"

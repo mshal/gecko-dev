@@ -8,7 +8,7 @@
 
 #include "Entries.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace safebrowsing {

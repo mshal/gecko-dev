@@ -19,7 +19,7 @@
 #include "mozilla/dom/File.h"
 #include "mozilla/dom/ServiceWorkerManager.h"
 #include "mozilla/dom/Document.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsPrintfCString.h"
 
 namespace mozilla {

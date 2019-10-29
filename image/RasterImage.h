@@ -21,7 +21,7 @@
 #include "nsCOMPtr.h"
 #include "imgIContainer.h"
 #include "nsIProperties.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "LookupResult.h"
 #include "nsThreadUtils.h"
 #include "DecoderFactory.h"

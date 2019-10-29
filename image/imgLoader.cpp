@@ -44,7 +44,7 @@
 #include "nsIAsyncVerifyRedirectCallback.h"
 #include "nsIFileURL.h"
 #include "nsIFile.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsINetworkPredictor.h"
 #include "nsReadableUtils.h"
 #include "mozilla/dom/ContentParent.h"

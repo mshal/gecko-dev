@@ -15,7 +15,7 @@
 #include "nsICacheService.h"
 #include "nsCacheService.h"
 #include "nsCacheDevice.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 using namespace mozilla;
 

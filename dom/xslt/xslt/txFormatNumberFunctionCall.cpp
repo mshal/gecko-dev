@@ -6,7 +6,7 @@
 #include "mozilla/FloatingPoint.h"
 
 #include "txXSLTFunctions.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "txIXPathContext.h"
 #include "txStylesheet.h"
 #include <math.h>

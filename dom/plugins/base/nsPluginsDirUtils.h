@@ -7,7 +7,7 @@
 #define nsPluginsDirUtils_h___
 
 #include "nsPluginsDir.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 ///////////////////////////////////////////////////////////////////////////////
 // Output format from NPP_GetMIMEDescription: "...mime

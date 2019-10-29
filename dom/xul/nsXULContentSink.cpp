@@ -37,13 +37,13 @@
 #include "nsReadableUtils.h"
 #include "nsXULElement.h"
 #include "mozilla/Logging.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 #include "nsXULPrototypeDocument.h"  // XXXbe temporary
 #include "mozilla/css/Loader.h"
 
 #include "nsUnicharUtils.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsContentUtils.h"
 #include "nsAttrName.h"
 #include "nsXMLContentSink.h"

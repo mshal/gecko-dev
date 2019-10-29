@@ -18,8 +18,8 @@
 #include "nsIChannel.h"
 #include "nsIRequestObserver.h"
 #include "gfxUserFontSet.h"
-#include "nsHashKeys.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 class nsIPrincipal;
 

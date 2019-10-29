@@ -24,7 +24,7 @@
 #include "mozilla/Tuple.h"
 #include "nsIMemoryReporter.h"
 #include "nsPrintfCString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "AudioSegment.h"
 #include "DOMMediaStream.h"
 #include "ImageContainer.h"

@@ -12,7 +12,7 @@
 #include "mozilla/gfx/2D.h"
 #include "nsCOMPtr.h"
 #include "nsCoord.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsStubMutationObserver.h"
 #include "nsIDOMEventListener.h"
 

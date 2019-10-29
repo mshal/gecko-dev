@@ -8,7 +8,7 @@
 #define mozilla_dom_Nullable_h
 
 #include "mozilla/Assertions.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 #include "mozilla/Move.h"
 #include "mozilla/Maybe.h"
 

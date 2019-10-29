@@ -34,7 +34,7 @@
 #include "nsIWidgetListener.h"
 
 #include "mozilla/BasePrincipal.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIWeakReferenceUtils.h"
 
 class nsWebBrowserInitInfo {

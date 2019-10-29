@@ -8,7 +8,7 @@
 #define nsContentPermissionHelper_h
 
 #include "nsIContentPermissionPrompt.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIMutableArray.h"
 #include "mozilla/dom/PContentPermissionRequestChild.h"
 #include "mozilla/dom/ipc/IdType.h"

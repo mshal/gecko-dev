@@ -11,7 +11,7 @@
 #include "mozilla/layers/WebRenderLayerManager.h"
 #include "mozilla/Unused.h"
 #include "nsDisplayList.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "UnitTransforms.h"
 
 namespace mozilla {

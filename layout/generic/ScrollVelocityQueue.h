@@ -7,7 +7,7 @@
 #ifndef ScrollVelocityQueue_h_
 #define ScrollVelocityQueue_h_
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsPoint.h"
 #include "mozilla/TimeStamp.h"
 

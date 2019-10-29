@@ -11,7 +11,7 @@
 
 #include "nsCOMPtr.h"
 #include "nsINode.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsINodeList;
 

@@ -8,7 +8,7 @@
 #define nsCommandManager_h__
 
 #include "nsString.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsWeakReference.h"
 
 #include "nsICommandManager.h"

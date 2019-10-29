@@ -26,7 +26,7 @@
 #include "nsCOMPtr.h"
 #include "nsDOMString.h"
 #include "nsChangeHint.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsNodeUtils.h"
 #include "mozilla/dom/DirectionalityUtils.h"
 #ifdef MOZ_XBL
@@ -36,7 +36,7 @@
 #include "mozAutoDocUpdate.h"
 #include "nsTextNode.h"
 #include "nsBidiUtils.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 #include "mozilla/Sprintf.h"
 #include "nsWindowSizes.h"
 #include "nsWrapperCacheInlines.h"

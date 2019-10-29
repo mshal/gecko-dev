@@ -12,9 +12,9 @@
 #include "nsIRequestObserver.h"
 #include "nsZipHeader.h"
 #include "nsCOMPtr.h"
-#include "nsCOMArray.h"
-#include "nsTArray.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsCOMArray.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "mozilla/Attributes.h"
 
 #define ZIPWRITER_CONTRACTID "@mozilla.org/zipwriter;1"

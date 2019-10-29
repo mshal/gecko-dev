@@ -9,7 +9,7 @@ interface nsIPrincipal;
 namespace mozilla {
 class TimeStamp;
 }
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 #include "nsCOMPtr.h"
 %}
 

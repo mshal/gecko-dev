@@ -13,10 +13,10 @@
 
 // Helper classes
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 #include "nsWeakReference.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsRect.h"
 #include "Units.h"
 

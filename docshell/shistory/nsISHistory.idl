@@ -12,7 +12,7 @@ interface nsISHistoryListener;
 interface nsIURI;
 
 %{C++
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 %}
 
 [ref] native nsDocshellIDArray(nsTArray<nsID>);

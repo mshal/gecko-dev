@@ -8,7 +8,7 @@
 #include "nsURLHelper.h"
 #include "nsEscape.h"
 #include "nsIFile.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsReadableUtils.h"
 #include <Carbon/Carbon.h>
 

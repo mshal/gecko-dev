@@ -19,8 +19,8 @@
 #include "mozilla/layers/TextureForwarder.h"   // for TextureForwarder
 #include "nsRegion.h"                          // for nsIntRegion
 #include "mozilla/gfx/Rect.h"
-#include "nsHashKeys.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 namespace mozilla {
 namespace layers {

@@ -12,7 +12,7 @@
 #include "mozilla/dom/Document.h"
 #include "nsIObserver.h"
 
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsString.h"
 
 // Defines regarding spoofed values of Navigator object. These spoofed values

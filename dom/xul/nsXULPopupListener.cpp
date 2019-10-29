@@ -10,7 +10,7 @@
 
 #include "nsXULPopupListener.h"
 #include "nsCOMPtr.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsContentCID.h"
 #include "nsContentUtils.h"
 #include "nsXULPopupManager.h"

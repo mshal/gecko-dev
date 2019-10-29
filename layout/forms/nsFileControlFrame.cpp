@@ -6,7 +6,7 @@
 
 #include "nsFileControlFrame.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsCOMPtr.h"
 #include "mozilla/dom/Document.h"
 #include "mozilla/dom/NodeInfo.h"

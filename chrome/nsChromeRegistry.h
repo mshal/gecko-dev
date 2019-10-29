@@ -12,7 +12,7 @@
 
 #include "nsString.h"
 #include "nsURIHashKey.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 #include "nsXULAppAPI.h"
 
 #include "mozilla/FileLocation.h"

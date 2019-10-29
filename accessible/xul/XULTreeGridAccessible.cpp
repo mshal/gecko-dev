@@ -17,7 +17,7 @@
 #include "nsTreeColumns.h"
 
 #include "nsIMutableArray.h"
-#include "nsPersistentProperties.h"
+#include "xpcom/ds/nsPersistentProperties.h"
 #include "nsITreeSelection.h"
 #include "nsComponentManagerUtils.h"
 #include "mozilla/PresShell.h"

@@ -8,7 +8,7 @@
 #define mozilla_dom_XULBroadcastManager_h
 
 #include "mozilla/dom/Element.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 
 class nsXULElement;
 

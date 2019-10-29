@@ -6,11 +6,11 @@
 #ifndef mozilla_CounterStyleManager_h_
 #define mozilla_CounterStyleManager_h_
 
-#include "nsAtom.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsAtom.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsStringFwd.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 #include "nsStyleConsts.h"
 

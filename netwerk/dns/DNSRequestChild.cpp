@@ -14,7 +14,7 @@
 #include "nsIDNSRecord.h"
 #include "nsIDNSByTypeRecord.h"
 #include "nsHostResolver.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsNetAddr.h"
 #include "nsIThread.h"
 #include "nsThreadUtils.h"

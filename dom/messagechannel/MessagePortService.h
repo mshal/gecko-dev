@@ -7,8 +7,8 @@
 #ifndef mozilla_dom_MessagePortService_h
 #define mozilla_dom_MessagePortService_h
 
-#include "nsClassHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsISupportsImpl.h"
 
 namespace mozilla {

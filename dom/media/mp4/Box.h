@@ -8,7 +8,7 @@
 #define BOX_H_
 
 #include <stdint.h>
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "MediaResource.h"
 #include "mozilla/EndianUtils.h"
 #include "AtomType.h"

@@ -6,7 +6,7 @@
 
 #include "StaticComponents.h"
 
-#include "mozilla/PerfectHash.h"
+#include "xpcom/ds/PerfectHash.h"
 #include "mozilla/ResultExtensions.h"
 #include "mozilla/StaticPtr.h"
 #include "mozilla/UniquePtr.h"
@@ -18,7 +18,7 @@
 #include "nsIFactory.h"
 #include "nsISupports.h"
 #include "nsString.h"
-#include "nsStringEnumerator.h"
+#include "xpcom/ds/nsStringEnumerator.h"
 
 // Cleanup pollution from zipstruct.h
 #undef UNSUPPORTED

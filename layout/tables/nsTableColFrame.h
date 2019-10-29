@@ -9,7 +9,7 @@
 #include "celldata.h"
 #include "nscore.h"
 #include "nsContainerFrame.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsTableColGroupFrame.h"
 #include "mozilla/WritingModes.h"
 

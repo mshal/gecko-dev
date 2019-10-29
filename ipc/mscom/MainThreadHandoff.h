@@ -13,7 +13,7 @@
 #include "mozilla/mscom/MainThreadInvoker.h"
 #include "mozilla/mscom/Utils.h"
 #include "mozilla/Mutex.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace mscom {

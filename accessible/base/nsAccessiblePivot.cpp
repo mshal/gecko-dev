@@ -11,7 +11,7 @@
 #include "States.h"
 #include "Pivot.h"
 #include "xpcAccessibleDocument.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Maybe.h"
 
 using namespace mozilla::a11y;

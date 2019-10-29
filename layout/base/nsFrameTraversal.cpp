@@ -7,7 +7,7 @@
 #include "nsFrameTraversal.h"
 
 #include "nsCOMPtr.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 #include "nsFrameList.h"
 #include "nsPlaceholderFrame.h"

@@ -19,7 +19,7 @@
 #include "mozilla/IOInterposer.h"
 #include "mozilla/Mutex.h"
 #include "mozilla/TimeStamp.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWindowsDllInterceptor.h"
 #include "plstr.h"
 

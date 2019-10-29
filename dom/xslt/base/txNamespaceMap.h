@@ -6,9 +6,9 @@
 #ifndef TRANSFRMX_TXNAMESPACEMAP_H
 #define TRANSFRMX_TXNAMESPACEMAP_H
 
-#include "nsAtom.h"
-#include "nsCOMArray.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsAtom.h"
+#include "xpcom/ds/nsCOMArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class txNamespaceMap {
  public:

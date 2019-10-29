@@ -8,8 +8,8 @@
 #define nsClassHashtable_h__
 
 #include "mozilla/Move.h"
-#include "nsBaseHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsBaseHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsAutoPtr.h"
 
 /**

@@ -8,8 +8,8 @@
 
 #include "mozilla/gmp/PGMPStorageChild.h"
 #include "gmp-storage.h"
-#include "nsTHashtable.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "gmp-platform.h"
 
 #include <queue>

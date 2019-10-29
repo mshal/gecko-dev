@@ -10,7 +10,7 @@
 #include "nsAppDirectoryServiceDefs.h"
 #include "nsDirectoryServiceDefs.h"
 #include "nsDirectoryService.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "mozilla/ArrayUtils.h"
 #include "mozilla/DebugOnly.h"
 #include "mozilla/EnumeratedRange.h"
@@ -90,7 +90,7 @@ using mozilla::InjectCrashRunnable;
 #include <prio.h>
 #include "mozilla/Mutex.h"
 #include "nsDebug.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIFile.h"
 #include <map>
 #include <vector>

@@ -17,7 +17,7 @@
 #include "nsAutoPtr.h"
 #include "nsIFile.h"
 #include "nsISupportsImpl.h"  // For mozilla::ThreadSafeAutoRefCnt
-#include "mozilla/ArenaAllocator.h"
+#include "xpcom/ds/ArenaAllocator.h"
 #include "mozilla/FileUtils.h"
 #include "mozilla/FileLocation.h"
 #include "mozilla/UniquePtr.h"

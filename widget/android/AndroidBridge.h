@@ -14,7 +14,7 @@
 #include "APKOpen.h"
 
 #include "nsCOMPtr.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 
 #include "GeneratedJNIWrappers.h"
 
@@ -31,7 +31,7 @@
 #include "mozilla/gfx/Point.h"
 #include "mozilla/jni/Utils.h"
 #include "nsIObserver.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 #include "Units.h"
 

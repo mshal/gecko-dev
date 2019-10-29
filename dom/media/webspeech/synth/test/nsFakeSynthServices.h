@@ -7,11 +7,11 @@
 #ifndef nsFakeSynthServices_h
 #define nsFakeSynthServices_h
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIObserver.h"
 #include "nsIThread.h"
 #include "nsISpeechService.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "mozilla/StaticPtr.h"
 #include "mozilla/Monitor.h"
 

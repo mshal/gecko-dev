@@ -12,10 +12,10 @@
 #include "nsCOMPtr.h"
 #include "nsReadableUtils.h"
 #include "nsPrintfCString.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsNativeCharsetUtils.h"
 #include "nsUTF8Utils.h"
-#include "nsArray.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsLocalFileCommon.h"
 
 #ifdef XP_WIN

@@ -14,7 +14,7 @@
 #include "mozilla/MaybeOneOf.h"
 #include "mozilla/RefPtr.h"
 #include "nsContentUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsThreadUtils.h"
 
 class nsGlobalWindowOuter;

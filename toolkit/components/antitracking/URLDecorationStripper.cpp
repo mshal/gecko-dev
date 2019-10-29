@@ -8,7 +8,7 @@
 
 #include "mozilla/dom/URLSearchParams.h"
 #include "mozilla/Preferences.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsEffectiveTLDService.h"
 #include "nsIURIMutator.h"
 

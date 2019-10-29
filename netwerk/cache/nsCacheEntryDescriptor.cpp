@@ -11,7 +11,7 @@
 #include "nsCacheEntry.h"
 #include "nsReadableUtils.h"
 #include "nsIOutputStream.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsThreadUtils.h"
 #include <algorithm>
 #include "mozilla/IntegerPrintfMacros.h"

@@ -14,8 +14,8 @@ class nsIGlobalObject;
 #include "nsIWeakReferenceUtils.h"
 #include "nsPIWindowRoot.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsTHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 class nsWindowRoot final : public nsPIWindowRoot {
  public:

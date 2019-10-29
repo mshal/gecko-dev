@@ -7,7 +7,7 @@
 #define _SSLSERVERCERTVERIFICATION_H
 
 #include "mozilla/Maybe.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "seccomon.h"
 #include "prio.h"
 

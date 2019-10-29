@@ -10,7 +10,7 @@
 #include "nsNetUtil.h"
 #include "nsIIOService.h"
 #include "nsIStandardURL.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIComponentManager.h"
 #include "nsIServiceManager.h"
 #include "nsIZipReader.h"

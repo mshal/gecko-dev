@@ -21,7 +21,7 @@
 #include "nsCycleCollectionParticipant.h"
 #include "nsLiteralString.h"
 #include "nsThreadUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 using namespace JS;
 using namespace mozilla::dom;

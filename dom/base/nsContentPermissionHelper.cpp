@@ -23,7 +23,7 @@
 #include "mozilla/Preferences.h"
 #include "mozilla/Unused.h"
 #include "nsComponentManagerUtils.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsIMutableArray.h"
 #include "nsContentPermissionHelper.h"
 #include "nsJSUtils.h"

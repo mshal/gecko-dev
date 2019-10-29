@@ -15,7 +15,7 @@
 #include "nsIStringBundle.h"
 #include "nsIObserverService.h"
 #include "nsIURI.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "mozilla/XREAppData.h"
 
 #include <dlfcn.h>

@@ -14,7 +14,7 @@
 #include "nsStringStream.h"
 #include "nsIScriptError.h"
 #include "nsIScriptSecurityManager.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsStreamUtils.h"
 #include "nsContentUtils.h"
 #include "nsDOMJSUtils.h"

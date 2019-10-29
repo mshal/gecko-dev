@@ -11,7 +11,7 @@
 #include "nsEscape.h"
 #include "nsStringStream.h"
 #include "nsIStreamListener.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIChannel.h"
 #include "nsIURI.h"
 #include "nsIURIMutator.h"

@@ -27,7 +27,7 @@
 #include "nsStreamUtils.h"
 #include "nsString.h"
 #include "nsURLParsers.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsHttp.h"
 
 namespace mozilla {

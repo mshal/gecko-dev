@@ -9,7 +9,7 @@
 #include "DOMSVGLengthList.h"
 #include "DOMSVGAnimatedLengthList.h"
 #include "nsError.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "SVGAnimatedLength.h"
 #include "SVGAnimatedLengthList.h"
 #include "SVGAttrTearoffTable.h"

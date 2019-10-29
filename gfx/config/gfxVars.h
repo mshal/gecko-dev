@@ -12,7 +12,7 @@
 #include "mozilla/gfx/GraphicsMessages.h"
 #include "mozilla/gfx/Point.h"
 #include "mozilla/gfx/Types.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsXULAppAPI.h"
 
 namespace mozilla {

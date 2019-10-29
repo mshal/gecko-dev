@@ -10,7 +10,7 @@
 #include "txXMLUtils.h"
 #include "nsString.h"
 #include "nsReadableUtils.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "txStringUtils.h"
 #include "txNamespaceMap.h"
 #include "txXPathTreeWalker.h"

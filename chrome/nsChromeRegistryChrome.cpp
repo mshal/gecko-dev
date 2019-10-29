@@ -16,11 +16,11 @@
 #  include <CoreServices/CoreServices.h>
 #endif
 
-#include "nsArrayEnumerator.h"
+#include "xpcom/ds/nsArrayEnumerator.h"
 #include "nsComponentManager.h"
-#include "nsEnumeratorUtils.h"
+#include "xpcom/ds/nsEnumeratorUtils.h"
 #include "nsNetUtil.h"
-#include "nsStringEnumerator.h"
+#include "xpcom/ds/nsStringEnumerator.h"
 #include "nsTextFormatter.h"
 #include "nsXPCOMCIDInternal.h"
 

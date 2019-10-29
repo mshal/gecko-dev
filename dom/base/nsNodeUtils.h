@@ -12,7 +12,7 @@
 #include "nsIMutationObserver.h"  // for use in inline function (ParentChainChanged)
 #include "mozilla/dom/Document.h"
 #include "js/TypeDecls.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsContentUtils.h"
 
 struct CharacterDataChangeInfo;

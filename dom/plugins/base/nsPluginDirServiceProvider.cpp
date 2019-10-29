@@ -5,10 +5,10 @@
 
 #include "nsPluginDirServiceProvider.h"
 
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIFile.h"
 #include "nsDependentString.h"
-#include "nsArrayEnumerator.h"
+#include "xpcom/ds/nsArrayEnumerator.h"
 #include "mozilla/Preferences.h"
 
 #include <windows.h>

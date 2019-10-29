@@ -7,7 +7,7 @@
 #include "nsButtonBoxFrame.h"
 #include "nsIContent.h"
 #include "nsIDOMXULButtonElement.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsNameSpaceManager.h"
 #include "nsPresContext.h"
 #include "nsDisplayList.h"

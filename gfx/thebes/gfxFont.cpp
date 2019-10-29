@@ -21,7 +21,7 @@
 #include "gfxGlyphExtents.h"
 #include "gfxPlatform.h"
 #include "gfxTextRun.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 #include "gfxTypes.h"
 #include "gfxContext.h"

@@ -65,7 +65,7 @@
 #  include "nsView.h"
 #endif
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 #ifdef MOZ_ENABLE_STARTUP_NOTIFICATION
 #  define SN_API_NOT_YET_FROZEN

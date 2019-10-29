@@ -8,7 +8,7 @@
 #include "VideoUtils.h"
 #include "WMFUtils.h"
 #include "mozilla/Telemetry.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "mozilla/Logging.h"
 #include "mozilla/SyncRunnable.h"

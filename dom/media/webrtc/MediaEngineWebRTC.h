@@ -33,7 +33,7 @@
 #include "nsDirectoryServiceDefs.h"
 #include "nsIRunnable.h"
 #include "nsIThread.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsThreadUtils.h"
 #include "prcvar.h"
 #include "prthread.h"

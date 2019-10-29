@@ -17,12 +17,12 @@
 #include "mozilla/gfx/BaseSize.h"  // for BaseSize
 #include "mozilla/gfx/Point.h"     // for IntSize
 #include "mozilla/mozalloc.h"      // for operator new, etc
-#include "nsDataHashtable.h"       // for nsDataHashtable
+#include "xpcom/ds/nsDataHashtable.h"       // for nsDataHashtable
 #include "nsDebug.h"               // for NS_ASSERTION
-#include "nsHashKeys.h"            // for nsPtrHashKey
+#include "xpcom/ds/nsHashKeys.h"            // for nsPtrHashKey
 #include "nsISupportsImpl.h"       // for Layer::AddRef, etc
 #include "nsRect.h"                // for IntRect
-#include "nsTArray.h"              // for AutoTArray, nsTArray_Impl
+#include "xpcom/ds/nsTArray.h"              // for AutoTArray, nsTArray_Impl
 #include "mozilla/Poison.h"
 #include "mozilla/layers/ImageHost.h"
 #include "mozilla/layers/LayerManagerComposite.h"

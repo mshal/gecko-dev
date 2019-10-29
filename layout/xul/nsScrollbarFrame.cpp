@@ -15,7 +15,7 @@
 #include "nsSliderFrame.h"
 #include "nsScrollbarButtonFrame.h"
 #include "nsContentCreatorFunctions.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIScrollableFrame.h"
 #include "nsIScrollbarMediator.h"
 #include "nsStyleConsts.h"

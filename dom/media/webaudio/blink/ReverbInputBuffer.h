@@ -29,7 +29,7 @@
 #ifndef ReverbInputBuffer_h
 #define ReverbInputBuffer_h
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/MemoryReporting.h"
 
 namespace WebCore {

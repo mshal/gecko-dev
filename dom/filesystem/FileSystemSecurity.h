@@ -8,7 +8,7 @@
 #define mozilla_dom_FileSystemSecurity_h
 
 #include "mozilla/dom/ipc/IdType.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsISupportsImpl.h"
 
 namespace mozilla {

@@ -17,7 +17,7 @@
 #include "mozilla/dom/HTMLSelectElement.h"
 #include "nsContentCreatorFunctions.h"
 #include "nsError.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/dom/Document.h"
 #include "nsIFormControlFrame.h"
 #include "nsIForm.h"

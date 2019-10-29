@@ -10,7 +10,7 @@
 #include "mozilla/dom/ResizeObserver.h"
 #include "mozilla/TimeStamp.h"
 #include "nsRefreshDriver.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 
 namespace mozilla {
 

@@ -9,7 +9,7 @@
 
 #include "mozilla/dom/HeadersBinding.h"
 
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsWrapperCache.h"
 
 #include "InternalHeaders.h"

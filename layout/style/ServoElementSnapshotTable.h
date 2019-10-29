@@ -8,8 +8,8 @@
 #define mozilla_ServoElementSnapshotTable_h
 
 #include "mozilla/dom/Element.h"
-#include "nsClassHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "ServoElementSnapshot.h"
 
 namespace mozilla {

@@ -6,8 +6,8 @@
 
 #include "Gamepad.h"
 #include "nsPIDOMWindow.h"
-#include "nsTArray.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsVariant.h"
 #include "mozilla/StaticPrefs_dom.h"
 #include "mozilla/dom/GamepadBinding.h"
 

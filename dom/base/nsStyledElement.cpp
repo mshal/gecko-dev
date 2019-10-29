@@ -6,7 +6,7 @@
 
 #include "nsStyledElement.h"
 #include "mozAutoDocUpdate.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsAttrValue.h"
 #include "nsAttrValueInlines.h"
 #include "mozilla/dom/ElementInlines.h"

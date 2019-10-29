@@ -74,7 +74,7 @@
 #include "nsIXULBrowserWindow.h"
 #include "nsIXULWindow.h"
 #include "nsViewManager.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "nsIWidget.h"
 #include "nsNetUtil.h"
 #ifndef XP_WIN

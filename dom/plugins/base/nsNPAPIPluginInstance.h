@@ -8,13 +8,13 @@
 
 #include "nsSize.h"
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsPIDOMWindow.h"
 #include "nsITimer.h"
 #include "nsIPluginInstanceOwner.h"
 #include "nsIURI.h"
 #include "nsIChannel.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include <prinrval.h>
 #include "js/TypeDecls.h"
 #include "AudioChannelAgent.h"

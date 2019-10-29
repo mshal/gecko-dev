@@ -12,7 +12,7 @@
 #include "nsIMultiplexInputStream.h"
 #include "nsRFPService.h"
 #include "nsStringStream.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsJSUtils.h"
 #include "nsContentUtils.h"
 #include "nsIScriptError.h"

@@ -4,7 +4,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "nsDNSServiceInfo.h"
-#include "nsHashPropertyBag.h"
+#include "xpcom/ds/nsHashPropertyBag.h"
 #include "nsIProperty.h"
 #include "nsISimpleEnumerator.h"
 #include "nsISupportsImpl.h"

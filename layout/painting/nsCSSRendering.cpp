@@ -36,7 +36,7 @@
 #include "nsPoint.h"
 #include "nsRect.h"
 #include "nsFrameManager.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsCSSAnonBoxes.h"
 #include "nsIContent.h"
 #include "mozilla/dom/DocumentInlines.h"

@@ -8,7 +8,7 @@
 #define mozilla_dom_DataTransfer_h
 
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIVariant.h"
 #include "nsIPrincipal.h"
 #include "nsIDragService.h"

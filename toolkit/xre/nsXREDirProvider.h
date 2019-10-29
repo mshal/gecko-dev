@@ -12,7 +12,7 @@
 #include "nsIXREDirProvider.h"
 
 #include "nsCOMPtr.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "mozilla/Attributes.h"
 
 // {5573967d-f6cf-4c63-8e0e-9ac06e04d62b}

@@ -7,7 +7,7 @@
 #define mozilla_dom_SessionStoreData_h
 
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/dom/SessionStoreUtilsBinding.h"
 #include "mozilla/Variant.h"
 

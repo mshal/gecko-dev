@@ -10,7 +10,7 @@
 #include "gmp-video-plane.h"
 #include "gmp-video-frame.h"
 #include "gmp-video-host.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace gmp {

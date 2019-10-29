@@ -45,7 +45,7 @@
 #include "mozilla/EditorSpellCheck.h"
 #include "nsCommandLine.h"
 #include "nsCommandParams.h"
-#include "nsPersistentProperties.h"
+#include "xpcom/ds/nsPersistentProperties.h"
 #include "nsIDocumentEncoder.h"
 
 using namespace mozilla;

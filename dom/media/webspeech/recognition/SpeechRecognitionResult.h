@@ -10,7 +10,7 @@
 #include "nsCOMPtr.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsWrapperCache.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "js/TypeDecls.h"
 
 #include "mozilla/Attributes.h"

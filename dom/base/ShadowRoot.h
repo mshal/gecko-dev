@@ -17,7 +17,7 @@
 #include "nsCycleCollectionParticipant.h"
 #include "nsIRadioGroupContainer.h"
 #include "nsStubMutationObserver.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 class nsAtom;
 class nsIContent;

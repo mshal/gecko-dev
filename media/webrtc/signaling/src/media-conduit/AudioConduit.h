@@ -8,7 +8,7 @@
 #include "mozilla/Attributes.h"
 #include "mozilla/ReentrantMonitor.h"
 #include "mozilla/TimeStamp.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "MediaConduitInterface.h"
 #include "MediaEngineWrapper.h"

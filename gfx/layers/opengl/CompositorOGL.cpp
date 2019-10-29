@@ -42,7 +42,7 @@
 #include "nsIConsoleService.h"      // for nsIConsoleService, etc
 #include "nsIWidget.h"              // for nsIWidget
 #include "nsLiteralString.h"        // for NS_LITERAL_STRING
-#include "nsMathUtils.h"            // for NS_roundf
+#include "xpcom/ds/nsMathUtils.h"            // for NS_roundf
 #include "nsRect.h"                 // for mozilla::gfx::IntRect
 #include "nsServiceManagerUtils.h"  // for do_GetService
 #include "nsString.h"               // for nsString, nsAutoCString, etc

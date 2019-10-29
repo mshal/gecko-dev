@@ -7,7 +7,7 @@
 #include "nsCOMPtr.h"
 #include "jsapi.h"
 #include "js/Wrapper.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsError.h"
 #include "nsString.h"
 #include "nsGlobalWindowInner.h"

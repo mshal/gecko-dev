@@ -11,7 +11,7 @@
 #include "mozilla/dom/cache/Types.h"
 #include "mozIStorageConnection.h"
 #include "nsStreamUtils.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 
 struct nsID;
 class nsIFile;

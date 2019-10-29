@@ -6,7 +6,7 @@
 #ifndef txStack_h___
 #define txStack_h___
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class txStack : private nsTArray<void*> {
  public:

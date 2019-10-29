@@ -9,7 +9,7 @@
 
 #include "mozilla/ipc/PBackgroundSharedTypes.h"
 #include "nsThreadUtils.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 
 namespace mozilla {
 

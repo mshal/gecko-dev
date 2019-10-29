@@ -9,7 +9,7 @@
 
 #include "ImageContainer.h"
 #include "mozilla/AlreadyAddRefed.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "Point.h"  // mozilla::gfx::IntSize
 
 // A helper object to generate of different YUV planes.

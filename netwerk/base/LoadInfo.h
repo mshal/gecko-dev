@@ -15,7 +15,7 @@
 #include "nsIURI.h"
 #include "nsContentUtils.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "mozilla/BasePrincipal.h"
 #include "mozilla/dom/ClientInfo.h"

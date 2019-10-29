@@ -9,10 +9,10 @@
 
 #include "GeneratedJNINatives.h"
 #include "jsapi.h"
-#include "nsClassHashtable.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsIAndroidBridge.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsPIDOMWindow.h"
 
 #include "mozilla/Mutex.h"

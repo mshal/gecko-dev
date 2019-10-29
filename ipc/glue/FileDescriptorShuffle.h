@@ -8,7 +8,7 @@
 #define mozilla_ipc_FileDescriptorShuffle_h
 
 #include "mozilla/Span.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include <functional>
 #include <utility>

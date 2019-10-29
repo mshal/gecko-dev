@@ -11,7 +11,7 @@
 // shellapi.h is needed to build with WIN32_LEAN_AND_MEAN
 #include <shellapi.h>
 
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsCOMPtr.h"
 #include "nsDataObj.h"
 #include "nsIClipboardOwner.h"
@@ -28,7 +28,7 @@
 #include "nsIWidget.h"
 #include "nsIComponentManager.h"
 #include "nsWidgetsCID.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsNetUtil.h"
 #include "nsIFileProtocolHandler.h"
 #include "nsIOutputStream.h"

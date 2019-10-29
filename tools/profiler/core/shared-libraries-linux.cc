@@ -20,7 +20,7 @@
 #include "mozilla/Unused.h"
 #include "nsDebug.h"
 #include "nsNativeCharsetUtils.h"
-#include <nsTArray.h>
+#include "xpcom/ds/nsTArray.h"
 
 #include "common/linux/file_id.h"
 #include <algorithm>

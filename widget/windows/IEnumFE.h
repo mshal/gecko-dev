@@ -12,7 +12,7 @@
 
 #include <ole2.h>
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Attributes.h"
 
 // FORMATETC container

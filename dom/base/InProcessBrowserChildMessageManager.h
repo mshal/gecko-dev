@@ -18,7 +18,7 @@
 #include "nsIScriptContext.h"
 #include "nsIClassInfo.h"
 #include "nsDocShell.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsIRunnable.h"
 #include "nsWeakReference.h"
 

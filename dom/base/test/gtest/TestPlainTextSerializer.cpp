@@ -9,7 +9,7 @@
 #include "nsServiceManagerUtils.h"
 #include "nsString.h"
 #include "nsIDocumentEncoder.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIParserUtils.h"
 
 const uint32_t kDefaultWrapColumn = 72;

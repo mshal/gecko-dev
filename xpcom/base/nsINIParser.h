@@ -14,7 +14,7 @@
 #endif
 
 #include "nscore.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "mozilla/UniquePtr.h"
 
 #include <stdio.h>

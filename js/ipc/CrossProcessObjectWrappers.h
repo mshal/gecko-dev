@@ -13,7 +13,7 @@
 #include "mozilla/jsipc/JavaScriptTypes.h"
 #include "nsID.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #ifdef XP_WIN
 #  undef GetClassName

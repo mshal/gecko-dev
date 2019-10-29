@@ -9,8 +9,8 @@
 
 #include "mozilla/dom/Element.h"  // DOMProxyHandler::getOwnPropertyDescriptor
 #include "nsIHTMLCollection.h"
-#include "nsInterfaceHashtable.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWrapperCache.h"
 
 class nsGenericHTMLFormElement;

@@ -9,7 +9,7 @@
 
 #include "nsCOMPtr.h"
 #include "nsWrapperCache.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsPIDOMWindowInner;
 

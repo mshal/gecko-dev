@@ -20,10 +20,10 @@
 #include "mozilla/layers/ScrollableLayerGuid.h"  // for ScrollableLayerGuid
 #include "mozilla/StaticPtr.h"                   // for StaticAutoPtr
 #include "mozilla/TimeStamp.h"                   // for TimeStamp
-#include "nsDataHashtable.h"                     // for nsDataHashtable
+#include "xpcom/ds/nsDataHashtable.h"                     // for nsDataHashtable
 #include "nsString.h"
 #include "mozilla/ServoStyleConsts.h"
-#include "PLDHashTable.h"  // for PLDHashNumber
+#include "xpcom/ds/PLDHashTable.h"  // for PLDHashNumber
 
 struct nsStyleDisplay;
 namespace mozilla {

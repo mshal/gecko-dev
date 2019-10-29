@@ -9,9 +9,9 @@
 #include "txExpr.h"
 #include "nsAutoPtr.h"
 #include "txNodeSet.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "txIXPathContext.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 #include "txXPathTreeWalker.h"
 #include <math.h>
 #include "txStringUtils.h"

@@ -7,7 +7,7 @@
 #ifndef mozilla_Observer_h
 #define mozilla_Observer_h
 
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 
 namespace mozilla {
 

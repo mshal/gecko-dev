@@ -10,7 +10,7 @@
 #include <windows.h>
 #include <d3d10_1.h>
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsAutoPtr.h"
 
 namespace mozilla {

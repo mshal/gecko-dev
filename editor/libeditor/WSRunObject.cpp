@@ -15,7 +15,7 @@
 #include "mozilla/SelectionState.h"
 
 #include "nsAString.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsContentUtils.h"
 #include "nsDebug.h"
 #include "nsError.h"

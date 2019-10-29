@@ -7,7 +7,7 @@
 #include "SVGNumberList.h"
 
 #include "mozilla/ArrayUtils.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsString.h"
 #include "nsTextFormatter.h"
 #include "SVGContentUtils.h"

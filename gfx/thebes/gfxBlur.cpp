@@ -13,8 +13,8 @@
 #include "mozilla/gfx/PathHelpers.h"
 #include "mozilla/Maybe.h"
 #include "mozilla/SystemGroup.h"
-#include "nsExpirationTracker.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsExpirationTracker.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "gfxUtils.h"
 #include <limits>
 #include <cmath>

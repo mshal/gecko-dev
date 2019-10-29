@@ -10,7 +10,7 @@
 #include "mozilla/dom/cache/ReadStream.h"
 #include "mozilla/dom/cache/Types.h"
 #include "mozilla/RefPtr.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 
 struct nsID;
 

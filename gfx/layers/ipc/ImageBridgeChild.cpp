@@ -36,8 +36,8 @@
 #include "mtransport/runnable_utils.h"
 #include "nsContentUtils.h"
 #include "nsISupportsImpl.h"         // for ImageContainer::AddRef, etc
-#include "nsTArray.h"                // for AutoTArray, nsTArray, etc
-#include "nsTArrayForwardDeclare.h"  // for AutoTArray
+#include "xpcom/ds/nsTArray.h"                // for AutoTArray, nsTArray, etc
+#include "xpcom/ds/nsTArrayForwardDeclare.h"  // for AutoTArray
 #include "nsThreadUtils.h"           // for NS_IsMainThread
 #include "nsXULAppAPI.h"             // for XRE_GetIOMessageLoop
 #include "mozilla/StaticMutex.h"

@@ -6,7 +6,7 @@
 #define mozilla_dom_mediahardwarekeysevent_h__
 
 #include "nsISupportsImpl.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

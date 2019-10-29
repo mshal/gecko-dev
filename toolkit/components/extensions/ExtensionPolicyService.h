@@ -10,17 +10,17 @@
 #include "mozilla/extensions/WebExtensionPolicy.h"
 #include "nsCOMPtr.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsIAddonPolicyService.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsIDOMEventListener.h"
 #include "nsIMemoryReporter.h"
 #include "nsIObserver.h"
 #include "nsIObserverService.h"
 #include "nsISupports.h"
-#include "nsPointerHashKeys.h"
-#include "nsRefPtrHashtable.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsPointerHashKeys.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 class nsIChannel;
 class nsIObserverService;

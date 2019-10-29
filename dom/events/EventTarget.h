@@ -12,7 +12,7 @@
 #include "mozilla/dom/Nullable.h"
 #include "nsISupports.h"
 #include "nsWrapperCache.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 
 class nsPIDOMWindowOuter;
 class nsIGlobalObject;

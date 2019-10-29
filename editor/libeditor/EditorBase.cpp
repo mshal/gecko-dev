@@ -73,9 +73,9 @@
 #include "nsFocusManager.h"            // for nsFocusManager
 #include "nsFrameSelection.h"          // for nsFrameSelection
 #include "nsGenericHTMLElement.h"      // for nsGenericHTMLElement
-#include "nsGkAtoms.h"                 // for nsGkAtoms, nsGkAtoms::dir
+#include "xpcom/ds/nsGkAtoms.h"                 // for nsGkAtoms, nsGkAtoms::dir
 #include "nsIAbsorbingTransaction.h"   // for nsIAbsorbingTransaction
-#include "nsAtom.h"                    // for nsAtom
+#include "xpcom/ds/nsAtom.h"                    // for nsAtom
 #include "nsIContent.h"                // for nsIContent
 #include "mozilla/dom/Document.h"      // for Document
 #include "nsIDOMEventListener.h"       // for nsIDOMEventListener

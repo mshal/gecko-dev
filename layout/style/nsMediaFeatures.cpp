@@ -7,7 +7,7 @@
 /* the features that media queries can test */
 
 #include "nsMediaFeatures.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsCSSKeywords.h"
 #include "nsStyleConsts.h"
 #include "nsPresContext.h"

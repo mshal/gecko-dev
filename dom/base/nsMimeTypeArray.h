@@ -8,7 +8,7 @@
 #define nsMimeTypeArray_h___
 
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWrapperCache.h"
 #include "nsPIDOMWindow.h"
 #include "mozilla/dom/BindingDeclarations.h"

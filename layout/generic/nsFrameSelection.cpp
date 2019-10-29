@@ -25,7 +25,7 @@
 #include "nsIContent.h"
 #include "nsRange.h"
 #include "nsITableCellLayout.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsTableWrapperFrame.h"
 #include "nsTableCellFrame.h"
 #include "nsIScrollableFrame.h"
@@ -36,7 +36,7 @@
 #include "nsContentUtils.h"
 #include "nsCSSFrameConstructor.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIFrameTraversal.h"
 #include "nsLayoutUtils.h"
 #include "nsLayoutCID.h"

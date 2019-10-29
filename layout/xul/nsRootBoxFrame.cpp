@@ -6,7 +6,7 @@
 
 #include "nsHTMLParts.h"
 #include "nsStyleConsts.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsBoxFrame.h"
 #include "nsDisplayList.h"
 #include "nsStackLayout.h"

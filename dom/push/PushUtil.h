@@ -7,7 +7,7 @@
 #ifndef mozilla_dom_PushUtil_h
 #define mozilla_dom_PushUtil_h
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "mozilla/dom/TypedArray.h"
 

@@ -10,7 +10,7 @@
 #include "mozilla/Attributes.h"
 #include "nsCOMPtr.h"
 #include "nsIDOMEventListener.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsAtom;
 class nsXBLPrototypeHandler;

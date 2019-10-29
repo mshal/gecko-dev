@@ -25,7 +25,7 @@
 #include "nsLayoutUtils.h"
 #include "nsPresContext.h"
 #include "nsIContentInlines.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsStyleConsts.h"
 #include "nsHTMLParts.h"
 #include "nsNameSpaceManager.h"

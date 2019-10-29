@@ -8,7 +8,7 @@
 #define nsPopupSetFrame_h__
 
 #include "mozilla/Attributes.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsBoxFrame.h"
 
 namespace mozilla {

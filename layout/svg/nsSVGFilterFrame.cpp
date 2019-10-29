@@ -12,7 +12,7 @@
 #include "gfxUtils.h"
 #include "mozilla/PresShell.h"
 #include "mozilla/dom/SVGFilterElement.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "SVGObserverUtils.h"
 #include "SVGElement.h"
 #include "nsSVGFilterInstance.h"

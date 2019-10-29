@@ -16,9 +16,9 @@
 #include "mozilla/layers/TextureForwarder.h"  // for TextureForwarder
 #include "mozilla/layers/PaintThread.h"       // for PaintThread
 #include "mozilla/webrender/WebRenderTypes.h"
-#include "nsClassHashtable.h"  // for nsClassHashtable
+#include "xpcom/ds/nsClassHashtable.h"  // for nsClassHashtable
 #include "nsCOMPtr.h"          // for nsCOMPtr
-#include "nsHashKeys.h"        // for nsUint64HashKey
+#include "xpcom/ds/nsHashKeys.h"        // for nsUint64HashKey
 #include "nsISupportsImpl.h"   // for NS_INLINE_DECL_REFCOUNTING
 #include "nsIWeakReferenceUtils.h"
 #include "ThreadSafeRefcountingWithMainThreadDestruction.h"

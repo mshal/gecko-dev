@@ -29,12 +29,12 @@
 #include "nsDebug.h"                 // for NS_ASSERTION, etc
 #include "nsDeviceContext.h"         // for nsDeviceContext
 #include "nsDisplayList.h"           // for nsDisplayTransform, etc
-#include "nsMathUtils.h"             // for NS_round
+#include "xpcom/ds/nsMathUtils.h"             // for NS_round
 #include "nsPoint.h"                 // for nsPoint
 #include "nsRect.h"                  // for mozilla::gfx::IntRect
 #include "nsRegion.h"                // for nsIntRegion
-#include "nsTArray.h"                // for nsTArray, nsTArray_Impl, etc
-#include "nsTArrayForwardDeclare.h"  // for nsTArray
+#include "xpcom/ds/nsTArray.h"                // for nsTArray, nsTArray_Impl, etc
+#include "xpcom/ds/nsTArrayForwardDeclare.h"  // for nsTArray
 #include "UnitTransforms.h"          // for TransformTo
 #if defined(MOZ_WIDGET_ANDROID)
 #  include <android/log.h>

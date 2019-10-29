@@ -31,7 +31,7 @@
 #include "nsComponentManagerUtils.h"
 #include "nsDirectoryServiceDefs.h"
 #include "nsDirectoryServiceUtils.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsIConsoleService.h"
 #include "nsIFile.h"
 #include "nsIObserverService.h"

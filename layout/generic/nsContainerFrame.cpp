@@ -22,7 +22,7 @@
 #include "nsStyleConsts.h"
 #include "nsView.h"
 #include "nsCOMPtr.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsViewManager.h"
 #include "nsIWidget.h"
 #include "nsCSSRendering.h"

@@ -7,12 +7,12 @@
 #ifndef nsNameSpaceManager_h___
 #define nsNameSpaceManager_h___
 
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsAtom.h"
 #include "mozilla/dom/Document.h"
 #include "nsStringFwd.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "mozilla/StaticPtr.h"
 

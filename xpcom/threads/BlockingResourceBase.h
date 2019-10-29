@@ -25,7 +25,7 @@
 #  include "nsString.h"
 
 #  ifndef MOZ_CALLSTACK_DISABLED
-#    include "nsTArray.h"
+#    include "xpcom/ds/nsTArray.h"
 #  endif
 
 #  include "nsXPCOM.h"

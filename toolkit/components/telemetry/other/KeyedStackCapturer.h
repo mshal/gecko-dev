@@ -9,7 +9,7 @@
 #include "CombinedStacks.h"
 #include "mozilla/Mutex.h"
 #include "mozilla/Telemetry.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsString.h"
 
 struct JSContext;

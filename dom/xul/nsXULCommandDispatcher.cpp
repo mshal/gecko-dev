@@ -22,7 +22,7 @@
 #include "mozilla/Logging.h"
 #include "nsContentUtils.h"
 #include "nsReadableUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsError.h"
 #include "mozilla/BasicEvents.h"
 #include "mozilla/EventDispatcher.h"

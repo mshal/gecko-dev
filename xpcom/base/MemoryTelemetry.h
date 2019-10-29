@@ -12,7 +12,7 @@
 #include "nsIEventTarget.h"
 #include "nsIObserver.h"
 #include "nsITimer.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWeakReference.h"
 
 #include <functional>

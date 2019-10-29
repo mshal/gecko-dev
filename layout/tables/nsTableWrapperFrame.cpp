@@ -15,7 +15,7 @@
 #include "nsCSSRendering.h"
 #include "nsIContent.h"
 #include "prinrval.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsHTMLParts.h"
 #include "nsIServiceManager.h"
 #include "nsDisplayList.h"

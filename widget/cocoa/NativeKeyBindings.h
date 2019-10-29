@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #include "mozilla/Attributes.h"
 #include "mozilla/EventForwards.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsIWidget.h"
 
 namespace mozilla {

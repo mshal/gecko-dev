@@ -11,7 +11,7 @@
 #include "nsIMemoryReporter.h"
 #include "nsCOMPtr.h"
 #include "nsString.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 
 class nsIPersistentProperties;
 

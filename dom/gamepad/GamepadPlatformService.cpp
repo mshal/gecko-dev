@@ -12,7 +12,7 @@
 #include "mozilla/Unused.h"
 
 #include "nsCOMPtr.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsIThread.h"
 
 using namespace mozilla::ipc;

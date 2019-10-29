@@ -15,7 +15,7 @@
 #include "nsCSSRendering.h"
 #include "nsPresContext.h"
 #include "nsPopupSetFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIFrameInlines.h"
 #include "nsDisplayList.h"
 #include "nsCSSFrameConstructor.h"

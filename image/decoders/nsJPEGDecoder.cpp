@@ -16,7 +16,7 @@
 #include "SurfacePipeFactory.h"
 
 #include "nspr.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "gfxColor.h"
 
 #include "jerror.h"

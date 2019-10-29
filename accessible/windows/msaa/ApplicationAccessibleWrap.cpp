@@ -11,7 +11,7 @@
 #include "IUnknownImpl.h"
 
 #include "nsIGfxInfo.h"
-#include "nsPersistentProperties.h"
+#include "xpcom/ds/nsPersistentProperties.h"
 #include "nsServiceManagerUtils.h"
 #include "mozilla/Services.h"
 

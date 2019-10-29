@@ -15,7 +15,7 @@
 #include "nsICrashReporter.h"
 #include "prenv.h"
 #include "nsPrintfCString.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 
 #include "GfxInfoX11.h"
 

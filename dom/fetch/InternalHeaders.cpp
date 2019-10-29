@@ -9,7 +9,7 @@
 #include "mozilla/dom/FetchTypes.h"
 #include "mozilla/ErrorResult.h"
 
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsContentUtils.h"
 #include "nsIHttpHeaderVisitor.h"
 #include "nsNetUtil.h"

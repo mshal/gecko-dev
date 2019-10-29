@@ -10,13 +10,13 @@
 #ifndef SBEntries_h__
 #define SBEntries_h__
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 #include "nsICryptoHash.h"
 #include "nsNetUtil.h"
 #include "nsIOutputStream.h"
-#include "nsClassHashtable.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "plbase64.h"
 
 namespace mozilla {

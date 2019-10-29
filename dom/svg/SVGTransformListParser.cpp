@@ -9,8 +9,8 @@
 #include "mozilla/ArrayUtils.h"
 #include "SVGContentUtils.h"
 #include "SVGTransform.h"
-#include "nsGkAtoms.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsGkAtoms.h"
+#include "xpcom/ds/nsAtom.h"
 
 namespace mozilla {
 

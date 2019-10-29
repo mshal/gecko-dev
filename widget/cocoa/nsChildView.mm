@@ -27,13 +27,13 @@
 #include "mozilla/dom/SimpleGestureEventBinding.h"
 #include "mozilla/dom/WheelEventBinding.h"
 
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsExceptionHandler.h"
 #include "nsObjCExceptions.h"
 #include "nsCOMPtr.h"
 #include "nsThreadUtils.h"
 #include "nsToolkit.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 #include "nsFontMetrics.h"
 #include "nsIRollupListener.h"

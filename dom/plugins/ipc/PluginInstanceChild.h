@@ -13,7 +13,7 @@
 #include "mozilla/plugins/StreamNotifyChild.h"
 #include "mozilla/plugins/PPluginSurfaceChild.h"
 #include "mozilla/ipc/CrossProcessMutex.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #if defined(OS_WIN)
 #  include "mozilla/gfx/SharedDIBWin.h"
 #elif defined(MOZ_WIDGET_COCOA)
@@ -25,10 +25,10 @@
 
 #include "npfunctions.h"
 #include "nsAutoPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "ChildTimer.h"
 #include "nsRect.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "mozilla/PaintTracker.h"
 #include "mozilla/gfx/Types.h"
 

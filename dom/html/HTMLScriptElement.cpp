@@ -4,7 +4,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsStyleConsts.h"
 #include "mozilla/dom/Document.h"
 #include "nsIURI.h"
@@ -17,7 +17,7 @@
 #include "nsServiceManagerUtils.h"
 #include "nsError.h"
 #include "nsIArray.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsDOMJSUtils.h"
 #include "nsIScriptError.h"
 #include "nsISupportsImpl.h"

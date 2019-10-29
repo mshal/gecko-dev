@@ -6,10 +6,10 @@
 
 #include "SVGStringList.h"
 #include "nsError.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsContentUtils.h"
 #include "nsString.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 #include "SVGContentUtils.h"
 
 namespace mozilla {

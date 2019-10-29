@@ -13,7 +13,7 @@
 #include "nsCSSRendering.h"
 #include "nsPageFrame.h"
 #include "nsStyleConsts.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsBoxFrame.h"
 #include "nsStackLayout.h"
 #include "nsIAnonymousContentCreator.h"

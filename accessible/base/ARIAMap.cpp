@@ -13,7 +13,7 @@
 #include "States.h"
 
 #include "nsAttrName.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 
 #include "mozilla/BinarySearch.h"
 #include "mozilla/dom/Element.h"

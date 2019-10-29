@@ -13,7 +13,7 @@
 #include "nsIBlocklistService.h"
 #include "nsPluginLogging.h"
 #include "nsNPAPIPlugin.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "mozilla/Preferences.h"
 #include "mozilla/Unused.h"
 #include "nsNetUtil.h"

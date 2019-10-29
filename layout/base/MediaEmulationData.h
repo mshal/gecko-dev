@@ -10,7 +10,7 @@
 #ifndef mozilla_MediaEmulationData_h
 #define mozilla_MediaEmulationData_h
 
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "mozilla/Maybe.h"
 
 namespace mozilla {

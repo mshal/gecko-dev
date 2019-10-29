@@ -7,7 +7,7 @@
 #ifndef nsTreeBodyFrame_h
 #define nsTreeBodyFrame_h
 
-#include "mozilla/AtomArray.h"
+#include "xpcom/ds/AtomArray.h"
 #include "mozilla/Attributes.h"
 
 #include "nsLeafBoxFrame.h"
@@ -15,10 +15,10 @@
 #include "nsIScrollbarMediator.h"
 #include "nsITimer.h"
 #include "nsIReflowCallback.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsTreeStyleCache.h"
 #include "nsTreeColumns.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "imgIRequest.h"
 #include "imgINotificationObserver.h"
 #include "nsScrollbarFrame.h"

@@ -7,7 +7,7 @@
 #ifndef CacheControlParser_h__
 #define CacheControlParser_h__
 
-#include "mozilla/Tokenizer.h"
+#include "xpcom/ds/Tokenizer.h"
 
 namespace mozilla {
 namespace net {

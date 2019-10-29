@@ -14,7 +14,7 @@
 #include "mozilla/dom/SocketCommonBinding.h"
 #include "nsIUDPSocket.h"
 #include "nsIUDPSocketChild.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 struct JSContext;
 

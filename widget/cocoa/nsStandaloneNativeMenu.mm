@@ -8,7 +8,7 @@
 #include "nsStandaloneNativeMenu.h"
 #include "nsMenuUtilsX.h"
 #include "nsIMutationObserver.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsObjCExceptions.h"
 #include "mozilla/dom/Element.h"
 

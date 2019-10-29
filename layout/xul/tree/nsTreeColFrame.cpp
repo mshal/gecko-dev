@@ -11,7 +11,7 @@
 #include "mozilla/PresShell.h"
 #include "mozilla/dom/XULTreeElement.h"
 #include "nsCOMPtr.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIContent.h"
 #include "nsNameSpaceManager.h"
 #include "nsTreeColumns.h"

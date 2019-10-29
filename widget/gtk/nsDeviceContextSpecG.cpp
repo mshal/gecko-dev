@@ -14,7 +14,7 @@
 
 #include "nsPrintfCString.h"
 #include "nsReadableUtils.h"
-#include "nsStringEnumerator.h"
+#include "xpcom/ds/nsStringEnumerator.h"
 #include "nsIServiceManager.h"
 #include "nsThreadUtils.h"
 
@@ -24,7 +24,7 @@
 
 #include "nsIFileStreams.h"
 #include "nsIFile.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsThreadUtils.h"
 
 #include "mozilla/Preferences.h"

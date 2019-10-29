@@ -13,7 +13,7 @@
 #include "GLDefs.h"             // for GLuint
 #include "mozilla/RefPtr.h"     // for already_AddRefed, RefCounted
 #include "mozilla/TimeStamp.h"  // for TimeStamp, TimeDuration
-#include "nsTArray.h"           // for AutoTArray, nsTArray_Impl, etc
+#include "xpcom/ds/nsTArray.h"           // for AutoTArray, nsTArray_Impl, etc
 #include "prio.h"               // for NSPR file i/o
 
 namespace mozilla {

@@ -169,8 +169,8 @@
 
 #include "mozIThirdPartyUtil.h"
 
-#include "nsArray.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArray.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsAutoPtr.h"
 #include "nsCExternalHandlerService.h"
 #include "nsContentDLF.h"
@@ -210,7 +210,7 @@
 #include "nsViewManager.h"
 #include "nsViewSourceHandler.h"
 #include "nsWebBrowserFind.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 #include "nsWidgetsCID.h"
 #include "nsXULAppAPI.h"
 

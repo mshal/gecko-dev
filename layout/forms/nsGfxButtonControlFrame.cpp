@@ -6,7 +6,7 @@
 
 #include "nsGfxButtonControlFrame.h"
 #include "nsIFormControl.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/PresShell.h"
 #include "mozilla/dom/HTMLInputElement.h"
 #include "nsContentUtils.h"

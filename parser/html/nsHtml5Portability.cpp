@@ -4,7 +4,7 @@
 
 #include "nsHtml5Portability.h"
 #include "jArray.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsHtml5TreeBuilder.h"
 #include "nsString.h"
 

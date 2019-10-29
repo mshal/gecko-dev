@@ -16,7 +16,7 @@
 #include "nsIScriptSecurityManager.h"
 #include "nsISupportsPrimitives.h"
 #include "nsThreadUtils.h"
-#include "nsHashPropertyBag.h"
+#include "xpcom/ds/nsHashPropertyBag.h"
 #include "nsComponentManagerUtils.h"
 #include "nsGlobalWindow.h"
 #include "nsPIDOMWindow.h"

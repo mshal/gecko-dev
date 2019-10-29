@@ -5,7 +5,7 @@
 #ifndef nsHtml5String_h
 #define nsHtml5String_h
 
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsString.h"
 #include "nsStringBuffer.h"
 

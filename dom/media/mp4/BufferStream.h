@@ -6,7 +6,7 @@
 #define BUFFER_STREAM_H_
 
 #include "ByteStream.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "MediaResource.h"
 
 namespace mozilla {

@@ -19,7 +19,7 @@
 
 #include "nsCOMPtr.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #if defined(__OBJC__)
 @class mozAccessible;

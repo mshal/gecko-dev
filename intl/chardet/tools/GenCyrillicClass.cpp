@@ -9,7 +9,7 @@
 #include "nsIServiceManager.h"
 #include "nsIUnicodeDecoder.h"
 #include "nsIUnicodeEncoder.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include <stdio.h>
 #include <stdlib.h>
 #if defined(XP_WIN)

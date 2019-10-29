@@ -7,7 +7,7 @@
 #include "mozilla/dom/GeneratedImageContent.h"
 
 #include "nsContentCreatorFunctions.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/dom/Document.h"
 #include "nsNodeInfoManager.h"
 #include "mozilla/dom/HTMLElementBinding.h"

@@ -7,7 +7,7 @@
 #define mozilla_net_CookieServiceChild_h__
 
 #include "mozilla/net/PCookieServiceChild.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsCookieKey.h"
 #include "nsICookieService.h"
 #include "nsIObserver.h"

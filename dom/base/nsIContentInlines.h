@@ -13,7 +13,7 @@
 #  include "nsBindingManager.h"
 #endif
 #include "nsContentUtils.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsIFrame.h"
 #include "mozilla/dom/Element.h"
 #include "mozilla/dom/HTMLSlotElement.h"

@@ -13,7 +13,7 @@
 #include "mozilla/DOMEventTargetHelper.h"
 #include "nsCOMPtr.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 
 namespace mozilla {
 namespace ipc {

@@ -14,7 +14,7 @@
 #include "nsDeviceContext.h"
 #include "nsPresContext.h"
 #include "gfxContext.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIPrintSettings.h"
 #include "nsPageFrame.h"
 #include "nsSubDocumentFrame.h"

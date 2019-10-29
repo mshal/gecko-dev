@@ -8,7 +8,7 @@
 #define mozilla_dom_RemoteWorkerController_h
 
 #include "nsISupportsImpl.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "mozilla/RefPtr.h"
 #include "mozilla/UniquePtr.h"

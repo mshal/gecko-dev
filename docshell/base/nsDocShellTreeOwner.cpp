@@ -15,7 +15,7 @@
 #include "nsIServiceManager.h"
 #include "nsComponentManagerUtils.h"
 #include "nsString.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsReadableUtils.h"
 #include "nsUnicharUtils.h"
 #include "nsISimpleEnumerator.h"

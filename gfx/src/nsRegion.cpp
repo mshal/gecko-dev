@@ -5,7 +5,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "nsRegion.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "gfxUtils.h"
 #include "mozilla/ToString.h"
 

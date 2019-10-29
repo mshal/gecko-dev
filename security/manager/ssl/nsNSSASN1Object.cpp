@@ -3,8 +3,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 #include "nsNSSASN1Object.h"
 
-#include "nsArray.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArray.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsIComponentManager.h"
 #include "nsReadableUtils.h"
 #include "nsXPCOMCID.h"

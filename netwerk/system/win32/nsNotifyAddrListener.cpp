@@ -36,7 +36,7 @@
 #include "nsPrintfCString.h"
 #include "nsAutoPtr.h"
 #include "mozilla/Services.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "mozilla/StaticPrefs_network.h"
 #include "mozilla/SHA1.h"
 #include "mozilla/Base64.h"

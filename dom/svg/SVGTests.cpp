@@ -9,7 +9,7 @@
 #include "nsIContent.h"
 #include "nsIContentInlines.h"
 #include "mozilla/dom/SVGSwitchElement.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsStyleUtil.h"
 #include "mozilla/Preferences.h"
 

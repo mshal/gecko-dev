@@ -10,7 +10,7 @@
 #include "mozilla/dom/BasicCardPaymentBinding.h"
 #include "nsPIDOMWindow.h"
 #include "nsIPaymentAddress.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

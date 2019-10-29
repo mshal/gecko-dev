@@ -13,7 +13,7 @@
 
 #include "gfxTextRun.h"
 #include "gfxPlatform.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 #include "gfxTypes.h"
 #include "gfxContext.h"
@@ -22,7 +22,7 @@
 #include "gfxUserFontSet.h"
 #include "gfxPlatformFontList.h"
 #include "nsUnicodeProperties.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "nsBidiUtils.h"
 #include "nsStyleConsts.h"
 #include "mozilla/AppUnits.h"

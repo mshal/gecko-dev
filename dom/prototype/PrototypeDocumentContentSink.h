@@ -9,9 +9,9 @@
 
 #include "mozilla/Attributes.h"
 #include "nsIContentSink.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCOMPtr.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsIDTD.h"
 #include "mozilla/dom/FromParser.h"

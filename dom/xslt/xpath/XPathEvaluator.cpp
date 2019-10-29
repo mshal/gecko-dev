@@ -6,7 +6,7 @@
 #include "mozilla/dom/XPathEvaluator.h"
 #include "mozilla/Move.h"
 #include "nsCOMPtr.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "mozilla/dom/XPathExpression.h"
 #include "XPathResult.h"
 #include "nsContentCID.h"

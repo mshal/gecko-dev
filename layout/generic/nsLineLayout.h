@@ -11,7 +11,7 @@
 
 #include "gfxTypes.h"
 #include "JustificationUtils.h"
-#include "mozilla/ArenaAllocator.h"
+#include "xpcom/ds/ArenaAllocator.h"
 #include "mozilla/WritingModes.h"
 #include "BlockReflowInput.h"
 #include "nsLineBox.h"

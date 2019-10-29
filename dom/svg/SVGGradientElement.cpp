@@ -15,7 +15,7 @@
 #include "mozilla/dom/SVGRadialGradientElementBinding.h"
 #include "mozilla/dom/SVGUnitTypesBinding.h"
 #include "DOMSVGAnimatedTransformList.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 NS_IMPL_NS_NEW_SVG_ELEMENT(LinearGradient)
 NS_IMPL_NS_NEW_SVG_ELEMENT(RadialGradient)

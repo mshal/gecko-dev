@@ -10,7 +10,7 @@
 #include "nsCoord.h"
 #include "nsSize.h"
 #include "nsStyleConsts.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 struct nsPoint;
 struct nsRect;

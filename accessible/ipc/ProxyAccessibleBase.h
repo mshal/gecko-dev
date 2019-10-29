@@ -12,7 +12,7 @@
 #include "nsIAccessibleTypes.h"
 #include "Accessible.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsRect.h"
 #include "Accessible.h"
 

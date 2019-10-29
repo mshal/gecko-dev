@@ -13,7 +13,7 @@
 #include "mozilla/PresShell.h"
 #include "mozilla/dom/MouseEventBinding.h"
 #include "nsLayoutUtils.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsFontMetrics.h"
 #include "nsPrintfCString.h"
 #include "mozilla/dom/Element.h"

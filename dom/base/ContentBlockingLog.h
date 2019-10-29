@@ -15,7 +15,7 @@
 #include "mozilla/UniquePtr.h"
 #include "nsIWebProgressListener.h"
 #include "nsReadableUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWindowSizes.h"
 
 namespace mozilla {

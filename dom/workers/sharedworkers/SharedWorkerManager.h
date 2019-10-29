@@ -9,7 +9,7 @@
 
 #include "mozilla/dom/RemoteWorkerController.h"
 #include "nsISupportsImpl.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIPrincipal;
 

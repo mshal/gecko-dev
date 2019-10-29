@@ -52,7 +52,7 @@
 #include "mozilla/HashTable.h"
 #include "mozilla/StaticMutex.h"
 #include "mozilla/TimeStamp.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 #include <unordered_set>
 
 using namespace mozilla;

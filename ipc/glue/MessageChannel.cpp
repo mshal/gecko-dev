@@ -24,7 +24,7 @@
 #include "nsAppRunner.h"
 #include "nsAutoPtr.h"
 #include "nsContentUtils.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsDebug.h"
 #include "nsISupportsImpl.h"
 #include "nsPrintfCString.h"

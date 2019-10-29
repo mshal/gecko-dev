@@ -9,7 +9,7 @@
 #include "osx_wifi.h"
 
 #include "nsAutoPtr.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsWifiMonitor.h"
 #include "nsWifiAccessPoint.h"
 

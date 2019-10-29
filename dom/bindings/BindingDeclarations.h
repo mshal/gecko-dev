@@ -24,7 +24,7 @@
 
 #include "nsCOMPtr.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIPrincipal;
 class nsWrapperCache;

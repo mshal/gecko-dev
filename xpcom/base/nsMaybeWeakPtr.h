@@ -9,7 +9,7 @@
 #include "mozilla/Attributes.h"
 #include "nsCOMPtr.h"
 #include "nsIWeakReferenceUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCycleCollectionNoteChild.h"
 
 // nsMaybeWeakPtr is a helper object to hold a strong-or-weak reference

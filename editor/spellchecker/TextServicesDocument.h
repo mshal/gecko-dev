@@ -11,7 +11,7 @@
 #include "nsIEditActionListener.h"
 #include "nsISupportsImpl.h"
 #include "nsStringFwd.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nscore.h"
 
 class nsIContent;

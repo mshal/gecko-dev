@@ -8,7 +8,7 @@
 
 #include "nsCOMPtr.h"
 #include "nsJSPrincipals.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsNetUtil.h"
 #include "mozilla/BasePrincipal.h"
 

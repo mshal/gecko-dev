@@ -7,7 +7,7 @@
 #ifndef __HAL_SENSOR_H_
 #define __HAL_SENSOR_H_
 
-#include "mozilla/Observer.h"
+#include "xpcom/ds/Observer.h"
 
 namespace mozilla {
 namespace hal {

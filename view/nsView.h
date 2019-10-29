@@ -10,7 +10,7 @@
 #include "nsRect.h"
 #include "nsPoint.h"
 #include "nsRegion.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsCOMPtr.h"
 #include "nsWidgetInitData.h"  // for nsWindowType
 #include "nsIWidgetListener.h"

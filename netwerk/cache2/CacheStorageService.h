@@ -11,8 +11,8 @@
 #include "nsITimer.h"
 #include "nsICacheTesting.h"
 
-#include "nsClassHashtable.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsString.h"
 #include "nsThreadUtils.h"
 #include "nsProxyRelease.h"
@@ -20,7 +20,7 @@
 #include "mozilla/Mutex.h"
 #include "mozilla/Atomics.h"
 #include "mozilla/TimeStamp.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIURI;
 class nsICacheEntryDoomCallback;

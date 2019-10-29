@@ -11,7 +11,7 @@
 #include "mozilla/dom/Document.h"
 #include "mozilla/TypedEnumBits.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 class nsIFrame;
 

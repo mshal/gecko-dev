@@ -12,7 +12,7 @@
 #include "mozilla/dom/EventHandlerBinding.h"
 #include "nsCOMPtr.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsIDOMEventListener.h"
 #include "nsIScriptContext.h"
 

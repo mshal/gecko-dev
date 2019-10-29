@@ -22,8 +22,8 @@
 #include "mozilla/UniquePtr.h"
 #include "nsIDragService.h"
 #include "nsITimer.h"
-#include "nsGkAtoms.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsGkAtoms.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsIFrame.h"
 #include "nsBaseWidget.h"
 #include "CompositorWidget.h"
@@ -42,7 +42,7 @@
 #ifdef MOZ_LOGGING
 
 #  include "mozilla/Logging.h"
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 #  include "Units.h"
 
 extern mozilla::LazyLogModule gWidgetLog;

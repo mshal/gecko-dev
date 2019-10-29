@@ -10,7 +10,7 @@
 #include <stdint.h>       // for uint64_t
 #include "nsRect.h"       // for mozilla::gfx::IntRect
 #include "nsRegionFwd.h"  // for nsIntRegion
-#include "nsTArray.h"     // for nsTArray
+#include "xpcom/ds/nsTArray.h"     // for nsTArray
 
 namespace mozilla {
 namespace layers {

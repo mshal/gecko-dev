@@ -7,9 +7,9 @@
 #define __nsmimeinfoimpl_h___
 
 #include "nsIMIMEInfo.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIMutableArray.h"
 #include "nsIFile.h"
 #include "nsCOMPtr.h"

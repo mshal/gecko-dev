@@ -11,7 +11,7 @@
 #include "mozilla/dom/cache/CacheTypes.h"
 #include "mozilla/dom/cache/Types.h"
 #include "mozilla/dom/cache/TypeUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 struct nsID;
 

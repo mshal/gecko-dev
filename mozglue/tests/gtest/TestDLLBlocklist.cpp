@@ -16,7 +16,7 @@
 #include "nsDirectoryServiceDefs.h"
 #include "nsDirectoryServiceUtils.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWindowsHelpers.h"
 
 static nsString GetFullPath(const nsAString& aLeaf) {

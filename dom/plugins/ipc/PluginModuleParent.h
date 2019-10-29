@@ -21,8 +21,8 @@
 #include "npapi.h"
 #include "npfunctions.h"
 #include "nsExceptionHandler.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsIObserver.h"
 #ifdef XP_WIN
 #  include "nsWindowsHelpers.h"

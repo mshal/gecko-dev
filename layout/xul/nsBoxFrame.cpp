@@ -53,7 +53,7 @@
 #include "nsPresContext.h"
 #include "nsCOMPtr.h"
 #include "nsNameSpaceManager.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIContent.h"
 #include "nsHTMLParts.h"
 #include "nsViewManager.h"

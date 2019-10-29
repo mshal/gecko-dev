@@ -9,7 +9,7 @@
 
 #include "mozilla/MappedDeclarations.h"
 #include "mozilla/StaticPrefs_accessibility.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsStyleConsts.h"
 #include "nsMappedAttributes.h"
 #include "mozAutoDocUpdate.h"

@@ -17,7 +17,7 @@
 #include "mozilla/layers/CompositorThread.h"
 #include "mozilla/layers/PImageBridgeParent.h"
 #include "nsISupportsImpl.h"
-#include "nsTArrayForwardDeclare.h"  // for nsTArray
+#include "xpcom/ds/nsTArrayForwardDeclare.h"  // for nsTArray
 
 class MessageLoop;
 

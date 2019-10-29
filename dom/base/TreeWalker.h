@@ -14,7 +14,7 @@
 #include "nsISupports.h"
 #include "nsTraversal.h"
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCycleCollectionParticipant.h"
 
 class nsINode;

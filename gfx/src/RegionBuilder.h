@@ -7,7 +7,7 @@
 #ifndef RegionBuilder_h__
 #define RegionBuilder_h__
 
-#include <nsTArray.h>
+#include "xpcom/ds/nsTArray.h"
 
 template <typename RegionType>
 class RegionBuilder {

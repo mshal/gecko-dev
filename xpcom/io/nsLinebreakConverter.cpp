@@ -7,7 +7,7 @@
 #include "nsLinebreakConverter.h"
 
 #include "nsMemory.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 /*----------------------------------------------------------------------------
   GetLinebreakString

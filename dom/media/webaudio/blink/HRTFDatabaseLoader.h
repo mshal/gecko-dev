@@ -29,7 +29,7 @@
 #ifndef HRTFDatabaseLoader_h
 #define HRTFDatabaseLoader_h
 
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "mozilla/RefPtr.h"
 #include "mozilla/MemoryReporting.h"
 #include "mozilla/Mutex.h"

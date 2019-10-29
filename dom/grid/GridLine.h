@@ -9,7 +9,7 @@
 
 #include "mozilla/dom/GridBinding.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWrapperCache.h"
 
 namespace mozilla {

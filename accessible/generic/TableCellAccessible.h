@@ -7,7 +7,7 @@
 #ifndef mozilla_a11y_TableCellAccessible_h__
 #define mozilla_a11y_TableCellAccessible_h__
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include <stdint.h>
 
 namespace mozilla {

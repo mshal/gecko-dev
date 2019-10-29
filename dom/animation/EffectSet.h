@@ -12,8 +12,8 @@
 #include "mozilla/EnumeratedArray.h"
 #include "mozilla/TimeStamp.h"
 #include "mozilla/dom/KeyframeEffect.h"
-#include "nsHashKeys.h"    // For nsPtrHashKey
-#include "nsTHashtable.h"  // For nsTHashtable
+#include "xpcom/ds/nsHashKeys.h"    // For nsPtrHashKey
+#include "xpcom/ds/nsTHashtable.h"  // For nsTHashtable
 
 class nsPresContext;
 enum class DisplayItemType : uint8_t;

@@ -9,8 +9,8 @@
 
 #include "mozilla/Attributes.h"
 #include "mozilla/dom/quota/PersistenceType.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsISupportsImpl.h"
 
 class nsIFile;

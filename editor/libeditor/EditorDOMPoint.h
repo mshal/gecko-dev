@@ -11,9 +11,9 @@
 #include "mozilla/RangeBoundary.h"
 #include "mozilla/dom/Element.h"
 #include "mozilla/dom/Text.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsCOMPtr.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIContent.h"
 #include "nsINode.h"
 

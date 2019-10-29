@@ -15,7 +15,7 @@
 #include "nsContentUtils.h"
 #include "nsDebug.h"
 #include "nsError.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsIContent.h"
 #include "nsINode.h"
 #include "nsISupportsBase.h"

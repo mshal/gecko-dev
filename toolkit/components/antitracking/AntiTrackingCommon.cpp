@@ -13,7 +13,7 @@
 #include "mozilla/HashFunctions.h"
 #include "mozilla/IntegerPrintfMacros.h"
 #include "mozilla/Logging.h"
-#include "mozilla/MruCache.h"
+#include "xpcom/ds/MruCache.h"
 #include "mozilla/Pair.h"
 #include "mozilla/ScopeExit.h"
 #include "mozilla/StaticPrefs_extensions.h"

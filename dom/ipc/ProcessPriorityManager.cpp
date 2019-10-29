@@ -29,8 +29,8 @@
 #include "nsITimer.h"
 #include "nsIPropertyBag2.h"
 #include "nsComponentManagerUtils.h"
-#include "nsCRT.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsCRT.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "nsQueryObject.h"
 
 using namespace mozilla;

@@ -14,7 +14,7 @@
 #include "mozilla/layers/APZUtils.h"
 #include "mozilla/StaticMutex.h"
 #include "mozilla/StaticPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "Units.h"
 
 namespace mozilla {

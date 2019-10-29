@@ -26,7 +26,7 @@
 #include "nsIObserver.h"      // for nsIObserver
 #include "nsISupportsImpl.h"  // for Layer::Release, etc
 #include "nsRect.h"           // for mozilla::gfx::IntRect
-#include "nsTArray.h"         // for nsTArray
+#include "xpcom/ds/nsTArray.h"         // for nsTArray
 #include "nscore.h"           // for nsAString
 #include "mozilla/layers/TransactionIdAllocator.h"
 #include "nsIWidget.h"  // For plugin window configuration information structs

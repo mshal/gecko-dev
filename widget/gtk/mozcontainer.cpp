@@ -24,7 +24,7 @@
 #ifdef MOZ_LOGGING
 
 #  include "mozilla/Logging.h"
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 #  include "Units.h"
 extern mozilla::LazyLogModule gWidgetLog;
 extern mozilla::LazyLogModule gWidgetWaylandLog;

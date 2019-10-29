@@ -65,7 +65,7 @@
 #include "nsIDirectoryEnumerator.h"
 #include "nsIFile.h"
 #include "nsUnicharUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "mozInlineSpellChecker.h"
 #include <stdlib.h>
 #include "nsIPrefService.h"

@@ -9,7 +9,7 @@
 #include "nsCOMPtr.h"
 #include "nsIForm.h"
 #include "mozilla/dom/Document.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIFormControl.h"
 #include "nsError.h"
 #include "nsGenericHTMLElement.h"

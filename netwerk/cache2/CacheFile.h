@@ -8,8 +8,8 @@
 #include "CacheFileChunk.h"
 #include "CacheFileIOManager.h"
 #include "CacheFileMetadata.h"
-#include "nsRefPtrHashtable.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "mozilla/Mutex.h"
 
 class nsIInputStream;

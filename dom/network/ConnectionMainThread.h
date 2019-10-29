@@ -9,7 +9,7 @@
 
 #include "Connection.h"
 #include "mozilla/Hal.h"
-#include "mozilla/Observer.h"
+#include "xpcom/ds/Observer.h"
 
 namespace mozilla {
 namespace dom {

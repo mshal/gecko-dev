@@ -8,7 +8,7 @@
 #define mozilla_dom_SharedWorkerService_h
 
 #include "nsISupportsImpl.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 

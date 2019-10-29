@@ -41,7 +41,7 @@
 #include "AudioChannelService.h"
 #include "PuppetWidget.h"
 #include "mozilla/layers/GeckoContentController.h"
-#include "nsDeque.h"
+#include "xpcom/ds/nsDeque.h"
 #include "nsISHistoryListener.h"
 
 class nsBrowserStatusFilter;

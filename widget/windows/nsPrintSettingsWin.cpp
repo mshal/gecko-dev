@@ -5,7 +5,7 @@
 #include "nsPrintSettingsWin.h"
 
 #include "mozilla/ArrayUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 // Using paper sizes from wingdi.h and the units given there, plus a little
 // extra research for the ones it doesn't give. Looks like the list hasn't

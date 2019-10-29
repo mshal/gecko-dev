@@ -11,7 +11,7 @@
 #include "mozilla/SMILMilestone.h"
 #include "mozilla/SMILTypes.h"
 #include "nscore.h"
-#include "nsTPriorityQueue.h"
+#include "xpcom/ds/nsTPriorityQueue.h"
 
 namespace mozilla {
 

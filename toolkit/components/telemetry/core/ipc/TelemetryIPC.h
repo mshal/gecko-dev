@@ -8,7 +8,7 @@
 
 #include <stdint.h>
 #include "mozilla/TelemetryProcessEnums.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsXULAppAPI.h"
 
 // This module provides the interface to accumulate Telemetry from child

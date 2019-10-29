@@ -16,7 +16,7 @@
 #include "nsISupportsPrimitives.h"
 #include "nsComponentManagerUtils.h"
 #include "nsITransferable.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 
 static mozilla::LazyLogModule gClipboardLog("Clipboard");
 

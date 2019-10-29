@@ -7,7 +7,7 @@
 #ifndef mozilla_HalNetworkInformation_h
 #define mozilla_HalNetworkInformation_h
 
-#include "mozilla/Observer.h"
+#include "xpcom/ds/Observer.h"
 
 namespace mozilla {
 namespace hal {

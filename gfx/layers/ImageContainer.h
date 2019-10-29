@@ -26,12 +26,12 @@
 #include "nsDebug.h"           // for NS_ASSERTION
 #include "nsISupportsImpl.h"   // for Image::Release, etc
 #include "nsRect.h"            // for mozilla::gfx::IntRect
-#include "nsTArray.h"          // for nsTArray
+#include "xpcom/ds/nsTArray.h"          // for nsTArray
 #include "mozilla/Atomics.h"
 #include "mozilla/WeakPtr.h"
 #include "nsThreadUtils.h"
 #include "mozilla/gfx/2D.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "mozilla/EnumeratedArray.h"
 #include "mozilla/UniquePtr.h"
 

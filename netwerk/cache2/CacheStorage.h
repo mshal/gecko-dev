@@ -9,7 +9,7 @@
 #include "CacheEntry.h"
 #include "LoadContextInfo.h"
 
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsThreadUtils.h"
 #include "nsCOMPtr.h"
 #include "nsILoadContextInfo.h"

@@ -42,14 +42,14 @@
 #define NS_PARSER__
 
 #include "nsIParser.h"
-#include "nsDeque.h"
+#include "xpcom/ds/nsDeque.h"
 #include "nsIURL.h"
 #include "CParserContext.h"
 #include "nsParserCIID.h"
 #include "nsITokenizer.h"
 #include "nsHTMLTags.h"
 #include "nsIContentSink.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsWeakReference.h"
 

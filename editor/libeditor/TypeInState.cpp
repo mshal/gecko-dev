@@ -13,7 +13,7 @@
 #include "mozilla/dom/Selection.h"
 #include "nsAString.h"
 #include "nsDebug.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsINode.h"
 #include "nsISupportsBase.h"
 #include "nsISupportsImpl.h"

@@ -12,7 +12,7 @@
 
 #include "Axis.h"
 #include "mozilla/Attributes.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace layers {

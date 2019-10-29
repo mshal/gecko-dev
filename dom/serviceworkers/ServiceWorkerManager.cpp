@@ -65,7 +65,7 @@
 #include "nsNetUtil.h"
 #include "nsProxyRelease.h"
 #include "nsQueryObject.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "ServiceWorker.h"
 #include "ServiceWorkerContainer.h"

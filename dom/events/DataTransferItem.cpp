@@ -22,7 +22,7 @@
 #include "nsNetUtil.h"
 #include "nsQueryObject.h"
 #include "nsContentUtils.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 
 namespace {
 

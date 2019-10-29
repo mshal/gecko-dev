@@ -41,7 +41,7 @@
 #include "SVGTextFrame.h"
 #include "nsCoord.h"
 #include "gfxContext.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCSSPseudoElements.h"
 #include "nsCSSFrameConstructor.h"
 #include "nsCompatibility.h"
@@ -60,7 +60,7 @@
 #include "TextDrawTarget.h"
 
 #include "nsTextFragment.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsFrameSelection.h"
 #include "nsRange.h"
 #include "nsCSSRendering.h"

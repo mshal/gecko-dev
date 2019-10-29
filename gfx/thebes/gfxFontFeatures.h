@@ -7,8 +7,8 @@
 #ifndef GFX_FONT_FEATURES_H
 #define GFX_FONT_FEATURES_H
 
-#include "nsTHashtable.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 
 // An OpenType feature tag and value pair

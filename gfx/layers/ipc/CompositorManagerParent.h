@@ -13,7 +13,7 @@
 #include "mozilla/StaticMutex.h"  // for StaticMutex
 #include "mozilla/RefPtr.h"       // for already_AddRefed
 #include "mozilla/layers/PCompositorManagerParent.h"
-#include "nsTArray.h"  // for AutoTArray
+#include "xpcom/ds/nsTArray.h"  // for AutoTArray
 
 namespace mozilla {
 namespace layers {

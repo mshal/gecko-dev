@@ -15,7 +15,7 @@
 #include "mozilla/BasicEvents.h"
 #include "mozilla/dom/Touch.h"
 #include "mozilla/TouchEvents.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 
 namespace mozilla {
 class PresShell;

@@ -8,7 +8,7 @@
 #define RtpPacketQueue_h
 
 #include "MediaConduitInterface.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 

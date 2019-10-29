@@ -8,7 +8,7 @@
 
 #include "nsCSSKeywords.h"
 #include "nsString.h"
-#include "nsStaticNameTable.h"
+#include "xpcom/ds/nsStaticNameTable.h"
 
 // required to make the symbol external, so that TestCSSPropertyLookup.cpp can
 // link with it

@@ -17,7 +17,7 @@
 #include "nsIDOMEventListener.h"
 #include "nsPoint.h"
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIObserver.h"
 #include "nsITimer.h"
 #include "nsIReflowCallback.h"

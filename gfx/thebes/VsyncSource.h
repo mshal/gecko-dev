@@ -6,7 +6,7 @@
 #ifndef GFX_VSYNCSOURCE_H
 #define GFX_VSYNCSOURCE_H
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/RefPtr.h"
 #include "mozilla/Mutex.h"
 #include "mozilla/TimeStamp.h"

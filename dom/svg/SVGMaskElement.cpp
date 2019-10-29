@@ -6,7 +6,7 @@
 
 #include "mozilla/dom/SVGMaskElement.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/AlreadyAddRefed.h"
 #include "mozilla/ArrayUtils.h"
 #include "mozilla/dom/SVGLengthBinding.h"

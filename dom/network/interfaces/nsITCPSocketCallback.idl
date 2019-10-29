@@ -12,7 +12,7 @@
 #include "domstubs.idl"
 
 %{C++
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 %}
 [ref] native nsUint8TArrayRef(nsTArray<uint8_t>);
 [ptr] native JSContextPtr(JSContext);

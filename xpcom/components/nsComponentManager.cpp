@@ -8,7 +8,7 @@
 #include "nscore.h"
 #include "nsISupports.h"
 #include "nspr.h"
-#include "nsCRT.h"  // for atoll
+#include "xpcom/ds/nsCRT.h"  // for atoll
 
 #include "StaticComponents.h"
 
@@ -36,7 +36,7 @@
 #include "nsThreadUtils.h"
 #include "prthread.h"
 #include "private/pprthred.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "prio.h"
 #include "ManifestParser.h"
 #include "nsNetUtil.h"
@@ -44,8 +44,8 @@
 #include "mozJSComponentLoader.h"
 
 #include "mozilla/GenericFactory.h"
-#include "nsSupportsPrimitives.h"
-#include "nsArray.h"
+#include "xpcom/ds/nsSupportsPrimitives.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsIMutableArray.h"
 #include "mozilla/DebugOnly.h"
 #include "mozilla/FileUtils.h"
@@ -53,7 +53,7 @@
 #include "mozilla/URLPreloader.h"
 #include "mozilla/UniquePtr.h"
 #include "mozilla/Variant.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 #include <new>  // for placement new
 

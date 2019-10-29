@@ -12,7 +12,7 @@
 #include "mozilla/dom/PContent.h"
 #include "mozilla/ipc/Transport.h"
 #include "mozilla/gmp/PGMPServiceChild.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 
 namespace mozilla {
 namespace gmp {

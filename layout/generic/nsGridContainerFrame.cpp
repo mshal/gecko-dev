@@ -26,9 +26,9 @@
 #include "nsAlgorithm.h"  // for clamped()
 #include "nsCSSAnonBoxes.h"
 #include "nsCSSFrameConstructor.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsDisplayList.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsFieldSetFrame.h"
 #include "nsIFrameInlines.h"
 #include "nsPresContext.h"

@@ -20,7 +20,7 @@
 #include "nsIHttpHeaderVisitor.h"
 #include "nsIProgressEventSink.h"
 #include "nsJSUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsITimer.h"
 #include "nsIPrincipal.h"
 #include "nsIScriptObjectPrincipal.h"

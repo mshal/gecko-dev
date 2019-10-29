@@ -13,7 +13,7 @@
 #include "nsThreadUtils.h"
 #include "nsIOutputStream.h"
 #include "nsNetCID.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include <algorithm>
 
 using namespace mozilla;

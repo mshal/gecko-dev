@@ -19,11 +19,11 @@
 #include "nsIDirectoryEnumerator.h"
 #include "nsNativeCharsetUtils.h"
 
-#include "nsSimpleEnumerator.h"
+#include "xpcom/ds/nsSimpleEnumerator.h"
 #include "nsIComponentManager.h"
 #include "prio.h"
 #include "private/pprio.h"  // To get PR_ImportFile
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 #include "nsString.h"
 #include "nsReadableUtils.h"

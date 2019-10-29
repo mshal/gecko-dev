@@ -9,7 +9,7 @@
 
 #include "mozilla/KeyframeEffectParams.h"  // For CompositeOperation
 #include "nsCSSPropertyID.h"
-#include "nsTArrayForwardDeclare.h"  // For nsTArray
+#include "xpcom/ds/nsTArrayForwardDeclare.h"  // For nsTArray
 #include "js/RootingAPI.h"           // For JS::Handle
 
 struct JSContext;

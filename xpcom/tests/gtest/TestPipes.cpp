@@ -10,7 +10,7 @@
 #include "mozilla/ReentrantMonitor.h"
 #include "mozilla/Printf.h"
 #include "nsCOMPtr.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIAsyncInputStream.h"
 #include "nsIAsyncOutputStream.h"
 #include "nsIBufferedStreams.h"

@@ -11,7 +11,7 @@
 #include "mozilla/dom/StaticRange.h"
 #include "nsContentUtils.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsINode.h"
 #include "nsRange.h"
 

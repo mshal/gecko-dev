@@ -21,7 +21,7 @@
 #include "nsPlacesIndexes.h"
 #include "nsPlacesTriggers.h"
 #include "nsPlacesMacros.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "SQLFunctions.h"
 #include "Helpers.h"
 #include "nsFaviconService.h"

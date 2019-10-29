@@ -8,7 +8,7 @@
 #include "nsError.h"
 #include "nsCOMPtr.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/StaticMutex.h"
 #include "mozilla/TimeStamp.h"
 

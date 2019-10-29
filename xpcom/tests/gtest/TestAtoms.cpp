@@ -6,7 +6,7 @@
 
 #include "mozilla/ArrayUtils.h"
 
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsString.h"
 #include "UTFStrings.h"
 #include "nsIServiceManager.h"

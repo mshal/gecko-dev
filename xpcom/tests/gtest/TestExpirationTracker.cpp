@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <prthread.h>
-#include "nsExpirationTracker.h"
+#include "xpcom/ds/nsExpirationTracker.h"
 #include "nsMemory.h"
 #include "nsAutoPtr.h"
 #include "nsString.h"

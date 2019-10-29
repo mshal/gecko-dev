@@ -16,9 +16,9 @@
 #include "mozilla/SHA1.h"
 #include "mozilla/StaticPtr.h"
 #include "mozilla/TimeStamp.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "prio.h"
 
 //#define DEBUG_HANDLES 1

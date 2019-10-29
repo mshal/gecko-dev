@@ -7,7 +7,7 @@
 #ifndef nsGkAtoms_h___
 #define nsGkAtoms_h___
 
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 
 // Static atoms are structured carefully to satisfy a lot of constraints.
 //
@@ -89,7 +89,7 @@ struct GkAtoms {
 //
 #define GK_ATOM(name_, value_, hash_, is_ascii_lower_, type_, atom_type_) \
   const char16_t name_##_string[sizeof(value_)];
-#include "nsGkAtomList.h"
+#include "xpcom/ds/nsGkAtomList.h"
 #undef GK_ATOM
 
   // The enum value for each atom.
@@ -101,7 +101,7 @@ struct GkAtoms {
 //   Ccc,
 //
 #define GK_ATOM(name_, value_, hash_, is_ascii_lower_, type_, atom_type_) name_,
-#include "nsGkAtomList.h"
+#include "xpcom/ds/nsGkAtomList.h"
 #undef GK_ATOM
     AtomsCount
   };
@@ -176,7 +176,7 @@ class nsGkAtoms {
   static constexpr nsStaticAtom* name_ = const_cast<nsStaticAtom*>(       \
       &mozilla::detail::gGkAtoms.mAtoms[static_cast<size_t>(              \
           mozilla::detail::GkAtoms::Atoms::name_)]);
-#include "nsGkAtomList.h"
+#include "xpcom/ds/nsGkAtomList.h"
 #undef GK_ATOM
 };
 

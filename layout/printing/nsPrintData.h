@@ -15,8 +15,8 @@
 #include "nsIPrintProgressParams.h"
 #include "nsIPrintSettings.h"
 #include "nsISupportsImpl.h"
-#include "nsTArray.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 
 class nsPrintObject;
 class nsIWebProgressListener;

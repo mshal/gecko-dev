@@ -10,7 +10,7 @@
 #define nsDOMCSSValueList_h___
 
 #include "CSSValue.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsDOMCSSValueList final
   : public mozilla::dom::CSSValue

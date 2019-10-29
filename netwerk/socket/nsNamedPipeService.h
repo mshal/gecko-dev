@@ -13,7 +13,7 @@
 #include "nsIObserver.h"
 #include "nsIRunnable.h"
 #include "nsIThread.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/StaticPtr.h"
 
 namespace mozilla {

@@ -14,7 +14,7 @@
 #include "mozilla/PresShell.h"
 #include "mozilla/dom/SVGForeignObjectElement.h"
 #include "nsDisplayList.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsNameSpaceManager.h"
 #include "nsLayoutUtils.h"
 #include "nsRegion.h"

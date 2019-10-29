@@ -16,7 +16,7 @@
 #include "xpcAccessibleDocument.h"
 
 #include "nsIMutableArray.h"
-#include "nsPersistentProperties.h"
+#include "xpcom/ds/nsPersistentProperties.h"
 
 using namespace mozilla::a11y;
 

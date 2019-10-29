@@ -15,7 +15,7 @@
 #include "nsLayoutUtils.h"
 #include "nsPresContext.h"
 #include "nsNameSpaceManager.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsDisplayList.h"
 #include "nsIScriptError.h"
 #include "nsContentUtils.h"

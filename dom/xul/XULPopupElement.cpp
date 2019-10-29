@@ -7,7 +7,7 @@
 #include "nsCOMPtr.h"
 #include "nsIContent.h"
 #include "nsNameSpaceManager.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsMenuPopupFrame.h"
 #include "nsView.h"
 #include "mozilla/AppUnits.h"

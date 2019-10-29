@@ -7,20 +7,20 @@
   This file provides the implementation for the sort service manager.
  */
 
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "nsIContent.h"
 #include "nsIServiceManager.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsNameSpaceManager.h"
 #include "nsXULContentUtils.h"
 #include "nsString.h"
-#include "nsQuickSort.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsQuickSort.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 #include "nsXULSortService.h"
 #include "nsXULElement.h"
 #include "nsICollation.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsUnicharUtils.h"
 
 #include "mozilla/dom/Element.h"

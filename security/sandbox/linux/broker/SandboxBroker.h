@@ -12,8 +12,8 @@
 #include "base/platform_thread.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/UniquePtr.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsString.h"
 
 namespace mozilla {

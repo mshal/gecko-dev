@@ -8,7 +8,7 @@
 #include "nsIServiceManager.h"
 #include "nsIURI.h"
 #include "nsReadableUtils.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "prnetdb.h"
 #include "prenv.h"
 #include "nsPrintfCString.h"
@@ -16,7 +16,7 @@
 #include "nsNetUtil.h"
 #include "nsISupportsPrimitives.h"
 #include "nsIGSettingsService.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 #include "mozilla/Attributes.h"
 #include "nsIURI.h"
 

@@ -18,7 +18,7 @@
 #include "nsWrapperCacheInlines.h"
 #include "nsContentUtils.h"
 #include "nsCCUncollectableMarker.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/dom/HTMLCollectionBinding.h"
 #include "mozilla/dom/NodeListBinding.h"
 #include "mozilla/Likely.h"
@@ -26,9 +26,9 @@
 #include "jsfriendapi.h"
 #include <algorithm>
 #include "mozilla/dom/NodeInfoInlines.h"
-#include "mozilla/MruCache.h"
+#include "xpcom/ds/MruCache.h"
 
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 
 #ifdef DEBUG_CONTENT_LIST
 #  define ASSERT_IN_SYNC AssertInSync()

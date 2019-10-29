@@ -6,7 +6,7 @@
 #ifndef ContainerWriter_h_
 #define ContainerWriter_h_
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "EncodedFrame.h"
 #include "TrackMetadataBase.h"
 

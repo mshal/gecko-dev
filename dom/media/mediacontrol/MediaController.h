@@ -7,7 +7,7 @@
 #ifndef mozilla_dom_mediacontroller_h__
 #define mozilla_dom_mediacontroller_h__
 
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsISupportsImpl.h"
 
 namespace mozilla {

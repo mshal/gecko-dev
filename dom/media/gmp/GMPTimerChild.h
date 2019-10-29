@@ -8,8 +8,8 @@
 
 #include "mozilla/gmp/PGMPTimerChild.h"
 #include "mozilla/Monitor.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "gmp-errors.h"
 #include "gmp-platform.h"
 

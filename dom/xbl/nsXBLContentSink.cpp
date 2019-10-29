@@ -9,7 +9,7 @@
 #include "nsXBLContentSink.h"
 #include "mozilla/dom/Document.h"
 #include "nsBindingManager.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsNameSpaceManager.h"
 #include "nsIURI.h"
 #include "nsTextFragment.h"

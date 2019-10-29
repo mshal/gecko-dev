@@ -7,7 +7,7 @@
 #include "nspr.h"
 #include "private/pprio.h"
 #include "nsString.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 #include "nsIServiceManager.h"
 #include "nsIDNSService.h"

@@ -9,7 +9,7 @@
 #  include <cstdint>
 #  include <initializer_list>
 #  include "mozilla/MathAlgorithms.h"
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 

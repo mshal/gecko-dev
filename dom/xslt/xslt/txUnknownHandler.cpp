@@ -9,7 +9,7 @@
 #include "txExecutionState.h"
 #include "txStringUtils.h"
 #include "txStylesheet.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 txUnknownHandler::txUnknownHandler(txExecutionState* aEs)
     : mEs(aEs), mFlushed(false) {

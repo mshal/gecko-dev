@@ -18,7 +18,7 @@
 #include "nsGlobalWindow.h"
 #include "nsIFrame.h"
 #include "nsIWebVTTParserWrapper.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "nsVideoFrame.h"
 
 mozilla::LazyLogModule gTextTrackLog("WebVTT");

@@ -9,7 +9,7 @@
 
 #include "mozilla/DOMEventTargetHelper.h"
 #include "nsIPresentationListener.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

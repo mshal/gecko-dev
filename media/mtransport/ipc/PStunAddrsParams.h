@@ -6,7 +6,7 @@
 #define PStunAddrsParams_h
 
 #include "mozilla/Maybe.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #ifdef MOZ_WEBRTC
 #  include "mtransport/nricestunaddr.h"

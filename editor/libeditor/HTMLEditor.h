@@ -30,7 +30,7 @@
 #include "nsITableEditor.h"
 #include "nsPoint.h"
 #include "nsStubMutationObserver.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsDocumentFragment;
 class nsHTMLDocument;

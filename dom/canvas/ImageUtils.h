@@ -8,7 +8,7 @@
 #define mozilla_dom_ImageBitmapFormatUtils_h
 
 #include "mozilla/UniquePtr.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 
 namespace mozilla {
 

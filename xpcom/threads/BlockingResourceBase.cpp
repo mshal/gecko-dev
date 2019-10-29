@@ -13,9 +13,9 @@
 
 #  ifndef MOZ_CALLSTACK_DISABLED
 #    include "CodeAddressService.h"
-#    include "nsHashKeys.h"
+#    include "xpcom/ds/nsHashKeys.h"
 #    include "mozilla/StackWalk.h"
-#    include "nsTHashtable.h"
+#    include "xpcom/ds/nsTHashtable.h"
 #  endif
 
 #  include "mozilla/CondVar.h"

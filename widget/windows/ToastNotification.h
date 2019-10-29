@@ -9,7 +9,7 @@
 #include "nsIAlertsService.h"
 #include "nsIObserver.h"
 #include "nsIThread.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsWeakReference.h"
 
 namespace mozilla {

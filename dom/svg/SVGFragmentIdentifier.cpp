@@ -8,7 +8,7 @@
 
 #include "mozilla/dom/SVGSVGElement.h"
 #include "mozilla/dom/SVGViewElement.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsContentUtils.h"  // for nsCharSeparatedTokenizerTemplate
 #include "SVGAnimatedTransformList.h"
 

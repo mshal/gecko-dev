@@ -12,7 +12,7 @@
 #include "nsIObserver.h"
 #include "nsIRunnable.h"
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "prinrval.h"
 
 /**

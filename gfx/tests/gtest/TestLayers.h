@@ -7,7 +7,7 @@
 #define GFX_TEST_LAYERS_H
 
 #include "Layers.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/layers/ISurfaceAllocator.h"
 
 namespace mozilla {

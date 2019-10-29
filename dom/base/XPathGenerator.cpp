@@ -6,9 +6,9 @@
 
 #include "XPathGenerator.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "Element.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 /**
  * Check whether a character is a non-word character. A non-word character is a

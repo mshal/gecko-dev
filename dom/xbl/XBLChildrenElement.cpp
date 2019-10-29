@@ -9,7 +9,7 @@
 #include "mozilla/PresShell.h"
 #include "mozilla/dom/NodeListBinding.h"
 #include "nsAttrValueOrString.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 
 namespace mozilla {
 namespace dom {

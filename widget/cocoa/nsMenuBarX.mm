@@ -15,7 +15,7 @@
 
 #include "nsCOMPtr.h"
 #include "nsString.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsObjCExceptions.h"
 #include "nsThreadUtils.h"
 #include "nsTouchBarNativeAPIDefines.h"

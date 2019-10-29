@@ -17,7 +17,7 @@
 #include "nsCoord.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsError.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 
 class nsIFrame;
 

@@ -8,11 +8,11 @@
 #define nsXBLPrototypeBinding_h__
 
 #include "nsAutoPtr.h"
-#include "nsClassHashtable.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "nsICSSLoaderObserver.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 #include "nsXBLDocumentInfo.h"
 #include "nsXBLProtoImpl.h"
 #include "nsXBLProtoImplMethod.h"

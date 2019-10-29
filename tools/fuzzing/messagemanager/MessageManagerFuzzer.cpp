@@ -25,7 +25,7 @@
 #include "nsIFileStreams.h"
 #include "nsILineInputStream.h"
 #include "nsLocalFile.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #ifdef IsLoggingEnabled
 // This is defined in the Windows SDK urlmon.h

@@ -11,7 +11,7 @@
 
 #include "mozilla/Attributes.h"
 #include "mozilla/SMILAttr.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsCSSPropertyID.h"
 #include "nsCSSValue.h"
 

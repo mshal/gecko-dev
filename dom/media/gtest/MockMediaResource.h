@@ -6,7 +6,7 @@
 #define MOCK_MEDIA_RESOURCE_H_
 
 #include "MediaResource.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Atomics.h"
 
 namespace mozilla {

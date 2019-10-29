@@ -13,8 +13,8 @@
 #  include "nsCOMPtr.h"
 #  include "nsIAsyncShutdown.h"
 #  include "nsIThread.h"
-#  include "nsHashKeys.h"
-#  include "nsTHashtable.h"
+#  include "xpcom/ds/nsHashKeys.h"
+#  include "xpcom/ds/nsTHashtable.h"
 
 namespace mozilla {
 

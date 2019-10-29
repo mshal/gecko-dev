@@ -8,7 +8,7 @@
 
 #include "nsITextToSubURI.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/net/IDNBlocklistUtils.h"
 
 class nsTextToSubURI : public nsITextToSubURI {

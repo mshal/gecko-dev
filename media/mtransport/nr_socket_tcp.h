@@ -46,7 +46,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "mozilla/net/WebrtcTCPSocketCallback.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 extern "C" {
 #include "nr_api.h"

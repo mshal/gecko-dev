@@ -11,7 +11,7 @@ webidl Document;
 webidl Node;
 
 %{ C++
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsRect.h"
 
 class nsIWidget;

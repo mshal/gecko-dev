@@ -10,7 +10,7 @@
 #include "nsXPCOM.h"
 #include "nsISupportsPrimitives.h"
 #include "nsAppStartupNotifier.h"
-#include "mozilla/SimpleEnumerator.h"
+#include "xpcom/ds/SimpleEnumerator.h"
 
 /* static */
 nsresult nsAppStartupNotifier::NotifyObservers(const char* aCategory) {

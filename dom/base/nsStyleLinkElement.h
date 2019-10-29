@@ -19,7 +19,7 @@
 #include "mozilla/Unused.h"
 #include "nsCOMPtr.h"
 #include "nsIStyleSheetLinkingElement.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIURI;
 

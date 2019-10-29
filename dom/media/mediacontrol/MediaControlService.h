@@ -10,9 +10,9 @@
 #include "AudioFocusManager.h"
 #include "MediaController.h"
 #include "MediaHardwareKeysManager.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsIObserver.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

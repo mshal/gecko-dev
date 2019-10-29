@@ -5,7 +5,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "nsDragService.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsIObserverService.h"
 #include "nsWidgetsCID.h"
 #include "nsWindow.h"
@@ -17,14 +17,14 @@
 #include "nsIFileURL.h"
 #include "nsNetUtil.h"
 #include "mozilla/Logging.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsPrimitiveHelpers.h"
 #include "prtime.h"
 #include "prthread.h"
 #include <dlfcn.h>
 #include <gtk/gtk.h>
 #include <gdk/gdkx.h>
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "mozilla/BasicEvents.h"
 #include "mozilla/Services.h"
 #include "mozilla/ClearOnShutdown.h"
@@ -43,7 +43,7 @@
 #include "mozilla/gfx/2D.h"
 #include "gfxPlatform.h"
 #include "ScreenHelperGTK.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #ifdef MOZ_WAYLAND
 #  include "nsClipboardWayland.h"
 #endif

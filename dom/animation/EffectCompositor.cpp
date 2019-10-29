@@ -33,9 +33,9 @@
 #include "nsCSSPropertyIDSet.h"
 #include "nsCSSProps.h"
 #include "nsDisplayItemTypes.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsLayoutUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "PendingAnimationTracker.h"
 
 using mozilla::dom::Animation;

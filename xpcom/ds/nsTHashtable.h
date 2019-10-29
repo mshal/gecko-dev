@@ -10,8 +10,8 @@
 #ifndef nsTHashtable_h__
 #define nsTHashtable_h__
 
-#include "PLDHashTable.h"
-#include "nsPointerHashKeys.h"
+#include "xpcom/ds/PLDHashTable.h"
+#include "xpcom/ds/nsPointerHashKeys.h"
 #include "mozilla/Assertions.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/fallible.h"

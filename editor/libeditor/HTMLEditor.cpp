@@ -18,7 +18,7 @@
 #include "mozilla/StaticPrefs_editor.h"
 #include "mozilla/TextEvents.h"
 
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 #include "nsUnicharUtils.h"
 
@@ -49,7 +49,7 @@
 // Misc
 #include "mozilla/EditorUtils.h"
 #include "WSRunObject.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIWidget.h"
 
 #include "nsIFrame.h"

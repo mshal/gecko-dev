@@ -9,8 +9,8 @@
 
 #include "nsAutoPtr.h"
 #include "nsIObserver.h"
-#include "nsTObserverArray.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "AudioChannelAgent.h"
 #include "nsAttrValue.h"

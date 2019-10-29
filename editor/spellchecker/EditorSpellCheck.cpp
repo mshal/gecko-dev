@@ -31,7 +31,7 @@
 #include "nsISupportsUtils.h"  // for NS_ADDREF
 #include "nsIURI.h"            // for nsIURI
 #include "nsThreadUtils.h"     // for GetMainThreadSerialEventTarget
-#include "nsVariant.h"         // for nsIWritableVariant, etc
+#include "xpcom/ds/nsVariant.h"         // for nsIWritableVariant, etc
 #include "nsLiteralString.h"   // for NS_LITERAL_STRING, etc
 #include "nsMemory.h"          // for nsMemory
 #include "nsRange.h"

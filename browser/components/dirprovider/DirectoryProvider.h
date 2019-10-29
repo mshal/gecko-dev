@@ -8,7 +8,7 @@
 #include "nsIDirectoryService.h"
 #include "nsComponentManagerUtils.h"
 #include "nsIFile.h"
-#include "nsSimpleEnumerator.h"
+#include "xpcom/ds/nsSimpleEnumerator.h"
 #include "mozilla/Attributes.h"
 
 #define NS_BROWSERDIRECTORYPROVIDER_CONTRACTID \

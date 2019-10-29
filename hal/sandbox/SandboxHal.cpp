@@ -13,7 +13,7 @@
 #include "mozilla/dom/BrowserChild.h"
 #include "mozilla/fallback/FallbackScreenConfiguration.h"
 #include "mozilla/EnumeratedRange.h"
-#include "mozilla/Observer.h"
+#include "xpcom/ds/Observer.h"
 #include "mozilla/Unused.h"
 #include "nsAutoPtr.h"
 #include "WindowIdentifier.h"

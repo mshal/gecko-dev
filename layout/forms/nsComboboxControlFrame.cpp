@@ -13,7 +13,7 @@
 #include "nsCOMPtr.h"
 #include "nsFocusManager.h"
 #include "nsCheckboxRadioFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsCSSAnonBoxes.h"
 #include "nsHTMLParts.h"
 #include "nsIFormControl.h"

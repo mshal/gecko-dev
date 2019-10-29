@@ -12,7 +12,7 @@
 #include "nsIControllerCommand.h"
 #include "nsIPrincipal.h"
 #include "nsISupportsImpl.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsStringFwd.h"
 
 class nsAtom;

@@ -9,7 +9,7 @@
 #include "Accessible.h"
 #include "xpcAccessibleDocument.h"
 
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsComponentManagerUtils.h"
 
 using namespace mozilla::a11y;

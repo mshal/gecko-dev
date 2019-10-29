@@ -9,7 +9,7 @@
 #include "mozilla/PresShell.h"
 #include "mozilla/dom/Document.h"
 #include "nsIDOMEventListener.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsIWebProgressListener.h"
 #include "nsWeakReference.h"
 #include "mozilla/StaticPtr.h"

@@ -9,7 +9,7 @@
 #include "nsAHtml5TreeBuilderState.h"
 #include "nsHtml5TreeOperation.h"
 #include "nsAHtml5TreeOpSink.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsAutoPtr.h"
 #include "mozilla/Attributes.h"
 

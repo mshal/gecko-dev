@@ -18,7 +18,7 @@
 #include "nsIContent.h"
 #include "mozilla/dom/Document.h"
 #include "nsNameSpaceManager.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/dom/HTMLInputElement.h"
 #include "nsPresContext.h"
 #include "nsPresContextInlines.h"

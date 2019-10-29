@@ -10,9 +10,9 @@
 #include "mozilla/dom/BrowsingContext.h"
 #include "mozilla/ErrorResult.h"
 #include "nsIURI.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/dom/JSWindowActor.h"
 
 #include "nsIObserver.h"

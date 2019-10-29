@@ -11,7 +11,7 @@
 #include "mozilla/Move.h"
 #include "mozilla/SMILValue.h"
 #include "mozilla/SVGContentUtils.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "DOMSVGAnimatedTransformList.h"
 #include "SVGTransform.h"
 #include "SVGTransformListSMILType.h"

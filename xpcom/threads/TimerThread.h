@@ -14,7 +14,7 @@
 #include "nsTimerImpl.h"
 #include "nsThreadUtils.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "mozilla/Atomics.h"
 #include "mozilla/Attributes.h"

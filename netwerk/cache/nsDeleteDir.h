@@ -8,7 +8,7 @@
 #define nsDeleteDir_h__
 
 #include "nsCOMPtr.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "mozilla/Mutex.h"
 #include "mozilla/CondVar.h"
 

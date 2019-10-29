@@ -10,7 +10,7 @@
 #include "nsString.h"
 #include "nsIMIMEInfo.h"
 #include "nsIFile.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsLocalHandlerApp : public nsILocalHandlerApp {
  public:

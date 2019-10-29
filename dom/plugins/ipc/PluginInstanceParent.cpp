@@ -53,8 +53,8 @@
 #  include <windowsx.h>
 #  include "gfxWindowsPlatform.h"
 #  include "mozilla/plugins/PluginSurfaceParent.h"
-#  include "nsClassHashtable.h"
-#  include "nsHashKeys.h"
+#  include "xpcom/ds/nsClassHashtable.h"
+#  include "xpcom/ds/nsHashKeys.h"
 #  include "nsIWidget.h"
 #  include "nsPluginNativeWindow.h"
 #  include "PluginQuirks.h"

@@ -8,7 +8,7 @@
 
 #include "mozilla/Services.h"
 #include "MainThreadUtils.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsCategoryCache.h"
 #include "nsCOMPtr.h"
 #include "nsIMutableArray.h"

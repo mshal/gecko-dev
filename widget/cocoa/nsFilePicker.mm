@@ -13,7 +13,7 @@
 #include "nsIFile.h"
 #include "nsILocalFileMac.h"
 #include "nsIURL.h"
-#include "nsArrayEnumerator.h"
+#include "xpcom/ds/nsArrayEnumerator.h"
 #include "nsIStringBundle.h"
 #include "nsCocoaUtils.h"
 #include "mozilla/Preferences.h"

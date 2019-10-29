@@ -7,7 +7,7 @@
 
 #include "jisx4051class.h"
 #include "nsComplexBreaker.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsUnicodeProperties.h"
 #include "mozilla/ArrayUtils.h"
 

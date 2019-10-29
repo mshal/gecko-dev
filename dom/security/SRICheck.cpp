@@ -20,7 +20,7 @@
 #include "nsIIncrementalStreamLoader.h"
 #include "nsIURI.h"
 #include "nsNetUtil.h"
-#include "nsWhitespaceTokenizer.h"
+#include "xpcom/ds/nsWhitespaceTokenizer.h"
 
 #define SRIVERBOSE(args) \
   MOZ_LOG(SRILogHelper::GetSriLog(), mozilla::LogLevel::Verbose, args)

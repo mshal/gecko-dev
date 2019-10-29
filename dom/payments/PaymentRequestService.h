@@ -7,11 +7,11 @@
 #ifndef mozilla_dom_PaymentRequestService_h
 #define mozilla_dom_PaymentRequestService_h
 
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 #include "nsIPaymentRequestService.h"
 #include "nsISimpleEnumerator.h"
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "PaymentRequestData.h"
 
 namespace mozilla {

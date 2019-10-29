@@ -5,7 +5,7 @@
 
 #include "ProxyAccessibleWrap.h"
 
-#include "nsPersistentProperties.h"
+#include "xpcom/ds/nsPersistentProperties.h"
 
 #include "mozilla/a11y/DocAccessiblePlatformExtParent.h"
 

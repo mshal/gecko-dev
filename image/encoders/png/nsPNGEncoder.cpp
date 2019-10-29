@@ -4,7 +4,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "ImageLogging.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsPNGEncoder.h"
 #include "nsStreamUtils.h"
 #include "nsString.h"

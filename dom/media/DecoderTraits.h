@@ -9,7 +9,7 @@
 
 #include "mozilla/UniquePtr.h"
 #include "nsStringFwd.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 

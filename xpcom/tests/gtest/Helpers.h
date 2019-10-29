@@ -13,7 +13,7 @@
 #include "nsIInputStreamLength.h"
 #include "nsString.h"
 #include "nsStringStream.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 #include "nsThreadUtils.h"
 #include <stdint.h>
 

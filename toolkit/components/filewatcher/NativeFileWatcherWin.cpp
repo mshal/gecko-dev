@@ -11,12 +11,12 @@
 
 #include "mozilla/Services.h"
 #include "mozilla/UniquePtr.h"
-#include "nsClassHashtable.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsIFile.h"
 #include "nsIObserverService.h"
 #include "nsProxyRelease.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Logging.h"
 #include "mozilla/Scoped.h"
 

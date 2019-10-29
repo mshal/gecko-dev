@@ -7,7 +7,7 @@
 #ifndef nsPluginArray_h___
 #define nsPluginArray_h___
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWeakReference.h"
 #include "nsIObserver.h"
 #include "nsWrapperCache.h"

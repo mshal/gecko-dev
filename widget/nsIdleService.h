@@ -11,7 +11,7 @@
 #include "nsIIdleServiceInternal.h"
 #include "nsCOMPtr.h"
 #include "nsITimer.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIObserver.h"
 #include "nsIIdleService.h"
 #include "nsCategoryCache.h"

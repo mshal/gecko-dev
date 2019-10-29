@@ -20,7 +20,7 @@
 #include "nsProcess.h"
 #include "prio.h"
 #include "prenv.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsThreadUtils.h"
 #include "nsIObserverService.h"
 #include "nsXULAppAPI.h"

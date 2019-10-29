@@ -8,7 +8,7 @@
 #define MOZILLA_DOMRECT_H_
 
 #include "js/StructuredClone.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCOMPtr.h"
 #include "nsWrapperCache.h"
 #include "nsCycleCollectionParticipant.h"

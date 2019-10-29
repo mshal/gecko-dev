@@ -11,7 +11,7 @@
 
 #include "nsCOMPtr.h"
 #include "nsISupportsImpl.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "ServiceWorkerPrivate.h"
 #include "mozilla/Attributes.h"

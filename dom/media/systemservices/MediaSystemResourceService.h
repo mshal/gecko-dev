@@ -11,7 +11,7 @@
 
 #  include "MediaSystemResourceTypes.h"
 #  include "mozilla/StaticPtr.h"
-#  include "nsClassHashtable.h"
+#  include "xpcom/ds/nsClassHashtable.h"
 
 namespace mozilla {
 

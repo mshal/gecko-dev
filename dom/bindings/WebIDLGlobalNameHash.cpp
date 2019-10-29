@@ -22,7 +22,7 @@
 #include "mozilla/dom/RegisterBindings.h"
 #include "nsGlobalWindow.h"
 #include "nsIMemoryReporter.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "WrapperFactory.h"
 
 namespace mozilla {

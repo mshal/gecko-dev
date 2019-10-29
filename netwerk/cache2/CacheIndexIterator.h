@@ -5,7 +5,7 @@
 #ifndef CacheIndexIterator__h__
 #define CacheIndexIterator__h__
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCOMPtr.h"
 #include "nsAutoPtr.h"
 #include "mozilla/SHA1.h"

@@ -28,7 +28,7 @@
 
 #include "mozilla/Services.h"
 
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsConsoleMessage.h"
 #include "nsTextFormatter.h"
 #include "nsVersionComparator.h"

@@ -9,7 +9,7 @@
 
 #include "mozilla/RefPtr.h"
 #include "mozilla/dom/PWindowGlobalChild.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsWrapperCache.h"
 #include "mozilla/dom/WindowGlobalActor.h"
 

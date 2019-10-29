@@ -139,7 +139,7 @@
 #  endif
 #endif
 
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsCOMPtr.h"
 #include "nsDirectoryServiceDefs.h"
 #include "nsDirectoryServiceUtils.h"

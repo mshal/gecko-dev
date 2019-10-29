@@ -6,7 +6,7 @@
 
 #include "NSPRLogModulesParser.h"
 
-#include "mozilla/Tokenizer.h"
+#include "xpcom/ds/Tokenizer.h"
 
 const char kDelimiters[] = ", ";
 const char kAdditionalWordChars[] = "_-";

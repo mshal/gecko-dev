@@ -17,7 +17,7 @@
 #include "gfxGDIFont.h"
 
 #include "nsServiceManagerUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsUnicharUtils.h"
 
 #include "nsDirectoryServiceUtils.h"

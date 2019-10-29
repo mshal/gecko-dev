@@ -11,7 +11,7 @@
 #include "mozilla/Preferences.h"
 #include "mozilla/TimeStamp.h"
 #include "nsContentUtils.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/dom/Document.h"
 #include "nsIObserverService.h"
 #include "nsIScriptError.h"

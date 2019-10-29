@@ -11,8 +11,8 @@
 #include "nsIObserver.h"
 #include "nsISpeechService.h"
 #include "nsIThread.h"
-#include "nsRefPtrHashtable.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
+#include "xpcom/ds/nsTArray.h"
 
 struct SPDConnection;
 

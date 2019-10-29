@@ -10,7 +10,7 @@
 #include "nsContentUtils.h"
 #include "nsISupports.h"
 #include "nsStringFwd.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 
 // Must be kept in sync with xpcom/rust/xpcom/src/interfaces/nonidl.rs
 #define NS_NSICONSOLEREPORTCOLLECTOR_IID             \

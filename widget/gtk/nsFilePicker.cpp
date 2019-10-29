@@ -18,9 +18,9 @@
 #include "nsIFile.h"
 #include "nsIStringBundle.h"
 
-#include "nsArrayEnumerator.h"
+#include "xpcom/ds/nsArrayEnumerator.h"
 #include "nsMemory.h"
-#include "nsEnumeratorUtils.h"
+#include "xpcom/ds/nsEnumeratorUtils.h"
 #include "nsNetUtil.h"
 #include "nsReadableUtils.h"
 #include "mozcontainer.h"

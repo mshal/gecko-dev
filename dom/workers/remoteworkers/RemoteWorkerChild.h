@@ -9,7 +9,7 @@
 
 #include "nsCOMPtr.h"
 #include "nsISupportsImpl.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "mozilla/DataMutex.h"
 #include "mozilla/MozPromise.h"

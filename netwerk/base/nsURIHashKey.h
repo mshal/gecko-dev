@@ -5,10 +5,10 @@
 #ifndef nsURIHashKey_h__
 #define nsURIHashKey_h__
 
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 #include "nsCOMPtr.h"
 #include "nsIURI.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "mozilla/Move.h"
 #include "mozilla/Unused.h"
 

@@ -13,7 +13,7 @@
 #include "nsString.h"
 #include "nsIContent.h"
 #include "nsNameSpaceManager.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsComponentManagerUtils.h"
 #include "nsTreeColumns.h"
 

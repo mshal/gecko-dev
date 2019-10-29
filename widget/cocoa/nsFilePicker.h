@@ -11,8 +11,8 @@
 #include "nsString.h"
 #include "nsIFileChannel.h"
 #include "nsIFile.h"
-#include "nsCOMArray.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsCOMArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsILocalFileMac;
 @class NSArray;

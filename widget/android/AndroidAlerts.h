@@ -6,10 +6,10 @@
 #ifndef mozilla_widget_AndroidAlerts_h__
 #define mozilla_widget_AndroidAlerts_h__
 
-#include "nsDataHashtable.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 #include "nsCOMPtr.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsIAlertsService.h"
 #include "nsIObserver.h"
 

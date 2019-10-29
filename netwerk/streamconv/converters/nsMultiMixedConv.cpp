@@ -9,7 +9,7 @@
 #include "nsNetCID.h"
 #include "nsMimeTypes.h"
 #include "nsIStringStream.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIHttpChannelInternal.h"
 #include "nsURLHelper.h"
 #include "nsIStreamConverterService.h"

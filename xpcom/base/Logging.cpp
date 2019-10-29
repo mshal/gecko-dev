@@ -17,7 +17,7 @@
 #include "mozilla/Sprintf.h"
 #include "mozilla/UniquePtrExtensions.h"
 #include "MainThreadUtils.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsDebug.h"
 #include "nsDebugImpl.h"
 #include "NSPRLogModulesParser.h"

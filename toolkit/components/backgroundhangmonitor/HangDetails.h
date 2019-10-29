@@ -13,7 +13,7 @@
 #include "mozilla/Move.h"
 #include "mozilla/HangTypes.h"
 #include "mozilla/HangAnnotations.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIHangDetails.h"
 #include "mozilla/TimeStamp.h"
 

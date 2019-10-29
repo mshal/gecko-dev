@@ -8,7 +8,7 @@
 #define mozStorageResultSet_h
 
 #include "mozIStorageResultSet.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "mozilla/Attributes.h"
 class mozIStorageRow;
 

@@ -10,7 +10,7 @@
 // https://www.rfc-editor.org/rfc/rfc7541.txt
 
 #include "mozilla/Attributes.h"
-#include "nsDeque.h"
+#include "xpcom/ds/nsDeque.h"
 #include "nsString.h"
 #include "nsIMemoryReporter.h"
 #include "mozilla/Telemetry.h"

@@ -7,11 +7,11 @@
 #define nsHttpAuthCache_h__
 
 #include "nsError.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsAutoPtr.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsCOMPtr.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsStringFwd.h"
 #include "nsIObserver.h"
 

@@ -12,7 +12,7 @@
 #include "mozilla/plugins/PluginTypes.h"
 
 #include "npruntime.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 namespace mozilla {
 namespace plugins {

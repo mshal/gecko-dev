@@ -11,7 +11,7 @@
 #include "ComputedStyle.h"
 #include "SVGAnimatedLength.h"
 #include "nsComputedDOMStyle.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIFrame.h"
 #include "nsSVGImageFrame.h"
 #include <type_traits>

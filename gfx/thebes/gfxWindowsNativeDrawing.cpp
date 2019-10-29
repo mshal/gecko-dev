@@ -5,7 +5,7 @@
 
 #include <windows.h>
 
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 
 #include "gfxWindowsNativeDrawing.h"
 #include "gfxWindowsSurface.h"

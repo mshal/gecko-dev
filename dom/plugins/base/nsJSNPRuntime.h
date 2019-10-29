@@ -9,7 +9,7 @@
 #include "nscore.h"
 #include "npapi.h"
 #include "npruntime.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 #include "js/RootingAPI.h"
 
 class nsJSNPRuntime {

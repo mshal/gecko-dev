@@ -11,7 +11,7 @@
 
 #include "nsIObserver.h"
 #include "nsIPrincipal.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWeakReference.h"
 
 namespace mozilla {

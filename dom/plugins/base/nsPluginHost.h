@@ -19,14 +19,14 @@
 #include "nsWeakReference.h"
 #include "nsIPrompt.h"
 #include "MainThreadUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsINamed.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 #include "nsITimer.h"
 #include "nsPluginTags.h"
 #include "nsIEffectiveTLDService.h"
 #include "nsIIDNService.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "mozilla/dom/PromiseNativeHandler.h"
 
 #ifdef XP_WIN

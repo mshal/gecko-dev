@@ -12,8 +12,8 @@
 #include "mozIStorageAsyncStatement.h"
 
 #include "nsAutoPtr.h"
-#include "nsHashKeys.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 
 namespace mozilla {
 namespace storage {

@@ -29,7 +29,7 @@
 #include "nsAString.h"
 #include "nsDisplayList.h"
 #include "nsIWidgetListener.h"
-#include "nsTArray.h"     // for AutoTArray
+#include "xpcom/ds/nsTArray.h"     // for AutoTArray
 #include "nsXULAppAPI.h"  // for XRE_GetProcessType, etc
 #include "TiledLayerBuffer.h"
 #include "FrameLayerBuilder.h"  // for FrameLayerbuilder

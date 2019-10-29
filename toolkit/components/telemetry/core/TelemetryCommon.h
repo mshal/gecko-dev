@@ -10,8 +10,8 @@
 #include "mozilla/TypedEnumBits.h"
 #include "mozilla/TelemetryProcessEnums.h"
 #include "nsIScriptError.h"
-#include "nsTHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsXULAppAPI.h"
 
 namespace mozilla {

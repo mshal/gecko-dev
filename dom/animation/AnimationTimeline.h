@@ -13,9 +13,9 @@
 #include "js/TypeDecls.h"
 #include "mozilla/AnimationUtils.h"
 #include "mozilla/Attributes.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsIGlobalObject.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 namespace mozilla {
 namespace dom {

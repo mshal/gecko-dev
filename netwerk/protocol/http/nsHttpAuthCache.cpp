@@ -12,7 +12,7 @@
 
 #include "mozilla/Attributes.h"
 #include "nsString.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIObserverService.h"
 #include "mozilla/Services.h"
 #include "mozilla/DebugOnly.h"

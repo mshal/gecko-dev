@@ -6,7 +6,7 @@
 
 #include "nsCheckboxRadioFrame.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsLayoutUtils.h"
 #include "mozilla/dom/HTMLInputElement.h"
 #include "mozilla/EventStateManager.h"

@@ -9,7 +9,7 @@
 #include "mozilla/Attributes.h"
 #include "nscore.h"
 #include "nsCOMPtr.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsIBlocklistService.h"
 #include "nsIPluginTag.h"
 #include "nsITimer.h"

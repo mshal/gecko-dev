@@ -16,7 +16,7 @@
 #include "mozilla/ComputedStyle.h"
 
 #include "nsQueryFrame.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 
 class nsIContent;
 class nsIFrame;

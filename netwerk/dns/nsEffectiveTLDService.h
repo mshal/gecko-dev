@@ -10,14 +10,14 @@
 
 #include "mozilla/AutoMemMap.h"
 #include "mozilla/Attributes.h"
-#include "mozilla/Dafsa.h"
+#include "xpcom/ds/Dafsa.h"
 #include "mozilla/Maybe.h"
 #include "mozilla/MemoryReporting.h"
-#include "mozilla/MruCache.h"
+#include "xpcom/ds/MruCache.h"
 #include "mozilla/RWLock.h"
 
 #include "nsCOMPtr.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsIMemoryReporter.h"
 #include "nsIObserver.h"
 #include "nsString.h"

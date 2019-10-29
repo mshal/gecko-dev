@@ -11,7 +11,7 @@
 #include "mozilla/EffectSet.h"
 #include "mozilla/Preferences.h"
 #include "nsDebug.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsIContent.h"
 #include "nsGlobalWindow.h"
 #include "nsString.h"

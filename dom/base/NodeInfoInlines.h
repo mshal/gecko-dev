@@ -7,10 +7,10 @@
 #ifndef mozilla_dom_NodeInfoInlines_h___
 #define mozilla_dom_NodeInfoInlines_h___
 
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsINode.h"
 #include "nsDOMString.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 namespace mozilla {
 namespace dom {

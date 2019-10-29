@@ -14,7 +14,7 @@
 #include "nsIServiceManager.h"
 #include "mozilla/Services.h"
 #include "mozilla/ChaosMode.h"
-#include "mozilla/ArenaAllocator.h"
+#include "xpcom/ds/ArenaAllocator.h"
 #include "mozilla/ArrayUtils.h"
 #include "mozilla/BinarySearch.h"
 #include "mozilla/OperatorNewExtensions.h"

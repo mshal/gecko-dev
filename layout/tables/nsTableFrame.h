@@ -12,7 +12,7 @@
 #include "nsContainerFrame.h"
 #include "nsStyleConsts.h"
 #include "nsCellMap.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsDisplayList.h"
 #include "TableArea.h"
 

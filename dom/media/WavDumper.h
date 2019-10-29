@@ -8,7 +8,7 @@
 #  define WavDumper_h_
 #  include <stdio.h>
 #  include <stdint.h>
-#  include <nsTArray.h>
+#  include "xpcom/ds/nsTArray.h"
 #  include <mozilla/Unused.h>
 #  include <mozilla/Atomics.h>
 #  include <mozilla/DebugOnly.h>

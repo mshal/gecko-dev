@@ -8,7 +8,7 @@
 #define mozStorageBindingParamsArray_h
 
 #include "nsAutoPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Attributes.h"
 
 #include "mozIStorageBindingParamsArray.h"

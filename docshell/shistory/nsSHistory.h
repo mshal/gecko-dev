@@ -8,11 +8,11 @@
 #define nsSHistory_h
 
 #include "nsCOMPtr.h"
-#include "nsExpirationTracker.h"
+#include "xpcom/ds/nsExpirationTracker.h"
 #include "nsISHistory.h"
 #include "nsSHEntryShared.h"
-#include "nsSimpleEnumerator.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsSimpleEnumerator.h"
+#include "xpcom/ds/nsTObserverArray.h"
 #include "nsWeakReference.h"
 
 #include "mozilla/LinkedList.h"

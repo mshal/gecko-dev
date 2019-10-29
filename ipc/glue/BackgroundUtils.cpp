@@ -21,7 +21,7 @@
 #include "mozilla/LoadInfo.h"
 #include "nsContentUtils.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/nsRedirectHistoryEntry.h"
 #include "URIUtils.h"
 #include "mozilla/dom/nsCSPUtils.h"

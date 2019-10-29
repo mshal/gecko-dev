@@ -13,10 +13,10 @@
 #include "mozilla/MemoryReporting.h"
 #include "nsCOMPtr.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIDOMEventListener.h"
-#include "nsTObserverArray.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIDocShell;
 class nsIEventListenerInfo;

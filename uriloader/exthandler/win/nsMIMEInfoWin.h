@@ -8,7 +8,7 @@
 #include "nsMIMEInfoImpl.h"
 #include "nsIPropertyBag.h"
 #include "nsIMutableArray.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsMIMEInfoWin : public nsMIMEInfoBase, public nsIPropertyBag {
   virtual ~nsMIMEInfoWin();

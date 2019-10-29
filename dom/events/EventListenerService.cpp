@@ -12,13 +12,13 @@
 #include "mozilla/Maybe.h"
 #include "mozilla/dom/EventListenerBinding.h"
 #include "mozilla/dom/ScriptSettings.h"
-#include "nsArrayUtils.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsArrayUtils.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsIXPConnect.h"
 #include "nsJSUtils.h"
 #include "nsMemory.h"
 #include "nsServiceManagerUtils.h"
-#include "nsArray.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsThreadUtils.h"
 
 namespace mozilla {

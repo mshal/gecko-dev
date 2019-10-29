@@ -9,7 +9,7 @@
 
 #include "mozilla/EnumSet.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 /**
  * MemoryMapping is a helper class which describes an entry in the Linux

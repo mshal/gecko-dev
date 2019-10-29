@@ -6,7 +6,7 @@
 
 #include "nsSHEntryShared.h"
 
-#include "nsArray.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsDocShellEditorData.h"
 #include "nsIContentViewer.h"
 #include "nsIDocShell.h"

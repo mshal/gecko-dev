@@ -11,7 +11,7 @@
 
 #include "mozilla/Types.h"
 #include "nsDebug.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/ServoStyleConsts.h"
 
 // Defines for various style related constants

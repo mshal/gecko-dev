@@ -17,7 +17,7 @@
 #include "mozilla/dom/Document.h"
 #include "nsError.h"
 #include "nsINodeList.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsContentUtils.h"
 #include "nsTextFrame.h"
 #include "mozilla/Assertions.h"

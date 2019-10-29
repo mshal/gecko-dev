@@ -17,8 +17,8 @@
 #include "mozilla/dom/ResizeObserverBinding.h"
 #include "nsCoord.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsRefPtrHashtable.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWrapperCache.h"
 
 namespace mozilla {

@@ -6,7 +6,7 @@
 #ifndef TrackMetadataBase_h_
 #define TrackMetadataBase_h_
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCOMPtr.h"
 namespace mozilla {
 

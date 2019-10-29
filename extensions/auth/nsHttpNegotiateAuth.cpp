@@ -34,7 +34,7 @@
 #include "plstr.h"
 #include "mozilla/Base64.h"
 #include "mozilla/Logging.h"
-#include "mozilla/Tokenizer.h"
+#include "xpcom/ds/Tokenizer.h"
 #include "mozilla/UniquePtr.h"
 #include "mozilla/Unused.h"
 #include "prmem.h"

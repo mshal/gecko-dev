@@ -6,13 +6,13 @@
 #ifndef GFX_FONT_FAMILY_LIST_H
 #define GFX_FONT_FAMILY_LIST_H
 
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsDebug.h"
 #include "nsISupportsImpl.h"
 #include "nsString.h"
 #include "nsStyleConsts.h"
 #include "nsUnicharUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/MemoryReporting.h"
 #include "mozilla/NotNull.h"
 #include "mozilla/StaticPtr.h"

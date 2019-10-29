@@ -33,10 +33,10 @@
 
 #include "nsISupports.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "nsCOMPtr.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 
 #include "nsString.h"
 #include "nsReadableUtils.h"
@@ -47,18 +47,18 @@
 
 // core data structures
 
-#include "nsTHashtable.h"
-#include "nsHashKeys.h"
-#include "nsBaseHashtable.h"
-#include "nsDataHashtable.h"
-#include "nsInterfaceHashtable.h"
-#include "nsClassHashtable.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsBaseHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 
 // interfaces that inherit directly from nsISupports
 
 #include "nsIArray.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsICategoryManager.h"
 #include "nsIClassInfo.h"
 #include "nsIComponentManager.h"
@@ -141,18 +141,18 @@
 
 #include "nsWeakReference.h"
 
-#include "nsArrayEnumerator.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayEnumerator.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsCRTGlue.h"
 #include "nsCycleCollectionParticipant.h"
-#include "nsDeque.h"
-#include "nsEnumeratorUtils.h"
+#include "xpcom/ds/nsDeque.h"
+#include "xpcom/ds/nsEnumeratorUtils.h"
 #include "nsIClassInfoImpl.h"
 #include "mozilla/ModuleUtils.h"
 #include "nsIInterfaceRequestorUtils.h"
 #include "nsINIParser.h"
 #include "nsProxyRelease.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 #include "nsTextFormatter.h"
 #include "nsThreadUtils.h"
 #include "nsVersionComparator.h"

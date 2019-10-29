@@ -6,7 +6,7 @@
 
 #include "nsIObserverService.h"
 #include "mozilla/Services.h"
-#include "mozilla/SimpleEnumerator.h"
+#include "xpcom/ds/SimpleEnumerator.h"
 #include "nsISupportsPrimitives.h"
 #include "nsIStringEnumerator.h"
 

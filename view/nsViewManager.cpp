@@ -16,7 +16,7 @@
 #include "nsView.h"
 #include "nsCOMPtr.h"
 #include "nsRegion.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsIPluginWidget.h"
 #include "nsXULPopupManager.h"
 #include "nsPresContext.h"

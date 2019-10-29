@@ -16,7 +16,7 @@
 #include "nsIInputStream.h"
 #include "nsIFile.h"
 #include "nsUTF8Utils.h"  // for LossyConvertEncoding
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsParser.h"
 #include "nsCharsetSource.h"
 

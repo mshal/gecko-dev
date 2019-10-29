@@ -10,7 +10,7 @@
 #include "nsIGlobalObject.h"
 #include "nsIStreamLoader.h"
 
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsDOMString.h"
 #include "nsJSUtils.h"
 #include "nsNetUtil.h"

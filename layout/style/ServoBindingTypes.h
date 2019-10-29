@@ -105,7 +105,7 @@
 #include "mozilla/gfx/Types.h"
 #include "nsCSSPropertyID.h"
 #include "nsStyleAutoArray.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 // Forward declarations.
 

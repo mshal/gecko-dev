@@ -28,7 +28,7 @@
 #include "nsIFile.h"
 #include "nsIThread.h"
 #include "nsThreadUtils.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 
 namespace mozilla {
 namespace dom {

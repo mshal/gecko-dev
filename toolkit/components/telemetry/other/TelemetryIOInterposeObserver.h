@@ -15,11 +15,11 @@
 #include "core/TelemetryCommon.h"
 #include "jsapi.h"
 #include "mozilla/IOInterposer.h"
-#include "nsBaseHashtable.h"
-#include "nsClassHashtable.h"
-#include "nsHashKeys.h"
-#include "nsTArray.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsBaseHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 namespace mozilla {
 namespace Telemetry {

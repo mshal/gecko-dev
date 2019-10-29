@@ -10,7 +10,7 @@
 #include <algorithm>
 
 #include "mozilla/TypeTraits.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 // Specialization for nsTArray CopyChooser.
 namespace mozilla {

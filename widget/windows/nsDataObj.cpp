@@ -10,7 +10,7 @@
 #include <shlobj.h>
 
 #include "nsDataObj.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsClipboard.h"
 #include "nsReadableUtils.h"
 #include "nsITransferable.h"
@@ -18,7 +18,7 @@
 #include "IEnumFE.h"
 #include "nsPrimitiveHelpers.h"
 #include "nsString.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsPrintfCString.h"
 #include "nsIStringBundle.h"
 #include "nsEscape.h"

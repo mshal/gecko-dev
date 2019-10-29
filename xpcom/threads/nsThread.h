@@ -13,7 +13,7 @@
 #include "nsISupportsPriority.h"
 #include "nsThreadUtils.h"
 #include "nsString.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/LinkedList.h"
 #include "mozilla/MemoryReporting.h"

@@ -8,9 +8,9 @@
 #define mozilla_RubyUtils_h_
 
 #include "nsCSSAnonBoxes.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIFrame.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #define RTC_ARRAY_SIZE 1
 

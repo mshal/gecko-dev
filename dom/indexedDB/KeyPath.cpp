@@ -9,7 +9,7 @@
 #include "Key.h"
 #include "ReportInternalError.h"
 
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsJSUtils.h"
 #include "nsPrintfCString.h"
 #include "xpcpublic.h"

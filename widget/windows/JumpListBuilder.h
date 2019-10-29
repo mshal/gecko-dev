@@ -21,7 +21,7 @@
 #include "nsIJumpListItem.h"
 #include "JumpListItem.h"
 #include "nsIObserver.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/mscom/AgileReference.h"
 #include "mozilla/ReentrantMonitor.h"

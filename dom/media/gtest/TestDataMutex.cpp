@@ -5,7 +5,7 @@
 
 #include "gtest/gtest.h"
 #include "mozilla/DataMutex.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 using mozilla::DataMutex;
 

@@ -7,7 +7,7 @@
 #include "ComputedStyle.h"
 #include "mozilla/dom/SVGCircleElement.h"
 #include "mozilla/gfx/2D.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/dom/SVGCircleElementBinding.h"
 #include "mozilla/dom/SVGLengthBinding.h"
 #include "SVGGeometryProperty.h"

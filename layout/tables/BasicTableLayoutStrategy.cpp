@@ -17,7 +17,7 @@
 #include "nsTableColFrame.h"
 #include "nsTableCellFrame.h"
 #include "nsLayoutUtils.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "SpanningCellSorter.h"
 #include "nsIContent.h"
 

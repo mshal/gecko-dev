@@ -7,10 +7,10 @@
 #include "nsReadableUtils.h"
 #include "nsTreeUtils.h"
 #include "ChildIterator.h"
-#include "nsCRT.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsCRT.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsNameSpaceManager.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIContent.h"
 
 using namespace mozilla;

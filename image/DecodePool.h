@@ -12,7 +12,7 @@
 
 #include "mozilla/Mutex.h"
 #include "mozilla/StaticPtr.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "nsIEventTarget.h"
 #include "nsIObserver.h"

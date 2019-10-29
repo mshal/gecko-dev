@@ -12,7 +12,7 @@
 #include "nsIFile.h"
 #include "nsIMemoryReporter.h"
 #include "nsIObserver.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Mutex.h"
 
 #include "mozIStorageService.h"

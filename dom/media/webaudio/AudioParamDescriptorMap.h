@@ -8,7 +8,7 @@
 #define mozilla_dom_AudioParamDescriptor_h
 
 #include "mozilla/dom/AudioParamDescriptorBinding.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

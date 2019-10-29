@@ -61,7 +61,7 @@
 
 #include <fontconfig/fontconfig.h>
 
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 
 #define GDK_PIXMAP_SIZE_MAX 32767
 

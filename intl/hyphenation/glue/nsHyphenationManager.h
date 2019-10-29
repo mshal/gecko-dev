@@ -6,9 +6,9 @@
 #ifndef nsHyphenationManager_h__
 #define nsHyphenationManager_h__
 
-#include "nsInterfaceHashtable.h"
-#include "nsRefPtrHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsIObserver.h"
 #include "mozilla/Omnijar.h"
 

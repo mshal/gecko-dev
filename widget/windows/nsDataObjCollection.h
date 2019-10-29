@@ -10,7 +10,7 @@
 
 #include "mozilla/RefPtr.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsDataObj.h"
 #include "mozilla/Attributes.h"
 

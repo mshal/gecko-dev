@@ -17,7 +17,7 @@
 #include "mozilla/Vector.h"
 #include "mozilla/Result.h"
 #include "mozilla/loader/AutoMemMap.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsIAsyncShutdown.h"
 #include "nsIFile.h"
 #include "nsIMemoryReporter.h"

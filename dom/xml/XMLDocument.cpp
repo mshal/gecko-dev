@@ -31,7 +31,7 @@
 #include "nsContentUtils.h"
 #include "nsThreadUtils.h"
 #include "nsJSUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIAuthPrompt.h"
 #include "nsContentCreatorFunctions.h"
 #include "nsContentPolicyUtils.h"

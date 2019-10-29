@@ -6,7 +6,7 @@
 #ifndef GFX_SKIP_CHARS_H
 #define GFX_SKIP_CHARS_H
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 /*
  * gfxSkipChars is a data structure representing a list of characters that

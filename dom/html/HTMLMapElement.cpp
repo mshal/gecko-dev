@@ -6,7 +6,7 @@
 
 #include "mozilla/dom/HTMLMapElement.h"
 #include "mozilla/dom/HTMLMapElementBinding.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsStyleConsts.h"
 #include "nsContentList.h"
 #include "nsCOMPtr.h"

@@ -10,7 +10,7 @@
 
 #include "nsAutoPtr.h"
 #include "nsIServiceManager.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "SVGImageContext.h"
 
 #include "nsContentUtils.h"
@@ -41,7 +41,7 @@
 #include "nsFocusManager.h"
 #include "nsContentUtils.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "ImageEncoder.h"
 #include "ImageRegion.h"

@@ -11,7 +11,7 @@
 #include "mozilla/AutoRestore.h"
 #include "mozilla/dom/NodeFilterBinding.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 using namespace mozilla;
 using namespace mozilla::dom;

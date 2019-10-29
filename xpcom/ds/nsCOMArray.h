@@ -8,12 +8,12 @@
 #define nsCOMArray_h__
 
 #include "mozilla/Attributes.h"
-#include "mozilla/ArrayIterator.h"
+#include "xpcom/ds/ArrayIterator.h"
 #include "mozilla/MemoryReporting.h"
 #include "mozilla/ReverseIterator.h"
 
 #include "nsCycleCollectionNoteChild.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsISupports.h"
 
 // See below for the definition of nsCOMArray<T>

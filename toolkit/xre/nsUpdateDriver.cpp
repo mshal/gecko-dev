@@ -11,7 +11,7 @@
 #include "nsAppRunner.h"
 #include "nsIWritablePropertyBag.h"
 #include "nsIFile.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "nsCOMPtr.h"
 #include "nsString.h"
 #include "prproces.h"

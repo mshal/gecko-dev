@@ -5,7 +5,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "nsCOMPtr.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsXBLDocumentInfo.h"
 #include "nsIInputStream.h"
 #include "nsNameSpaceManager.h"
@@ -27,14 +27,14 @@
 #include "nsXBLService.h"
 #include "nsIXPConnect.h"
 #include "nsIScriptContext.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 // Event listeners
 #include "mozilla/EventListenerManager.h"
 #include "nsIDOMEventListener.h"
 #include "nsAttrName.h"
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 #include "nsXBLPrototypeHandler.h"
 

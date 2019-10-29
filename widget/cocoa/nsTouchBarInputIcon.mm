@@ -12,7 +12,7 @@
 #include "nsCocoaUtils.h"
 #include "nsComputedDOMStyle.h"
 #include "nsContentUtils.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsINode.h"
 #include "nsNameSpaceManager.h"
 #include "nsObjCExceptions.h"

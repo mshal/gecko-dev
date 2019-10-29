@@ -10,7 +10,7 @@
 #include "cert.h"
 #include "nsNSSCertificate.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozpkix/Time.h"
 
 namespace mozilla {

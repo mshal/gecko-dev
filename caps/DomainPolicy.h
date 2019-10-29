@@ -8,7 +8,7 @@
 #define DomainPolicy_h__
 
 #include "nsIDomainPolicy.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "nsURIHashKey.h"
 
 namespace mozilla {

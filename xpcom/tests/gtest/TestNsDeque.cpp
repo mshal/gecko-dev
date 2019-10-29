@@ -5,8 +5,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "gtest/gtest.h"
-#include "nsDeque.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsDeque.h"
+#include "xpcom/ds/nsCRT.h"
 #include "mozilla/TypeTraits.h"
 #include <stdio.h>
 #include <functional>

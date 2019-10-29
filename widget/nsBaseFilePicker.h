@@ -10,7 +10,7 @@
 #include "nsISupports.h"
 #include "nsIFilePicker.h"
 #include "nsISimpleEnumerator.h"
-#include "nsArrayEnumerator.h"
+#include "xpcom/ds/nsArrayEnumerator.h"
 #include "nsCOMPtr.h"
 #include "nsString.h"
 

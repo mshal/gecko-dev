@@ -9,18 +9,18 @@
 
 #include "nsPIDOMWindow.h"
 
-#include "nsTHashtable.h"
-#include "nsHashKeys.h"
-#include "nsRefPtrHashtable.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 
 // Local Includes
 // Helper Classes
 #include "nsCOMPtr.h"
 #include "nsAutoPtr.h"
 #include "nsWeakReference.h"
-#include "nsDataHashtable.h"
-#include "nsJSThingHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsJSThingHashtable.h"
 #include "nsCycleCollectionParticipant.h"
 
 // Interfaces Needed
@@ -53,7 +53,7 @@
 #include "Units.h"
 #include "nsComponentManagerUtils.h"
 #include "nsSize.h"
-#include "nsCheapSets.h"
+#include "xpcom/ds/nsCheapSets.h"
 #include "mozilla/dom/ImageBitmapSource.h"
 #include "mozilla/UniquePtr.h"
 

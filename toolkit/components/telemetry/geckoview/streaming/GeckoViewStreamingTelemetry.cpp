@@ -10,8 +10,8 @@
 #include "mozilla/StaticMutex.h"
 #include "mozilla/StaticPrefs_toolkit.h"
 #include "mozilla/TimeStamp.h"
-#include "nsDataHashtable.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsThreadUtils.h"
 
 using mozilla::Runnable;

@@ -8,7 +8,7 @@
 
 #include "nsFtpControlConnection.h"
 #include "nsIProxiedProtocolHandler.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsITimer.h"
 #include "nsIObserver.h"
 #include "nsWeakReference.h"

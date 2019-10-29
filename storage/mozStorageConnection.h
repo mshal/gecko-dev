@@ -15,7 +15,7 @@
 #include "nsThreadUtils.h"
 #include "nsIInterfaceRequestor.h"
 
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "mozIStorageProgressHandler.h"
 #include "SQLiteMutex.h"
 #include "mozIStorageConnection.h"

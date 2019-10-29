@@ -10,7 +10,7 @@
 
 #  include "mozilla/Maybe.h"
 #  include "nsAutoPtr.h"
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 
 struct OpusMSDecoder;
 

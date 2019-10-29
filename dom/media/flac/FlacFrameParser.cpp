@@ -5,7 +5,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "FlacFrameParser.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "OggCodecState.h"
 #include "OpusParser.h"
 #include "VideoUtils.h"

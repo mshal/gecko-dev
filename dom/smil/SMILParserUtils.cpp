@@ -16,7 +16,7 @@
 #include "mozilla/SVGContentUtils.h"
 #include "mozilla/TextUtils.h"
 #include "nsContentUtils.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 
 using namespace mozilla::dom;
 //------------------------------------------------------------------------------

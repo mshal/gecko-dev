@@ -10,7 +10,7 @@
 #include "nsIThreadPool.h"
 #include "nsIThread.h"
 #include "nsIRunnable.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "nsThreadUtils.h"
 #include "mozilla/Attributes.h"

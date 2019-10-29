@@ -13,7 +13,7 @@
 #  include "mozilla/Unused.h"
 
 #  include "nsISupportsImpl.h"
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 #  include "nsThreadUtils.h"
 
 #  include <queue>

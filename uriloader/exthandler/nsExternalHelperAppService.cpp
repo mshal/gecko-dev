@@ -87,7 +87,7 @@
 
 #include "nsDocShellCID.h"
 
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsLocalHandlerApp.h"
 
 #include "nsIRandomGenerator.h"

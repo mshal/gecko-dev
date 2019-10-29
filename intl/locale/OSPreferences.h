@@ -7,9 +7,9 @@
 #define mozilla_intl_IntlOSPreferences_h__
 
 #include "mozilla/StaticPtr.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "unicode/uloc.h"
 
 #include "mozIOSPreferences.h"

@@ -11,7 +11,7 @@
 #include "nsIObserverService.h"
 #include "mozilla/Services.h"
 #include "nsThreadUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsServiceManagerUtils.h"
 #include "PSMRunnable.h"
 #include "PublicSSL.h"

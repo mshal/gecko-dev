@@ -14,7 +14,7 @@
 #include "mozilla/TextUtils.h"
 #include "mozilla/Unused.h"
 #include "nsAppDirectoryServiceDefs.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsILineInputStream.h"
 #include "nsIObserver.h"
 #include "nsIObserverService.h"

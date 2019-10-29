@@ -22,10 +22,10 @@
 #include "nsCSSPropertyID.h"
 #include "nsCoord.h"
 #include "nsProxyRelease.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsString.h"
 #include "nsStringBuffer.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsStyleConsts.h"
 #include "gfxFontFamilyList.h"
 

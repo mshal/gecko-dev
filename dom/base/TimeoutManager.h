@@ -8,7 +8,7 @@
 #define mozilla_dom_TimeoutManager_h__
 
 #include "mozilla/dom/Timeout.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIEventTarget;
 class nsITimer;

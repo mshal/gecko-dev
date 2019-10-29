@@ -15,8 +15,8 @@
 #include "nsAutoPtr.h"
 #include "nsISupports.h"
 #include "nsIURI.h"
-#include "nsClassHashtable.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "jsapi.h"
 
 #include "xpcIJSGetFactory.h"

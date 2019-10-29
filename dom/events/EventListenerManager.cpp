@@ -40,7 +40,7 @@
 #include "nsContentUtils.h"
 #include "nsDOMCID.h"
 #include "nsError.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIContent.h"
 #include "nsIContentSecurityPolicy.h"
 #include "mozilla/dom/Document.h"

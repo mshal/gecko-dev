@@ -6,7 +6,7 @@
 #if !defined(WebMDemuxer_h_)
 #  define WebMDemuxer_h_
 
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 #  include "MediaDataDemuxer.h"
 #  include "MediaResource.h"
 #  include "NesteggPacketHolder.h"

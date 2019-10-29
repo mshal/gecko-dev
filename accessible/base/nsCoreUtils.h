@@ -13,7 +13,7 @@
 #include "mozilla/dom/Document.h"  // for GetPresShell()
 
 #include "nsPoint.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsRange;
 class nsTreeColumn;

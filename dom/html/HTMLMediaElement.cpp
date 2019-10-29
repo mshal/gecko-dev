@@ -88,7 +88,7 @@
 #include "nsDocShell.h"
 #include "nsError.h"
 #include "nsGenericHTMLElement.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIAsyncVerifyRedirectCallback.h"
 #include "nsIAutoplay.h"
 #include "nsICachingChannel.h"

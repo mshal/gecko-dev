@@ -26,7 +26,7 @@
 #include "mozilla/PresShell.h"
 #include "mozilla/TouchEvents.h"
 #include "nsView.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 #include "nsComponentManagerUtils.h"
 

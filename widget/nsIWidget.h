@@ -14,7 +14,7 @@
 
 #include "nsCOMPtr.h"
 #include "nsWidgetInitData.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsITheme.h"
 #include "nsITimer.h"
 #include "nsRegionFwd.h"
@@ -30,7 +30,7 @@
 #include "mozilla/TimeStamp.h"
 #include "mozilla/gfx/Point.h"
 #include "mozilla/widget/IMEData.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsIObserver.h"
 #include "nsIWidgetListener.h"
 #include "Units.h"

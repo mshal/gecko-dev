@@ -9,7 +9,7 @@
 #include "mozilla/StaticMutex.h"  // for StaticMutex
 #include "mozilla/StaticPtr.h"    // for StaticAutoPtr
 #include "nsAppRunner.h"          // for XRE_IsContentProcess
-#include "nsTArray.h"             // for nsTArray
+#include "xpcom/ds/nsTArray.h"             // for nsTArray
 
 static mozilla::LazyLogModule sLogger("AudioNotificationReceiver");
 

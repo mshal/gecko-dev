@@ -9,7 +9,7 @@
 
 #include "nsIInputStream.h"
 #include "nsJAR.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Attributes.h"
 
 #ifdef MOZ_JAR_BROTLI

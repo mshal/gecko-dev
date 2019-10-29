@@ -10,7 +10,7 @@
 #include "mozilla/Attributes.h"
 #include "mozilla/dom/Element.h"
 #include "mozilla/dom/ShadowRoot.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "mozilla/dom/Document.h"
 #include "nsThreadUtils.h"
 

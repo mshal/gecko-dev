@@ -9,7 +9,7 @@
 #include <stdint.h>
 
 #include "nsStringFwd.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsCommandParams;
 

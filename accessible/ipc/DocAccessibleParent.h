@@ -11,8 +11,8 @@
 #include "mozilla/a11y/PDocAccessibleParent.h"
 #include "mozilla/a11y/ProxyAccessible.h"
 #include "mozilla/Tuple.h"
-#include "nsClassHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsISupportsImpl.h"
 
 namespace mozilla {

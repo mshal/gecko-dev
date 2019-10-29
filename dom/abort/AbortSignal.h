@@ -8,7 +8,7 @@
 #define mozilla_dom_AbortSignal_h
 
 #include "mozilla/DOMEventTargetHelper.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 
 namespace mozilla {
 namespace dom {

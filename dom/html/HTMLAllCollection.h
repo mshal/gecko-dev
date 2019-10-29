@@ -9,7 +9,7 @@
 
 #include "nsCycleCollectionParticipant.h"
 #include "nsISupportsImpl.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsWrapperCache.h"
 
 #include <stdint.h>

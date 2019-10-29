@@ -7,10 +7,10 @@
 
 #include "mozilla/dom/Element.h"  // for Element
 #include "nsAString.h"            // for nsAString::Append, etc.
-#include "nsCRT.h"                // for nsCRT::IsAsciiSpace
+#include "xpcom/ds/nsCRT.h"                // for nsCRT::IsAsciiSpace
 #include "nsDebug.h"              // for NS_ENSURE_SUCCESS, etc.
 #include "nsError.h"              // for NS_ERROR_NULL_POINTER, etc.
-#include "nsGkAtoms.h"            // for nsGkAtoms, etc.
+#include "xpcom/ds/nsGkAtoms.h"            // for nsGkAtoms, etc.
 #include "nsICSSDeclaration.h"    // for nsICSSDeclaration.
 #include "nsLiteralString.h"      // for NS_LITERAL_STRING, etc.
 #include "nsReadableUtils.h"      // for ToNewUnicode

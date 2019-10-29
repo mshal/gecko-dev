@@ -17,7 +17,7 @@
 #include "nsFrameList.h"  // for DEBUG_FRAME_DUMP
 #include "nsIntervalSet.h"
 #include "nsPoint.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIFrame;
 class nsPresContext;

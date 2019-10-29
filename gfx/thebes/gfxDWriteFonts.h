@@ -12,8 +12,8 @@
 
 #include "gfxFont.h"
 #include "gfxUserFontSet.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 #include "mozilla/gfx/gfxVars.h"
 #include "mozilla/gfx/UnscaledFontDWrite.h"

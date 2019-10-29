@@ -12,7 +12,7 @@ interface nsISimpleEnumerator;
 
 %{C++
 #include "nsStringFwd.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 namespace mozilla
 {
   namespace pkix

@@ -9,7 +9,7 @@
 #include "nsDocShell.h"
 #include "nsIStringBundle.h"
 #include "nsReadableUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 #include "mozilla/AsyncEventDispatcher.h"
 #include "mozilla/ComputedStyleInlines.h"
@@ -33,7 +33,7 @@
 #include "nsIPrintSession.h"
 #include "nsGfxCIID.h"
 #include "nsIServiceManager.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsXPCOM.h"
 #include "nsISupportsPrimitives.h"
 
@@ -118,7 +118,7 @@ static const char kPrintingPromptService[] =
 #include "nsIChannel.h"
 #include "PrintPreviewUserEventSuppressor.h"
 #include "xpcpublic.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "mozilla/ServoStyleSet.h"
 
 using namespace mozilla;

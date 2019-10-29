@@ -6,14 +6,14 @@
 #define __nsSiteSecurityService_h__
 
 #include "mozilla/BasePrincipal.h"
-#include "mozilla/Dafsa.h"
+#include "xpcom/ds/Dafsa.h"
 #include "mozilla/DataStorage.h"
 #include "mozilla/RefPtr.h"
 #include "nsCOMPtr.h"
 #include "nsIObserver.h"
 #include "nsISiteSecurityService.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozpkix/pkixtypes.h"
 #include "prtime.h"
 

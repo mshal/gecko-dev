@@ -11,7 +11,7 @@
 #include "nsIClassInfoImpl.h"
 #include "nsIFile.h"
 #include "nsISimpleEnumerator.h"
-#include "mozilla/SimpleEnumerator.h"
+#include "xpcom/ds/SimpleEnumerator.h"
 
 #include "nsNativeCharsetUtils.h"
 #include "nsNetUtil.h"

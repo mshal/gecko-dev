@@ -29,7 +29,7 @@
 #include "nsFrame.h"
 #include "nsFrameState.h"
 #include "nsGlobalWindow.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsImageFrame.h"
 #include "nsLayoutStylesheetCache.h"
 #include "nsRange.h"

@@ -10,7 +10,7 @@
 #include "mozilla/SMILValue.h"
 #include "mozilla/SVGContentUtils.h"
 #include "mozilla/dom/SVGRect.h"
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "SVGViewBoxSMILType.h"
 #include "nsTextFormatter.h"
 

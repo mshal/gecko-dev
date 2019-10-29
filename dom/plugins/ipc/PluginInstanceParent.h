@@ -12,14 +12,14 @@
 #if defined(OS_WIN)
 #  include "mozilla/gfx/SharedDIBWin.h"
 #  include <d3d10_1.h>
-#  include "nsRefPtrHashtable.h"
+#  include "xpcom/ds/nsRefPtrHashtable.h"
 #elif defined(MOZ_WIDGET_COCOA)
 #  include "mozilla/gfx/QuartzSupport.h"
 #endif
 
 #include "npfunctions.h"
-#include "nsDataHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsRect.h"
 
 #include "mozilla/Unused.h"

@@ -33,7 +33,7 @@
 #include "mozilla/layers/AsyncImagePipelineManager.h"
 #include "mozilla/mozalloc.h"  // for operator new, etc
 #include "nsDebug.h"           // for NS_ASSERTION, etc
-#include "nsTArray.h"          // for nsTArray
+#include "xpcom/ds/nsTArray.h"          // for nsTArray
 #include "nsXULAppAPI.h"       // for XRE_GetIOMessageLoop
 #include "mozilla/Unused.h"
 #include "mozilla/StaticPtr.h"

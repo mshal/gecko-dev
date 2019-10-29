@@ -11,9 +11,9 @@
 #include "nsNSSDialogs.h"
 
 #include "mozIDOMWindow.h"
-#include "nsArray.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsEmbedCID.h"
-#include "nsHashPropertyBag.h"
+#include "xpcom/ds/nsHashPropertyBag.h"
 #include "nsIDialogParamBlock.h"
 #include "nsIInterfaceRequestor.h"
 #include "nsIInterfaceRequestorUtils.h"
@@ -26,7 +26,7 @@
 #include "nsNSSDialogHelper.h"
 #include "nsPromiseFlatString.h"
 #include "nsString.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 
 #define PIPSTRING_BUNDLE_URL "chrome://pippki/locale/pippki.properties"
 

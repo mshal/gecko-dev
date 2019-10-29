@@ -30,7 +30,7 @@
 #include "nsPluginNativeWindow.h"
 #include "GeckoProfiler.h"
 #include "nsPluginInstanceOwner.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "mozilla/NullPrincipal.h"
 
 // nsPluginStreamListenerPeer

@@ -4,7 +4,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "gfxFontInfoLoader.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIObserverService.h"
 #include "nsXPCOM.h"        // for gXPCOMThreadsShutDown
 #include "nsThreadUtils.h"  // for nsRunnable

@@ -14,7 +14,7 @@
 
 #include "nsPoint.h"
 #include "nsRectAbsolute.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIScrollPositionListener.h"
 
 struct nsRect;

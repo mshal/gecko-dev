@@ -9,7 +9,7 @@
 #include "nsStubMutationObserver.h"
 #include "nsAutoPtr.h"
 #include "nsCOMPtr.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsIWeakReferenceUtils.h"
 #include "nsCycleCollectionParticipant.h"
 #include "mozilla/Attributes.h"

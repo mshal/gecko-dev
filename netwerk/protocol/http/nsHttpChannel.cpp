@@ -94,7 +94,7 @@
 #include "nsIStreamConverterService.h"
 #include "nsISiteSecurityService.h"
 #include "nsString.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "CacheObserver.h"
 #include "mozilla/dom/PerformanceStorage.h"
 #include "mozilla/Telemetry.h"

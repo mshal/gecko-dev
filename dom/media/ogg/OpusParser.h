@@ -6,7 +6,7 @@
 #if !defined(OpusParser_h_)
 #  define OpusParser_h_
 
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 #  include "nsString.h"
 
 namespace mozilla {

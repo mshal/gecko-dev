@@ -8,7 +8,7 @@
 #define mozilla_DOMEventTargetHelper_h_
 
 #include "nsCOMPtr.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsPIDOMWindow.h"
 #include "nsIScriptGlobalObject.h"

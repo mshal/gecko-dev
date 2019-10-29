@@ -7,8 +7,8 @@
 #ifndef nsJSThingHashtable_h__
 #define nsJSThingHashtable_h__
 
-#include "nsHashKeys.h"
-#include "nsBaseHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsBaseHashtable.h"
 
 namespace JS {
 template <class T>

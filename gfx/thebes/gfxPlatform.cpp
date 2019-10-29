@@ -84,7 +84,7 @@
 #  include "mozilla/widget/nsWaylandDisplay.h"
 #endif
 
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "gfxPlatformFontList.h"
 #include "gfxContext.h"
 #include "gfxImageSurface.h"
@@ -98,7 +98,7 @@
 
 #include "nsExceptionHandler.h"
 #include "nsServiceManagerUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIObserverService.h"
 #include "nsIScreenManager.h"
 #include "MainThreadUtils.h"
@@ -111,7 +111,7 @@
 #include "imgITools.h"
 
 #include "plstr.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "GLContext.h"
 #include "GLContextProvider.h"
 #include "mozilla/gfx/Logging.h"

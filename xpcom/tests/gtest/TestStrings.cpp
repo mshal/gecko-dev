@@ -15,7 +15,7 @@
 #include "mozilla/TextUtils.h"
 #include "mozilla/Unused.h"
 #include "mozilla/Utf8.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "gtest/gtest.h"
 #include "gtest/MozGTestBench.h"  // For MOZ_GTEST_BENCH
 #include "gtest/BlackBox.h"

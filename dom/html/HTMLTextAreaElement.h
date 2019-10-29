@@ -16,7 +16,7 @@
 #include "nsIConstraintValidation.h"
 #include "mozilla/dom/HTMLFormElement.h"
 #include "mozilla/dom/HTMLInputElementBinding.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 #include "mozilla/TextEditor.h"
 #include "nsTextEditorState.h"

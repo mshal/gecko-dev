@@ -27,8 +27,8 @@
 #include "nsIPrefService.h"
 #include "nsString.h"
 #include "nsPrintfCString.h"
-#include "nsCRT.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsCRT.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsIArray.h"
 #include "nsIVariant.h"
 #include "nsILoadContextInfo.h"
@@ -50,7 +50,7 @@
 #include "mozilla/Telemetry.h"
 
 #include "mozilla/storage.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "mozilla/BasePrincipal.h"
 
 using namespace mozilla;

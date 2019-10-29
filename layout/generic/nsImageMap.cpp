@@ -17,7 +17,7 @@
 #include "nsReadableUtils.h"
 #include "nsPresContext.h"
 #include "nsNameSpaceManager.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsImageFrame.h"
 #include "nsCoord.h"
 #include "nsIContentInlines.h"

@@ -24,7 +24,7 @@
 #include "nsPIDOMWindow.h"
 #include "nsQueryObject.h"
 #include "nsServiceManagerUtils.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "ProfilerHelpers.h"
 #include "ReportInternalError.h"
 

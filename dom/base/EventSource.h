@@ -22,7 +22,7 @@
 #include "nsIInterfaceRequestor.h"
 #include "nsITimer.h"
 #include "nsIHttpChannel.h"
-#include "nsDeque.h"
+#include "xpcom/ds/nsDeque.h"
 
 class nsIGlobalObject;
 class nsICookieSettings;

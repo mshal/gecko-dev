@@ -9,7 +9,7 @@
 
 #include "Matrix.h"
 #include "mozilla/Move.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "Point.h"
 #include "Triangle.h"
 

@@ -14,7 +14,7 @@
 #include "txNamespaceMap.h"
 #include "nsAutoPtr.h"
 #include "txXSLTNumber.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsAtom;
 class txExecutionState;

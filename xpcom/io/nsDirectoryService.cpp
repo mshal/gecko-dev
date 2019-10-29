@@ -11,10 +11,10 @@
 #include "nsDirectoryService.h"
 #include "nsLocalFile.h"
 #include "nsDebug.h"
-#include "nsGkAtoms.h"
-#include "nsEnumeratorUtils.h"
+#include "xpcom/ds/nsGkAtoms.h"
+#include "xpcom/ds/nsEnumeratorUtils.h"
 
-#include "mozilla/SimpleEnumerator.h"
+#include "xpcom/ds/SimpleEnumerator.h"
 #include "nsICategoryManager.h"
 #include "nsISimpleEnumerator.h"
 

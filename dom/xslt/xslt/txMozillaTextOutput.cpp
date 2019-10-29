@@ -13,7 +13,7 @@
 #include "txURIUtils.h"
 #include "nsContentCreatorFunctions.h"
 #include "nsContentUtils.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/Encoding.h"
 #include "nsTextNode.h"
 #include "nsNameSpaceManager.h"

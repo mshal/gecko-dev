@@ -17,7 +17,7 @@
 #include "mozilla/layers/AsyncDragMetrics.h"
 #include "mozilla/layers/TouchCounter.h"
 #include "mozilla/TimeStamp.h"  // for TimeStamp
-#include "nsTArray.h"           // for nsTArray
+#include "xpcom/ds/nsTArray.h"           // for nsTArray
 
 namespace mozilla {
 namespace layers {

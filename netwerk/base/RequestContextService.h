@@ -8,7 +8,7 @@
 #define mozilla__net__RequestContextService_h
 
 #include "nsCOMPtr.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 #include "nsIObserver.h"
 #include "nsIRequestContext.h"
 

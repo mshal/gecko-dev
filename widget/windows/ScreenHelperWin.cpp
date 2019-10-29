@@ -7,7 +7,7 @@
 #include "ScreenHelperWin.h"
 
 #include "mozilla/Logging.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "WinUtils.h"
 
 static mozilla::LazyLogModule sScreenLog("WidgetScreen");

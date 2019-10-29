@@ -17,7 +17,7 @@
 #include "nsAString.h"
 #include "mozilla/TextUtils.h"
 
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 
 // From the nsstring crate
 extern "C" {

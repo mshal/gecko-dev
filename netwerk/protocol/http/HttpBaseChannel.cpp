@@ -33,7 +33,7 @@
 #include "nsURLHelper.h"
 #include "nsICookieService.h"
 #include "nsIStreamConverterService.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsContentUtils.h"
 #include "nsIMutableArray.h"
 #include "nsIScriptSecurityManager.h"
@@ -67,7 +67,7 @@
 #include "mozilla/net/PartiallySeekableInputStream.h"
 #include "mozilla/net/UrlClassifierCommon.h"
 #include "mozilla/InputStreamLengthHelper.h"
-#include "mozilla/Tokenizer.h"
+#include "xpcom/ds/Tokenizer.h"
 #include "nsIHttpHeaderVisitor.h"
 #include "nsIMIMEInputStream.h"
 #include "nsIXULRuntime.h"
@@ -78,7 +78,7 @@
 #include "nsRedirectHistoryEntry.h"
 #include "nsServerTiming.h"
 #include "nsIURIMutator.h"
-#include "mozilla/Tokenizer.h"
+#include "xpcom/ds/Tokenizer.h"
 
 #include <algorithm>
 #include "HttpBaseChannel.h"

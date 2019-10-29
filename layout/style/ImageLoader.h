@@ -11,11 +11,11 @@
 #define mozilla_css_ImageLoader_h___
 
 #include "mozilla/CORSMode.h"
-#include "nsClassHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsIFrame.h"
 #include "nsIReflowCallback.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "imgIRequest.h"
 #include "imgINotificationObserver.h"
 #include "mozilla/Attributes.h"

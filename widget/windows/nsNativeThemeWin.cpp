@@ -27,7 +27,7 @@
 #include "nsNameSpaceManager.h"
 #include "nsLookAndFeel.h"
 #include "nsMenuFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include <malloc.h>
 #include "nsWindow.h"
 #include "nsComboboxControlFrame.h"

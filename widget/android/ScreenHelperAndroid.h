@@ -8,7 +8,7 @@
 #define ScreenHelperAndroid_h___
 
 #include "mozilla/widget/ScreenManager.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 namespace mozilla {
 namespace widget {

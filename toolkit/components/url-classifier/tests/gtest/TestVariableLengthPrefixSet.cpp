@@ -7,7 +7,7 @@
 #include "mozilla/Preferences.h"
 #include <mozilla/RefPtr.h>
 #include "nsAppDirectoryServiceDefs.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsString.h"
 #include "VariableLengthPrefixSet.h"
 

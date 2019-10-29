@@ -24,7 +24,7 @@
 #include "nsID.h"
 #include "nsIFrame.h"
 #include "nsISupportsBase.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "nsStyleStruct.h"
 #include <algorithm>
 

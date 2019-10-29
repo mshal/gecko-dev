@@ -29,7 +29,7 @@
 #include "nsIPrompt.h"
 #include "nsIObserverService.h"
 #include "nsITimer.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsContentUtils.h"
 #include "mozilla/EventDispatcher.h"
 #include "nsIContent.h"

@@ -17,7 +17,7 @@
 #include "mozilla/gfx/Types.h"
 #include "nsDebug.h"   // for NS_ASSERTION
 #include "nsPoint.h"   // for nsIntPoint
-#include "nsTArray.h"  // for nsTArray
+#include "xpcom/ds/nsTArray.h"  // for nsTArray
 #include "mozilla/layers/CompositorTypes.h"
 
 namespace mozilla {

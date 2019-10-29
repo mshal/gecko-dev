@@ -9,7 +9,7 @@
 #include "nsIPrintProgress.h"
 #include "nsIPrintingPromptService.h"
 
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "nsString.h"
 

@@ -10,7 +10,7 @@
 #include "mozilla/Attributes.h"
 #include "mozilla/DOMEventTargetHelper.h"
 #include "mozilla/ErrorResult.h"
-#include "mozilla/Observer.h"
+#include "xpcom/ds/Observer.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsIObserver.h"
 #include "nsWrapperCache.h"

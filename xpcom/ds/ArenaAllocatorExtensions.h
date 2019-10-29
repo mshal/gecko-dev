@@ -7,7 +7,7 @@
 #ifndef mozilla_ArenaAllocatorExtensions_h
 #define mozilla_ArenaAllocatorExtensions_h
 
-#include "mozilla/ArenaAllocator.h"
+#include "xpcom/ds/ArenaAllocator.h"
 #include "mozilla/CheckedInt.h"
 #include "nsAString.h"
 

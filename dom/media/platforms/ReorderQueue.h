@@ -10,7 +10,7 @@
 #define mozilla_ReorderQueue_h
 
 #include <MediaData.h>
-#include <nsTPriorityQueue.h>
+#include "xpcom/ds/nsTPriorityQueue.h"
 
 namespace mozilla {
 

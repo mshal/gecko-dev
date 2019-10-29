@@ -22,8 +22,8 @@
 #include "gfxTypes.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/Atomics.h"
-#include "nsTArray.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 #include "mozilla/Mutex.h"
 #include "mozilla/RefPtr.h"

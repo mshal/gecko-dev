@@ -14,7 +14,7 @@
 #include "mozilla/StaticPtr.h"                 // for StaticRefPtr
 #include "mozilla/gfx/UserData.h"              // for UserDataKey
 #include "mozilla/webrender/WebRenderTypes.h"  // for wr::ImageKey
-#include "nsTArray.h"                          // for AutoTArray
+#include "xpcom/ds/nsTArray.h"                          // for AutoTArray
 #include "nsThreadUtils.h"                     // for Runnable
 #include "ImageTypes.h"                        // for ContainerProducerID
 

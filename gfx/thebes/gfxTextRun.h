@@ -21,7 +21,7 @@
 #include "mozilla/RefPtr.h"
 #include "nsPoint.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsTextFrameUtils.h"
 #include "DrawMode.h"
 #include "harfbuzz/hb.h"

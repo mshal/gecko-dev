@@ -8,7 +8,7 @@
 #define WR_h
 
 #include "mozilla/gfx/Types.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 extern "C" {
 

@@ -12,9 +12,9 @@
 #include "mozilla/gfx/Point.h"
 #include "gfx2DGlue.h"
 #include "nsDebug.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "nsISupportsUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include <math.h>
 
 using namespace mozilla::gfx;

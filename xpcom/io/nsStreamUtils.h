@@ -10,7 +10,7 @@
 #include "nsCOMPtr.h"
 #include "nsStringFwd.h"
 #include "nsIInputStream.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIAsyncInputStream;
 class nsIOutputStream;

@@ -6,7 +6,7 @@
 #define mozilla_dom_audiofocusmanager_h__
 
 #include "base/basictypes.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

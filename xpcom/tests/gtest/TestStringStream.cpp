@@ -8,7 +8,7 @@
 #include "Helpers.h"
 #include "nsICloneableInputStream.h"
 #include "nsStringStream.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIInputStream.h"
 #include "nsCOMPtr.h"
 

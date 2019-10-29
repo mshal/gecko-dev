@@ -8,7 +8,7 @@
 #define mozilla_ServoStyleSet_h
 
 #include "mozilla/AnonymousContentKey.h"
-#include "mozilla/AtomArray.h"
+#include "xpcom/ds/AtomArray.h"
 #include "mozilla/EnumeratedArray.h"
 #include "mozilla/EventStates.h"
 #include "mozilla/MediaFeatureChange.h"
@@ -21,9 +21,9 @@
 #include "nsCSSAnonBoxes.h"
 #include "nsChangeHint.h"
 #include "nsCoord.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsIMemoryReporter.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace css {

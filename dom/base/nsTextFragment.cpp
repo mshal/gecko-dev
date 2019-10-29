@@ -11,7 +11,7 @@
  */
 
 #include "nsTextFragment.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsReadableUtils.h"
 #include "nsMemory.h"
 #include "nsBidiUtils.h"

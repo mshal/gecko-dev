@@ -47,8 +47,8 @@
 #if defined(XP_LINUX) && !defined(ANDROID)
 #  include <unistd.h>
 #  include <fstream>
-#  include "mozilla/Tokenizer.h"
-#  include "nsCharSeparatedTokenizer.h"
+#  include "xpcom/ds/Tokenizer.h"
+#  include "xpcom/ds/nsCharSeparatedTokenizer.h"
 
 #  include <map>
 #  include <string>

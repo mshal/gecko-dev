@@ -12,7 +12,7 @@
 #include "AudioChannelFormat.h"
 #include "AudioParamTimeline.h"
 #include "AudioContext.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "AlignmentUtils.h"
 #include "blink/Reverb.h"
 

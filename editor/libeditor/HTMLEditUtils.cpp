@@ -15,9 +15,9 @@
 #include "nsCaseTreatment.h"
 #include "nsDebug.h"    // for NS_ASSERTION, etc.
 #include "nsError.h"    // for NS_SUCCEEDED
-#include "nsGkAtoms.h"  // for nsGkAtoms, nsGkAtoms::a, etc.
+#include "xpcom/ds/nsGkAtoms.h"  // for nsGkAtoms, nsGkAtoms::a, etc.
 #include "nsHTMLTags.h"
-#include "nsAtom.h"              // for nsAtom
+#include "xpcom/ds/nsAtom.h"              // for nsAtom
 #include "nsNameSpaceManager.h"  // for kNameSpaceID_None
 #include "nsLiteralString.h"     // for NS_LITERAL_STRING
 #include "nsString.h"            // for nsAutoString

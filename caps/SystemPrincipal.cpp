@@ -12,7 +12,7 @@
 #include "nsIURL.h"
 #include "nsCOMPtr.h"
 #include "nsReadableUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsString.h"
 #include "nsIClassInfoImpl.h"
 #include "nsIScriptSecurityManager.h"

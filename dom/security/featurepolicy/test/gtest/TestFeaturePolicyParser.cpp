@@ -9,7 +9,7 @@
 #include "mozilla/dom/Feature.h"
 #include "mozilla/dom/FeaturePolicyParser.h"
 #include "nsNetUtil.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 using namespace mozilla;
 using namespace mozilla::dom;

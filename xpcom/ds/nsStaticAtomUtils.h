@@ -8,7 +8,7 @@
 #define nsStaticAtomUtils_h
 
 #include <stdint.h>
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "mozilla/ArrayUtils.h"
 #include "mozilla/Maybe.h"
 

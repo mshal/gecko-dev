@@ -12,7 +12,7 @@
 #include "nsString.h"
 #include "nsAutoPtr.h"
 #include "nsCOMPtr.h"
-#include "nsHashPropertyBag.h"
+#include "xpcom/ds/nsHashPropertyBag.h"
 #include "nsInputStreamPump.h"
 
 #include "nsIChannel.h"

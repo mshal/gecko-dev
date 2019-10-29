@@ -30,7 +30,7 @@
 #include "nsIScriptSecurityManager.h"
 #include "nsJSUtils.h"
 #include "nsIXPConnect.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "nsTextNode.h"
 #include "mozilla/dom/DocumentFragment.h"
 #include "mozilla/dom/XSLTProcessorBinding.h"

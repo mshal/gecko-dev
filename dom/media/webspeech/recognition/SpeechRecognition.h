@@ -12,7 +12,7 @@
 #include "nsCOMPtr.h"
 #include "nsString.h"
 #include "nsWrapperCache.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "js/TypeDecls.h"
 
 #include "DOMMediaStream.h"

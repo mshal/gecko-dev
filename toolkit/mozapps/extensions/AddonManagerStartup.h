@@ -8,7 +8,7 @@
 
 #include "amIAddonManagerStartup.h"
 #include "mozilla/Result.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "nsIFile.h"
 #include "nsIObserver.h"

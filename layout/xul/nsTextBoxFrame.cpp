@@ -18,7 +18,7 @@
 #include "nsFontMetrics.h"
 #include "nsReadableUtils.h"
 #include "nsCOMPtr.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsPresContext.h"
 #include "gfxContext.h"
 #include "nsIContent.h"

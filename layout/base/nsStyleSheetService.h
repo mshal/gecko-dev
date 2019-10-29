@@ -9,7 +9,7 @@
 #ifndef nsStyleSheetService_h_
 #define nsStyleSheetService_h_
 
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "nsIMemoryReporter.h"
 #include "nsIStyleSheetService.h"

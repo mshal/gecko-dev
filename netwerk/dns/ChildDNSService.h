@@ -12,8 +12,8 @@
 #include "mozilla/Attributes.h"
 #include "mozilla/Mutex.h"
 #include "DNSRequestChild.h"
-#include "nsHashKeys.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsClassHashtable.h"
 
 namespace mozilla {
 namespace net {

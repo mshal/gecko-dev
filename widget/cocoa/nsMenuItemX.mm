@@ -13,7 +13,7 @@
 #include "nsObjCExceptions.h"
 
 #include "nsCOMPtr.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 #include "mozilla/dom/Element.h"
 #include "mozilla/dom/Event.h"

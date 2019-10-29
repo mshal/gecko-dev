@@ -6,7 +6,7 @@
 
 #include "SVGAnimatedNumberPair.h"
 
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "SVGAttrTearoffTable.h"
 #include "SVGNumberPairSMILType.h"
 #include "mozilla/SMILValue.h"

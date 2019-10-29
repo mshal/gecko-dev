@@ -11,7 +11,7 @@
 #include "mozilla/RefPtr.h"             // for RefPtr
 #include "mozilla/StaticPtr.h"          // for StaticAutoPtr
 #include "nsAppRunner.h"                // for XRE_IsParentProcess
-#include "nsTArray.h"                   // for nsTArray
+#include "xpcom/ds/nsTArray.h"                   // for nsTArray
 #include <mmdeviceapi.h>                // for IMMNotificationClient interface
 
 static mozilla::LazyLogModule sLogger("AudioNotificationSender");

@@ -10,7 +10,7 @@
 #include "mozilla/dom/AudioParamDescriptorMap.h"
 #include "mozilla/dom/FunctionBinding.h"
 #include "mozilla/dom/WorkletGlobalScope.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 
 namespace mozilla {
 

@@ -6,7 +6,7 @@
 #include "nsDiskCacheDeviceSQL.h"
 #include "nsCacheService.h"
 #include "nsApplicationCacheService.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsNetCID.h"
 #include "nsNetUtil.h"
 #include "nsIObserverService.h"

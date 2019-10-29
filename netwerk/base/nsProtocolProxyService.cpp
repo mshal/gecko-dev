@@ -39,7 +39,7 @@
 #include "nsINetworkLinkService.h"
 #include "nsIHttpChannelInternal.h"
 #include "mozilla/Logging.h"
-#include "mozilla/Tokenizer.h"
+#include "xpcom/ds/Tokenizer.h"
 #include "mozilla/Unused.h"
 
 //----------------------------------------------------------------------------

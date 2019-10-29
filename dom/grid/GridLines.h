@@ -8,7 +8,7 @@
 #define mozilla_dom_GridLines_h
 
 #include "nsCoord.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWrapperCache.h"
 
 class nsAtom;

@@ -9,7 +9,7 @@
 
 #include "mozilla/RangedPtr.h"
 #include "nsDependentSubstring.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 template <typename DependentSubstringType, bool IsWhitespace(char16_t)>
 class nsTWhitespaceTokenizer {

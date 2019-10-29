@@ -12,7 +12,7 @@
 #include "nsContentUtils.h"
 #include "nsIBidiKeyboard.h"
 #include "nsIStringBundle.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #ifdef XP_WIN
 #  include "WinUtils.h"
 #endif

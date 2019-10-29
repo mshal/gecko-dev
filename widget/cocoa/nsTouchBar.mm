@@ -6,7 +6,7 @@
 
 #include "mozilla/MacStringHelpers.h"
 #include "mozilla/Telemetry.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsDirectoryServiceDefs.h"
 #include "nsIArray.h"
 

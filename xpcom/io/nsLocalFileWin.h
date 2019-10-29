@@ -10,7 +10,7 @@
 #include "nscore.h"
 #include "nsError.h"
 #include "nsString.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIFile.h"
 #include "nsIFactory.h"
 #include "nsILocalFileWin.h"

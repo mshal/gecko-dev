@@ -16,7 +16,7 @@
 #include "mozilla/RefPtr.h"
 #include "mozilla/ipc/TransportSecurityInfoUtils.h"
 #include "mozpkix/pkixtypes.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsIClassInfo.h"
 #include "nsIInterfaceRequestor.h"
 #include "nsITransportSecurityInfo.h"

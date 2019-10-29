@@ -25,7 +25,7 @@
 
 #include "jArray.h"
 #include "nsAHtml5TreeBuilderState.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsHtml5ArrayCopy.h"
 #include "nsHtml5AtomTable.h"
 #include "nsHtml5ByteReadable.h"

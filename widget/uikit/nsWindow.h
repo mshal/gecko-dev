@@ -9,7 +9,7 @@
 #include "nsBaseWidget.h"
 #include "gfxPoint.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 @class UIWindow;
 @class UIView;

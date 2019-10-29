@@ -18,7 +18,7 @@
 #include "mozilla/Span.h"
 #include "mozilla/TextUtils.h"
 #include "mozilla/Unused.h"
-#include "nsArray.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsCOMPtr.h"
 #include "nsICertificateDialogs.h"
 #include "nsIClassInfoImpl.h"

@@ -31,7 +31,7 @@
 
 #include "ReverbConvolver.h"
 #include "nsAutoPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "AudioBlock.h"
 #include "mozilla/MemoryReporting.h"
 

@@ -9,7 +9,7 @@
 
 #include <stdio.h> /* for FILE* */
 #include "nsDebug.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/FunctionTypeTraits.h"
 #include "mozilla/RefPtr.h"
 #include "mozilla/ReverseIterator.h"

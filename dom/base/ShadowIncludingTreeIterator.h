@@ -15,7 +15,7 @@
 #define mozilla_dom_ShadowIncludingTreeIterator_h
 
 #include "nsINode.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/dom/Element.h"
 #include "mozilla/dom/ShadowRoot.h"
 

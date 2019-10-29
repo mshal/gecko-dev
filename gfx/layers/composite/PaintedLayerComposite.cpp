@@ -22,7 +22,7 @@
 #include "nsAString.h"
 #include "mozilla/RefPtr.h"   // for nsRefPtr
 #include "nsISupportsImpl.h"  // for MOZ_COUNT_CTOR, etc
-#include "nsMathUtils.h"      // for NS_lround
+#include "xpcom/ds/nsMathUtils.h"      // for NS_lround
 #include "nsString.h"         // for nsAutoCString
 #include "TextRenderer.h"
 #include "GeckoProfiler.h"

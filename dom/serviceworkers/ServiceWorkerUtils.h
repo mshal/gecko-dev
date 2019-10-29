@@ -8,7 +8,7 @@
 
 #include "mozilla/MozPromise.h"
 #include "mozilla/dom/ServiceWorkerRegistrationDescriptor.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIURI;
 

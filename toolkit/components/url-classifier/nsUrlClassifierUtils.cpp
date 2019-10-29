@@ -9,7 +9,7 @@
 #include "nsIURIMutator.h"
 #include "nsIURL.h"
 #include "nsUrlClassifierUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsReadableUtils.h"
 #include "plbase64.h"
 #include "nsPrintfCString.h"

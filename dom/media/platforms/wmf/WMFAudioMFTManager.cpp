@@ -12,7 +12,7 @@
 #include "mozilla/AbstractThread.h"
 #include "mozilla/Logging.h"
 #include "mozilla/Telemetry.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #define LOG(...) MOZ_LOG(sPDMLog, mozilla::LogLevel::Debug, (__VA_ARGS__))
 

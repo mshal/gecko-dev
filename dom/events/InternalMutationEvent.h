@@ -9,7 +9,7 @@
 
 #include "mozilla/BasicEvents.h"
 #include "nsCOMPtr.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsINode.h"
 
 namespace mozilla {

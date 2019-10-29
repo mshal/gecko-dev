@@ -14,7 +14,7 @@
 #include "mozilla/ErrorResult.h"
 
 #include "MainThreadUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "math.h"
 #include "WebAudioUtils.h"
 

@@ -10,7 +10,7 @@
 #include "mozilla/BasePrincipal.h"
 #include "mozilla/ipc/URIUtils.h"
 #include "mozilla/StoragePrincipalHelper.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsCookieService.h"
 #include "nsIChannel.h"
 #include "nsIEffectiveTLDService.h"

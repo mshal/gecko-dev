@@ -7,7 +7,7 @@
 #define mozilla_hal_Types_h
 
 #include "ipc/IPCMessageUtils.h"
-#include "mozilla/Observer.h"
+#include "xpcom/ds/Observer.h"
 
 namespace mozilla {
 namespace hal {

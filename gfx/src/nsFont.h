@@ -17,7 +17,7 @@
 #include "mozilla/RefPtr.h"             // for RefPtr
 #include "mozilla/StyleColorInlines.h"  // for StyleRGBA
 #include "nsCoord.h"                    // for nscoord
-#include "nsTArray.h"                   // for nsTArray
+#include "xpcom/ds/nsTArray.h"                   // for nsTArray
 
 struct gfxFontStyle;
 

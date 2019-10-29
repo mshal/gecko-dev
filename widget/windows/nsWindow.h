@@ -18,7 +18,7 @@
 #include "nsIdleService.h"
 #include "nsToolkit.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "gfxWindowsPlatform.h"
 #include "gfxWindowsSurface.h"
 #include "nsWindowDbg.h"

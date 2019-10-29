@@ -10,9 +10,9 @@
 
 #include "nsCOMPtr.h"
 #include "nsString.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsServiceManagerUtils.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "nsToolkitCompsCID.h"
 #include "nsURIHashKey.h"
 #include "nsINamed.h"

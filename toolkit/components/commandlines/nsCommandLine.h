@@ -8,7 +8,7 @@
 #include "nsICommandLineRunner.h"
 #include "nsCOMPtr.h"
 #include "nsISupportsImpl.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsICommandLineHandler;
 class nsICommandLineValidator;

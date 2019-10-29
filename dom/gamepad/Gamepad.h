@@ -18,7 +18,7 @@
 #include <stdint.h>
 #include "nsCOMPtr.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsWrapperCache.h"
 
 namespace mozilla {

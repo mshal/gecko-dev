@@ -6,7 +6,7 @@
 #ifndef MOZILLA_GFX_ARRAY_VIEW_H_
 #define MOZILLA_GFX_ARRAY_VIEW_H_
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 /* This is similar to mfbt/Range.h but has implicit conversion
  * from nsTArray and less bounds checking.

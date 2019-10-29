@@ -8,8 +8,8 @@
 #define mozilla_dom_SessionStorageManager_h
 
 #include "nsIDOMStorageManager.h"
-#include "nsClassHashtable.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "StorageObserver.h"
 
 namespace mozilla {

@@ -12,11 +12,11 @@
 #include "mozilla/Pair.h"         // for Pair
 #include "mozilla/Saturate.h"     // for SaturateUint32
 #include "nsAutoPtr.h"            // for member
-#include "nsCOMArray.h"           // for member
+#include "xpcom/ds/nsCOMArray.h"           // for member
 #include "nsCompatibility.h"      // for member
 #include "nsCOMPtr.h"             // for member
 #include "nsICookieSettings.h"
-#include "nsGkAtoms.h"  // for static class members
+#include "xpcom/ds/nsGkAtoms.h"  // for static class members
 #include "nsIApplicationCache.h"
 #include "nsIApplicationCacheContainer.h"
 #include "nsIContentViewer.h"
@@ -40,15 +40,15 @@
 #include "nsPropertyTable.h"         // for member
 #include "nsStringFwd.h"
 #include "nsStubMutationObserver.h"
-#include "nsTHashtable.h"  // for member
+#include "xpcom/ds/nsTHashtable.h"  // for member
 #include "nsURIHashKey.h"
 #include "mozilla/UseCounter.h"
 #include "mozilla/WeakPtr.h"
 #include "mozilla/StaticPresData.h"
 #include "Units.h"
 #include "nsContentListDeclarations.h"
-#include "nsExpirationTracker.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsExpirationTracker.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "ReferrerInfo.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/CORSMode.h"

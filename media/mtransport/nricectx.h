@@ -64,7 +64,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "nsAutoPtr.h"
 #include "nsIEventTarget.h"
 #include "nsITimer.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "m_cpp_utils.h"
 #include "nricestunaddr.h"

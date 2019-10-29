@@ -18,7 +18,7 @@
 #include "nsStyleLinkElement.h"
 
 #include "nsEscape.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsHTMLDNSPrefetch.h"
 #include "nsString.h"
 #include "mozAutoDocUpdate.h"

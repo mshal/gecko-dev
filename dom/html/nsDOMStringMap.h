@@ -8,7 +8,7 @@
 #define nsDOMStringMap_h
 
 #include "nsCycleCollectionParticipant.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsString.h"
 #include "nsWrapperCache.h"
 #include "mozilla/dom/Element.h"

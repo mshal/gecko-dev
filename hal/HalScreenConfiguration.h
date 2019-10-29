@@ -7,7 +7,7 @@
 #ifndef mozilla_HalScreenConfiguration_h
 #define mozilla_HalScreenConfiguration_h
 
-#include "mozilla/Observer.h"
+#include "xpcom/ds/Observer.h"
 
 namespace mozilla {
 namespace hal {

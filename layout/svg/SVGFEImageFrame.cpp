@@ -10,7 +10,7 @@
 #include "mozilla/dom/MutationEventBinding.h"
 #include "nsContainerFrame.h"
 #include "nsFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsLiteralString.h"
 #include "SVGObserverUtils.h"
 #include "SVGFilters.h"

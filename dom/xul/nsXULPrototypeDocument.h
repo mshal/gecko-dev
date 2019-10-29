@@ -8,9 +8,9 @@
 
 #include "js/TracingAPI.h"
 #include "mozilla/Attributes.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsISerializable.h"
 #include "nsCycleCollectionParticipant.h"
 #include <functional>

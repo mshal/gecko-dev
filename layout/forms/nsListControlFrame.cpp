@@ -9,7 +9,7 @@
 #include "nsUnicharUtils.h"
 #include "nsListControlFrame.h"
 #include "nsCheckboxRadioFrame.h"  // for COMPARE macro
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsComboboxControlFrame.h"
 #include "nsIXULRuntime.h"
 #include "nsFontMetrics.h"

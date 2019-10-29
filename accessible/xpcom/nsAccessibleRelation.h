@@ -9,7 +9,7 @@
 #include "nsIAccessibleRelation.h"
 
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIMutableArray.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/a11y/ProxyAccessible.h"

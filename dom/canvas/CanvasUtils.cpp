@@ -19,7 +19,7 @@
 
 #include "nsGfxCIID.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "CanvasUtils.h"
 #include "mozilla/gfx/Matrix.h"

@@ -5,9 +5,9 @@
 #include "nsMIMEInfoAndroid.h"
 #include "AndroidBridge.h"
 #include "nsAndroidHandlerApp.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsISupportsUtils.h"
-#include "nsStringEnumerator.h"
+#include "xpcom/ds/nsStringEnumerator.h"
 #include "nsNetUtil.h"
 #include "mozilla/Utf8.h"
 

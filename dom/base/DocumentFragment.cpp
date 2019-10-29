@@ -13,7 +13,7 @@
 #include "mozilla/dom/NodeInfo.h"
 #include "nsNodeInfoManager.h"
 #include "nsError.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsDOMString.h"
 #include "nsContentUtils.h"  // for NS_INTERFACE_MAP_ENTRY_TEAROFF
 #include "mozilla/dom/DocumentFragmentBinding.h"

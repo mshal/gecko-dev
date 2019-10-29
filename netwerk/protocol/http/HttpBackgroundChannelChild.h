@@ -10,7 +10,7 @@
 
 #include "mozilla/net/PHttpBackgroundChannelChild.h"
 #include "nsIRunnable.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 using mozilla::dom::ClassifierInfo;
 using mozilla::ipc::IPCResult;

@@ -4,9 +4,9 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "txExpr.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "txNodeSet.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "txIXPathContext.h"
 
 //-------------------/

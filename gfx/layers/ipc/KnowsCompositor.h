@@ -9,7 +9,7 @@
 
 #include "mozilla/layers/LayersTypes.h"  // for LayersBackend
 #include "mozilla/layers/CompositorTypes.h"
-#include "nsExpirationTracker.h"
+#include "xpcom/ds/nsExpirationTracker.h"
 
 namespace mozilla {
 namespace layers {

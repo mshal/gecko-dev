@@ -7,7 +7,7 @@
 #include "nsMIMEInfoImpl.h"
 #include "nsString.h"
 #include "nsReadableUtils.h"
-#include "nsStringEnumerator.h"
+#include "xpcom/ds/nsStringEnumerator.h"
 #include "nsIFile.h"
 #include "nsIFileURL.h"
 #include "nsEscape.h"

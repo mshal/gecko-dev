@@ -10,7 +10,7 @@
 #include "mozilla/Move.h"
 #include "nsCaseTreatment.h"
 #include "nsRect.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIVariant;
 

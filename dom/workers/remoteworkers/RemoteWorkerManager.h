@@ -10,7 +10,7 @@
 #include "base/process.h"
 #include "mozilla/dom/RemoteWorkerTypes.h"
 #include "nsISupportsImpl.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace dom {

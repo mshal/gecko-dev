@@ -9,7 +9,7 @@
 
 #include "nsAutoPtr.h"
 #include "nsISDBConnection.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #define NS_SDBCONNECTION_CONTRACTID "@mozilla.org/dom/sdb-connection;1"
 

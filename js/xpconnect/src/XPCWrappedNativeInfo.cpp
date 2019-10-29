@@ -12,7 +12,7 @@
 #include "mozilla/MemoryReporting.h"
 #include "nsIScriptError.h"
 #include "nsPrintfCString.h"
-#include "nsPointerHashKeys.h"
+#include "xpcom/ds/nsPointerHashKeys.h"
 
 using namespace JS;
 using namespace mozilla;

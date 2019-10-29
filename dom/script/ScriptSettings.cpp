@@ -20,7 +20,7 @@
 #include "nsContentUtils.h"
 #include "nsGlobalWindow.h"
 #include "nsPIDOMWindow.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsJSUtils.h"
 #include "nsDOMJSUtils.h"
 

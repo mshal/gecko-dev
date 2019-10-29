@@ -16,7 +16,7 @@
 #include "nsIInputStream.h"
 #include "nsIStreamListener.h"
 #include "nsIChannel.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsITimer.h"
 
 class nsIThread;

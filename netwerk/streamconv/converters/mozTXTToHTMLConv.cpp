@@ -8,7 +8,7 @@
 #include "nsNetUtil.h"
 #include "nsUnicharUtils.h"
 #include "nsUnicodeProperties.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsIExternalProtocolHandler.h"
 #include "nsIIOService.h"
 #include "nsIURI.h"

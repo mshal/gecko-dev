@@ -6,7 +6,7 @@
 
 // moz headers (alphabetical)
 #include "nsAutoPtr.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsComponentManagerUtils.h"
 #include "nsIMutableArray.h"
 #include "nsServiceManagerUtils.h"

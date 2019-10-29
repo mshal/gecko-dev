@@ -10,7 +10,7 @@
 /* A simple best-effort scanner for @import rules for the HTML parser */
 
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 

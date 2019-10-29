@@ -18,7 +18,7 @@
 #include "nsIHttpChannelInternal.h"
 #include "nsIPrincipal.h"
 #include "nsString.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsILoadContext.h"
 #include "nsIScriptObjectPrincipal.h"
 #include "nsNetCID.h"

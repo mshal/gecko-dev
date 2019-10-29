@@ -8,7 +8,7 @@
 #define nsXBLProtoImplProperty_h__
 
 #include "mozilla/Attributes.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsString.h"
 #include "nsString.h"
 #include "nsXBLSerialize.h"

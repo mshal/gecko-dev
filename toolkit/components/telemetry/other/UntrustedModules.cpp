@@ -10,7 +10,7 @@
 #include "mozilla/UntrustedModulesProcessor.h"
 #include "mozilla/WinDllServices.h"
 #include "nsCOMPtr.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsLocalFile.h"
 #include "nsProxyRelease.h"
 #include "nsUnicharUtils.h"

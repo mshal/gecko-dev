@@ -8,7 +8,7 @@
 #include "gfxFont.h"          // for gfxFontStyle
 #include "gfxFontFeatures.h"  // for gfxFontFeature, etc
 #include "gfxFontUtils.h"     // for TRUETYPE_TAG
-#include "nsCRT.h"            // for nsCRT
+#include "xpcom/ds/nsCRT.h"            // for nsCRT
 #include "nsDebug.h"          // for NS_ASSERTION
 #include "nsISupports.h"
 #include "nsUnicharUtils.h"

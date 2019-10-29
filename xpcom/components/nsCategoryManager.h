@@ -8,10 +8,10 @@
 #define NSCATEGORYMANAGER_H
 
 #include "prio.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsICategoryManager.h"
 #include "nsIMemoryReporter.h"
-#include "mozilla/ArenaAllocator.h"
+#include "xpcom/ds/ArenaAllocator.h"
 #include "mozilla/MemoryReporting.h"
 #include "mozilla/Mutex.h"
 #include "mozilla/Attributes.h"

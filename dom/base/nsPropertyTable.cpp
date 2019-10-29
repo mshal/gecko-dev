@@ -15,9 +15,9 @@
 
 #include "mozilla/MemoryReporting.h"
 
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 #include "nsError.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 
 struct PropertyListMapEntry : public PLDHashEntryHdr {
   const void* key;

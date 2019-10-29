@@ -28,10 +28,10 @@
 #include "mozilla/dom/ServiceWorkerRegistrationInfo.h"
 #include "mozilla/dom/ServiceWorkerUtils.h"
 #include "mozilla/ipc/BackgroundUtils.h"
-#include "nsClassHashtable.h"
-#include "nsDataHashtable.h"
-#include "nsRefPtrHashtable.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 
 class nsIConsoleReportCollector;
 

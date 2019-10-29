@@ -25,7 +25,7 @@
 #include "nsIObserverService.h"
 #include "nsNetUtil.h"
 #include "nsPrintfCString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsThreadUtils.h"
 #include "nsXPCOMPrivate.h"
 #include "nsXULAppAPI.h"

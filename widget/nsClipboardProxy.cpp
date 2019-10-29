@@ -4,7 +4,7 @@
 
 #include "mozilla/dom/ContentChild.h"
 #include "mozilla/Unused.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsClipboardProxy.h"
 #include "nsISupportsPrimitives.h"
 #include "nsCOMPtr.h"

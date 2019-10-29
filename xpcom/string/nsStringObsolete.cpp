@@ -15,7 +15,7 @@
 #  include "nsDependentString.h"
 #  include "nsDependentSubstring.h"
 #  include "nsReadableUtils.h"
-#  include "nsCRT.h"
+#  include "xpcom/ds/nsCRT.h"
 #  include "nsUTF8Utils.h"
 #  include "prdtoa.h"
 

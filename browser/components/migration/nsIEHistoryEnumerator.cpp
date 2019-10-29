@@ -7,8 +7,8 @@
 #include <urlhist.h>
 #include <shlguid.h>
 
-#include "nsArrayEnumerator.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsArrayEnumerator.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsIURI.h"
 #include "nsIVariant.h"
 #include "nsNetUtil.h"

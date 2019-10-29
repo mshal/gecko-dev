@@ -9,7 +9,7 @@
 #include "nsCOMPtr.h"
 #include "nsServiceManagerUtils.h"
 #include "nsString.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsIMutableArray.h"
 #include "nsWidgetsCID.h"
 #include "WinTaskbar.h"

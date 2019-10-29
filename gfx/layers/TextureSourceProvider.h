@@ -10,7 +10,7 @@
 #include "mozilla/AlreadyAddRefed.h"
 #include "mozilla/TimeStamp.h"
 #include "mozilla/layers/CompositorTypes.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 struct ID3D11Device;
 

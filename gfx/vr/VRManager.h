@@ -8,7 +8,7 @@
 #define GFX_VR_MANAGER_H
 
 #include "nsIObserver.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/Atomics.h"
 #include "mozilla/layers/LayersSurfaces.h"  // for SurfaceDescriptor
 #include "mozilla/TimeStamp.h"

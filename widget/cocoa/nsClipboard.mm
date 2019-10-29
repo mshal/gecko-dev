@@ -8,7 +8,7 @@
 #include "mozilla/Unused.h"
 
 #include "gfxPlatform.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsCOMPtr.h"
 #include "nsClipboard.h"
 #include "nsString.h"

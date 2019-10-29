@@ -31,7 +31,7 @@
 
 #include "mozilla/dom/OscillatorNodeBinding.h"
 #include <nsAutoPtr.h>
-#include <nsTArray.h>
+#include "xpcom/ds/nsTArray.h"
 #include "AlignedTArray.h"
 #include "mozilla/MemoryReporting.h"
 

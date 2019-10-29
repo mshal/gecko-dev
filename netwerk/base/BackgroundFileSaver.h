@@ -14,7 +14,7 @@
 
 #include "ScopedNSSTypes.h"
 #include "mozilla/Mutex.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "nsIAsyncOutputStream.h"
 #include "nsIBackgroundFileSaver.h"

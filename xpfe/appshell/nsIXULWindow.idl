@@ -15,7 +15,7 @@
 
 %{C++
 #include "LiveResizeListener.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 %}
 
 interface nsIDocShell;

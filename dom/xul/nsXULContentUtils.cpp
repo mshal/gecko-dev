@@ -22,7 +22,7 @@
 #include "nsXULContentUtils.h"
 #include "nsLayoutCID.h"
 #include "nsString.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 
 using namespace mozilla;
 

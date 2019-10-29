@@ -7,7 +7,7 @@
 #include "nsString.h"
 #include "nsReadableUtils.h"
 #include "nsUnicharUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsIBaseWindow.h"
 #include "nsIWidget.h"
 #include "nsIObserverService.h"

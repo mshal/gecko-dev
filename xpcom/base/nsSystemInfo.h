@@ -7,7 +7,7 @@
 #ifndef _NSSYSTEMINFO_H_
 #define _NSSYSTEMINFO_H_
 
-#include "nsHashPropertyBag.h"
+#include "xpcom/ds/nsHashPropertyBag.h"
 #include "nsISystemInfo.h"
 #include "mozilla/MozPromise.h"
 #include "mozilla/LazyIdleThread.h"

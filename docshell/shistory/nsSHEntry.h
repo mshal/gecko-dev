@@ -7,7 +7,7 @@
 #ifndef nsSHEntry_h
 #define nsSHEntry_h
 
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "nsISHEntry.h"
 #include "nsString.h"

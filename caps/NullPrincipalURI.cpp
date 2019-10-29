@@ -12,7 +12,7 @@
 #include "mozilla/ipc/URIParams.h"
 
 #include "nsEscape.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 #include "mozilla/GkRustUtils.h"
 

@@ -21,7 +21,7 @@
 
 #include "nsIContent.h"
 #include "nsPresContext.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsLayoutUtils.h"
 
 #include <algorithm>

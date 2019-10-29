@@ -9,7 +9,7 @@
 
 #include "base/basictypes.h"
 #include "base/platform_thread.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/hal_sandbox/PHal.h"
 #include "mozilla/HalBatteryInformation.h"
 #include "mozilla/HalNetworkInformation.h"

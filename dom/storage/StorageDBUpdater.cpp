@@ -12,8 +12,8 @@
 #include "mozIStorageValueArray.h"
 #include "mozIStorageFunction.h"
 #include "mozilla/BasePrincipal.h"
-#include "nsVariant.h"
-#include "mozilla/Tokenizer.h"
+#include "xpcom/ds/nsVariant.h"
+#include "xpcom/ds/Tokenizer.h"
 
 // Current version of the database schema
 #define CURRENT_SCHEMA_VERSION 2

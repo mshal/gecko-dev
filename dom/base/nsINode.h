@@ -10,13 +10,13 @@
 #include "mozilla/Likely.h"
 #include "mozilla/UniquePtr.h"
 #include "nsCOMPtr.h"              // for member, local
-#include "nsGkAtoms.h"             // for nsGkAtoms::baseURIProperty
+#include "xpcom/ds/nsGkAtoms.h"             // for nsGkAtoms::baseURIProperty
 #include "mozilla/dom/NodeInfo.h"  // member (in nsCOMPtr)
 #include "nsIVariant.h"            // for use in GetUserData()
 #include "nsIWeakReference.h"
 #include "nsNodeInfoManager.h"  // for use in NodePrincipal()
 #include "nsPropertyTable.h"    // for typedefs
-#include "nsTObserverArray.h"   // for member
+#include "xpcom/ds/nsTObserverArray.h"   // for member
 #include "mozilla/ErrorResult.h"
 #include "mozilla/LinkedList.h"
 #include "mozilla/MemoryReporting.h"
@@ -25,7 +25,7 @@
 #include "mozilla/dom/DOMString.h"
 #include "mozilla/dom/BindingDeclarations.h"
 #include "mozilla/dom/NodeBinding.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include <iosfwd>
 
 // Including 'windows.h' will #define GetClassInfo to something else.

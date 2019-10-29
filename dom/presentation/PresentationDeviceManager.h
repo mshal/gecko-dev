@@ -11,7 +11,7 @@
 #include "nsIPresentationDevice.h"
 #include "nsIPresentationDeviceManager.h"
 #include "nsIPresentationDeviceProvider.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsWeakReference.h"
 
 namespace mozilla {

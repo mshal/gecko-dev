@@ -6,7 +6,7 @@
 #define nsHttpActivityDistributor_h__
 
 #include "nsIHttpActivityObserver.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsProxyRelease.h"
 #include "mozilla/Mutex.h"
 

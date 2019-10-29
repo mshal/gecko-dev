@@ -13,8 +13,8 @@
 #include "mozilla/dom/ipc/IdType.h"
 #include "mozilla/Mutex.h"
 
-#include "nsClassHashtable.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 
 #include "Client.h"
 #include "PersistenceType.h"

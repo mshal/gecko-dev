@@ -9,7 +9,7 @@
 
 #include "mozilla/Types.h"
 #include "nsCOMPtr.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsPIDOMWindowInner;
 

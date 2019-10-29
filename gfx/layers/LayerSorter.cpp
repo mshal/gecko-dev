@@ -21,7 +21,7 @@
 #include "mozilla/gfx/BasePoint3D.h"  // for BasePoint3D
 #include "mozilla/Sprintf.h"          // for SprintfLiteral
 #include "nsRegion.h"                 // for nsIntRegion
-#include "nsTArray.h"                 // for nsTArray, etc
+#include "xpcom/ds/nsTArray.h"                 // for nsTArray, etc
 #include "limits.h"
 #include "mozilla/Assertions.h"
 

@@ -7,7 +7,7 @@
 #include "SVGIntegerPairSMILType.h"
 
 #include "mozilla/SMILValue.h"
-#include "nsMathUtils.h"
+#include "xpcom/ds/nsMathUtils.h"
 #include "nsDebug.h"
 
 namespace mozilla {

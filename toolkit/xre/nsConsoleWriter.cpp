@@ -8,7 +8,7 @@
 #include "prprf.h"
 #include "prenv.h"
 
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsNativeCharsetUtils.h"
 #include "nsString.h"
 #include "nsXREDirProvider.h"

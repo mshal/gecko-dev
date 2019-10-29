@@ -8,7 +8,7 @@
 #define TextOverflow_h_
 
 #include "nsDisplayList.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/Likely.h"
 #include "mozilla/UniquePtr.h"

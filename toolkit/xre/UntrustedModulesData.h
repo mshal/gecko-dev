@@ -16,7 +16,7 @@
 #include "nsCOMPtr.h"
 #include "nsIFile.h"
 #include "nsISupportsImpl.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsString.h"
 #include "nsXULAppAPI.h"
 

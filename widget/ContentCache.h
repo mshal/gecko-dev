@@ -16,7 +16,7 @@
 #include "mozilla/WritingModes.h"
 #include "nsIWidget.h"
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "Units.h"
 
 namespace mozilla {

@@ -11,7 +11,7 @@
 #include "mozilla/HTMLEditor.h"
 #include "mozilla/TextEditor.h"
 #include "nsAttrValueInlines.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsStyleConsts.h"
 #include "nsPresContext.h"
 #include "mozilla/dom/Document.h"

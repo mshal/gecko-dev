@@ -8,7 +8,7 @@
 
 #include "mozilla/dom/SVGElement.h"
 #include "mozilla/SMILValue.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 #include "nsError.h"
 #include "SMILEnumType.h"
 #include "SVGAttrTearoffTable.h"

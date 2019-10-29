@@ -18,7 +18,7 @@
 #include "nsIServiceManager.h"
 #include "nsIStringBundle.h"
 #include "nsContentUtils.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsNetCID.h"
 #include "nsNetUtil.h"
 #include "nspr.h"

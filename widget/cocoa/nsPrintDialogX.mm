@@ -17,7 +17,7 @@
 #include "nsIWebProgressListener.h"
 #include "nsIStringBundle.h"
 #include "nsIWebBrowserPrint.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 #import <Cocoa/Cocoa.h>
 #include "nsObjCExceptions.h"

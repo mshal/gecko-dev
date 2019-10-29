@@ -9,7 +9,7 @@
 #include "mozilla/ChangeStyleTransaction.h"  // for ChangeStyleTransaction
 #include "nsCOMPtr.h"                        // for already_AddRefed
 #include "nsStringFwd.h"
-#include "nsTArray.h"  // for nsTArray
+#include "xpcom/ds/nsTArray.h"  // for nsTArray
 #include "nscore.h"    // for nsAString, nsresult, nullptr
 
 class nsComputedDOMStyle;

@@ -10,7 +10,7 @@
 #include "nsISubstitutingProtocolHandler.h"
 
 #include "nsISubstitutionObserver.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsStandardURL.h"
 #include "nsJARURI.h"
 #include "mozilla/chrome/RegistryMessageUtils.h"

@@ -11,10 +11,10 @@
 #include "mozilla/HTMLEditor.h"  // for HTMLEditor
 #include "mozilla/dom/Element.h"
 #include "nsAString.h"
-#include "nsAtom.h"                   // for nsAtom, nsStaticAtom, etc
+#include "xpcom/ds/nsAtom.h"                   // for nsAtom, nsStaticAtom, etc
 #include "nsCommandParams.h"          // for nsCommandParams, etc
 #include "nsComponentManagerUtils.h"  // for do_CreateInstance
-#include "nsGkAtoms.h"                // for nsGkAtoms, nsGkAtoms::font, etc
+#include "xpcom/ds/nsGkAtoms.h"                // for nsGkAtoms, nsGkAtoms::font, etc
 #include "nsIClipboard.h"             // for nsIClipboard, etc
 #include "nsIEditingSession.h"
 #include "nsIPrincipal.h"     // for nsIPrincipal

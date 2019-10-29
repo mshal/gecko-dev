@@ -24,7 +24,7 @@
 #include "nsIXMLContentSink.h"
 #include "nsHTMLParts.h"
 #include "nsHTMLStyleSheet.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsPresContext.h"
 #include "nsPIDOMWindow.h"
 #include "nsDOMString.h"
@@ -71,7 +71,7 @@
 #include "nsIScriptElement.h"
 #include "nsIScriptError.h"
 #include "nsIMutableArray.h"
-#include "nsArrayUtils.h"
+#include "xpcom/ds/nsArrayUtils.h"
 #include "nsIEffectiveTLDService.h"
 
 // AHMED 12-2

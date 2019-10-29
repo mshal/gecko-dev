@@ -22,7 +22,7 @@ webidl EventTarget;
   "@mozilla.org/presentation/presentationservice;1"
 
 #include "nsStringFwd.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 %}
 

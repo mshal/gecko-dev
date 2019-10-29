@@ -7,7 +7,7 @@
 #define mozilla_intl_MozLocale_h__
 
 #include "nsString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace intl {

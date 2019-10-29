@@ -27,7 +27,7 @@
 #include "nsIInputStream.h"
 #include "nsIOutputStream.h"
 #include "nsIURL.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsReadableUtils.h"
 #include "nsIStreamConverterService.h"
 #include "nsIFile.h"
@@ -62,7 +62,7 @@
 #include "mozilla/Preferences.h"
 #include "mozilla/ipc/URIUtils.h"
 
-#include "nsEnumeratorUtils.h"
+#include "xpcom/ds/nsEnumeratorUtils.h"
 #include "nsXPCOM.h"
 #include "nsXPCOMCID.h"
 #include "nsISupportsPrimitives.h"

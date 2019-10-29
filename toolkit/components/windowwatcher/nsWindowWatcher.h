@@ -23,7 +23,7 @@
 #include "nsIPromptFactory.h"
 #include "nsIRemoteTab.h"
 #include "nsPIWindowWatcher.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIURI;
 class nsIDocShellTreeItem;

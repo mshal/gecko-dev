@@ -11,7 +11,7 @@
 #include "nsIGlobalObject.h"
 #include "mozilla/Encoding.h"
 
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsDOMString.h"
 #include "nsNetUtil.h"
 #include "nsReadableUtils.h"

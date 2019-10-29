@@ -8,7 +8,7 @@
 #define nsTObserverArray_h___
 
 #include "mozilla/MemoryReporting.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCycleCollectionNoteChild.h"
 
 #include <functional>

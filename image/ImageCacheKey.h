@@ -13,7 +13,7 @@
 #include "mozilla/BasePrincipal.h"
 #include "mozilla/Maybe.h"
 #include "mozilla/RefPtr.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 
 class nsIURI;
 

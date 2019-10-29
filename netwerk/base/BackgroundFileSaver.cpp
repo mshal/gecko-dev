@@ -10,7 +10,7 @@
 #include "mozilla/Casting.h"
 #include "mozilla/Logging.h"
 #include "mozilla/Telemetry.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsDependentSubstring.h"
 #include "nsIAsyncInputStream.h"
 #include "nsIFile.h"

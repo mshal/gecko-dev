@@ -12,7 +12,7 @@
 #include "txCore.h"
 #include "nsString.h"
 #include "txOwningArray.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 
 #ifdef DEBUG
 #  define TX_TO_STRING

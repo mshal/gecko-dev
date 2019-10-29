@@ -15,11 +15,11 @@
 #include "nsIFile.h"
 #include "nsIURLParser.h"
 #include "nsCOMPtr.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsNetCID.h"
 #include "mozilla/Preferences.h"
 #include "prnetdb.h"
-#include "mozilla/Tokenizer.h"
+#include "xpcom/ds/Tokenizer.h"
 #include "nsEscape.h"
 #include "rust-helper/src/helper.h"
 

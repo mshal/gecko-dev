@@ -8,9 +8,9 @@
 #define mozilla_IHistory_h_
 
 #include "nsISupports.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsURIHashKey.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 
 class nsIURI;
 class nsIWidget;

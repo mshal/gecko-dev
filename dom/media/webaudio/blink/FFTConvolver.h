@@ -29,7 +29,7 @@
 #ifndef FFTConvolver_h
 #define FFTConvolver_h
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/FFTBlock.h"
 #include "mozilla/MemoryReporting.h"
 

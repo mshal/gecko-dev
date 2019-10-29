@@ -9,9 +9,9 @@
 
 #include "mozilla/Attributes.h"
 #include "nsGenericHTMLElement.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsStyleConsts.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsAtom.h"
 
 namespace mozilla {
 namespace dom {

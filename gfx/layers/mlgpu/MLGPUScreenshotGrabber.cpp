@@ -15,7 +15,7 @@
 #include "mozilla/gfx/Swizzle.h"
 #include "SharedBufferMLGPU.h"
 #include "ShaderDefinitionsMLGPU.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 

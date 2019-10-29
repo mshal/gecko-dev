@@ -11,7 +11,7 @@
 #endif
 #include "mozilla/Preferences.h"
 #include "mozilla/RefPtr.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsDirectoryServiceDefs.h"
 #include "nsILocalFileMac.h"
 #include <unistd.h>

@@ -8,7 +8,7 @@
 
 #include "nsCOMPtr.h"
 #include "nsIURI.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 
 namespace mozilla {
 namespace net {

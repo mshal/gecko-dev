@@ -28,8 +28,8 @@
 #include "nsIStreamListener.h"
 #include "nsIRemoteTab.h"
 #include "nsIThreadRetargetableStreamListener.h"
-#include "nsPointerHashKeys.h"
-#include "nsInterfaceHashtable.h"
+#include "xpcom/ds/nsPointerHashKeys.h"
+#include "xpcom/ds/nsInterfaceHashtable.h"
 #include "nsIWeakReferenceUtils.h"
 #include "nsWrapperCache.h"
 

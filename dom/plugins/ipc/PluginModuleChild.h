@@ -19,9 +19,9 @@
 #include "npapi.h"
 #include "npfunctions.h"
 
-#include "nsDataHashtable.h"
-#include "nsTHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 
 #ifdef MOZ_WIDGET_COCOA
 #  include "PluginInterposeOSX.h"

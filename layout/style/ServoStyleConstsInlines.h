@@ -11,7 +11,7 @@
 
 #include "mozilla/ServoStyleConsts.h"
 #include "mozilla/URLExtraData.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "MainThreadUtils.h"
 #include "nsNetUtil.h"
 #include <type_traits>

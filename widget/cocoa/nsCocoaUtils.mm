@@ -27,7 +27,7 @@
 #include "nsIServiceManager.h"
 #include "nsMenuUtilsX.h"
 #include "nsToolkit.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "SVGImageContext.h"
 #include "mozilla/ClearOnShutdown.h"
 #include "mozilla/dom/Promise.h"

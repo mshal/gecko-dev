@@ -16,8 +16,8 @@
 #include "nsIContent.h"
 #include "nsIContentInlines.h"
 #include "nsString.h"
-#include "nsTArray.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 #include "nsRect.h"
 
 struct nsRoleMapEntry;

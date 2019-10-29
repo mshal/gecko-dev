@@ -12,7 +12,7 @@
 #  include "mozilla/ipc/SharedMemory.h"
 #  include "gfxPlatform.h"
 #  include "nsPrintfCString.h"
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 
 #  include <dlfcn.h>
 #  include <errno.h>

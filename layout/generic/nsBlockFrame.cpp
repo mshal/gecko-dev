@@ -35,7 +35,7 @@
 #include "nsPresContext.h"
 #include "nsPresContextInlines.h"
 #include "nsHTMLParts.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsAttrValueInlines.h"
 #include "mozilla/Sprintf.h"
 #include "nsFloatManager.h"

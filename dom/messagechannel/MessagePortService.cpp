@@ -10,7 +10,7 @@
 #include "mozilla/ipc/BackgroundParent.h"
 #include "mozilla/StaticPtr.h"
 #include "mozilla/Unused.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 using mozilla::ipc::AssertIsOnBackgroundThread;
 

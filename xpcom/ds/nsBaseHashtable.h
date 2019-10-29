@@ -9,7 +9,7 @@
 
 #include "mozilla/MemoryReporting.h"
 #include "mozilla/Move.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "nsDebug.h"
 
 template <class KeyClass, class DataType, class UserDataType>

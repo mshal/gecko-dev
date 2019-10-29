@@ -11,7 +11,7 @@
 #  include "nsIDOMEventListener.h"
 #  include "nsIObserver.h"
 #  include "nsGenericHTMLElement.h"
-#  include "nsGkAtoms.h"
+#  include "xpcom/ds/nsGkAtoms.h"
 #  include "nsSize.h"
 #  include "nsError.h"
 

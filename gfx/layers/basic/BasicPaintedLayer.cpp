@@ -24,7 +24,7 @@
 #include "nsISupportsImpl.h"  // for gfxContext::Release, etc
 #include "nsPoint.h"          // for nsIntPoint
 #include "nsRect.h"           // for mozilla::gfx::IntRect
-#include "nsTArray.h"         // for nsTArray, nsTArray_Impl
+#include "xpcom/ds/nsTArray.h"         // for nsTArray, nsTArray_Impl
 #include "AutoMaskData.h"
 #include "gfx2DGlue.h"
 

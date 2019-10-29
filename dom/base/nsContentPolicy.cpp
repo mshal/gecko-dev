@@ -21,7 +21,7 @@
 #include "nsIContent.h"
 #include "nsIImageLoadingContent.h"
 #include "nsILoadContext.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsContentUtils.h"
 #include "mozilla/dom/nsMixedContentBlocker.h"
 #include "nsIContentSecurityPolicy.h"

@@ -8,7 +8,7 @@
 #include "mozilla/dom/HTMLAudioElementBinding.h"
 #include "nsError.h"
 #include "nsGenericHTMLElement.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/dom/Document.h"
 #include "jsfriendapi.h"
 #include "nsContentUtils.h"

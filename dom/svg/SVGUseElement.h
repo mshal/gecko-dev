@@ -15,7 +15,7 @@
 #include "nsStubMutationObserver.h"
 #include "SVGAnimatedLength.h"
 #include "SVGAnimatedString.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIContent;
 class nsSVGUseFrame;

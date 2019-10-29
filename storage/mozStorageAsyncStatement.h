@@ -10,7 +10,7 @@
 #include "nsAutoPtr.h"
 #include "nsString.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "mozStorageBindingParamsArray.h"
 #include "mozStorageStatementData.h"

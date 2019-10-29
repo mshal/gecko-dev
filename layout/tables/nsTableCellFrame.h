@@ -12,7 +12,7 @@
 #include "nsContainerFrame.h"
 #include "mozilla/ComputedStyle.h"
 #include "nsIPercentBSizeObserver.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsTableRowFrame.h"
 #include "mozilla/WritingModes.h"
 

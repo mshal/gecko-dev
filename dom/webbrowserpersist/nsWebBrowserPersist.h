@@ -26,9 +26,9 @@
 #include "nsIWebBrowserPersistDocument.h"
 
 #include "mozilla/UniquePtr.h"
-#include "nsClassHashtable.h"
-#include "nsHashKeys.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
+#include "xpcom/ds/nsTArray.h"
 
 class nsIStorageStream;
 class nsIWebBrowserPersistDocument;

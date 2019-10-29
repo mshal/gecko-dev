@@ -9,7 +9,7 @@
 #include "mozilla/dom/SVGSVGElement.h"
 #include "nsComputedDOMStyle.h"
 #include "nsCSSProps.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "SMILCSSProperty.h"
 
 namespace mozilla {

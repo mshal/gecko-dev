@@ -10,7 +10,7 @@
 #include "nsNavHistory.h"
 #include "nsToolkitCompsCID.h"
 #include "nsCategoryCache.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "mozilla/Attributes.h"
 #include "prtime.h"
 

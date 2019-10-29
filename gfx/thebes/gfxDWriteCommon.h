@@ -14,7 +14,7 @@
 #include "nsCOMPtr.h"
 #include "cairo-features.h"
 #include "gfxFontConstants.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "gfxWindowsPlatform.h"
 #include "nsIUUIDGenerator.h"
 

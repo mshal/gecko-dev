@@ -7,7 +7,7 @@
 #ifndef mozilla_SMILParserUtils_h
 #define mozilla_SMILParserUtils_h
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsStringFwd.h"
 
 namespace mozilla {

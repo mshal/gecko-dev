@@ -11,7 +11,7 @@
 #include "mozilla/MemoryReporting.h"
 #include "mozilla/TypeTraits.h"
 #include "mozilla/Unused.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsThreadUtils.h"
 
 class nsIFrame;

@@ -7,7 +7,7 @@
 #ifndef HTMLSplitOnSpacesTokenizer_h
 #define HTMLSplitOnSpacesTokenizer_h
 
-#include "nsCharSeparatedTokenizer.h"
+#include "xpcom/ds/nsCharSeparatedTokenizer.h"
 #include "nsContentUtils.h"
 
 typedef nsCharSeparatedTokenizerTemplate<nsContentUtils::IsHTMLWhitespace>

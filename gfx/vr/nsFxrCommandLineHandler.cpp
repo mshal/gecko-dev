@@ -19,7 +19,7 @@
 #include "nsIWidget.h"
 #include "nsServiceManagerUtils.h"
 #include "nsString.h"
-#include "nsArray.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsCOMPtr.h"
 
 #include "windows.h"

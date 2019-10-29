@@ -21,7 +21,7 @@
 #include "nsIStringBundle.h"
 #include "nsNetUtil.h"
 #include "nsString.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nspr.h"
 #include "nsXULAppAPI.h"
 

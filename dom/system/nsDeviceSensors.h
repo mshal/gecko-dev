@@ -8,14 +8,14 @@
 #define nsDeviceSensors_h
 
 #include "nsIDeviceSensors.h"
-#include "nsCOMArray.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsCOMArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCOMPtr.h"
 #include "nsITimer.h"
 #include "mozilla/dom/DeviceMotionEvent.h"
 #include "mozilla/TimeStamp.h"
 #include "mozilla/HalSensor.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 class nsIDOMWindow;
 

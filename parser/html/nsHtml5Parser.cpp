@@ -7,7 +7,7 @@
 #include "nsHtml5Parser.h"
 
 #include "mozilla/AutoRestore.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsContentUtils.h"  // for kLoadAsData
 #include "nsHtml5AtomTable.h"
 #include "nsHtml5DependentUTF16Buffer.h"

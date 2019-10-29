@@ -10,7 +10,7 @@
 #include "mozilla/HashFunctions.h"
 #include "mozilla/Move.h"
 #include "mozilla/ReentrantMonitor.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "nsIObserver.h"
 #include "nsIX509Cert.h"
 #include "nsNSSCertificate.h"

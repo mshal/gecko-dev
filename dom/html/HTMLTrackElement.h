@@ -12,7 +12,7 @@
 #include "mozilla/dom/TextTrack.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsGenericHTMLElement.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsIHttpChannel.h"
 
 class nsIContent;

@@ -10,7 +10,7 @@
 #include "mozilla/dom/CSSStyleRule.h"
 #include "mozilla/StyleSheet.h"
 
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 struct RawServoStyleRule;
 

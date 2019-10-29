@@ -10,7 +10,7 @@
 #include "mozilla/MemoryReporting.h"
 #include "gfxWindowsPlatform.h"
 #include "gfxPlatformFontList.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/gfx/UnscaledFontGDI.h"
 
 #include <windows.h>

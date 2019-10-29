@@ -28,7 +28,7 @@
 #include "mozilla/Unused.h"
 #include "mozilla/Vector.h"
 #include "nsAppDirectoryServiceDefs.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsClientAuthRemember.h"
 #include "nsComponentManagerUtils.h"
 #include "nsDirectoryServiceDefs.h"

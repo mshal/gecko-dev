@@ -24,7 +24,7 @@
 #include "mozilla/WindowsVersion.h"
 #include "nsIGfxInfo.h"
 #include "nsServiceManagerUtils.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsThreadUtils.h"
 #include "mozilla/Telemetry.h"
 #include "GeckoProfiler.h"

@@ -10,7 +10,7 @@
 #include "nsIHandlerService.h"
 #include "nsIMIMEInfo.h"
 #include "ContentHandlerService.h"
-#include "nsStringEnumerator.h"
+#include "xpcom/ds/nsStringEnumerator.h"
 #ifdef MOZ_WIDGET_GTK
 #  include "unix/nsGNOMERegistry.h"
 #endif

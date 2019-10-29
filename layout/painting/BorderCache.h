@@ -9,8 +9,8 @@
 
 #include "mozilla/gfx/2D.h"
 #include "mozilla/HashFunctions.h"
-#include "nsDataHashtable.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/nsDataHashtable.h"
+#include "xpcom/ds/PLDHashTable.h"
 
 namespace mozilla {
 // Cache for best overlap and best dashLength.

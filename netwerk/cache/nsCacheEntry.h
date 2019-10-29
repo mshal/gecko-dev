@@ -13,7 +13,7 @@
 #include "nsCacheMetaData.h"
 
 #include "nspr.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 #include "nsAutoPtr.h"
 #include "nscore.h"
 #include "nsCOMPtr.h"

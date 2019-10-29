@@ -28,7 +28,7 @@
 #include "mozilla/gfx/Matrix.h"
 #include "nsIScrollableFrame.h"
 #include "nsRegion.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "PotentialCheckerboardDurationTracker.h"
 #include "RecentEventsBuffer.h"  // for RecentEventsBuffer
 

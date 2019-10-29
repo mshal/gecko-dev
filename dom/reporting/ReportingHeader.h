@@ -8,10 +8,10 @@
 #define mozilla_dom_ReportingHeader_h
 
 #include "mozilla/TimeStamp.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 #include "nsIObserver.h"
 #include "nsITimer.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 
 class nsIHttpChannel;
 class nsIPrincipal;

@@ -19,7 +19,7 @@
 #include "mozilla/layers/APZThreadUtils.h"  // for AssertOnControllerThread
 #include "mozilla/mozalloc.h"               // for operator new
 #include "mozilla/FloatingPoint.h"          // for FuzzyEqualsAdditive
-#include "nsMathUtils.h"                    // for NS_lround
+#include "xpcom/ds/nsMathUtils.h"                    // for NS_lround
 #include "nsPrintfCString.h"                // for nsPrintfCString
 #include "nsThreadUtils.h"                  // for NS_DispatchToMainThread, etc
 #include "nscore.h"                         // for NS_IMETHOD

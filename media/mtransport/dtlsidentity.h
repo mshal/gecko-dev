@@ -15,7 +15,7 @@
 #include "nsISupportsImpl.h"
 #include "ScopedNSSTypes.h"
 #include "sslt.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 // All code in this module requires NSS to be live.
 // Callers must initialize NSS and implement the nsNSSShutdownObject

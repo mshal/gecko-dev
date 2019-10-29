@@ -10,7 +10,7 @@
 #include "mozilla/layout/PRemotePrintJobParent.h"
 #include "mozilla/layout/printing/DrawEventRecorder.h"
 
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "mozilla/RefPtr.h"
 #include "mozilla/UniquePtr.h"

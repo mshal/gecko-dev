@@ -15,8 +15,8 @@
 #include "imgICache.h"
 #include "nsWeakReference.h"
 #include "nsIContentSniffer.h"
-#include "nsRefPtrHashtable.h"
-#include "nsExpirationTracker.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
+#include "xpcom/ds/nsExpirationTracker.h"
 #include "ImageCacheKey.h"
 #include "imgRequest.h"
 #include "nsIProgressEventSink.h"
@@ -467,7 +467,7 @@ class nsProgressNotificationProxy final : public nsIProgressEventSink,
  * validate checker
  */
 
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 
 class imgCacheValidator : public nsIStreamListener,
                           public nsIThreadRetargetableStreamListener,

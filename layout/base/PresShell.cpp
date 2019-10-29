@@ -63,11 +63,11 @@
 #include "nsView.h"
 #include "nsCRTGlue.h"
 #include "prinrval.h"
-#include "nsTArray.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsContainerFrame.h"
 #include "mozilla/dom/Selection.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsRange.h"
 #include "nsWindowSizes.h"
 #include "nsCOMPtr.h"
@@ -81,7 +81,7 @@
 #include "nsXPCOM.h"
 #include "nsILayoutHistoryState.h"
 #include "nsILineIterator.h"  // for ScrollContentIntoView
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 #include "mozilla/dom/Touch.h"
 #include "mozilla/dom/TouchEvent.h"
 #include "mozilla/dom/PointerEventBinding.h"
@@ -197,8 +197,8 @@
 #ifdef MOZ_XBL
 #  include "nsBindingManager.h"
 #endif
-#include "nsClassHashtable.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "VisualViewport.h"
 
 #ifdef MOZ_TASK_TRACER

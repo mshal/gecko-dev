@@ -12,7 +12,7 @@
 #include "IUnknownImpl.h"
 
 #include <utility>
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "AccessibleRelation.h"
 

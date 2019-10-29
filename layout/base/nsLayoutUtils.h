@@ -21,7 +21,7 @@
 #include "nsThreadUtils.h"
 #include "nsCSSPropertyIDSet.h"
 #include "nsStyleConsts.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "mozilla/gfx/2D.h"
 #include "Units.h"
 #include "mozilla/ToString.h"
@@ -32,7 +32,7 @@
 #include <limits>
 #include <algorithm>
 #include "gfxPoint.h"
-#include "nsClassHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
 
 class gfxContext;
 class gfxFontEntry;

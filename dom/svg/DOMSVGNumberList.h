@@ -10,7 +10,7 @@
 #include "DOMSVGAnimatedNumberList.h"
 #include "nsCycleCollectionParticipant.h"
 #include "nsDebug.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "SVGNumberList.h"
 #include "mozilla/Attributes.h"
 #include "mozilla/ErrorResult.h"

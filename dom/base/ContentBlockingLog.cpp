@@ -7,7 +7,7 @@
 #include "ContentBlockingLog.h"
 
 #include "nsStringStream.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/dom/ContentChild.h"
 #include "mozilla/HashFunctions.h"
 #include "mozilla/RandomNum.h"

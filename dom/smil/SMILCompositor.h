@@ -11,10 +11,10 @@
 #include "mozilla/UniquePtr.h"
 #include "mozilla/SMILAnimationFunction.h"
 #include "mozilla/SMILCompositorTable.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "nsString.h"
 #include "SMILTargetIdentifier.h"
-#include "PLDHashTable.h"
+#include "xpcom/ds/PLDHashTable.h"
 
 namespace mozilla {
 

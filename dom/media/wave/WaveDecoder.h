@@ -7,7 +7,7 @@
 #  define WaveDecoder_h_
 
 #  include "mozilla/UniquePtr.h"
-#  include "nsTArray.h"
+#  include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 

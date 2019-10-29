@@ -19,7 +19,7 @@
 #include "nsNetCID.h"
 #include "nsToolkitCompsCID.h"
 #include "nsURIHashKey.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTHashtable.h"
 
 #include "nsNavHistoryResult.h"
 #include "nsNavHistoryQuery.h"

@@ -9,7 +9,7 @@
 #include <algorithm>
 
 #include "nsContentUtils.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsComponentManagerUtils.h"
 #include "nsDocShell.h"
 #include "nsIContentViewer.h"
@@ -22,7 +22,7 @@
 #include "nsISHistoryListener.h"
 #include "nsIURI.h"
 #include "nsNetUtil.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "prsystem.h"
 
 #include "mozilla/Attributes.h"

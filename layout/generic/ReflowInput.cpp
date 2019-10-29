@@ -13,7 +13,7 @@
 #include "nsCSSAnonBoxes.h"
 #include "nsFrame.h"
 #include "nsIContent.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsPresContext.h"
 #include "nsFontMetrics.h"
 #include "nsBlockFrame.h"

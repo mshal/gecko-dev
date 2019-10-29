@@ -7,8 +7,8 @@
 #define nsAnnotationService_h___
 
 #include "nsIAnnotationService.h"
-#include "nsTArray.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsCOMPtr.h"
 #include "nsServiceManagerUtils.h"
 #include "nsWeakReference.h"

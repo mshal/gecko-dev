@@ -29,7 +29,7 @@
 #include "gfxContext.h"
 #include "nsRegion.h"
 #include "Layers.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 #include "mozilla/BasicEvents.h"
 #include "mozilla/TouchEvents.h"

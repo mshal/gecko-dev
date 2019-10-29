@@ -8,11 +8,11 @@
 
 #include "nsCoord.h"
 #include "nsCSSPropertyID.h"
-#include "nsTArrayForwardDeclare.h"
+#include "xpcom/ds/nsTArrayForwardDeclare.h"
 #include "gfxFontFamilyList.h"
 #include "nsStringFwd.h"
 #include "nsStyleStruct.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 
 class nsCSSValue;
 class nsIContent;

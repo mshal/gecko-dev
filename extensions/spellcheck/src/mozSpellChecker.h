@@ -8,12 +8,12 @@
 
 #include "mozilla/MozPromise.h"
 #include "nsCOMPtr.h"
-#include "nsCOMArray.h"
+#include "xpcom/ds/nsCOMArray.h"
 #include "nsString.h"
 #include "mozIPersonalDictionary.h"
 #include "mozISpellCheckingEngine.h"
-#include "nsClassHashtable.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsCycleCollectionParticipant.h"
 
 class mozEnglishWordUtils;

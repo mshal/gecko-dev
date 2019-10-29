@@ -17,7 +17,7 @@
 #include "mozilla/dom/cache/TypeUtils.h"
 #include "mozilla/ipc/IPCStreamUtils.h"
 #include "mozilla/ipc/PBackgroundParent.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsHttp.h"
 
 using mozilla::Maybe;

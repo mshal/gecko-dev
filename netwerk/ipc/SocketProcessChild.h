@@ -7,7 +7,7 @@
 #define mozilla_net_SocketProcessChild_h
 
 #include "mozilla/net/PSocketProcessChild.h"
-#include "nsRefPtrHashtable.h"
+#include "xpcom/ds/nsRefPtrHashtable.h"
 
 namespace mozilla {
 class ChildProfilerController;

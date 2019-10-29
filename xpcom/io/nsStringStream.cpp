@@ -16,7 +16,7 @@
 #include "nsICloneableInputStream.h"
 #include "nsISeekableStream.h"
 #include "nsISupportsPrimitives.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "prerror.h"
 #include "plstr.h"
 #include "nsIClassInfoImpl.h"

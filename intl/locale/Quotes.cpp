@@ -7,7 +7,7 @@
 #include "MozLocale.h"
 #include "mozilla/ClearOnShutdown.h"
 #include "mozilla/StaticPtr.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "nsPrintfCString.h"
 
 using namespace mozilla;

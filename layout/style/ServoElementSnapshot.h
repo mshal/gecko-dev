@@ -14,8 +14,8 @@
 #include "nsAttrName.h"
 #include "nsAttrValue.h"
 #include "nsChangeHint.h"
-#include "nsGkAtoms.h"
-#include "nsAtom.h"
+#include "xpcom/ds/nsGkAtoms.h"
+#include "xpcom/ds/nsAtom.h"
 
 namespace mozilla {
 

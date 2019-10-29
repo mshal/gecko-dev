@@ -9,7 +9,7 @@
 #define PDNSParams_h
 
 #include "DNS.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace net {

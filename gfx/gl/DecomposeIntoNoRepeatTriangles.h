@@ -9,7 +9,7 @@
 
 #include "GLTypes.h"
 #include "nsRect.h"
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 
 namespace mozilla {
 namespace gl {

@@ -10,7 +10,7 @@
 #include "mozilla/TelemetryProcessEnums.h"
 #include "mozilla/TimeStamp.h"
 #include "nsITelemetry.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 
 namespace mozilla {
 namespace Telemetry {

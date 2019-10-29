@@ -10,7 +10,7 @@
 #include "mozilla/dom/cache/Manager.h"
 #include "mozilla/dom/cache/PCacheStreamControlParent.h"
 #include "mozilla/dom/cache/StreamControl.h"
-#include "nsTObserverArray.h"
+#include "xpcom/ds/nsTObserverArray.h"
 
 namespace mozilla {
 namespace ipc {

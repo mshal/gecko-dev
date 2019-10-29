@@ -14,7 +14,7 @@
 #include "nsIScriptContext.h"
 #include "nsISupportsPrimitives.h"
 #include "nsQueryObject.h"
-#include "nsVariant.h"
+#include "xpcom/ds/nsVariant.h"
 #include "mozilla/ContentEvents.h"
 #include "mozilla/EventForwards.h"
 #include "mozilla/storage/Variant.h"

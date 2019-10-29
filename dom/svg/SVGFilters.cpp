@@ -10,7 +10,7 @@
 #include "DOMSVGAnimatedNumberList.h"
 #include "DOMSVGAnimatedLength.h"
 #include "imgIContainer.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsCOMPtr.h"
 #include "nsIFrame.h"
 #include "nsLayoutUtils.h"

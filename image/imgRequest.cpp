@@ -37,7 +37,7 @@
 #include "nsNetUtil.h"
 #include "nsIProtocolHandler.h"
 #include "imgIRequest.h"
-#include "nsProperties.h"
+#include "xpcom/ds/nsProperties.h"
 
 #include "mozilla/IntegerPrintfMacros.h"
 #include "mozilla/SizeOfState.h"

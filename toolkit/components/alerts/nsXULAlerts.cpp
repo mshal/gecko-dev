@@ -5,7 +5,7 @@
 
 #include "nsXULAlerts.h"
 
-#include "nsArray.h"
+#include "xpcom/ds/nsArray.h"
 #include "nsComponentManagerUtils.h"
 #include "nsCOMPtr.h"
 #include "mozilla/ClearOnShutdown.h"

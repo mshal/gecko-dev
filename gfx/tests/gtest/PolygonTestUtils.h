@@ -9,7 +9,7 @@
 
 #include "gtest/gtest.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "Point.h"
 #include "Polygon.h"
 #include "Triangle.h"

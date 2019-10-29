@@ -10,8 +10,8 @@
 #include "mozilla/StaticPtr.h"
 #include "mozilla/dom/TabContext.h"
 #include "mozilla/dom/ipc/IdType.h"
-#include "nsTArray.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsDataHashtable.h"
 
 namespace mozilla {
 namespace dom {

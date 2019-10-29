@@ -21,7 +21,7 @@
 #include "nsBoxLayoutState.h"
 #include "nsQueryFrame.h"
 #include "nsRefreshDriver.h"
-#include "nsExpirationTracker.h"
+#include "xpcom/ds/nsExpirationTracker.h"
 #include "TextOverflow.h"
 #include "ScrollVelocityQueue.h"
 #include "mozilla/PresState.h"

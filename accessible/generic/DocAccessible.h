@@ -12,8 +12,8 @@
 #include "AccEvent.h"
 
 #include "nsAutoPtr.h"
-#include "nsClassHashtable.h"
-#include "nsDataHashtable.h"
+#include "xpcom/ds/nsClassHashtable.h"
+#include "xpcom/ds/nsDataHashtable.h"
 #include "mozilla/dom/Document.h"
 #include "nsIDocumentObserver.h"
 #include "nsIObserver.h"

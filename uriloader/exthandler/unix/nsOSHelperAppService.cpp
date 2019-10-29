@@ -24,7 +24,7 @@
 #include "nsNetCID.h"
 #include "nsXPCOM.h"
 #include "nsISupportsPrimitives.h"
-#include "nsCRT.h"
+#include "xpcom/ds/nsCRT.h"
 #include "nsDirectoryServiceDefs.h"
 #include "nsDirectoryServiceUtils.h"
 #include "ContentHandlerService.h"

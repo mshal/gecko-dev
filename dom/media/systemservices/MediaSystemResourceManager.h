@@ -12,7 +12,7 @@
 #  include "MediaSystemResourceTypes.h"
 #  include "mozilla/ReentrantMonitor.h"
 #  include "mozilla/StaticPtr.h"
-#  include "nsDataHashtable.h"
+#  include "xpcom/ds/nsDataHashtable.h"
 #  include "nsISupportsImpl.h"
 
 namespace mozilla {

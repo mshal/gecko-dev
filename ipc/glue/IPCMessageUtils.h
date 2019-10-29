@@ -30,14 +30,14 @@
 #include <type_traits>
 
 #include "nsExceptionHandler.h"
-#include "nsHashKeys.h"
+#include "xpcom/ds/nsHashKeys.h"
 #include "nsID.h"
 #include "nsILoadInfo.h"
 #include "nsIWidget.h"
 #include "nsMemory.h"
 #include "nsString.h"
-#include "nsTArray.h"
-#include "nsTHashtable.h"
+#include "xpcom/ds/nsTArray.h"
+#include "xpcom/ds/nsTHashtable.h"
 #include "js/StructuredClone.h"
 #include "nsCSSPropertyID.h"
 

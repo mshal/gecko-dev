@@ -12,7 +12,7 @@
 #include "nsCSSRendering.h"
 #include "mozilla/dom/MathMLElement.h"
 
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "nsTableFrame.h"
 #include "celldata.h"
 

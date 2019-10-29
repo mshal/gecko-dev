@@ -20,7 +20,7 @@ webidl Document;
 webidl BrowsingContext;
 native LoadContextRef(already_AddRefed<nsISupports>);
 %{C++
-#include "nsTArray.h"
+#include "xpcom/ds/nsTArray.h"
 #include "mozilla/BasePrincipal.h"
 #include "mozilla/LoadTainting.h"
 #include "mozilla/UniquePtr.h"

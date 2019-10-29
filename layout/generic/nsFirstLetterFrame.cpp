@@ -16,7 +16,7 @@
 #include "mozilla/ServoStyleSet.h"
 #include "nsIContent.h"
 #include "nsLineLayout.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "nsFrameManager.h"
 #include "nsPlaceholderFrame.h"
 #include "nsCSSFrameConstructor.h"

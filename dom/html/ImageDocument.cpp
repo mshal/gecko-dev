@@ -22,7 +22,7 @@
 #include "nsDOMTokenList.h"
 #include "nsIDOMEventListener.h"
 #include "nsIFrame.h"
-#include "nsGkAtoms.h"
+#include "xpcom/ds/nsGkAtoms.h"
 #include "imgIRequest.h"
 #include "imgILoader.h"
 #include "imgIContainer.h"
